@@ -1,0 +1,1547 @@
+0:00 everyone Welcome to our event this event
+0:02 is brought to you by datadox club which
+0:04 is a community of people who have data
+0:06 and today we have an interview
+0:09 with Z Model X the pronounce your name
+0:11 that's fine and how do you actually
+0:15 pronounce it
+0:17 um well in German you would say Simon
+0:19 also I think in Dutchy since I live in
+0:21 Netherlands also in Dutch I think you
+0:23 would say Simon but typically to my
+0:25 English-speaking friends I say call me
+0:27 Simon or whatever whatever fits I don't
+0:29 know so you say seven but then in German
+0:32 it would be Simon Simon yeah okay I'll
+0:35 try my best to do that so today we have
+0:37 Simon and um yeah so during the
+0:41 interview you can ask any question you
+0:42 want there is a pinned Link in the live
+0:44 chat click on that link ask your
+0:46 question and we will be covering these
+0:48 questions during the interview
+0:50 and now I want to open the document we
+0:54 prepared document with questions for you
+0:57 because I don't know if you have it
+0:59 ready
+1:00 yes open tips
+1:04 [Music]
+1:08 and yeah I think if you're ready we can
+1:10 start
+1:12 let's kick it off yeah this week we'll
+1:15 talk about ml Ops and building machine
+1:17 learning platforms and we have a special
+1:19 guest today man has been building ml
+1:22 platforms for over half a decade
+1:24 currently he is a lead envelopes
+1:27 engineer at transaction monitoring
+1:29 Netherlands Netherlands TM and L I was
+1:33 always wondering what this stands for TM
+1:36 I know now I know so which is a
+1:40 worldwide unique initiative of the big
+1:42 five banks of the Netherlands
+1:45 and next to his work at tmnl siemen is
+1:49 also a university lecturer for data
+1:52 mining and data break housing so welcome
+1:54 to our event
+1:56 thanks a lot thanks for having me
+1:59 so before we go into our main topic of
+2:03 envelopes and ml platforms let's start
+2:05 with your background can you tell us
+2:07 about your career Journey so far yeah so
+2:10 actually I started out my career
+2:13 um as well doing a PhD being a research
+2:16 and teaching Associated actually at
+2:19 Vienna University of economics and
+2:20 business and there I was doing some
+2:23 research in the area more of
+2:25 computational advertising so always
+2:26 machine learning applied to problems in
+2:29 the space of online advertising well
+2:32 there wasn't a PhD student for that long
+2:34 because
+2:35 um well in the end I found some very
+2:37 interesting challenges in practice so I
+2:40 became a data scientist and worked for a
+2:43 consulting company in in Vienna for
+2:45 quite some time
+2:46 started off as a data scientist I worked
+2:48 on a lot of interesting industrial AI
+2:51 use cases visual inspection predictive
+2:54 maintenance all these Classics and then
+2:56 step by step well we also started to
+2:59 develop back then and this is also kind
+3:01 of how my envelopes Journey started
+3:03 we started developing a deployment and
+3:05 serving platform for our for our models
+3:08 that we that we built for our clients
+3:10 simply because we actually thought we
+3:12 found that this back then was a
+3:15 significant blocker when it comes to
+3:16 actually creating value with your
+3:18 machine learning models
+3:19 and that's also pretty much how my
+3:21 journey in the ml ops world started back
+3:24 then at least we were not aware of the
+3:26 name ml Ops yet because nobody else well
+3:30 yeah deployment and serving platform
+3:32 already that was sounded a way to
+3:35 Cutting Edge for many companies we were
+3:36 dealing with
+3:37 well after after working Consulting I
+3:41 moved to the Netherlands and where I'm
+3:42 still living and there I joined all.com
+3:44 which is the largest e-commerce company
+3:46 here in Belgium and the Netherlands I
+3:49 think even still larger than Amazon
+3:51 although Amazon also entered the market
+3:53 I think two years ago
+3:54 there I was a expert machine learning
+3:57 engineer as a kind of a staff engineer
+3:58 for machine learning and we dealt a lot
+4:00 with natural language processing
+4:02 understand trying to understand our
+4:04 customers
+4:06 um build some Transformer models working
+4:08 on the gcp and kubernetes
+4:10 after that and that's I changed to where
+4:13 I'm still at now tmnl transaction
+4:15 monitoring Netherlands Here I Am the
+4:17 lead engineer for machine learning
+4:19 operations actually to be very accurate
+4:21 I used to be the lead engineer for mlops
+4:23 until two weeks ago now my official
+4:25 title is manage engineering and
+4:27 development bit of a different thing
+4:28 envelopes is really really still very
+4:30 close to my heart but the focus in my
+4:32 daily work has shifted a bit now um
+4:36 more focused on the effectiveness and
+4:39 collaboration of various Tech teams
+4:42 which is also actually a part of mlops
+4:44 maybe we can also talk about analogsis
+4:46 what is not I'm really interested to see
+4:49 your take on that because for me mlops
+4:51 is not only about the two series for
+4:53 diploma there is much more so so maybe
+4:56 we can talk about this right now so
+4:58 what's in your opinion envelopesis so
+5:00 five years ago you said
+5:02 you've had no idea that these things you
+5:04 were doing called thermalops you just
+5:05 called the deployment
+5:06 but right now my molopsis more than that
+5:09 right so what is it yeah I fully agree
+5:13 so it's typically when when you when you
+5:15 hear the term analog Ops when people
+5:17 hear the term envelopes always what pops
+5:18 up in the brain is you know feature
+5:20 stories experiment trackers model
+5:21 Registries that's that's what comes up
+5:23 and that definitely is one part of ml
+5:25 Ops it's the tooling part more the tech
+5:27 part I guess but at least I believe that
+5:31 doing machine learning operation
+5:33 successfully is a lot more than the tech
+5:34 part it's actually
+5:37 um well the classic thing it's about
+5:39 people process and technology technology
+5:41 part okay feature stores model
+5:43 Registries these pieces that is what
+5:44 people are typically familiar with but
+5:47 introducing machine learning operation
+5:49 successfully is a lot more than that it
+5:50 requires uh processes understanding how
+5:54 models are developed how models will be
+5:56 developed what are actually the the use
+5:58 cases and requirements what do we need
+6:00 to fulfill this is actually where
+6:02 envelope starts understanding the
+6:04 processes behind model development
+6:07 deployment and serving because in the
+6:09 end
+6:10 um the tech part of envelopes is all
+6:12 about streamlining and automating
+6:13 exactly these processes
+6:15 of course the third parties and people
+6:18 and that is machine learning operations
+6:21 is still still a fairly novel real and a
+6:25 lot of companies do
+6:27 do have the challenge to think a bit um
+6:29 what what skills do we actually need
+6:31 what does it mean to build to what does
+6:33 ML Ops mean and that might also mean
+6:35 something different for every company
+6:36 but what skills do we need to build
+6:39 a machine learning platform what do we
+6:41 need to bring a model to production to
+6:43 bring 100 models to production and to
+6:45 operate them it's really a lot about
+6:47 people as well people in terms of skills
+6:49 but also people in terms of how they
+6:51 collaborate
+6:56 because like to me uh when I heard
+6:58 envelopes for the first time I thought
+7:00 okay I've been doing this thing for so
+7:02 much time but in my mind it was mostly
+7:05 deployment so and I think like you uh I
+7:10 thought had a similar path so I started
+7:13 as a data scientist and then I noticed
+7:16 how difficult it is
+7:17 to deploy models so it's a significant
+7:20 Blocker in the process of
+7:21 productionizing ml models and then we
+7:24 were not really building a platform for
+7:26 doing this but we are thinking like how
+7:28 exactly we can make it simpler right and
+7:31 then I thought when the term envelopes
+7:33 came I thought okay like I'm such an
+7:35 experienced enveloped person I was doing
+7:37 this before it was cool but then I
+7:39 started learning more about this and
+7:41 then there are things like feature store
+7:42 and I had no idea what that was or like
+7:45 experiment attacking like I understood
+7:48 that this thing that we used was
+7:49 actually an experiments it says there is
+7:52 much more but then um like you said in
+7:55 addition to Technologies there are also
+7:56 people and processes and one thing he
+7:59 brought up was what skills we do we need
+8:03 to build that platform to serve hundreds
+8:05 of models
+8:06 did you find an answer to this question
+8:09 or you're still looking
+8:11 it's a it's a in principle it's a
+8:13 difficult one because it very much
+8:15 depends on the general organizational
+8:17 setup and fundamental beliefs of of
+8:19 organisms some organizations
+8:22 um at least in my world and that's
+8:24 typically also the world I select I
+8:27 believe in in principle end-to-end
+8:29 responsible teams for shipping products
+8:32 so that means
+8:33 um in my world what I believe works well
+8:37 is the building the deployment and the
+8:41 serving itself being in the hands
+8:45 um of what I call stream aligned teams
+8:47 teams that actually with their products
+8:49 create value for that organization a
+8:52 platform then I consider it as an as a
+8:56 although one another way to streamline
+8:58 processes how these stream align teams
+9:01 these teams actually working on ML Power
+9:03 Products how they develop it how they
+9:05 develop their models deploy them and
+9:06 serve them so it's about building a
+9:08 platform to streamline their processes
+9:10 but also to make their processes
+9:13 faster to make them worry about less
+9:15 reduce the cognitive load on these teams
+9:18 so when you when we when you think about
+9:19 building this platform which is then
+9:21 really not about not about actually
+9:23 developing a model
+9:25 then typically the skills that that I
+9:29 saw to be to be incredibly valuable is
+9:31 this this mix of infrastructure and
+9:34 Cloud knowledge because these days in
+9:37 most organizations you do many many
+9:39 organizations you do build your your
+9:42 platforms your products in some kind in
+9:44 whatever Cloud whether it's AWS gcp
+9:46 Azure whatever so definitely the
+9:48 infrastructure and Cloud knowledge is
+9:50 something that is incredibly important
+9:51 for building an ml platform like think
+9:53 like things like kubernetes kubernetes
+9:56 sort of thing terraform knowledge of
+9:58 let's say AWS services and how they can
+10:01 help you build what you want to build
+10:05 um
+10:05 then also next to the infrastructure
+10:08 knowledge it's really knowing how models
+10:12 are built so knowing your users actually
+10:14 your your customers because as an ml
+10:16 platform team your customers your users
+10:19 are typically internal
+10:21 data science teams or at least product
+10:23 teams with some element of data science
+10:25 in them having an understanding for them
+10:28 is quite fundamental but do you mean
+10:31 that uh
+10:33 a platform engineer needs to know what
+10:35 is I don't know finding a derivative in
+10:38 the functional space no means not at all
+10:40 or like but XG boost exists and whatever
+10:43 it is yes this is the model yeah outputs
+10:46 some numbers yeah so pretty much the
+10:49 letter so I I believe it's a successful
+10:51 ml platform engineer or ml Ops engineer
+10:54 I sometimes call them you you have to
+10:56 know the data science workflow how do
+10:59 data scientists actually work you need
+11:00 to have an understanding that yes data
+11:03 science is an experimental discipline as
+11:05 well there needs to be space and support
+11:07 tooling support process support for
+11:10 doing experimentations for example all
+11:12 these are things that if you come from a
+11:14 classic software engineering background
+11:16 typically this is something you have not
+11:19 quite seen or you don't quite understand
+11:20 why somebody would work in a notebook
+11:22 right it's typically like yeah so it was
+11:24 the first reaction when I saw Jupiter
+11:26 notebook yeah so I was a Java developer
+11:28 and then somebody showed me a Jupiter
+11:30 notebook I said okay this is how we do
+11:33 things and I'm like oh my god really
+11:34 yeah yeah why is my uh where's my so I
+11:39 used Mexican Eclipse it's ID yeah like
+11:41 where's my ID like what is this yes like
+11:45 it's helpful yeah yeah
+11:48 yeah it's an ml platform engineer well
+11:50 you need to understand why why people
+11:52 actually choose that and how this why
+11:54 would you program them in a browser
+11:56 right yeah
+11:58 yeah
+12:00 so understanding your users
+12:02 understanding what how models should be
+12:04 deployed what deployment patterns exist
+12:08 um these things matter what doesn't what
+12:10 does not matter for an ml platform
+12:11 engineer typically is what you said I
+12:13 don't know why why I would choose a root
+12:17 mean squared error over a mean squared
+12:19 error that for an ml platform engineer
+12:21 is not quite important it's important to
+12:23 understand there are certain evaluation
+12:25 metrics perhaps um on that level yeah
+12:29 because so then these metrics exist but
+12:32 I don't really need to know what is the
+12:34 difference between mean average uh what
+12:37 is mean average yeah right versus uh
+12:42 something else yeah um exactly at least
+12:44 that level of knowledge should be
+12:46 sufficient to build
+12:48 tools
+12:50 that help your data scientists do things
+12:52 more effectively of course you deeper
+12:54 your knowledge always the better but
+12:56 yeah well not there are hardly any
+12:58 unicorns right so you need to prioritize
+13:01 a bit typically and then things are
+13:04 important at the third thing is
+13:07 well obviously in some way you need to
+13:10 write your next to tariff for writing
+13:12 terraform you also need will need to
+13:14 write some python for example you will
+13:16 need to perhaps write some Java
+13:18 depending on your context so the classic
+13:20 software engineering part also is of
+13:23 importance
+13:25 so
+13:26 infrastructure and Cloud first thing
+13:29 then knowing about the process of
+13:32 building models the second yeah you do
+13:34 not need to know in details but you need
+13:36 to know how the process starts what are
+13:39 the things that data scientists do and
+13:41 what is the output right that's the
+13:42 second thing yeah
+13:43 then then the third thing is being a
+13:46 software engineer
+13:48 correct yes and how important each of
+13:51 these things so like if you order them
+13:53 in in terms of importance what's the
+13:56 most important one and what's the least
+13:57 important part good question so
+14:01 um
+14:02 in principle
+14:04 um dodging a bit the question I always
+14:06 believe in the T A team needs to have
+14:08 the sum of the skills the team that
+14:10 needs to be right right so in a team you
+14:12 might have Specialists who really have a
+14:14 big strength on the on the cloud
+14:15 engineering end and for them for example
+14:18 that's what they would add to the team
+14:20 and they might have close to zero
+14:22 knowledge of how models are built and
+14:24 that is okay if there isn't if there are
+14:26 if there is another person who can
+14:28 augment that but if I had to now rank
+14:30 them for one person I would say
+14:32 infrastructure knowledge number one
+14:34 a software engineering knowledge number
+14:36 two understanding of how model how data
+14:38 scientists actually work number three
+14:40 also because I believe uh that's
+14:42 probably the thing that you can catch up
+14:45 easiest and also your users your
+14:48 customers will let you know hopefully
+14:50 when you build stuff that just doesn't
+14:52 work for them or have a data scientist
+14:54 on the team somebody who was a data
+14:58 scientist but now is more interested but
+15:00 yeah in software engineering or platform
+15:02 exactly that's what we typically try to
+15:04 aim for also in HTML currently in in the
+15:08 machine learning operations team who are
+15:10 building the the ml platform that's also
+15:13 what we have been seeing as really
+15:15 really effective bringing a mix of
+15:17 Specialists and a bit generalists
+15:19 together some Specialists on the cloud
+15:21 engineering and infrastructure and some
+15:24 people who have been data scientists and
+15:25 over the time transitioned
+15:27 typically the sum of these parts really
+15:31 makes a makes a good ml platform team
+15:33 how many people should there be like at
+15:36 least two three or four well it depends
+15:40 a bit on your on your
+15:42 on your um availability requirements of
+15:46 the platform so for example if you need
+15:48 to have people on standby and so on
+15:51 then you need to factor that in
+15:53 you mean like if we want to make sure
+15:57 that this platform is up and running all
+15:58 the time then somebody will need to have
+16:01 to be
+16:02 how they call it on on call pager on
+16:05 call yeah yeah and then like if
+16:07 something happens during the night they
+16:08 would get uh notified and then they
+16:11 would wake up and fix the thing right
+16:13 and then one person cannot do this like
+16:15 there should be at least three years if
+16:17 two people cannot really do this so um
+16:20 it really depends on the the load on
+16:22 your platform how many teams and people
+16:23 use it how business critical is it
+16:25 actually that I think defines a lot of
+16:27 um a lot of the real head count
+16:29 requirements if you just think about
+16:31 building it Let's ignore any any main
+16:34 any significant operational overhead
+16:38 that comes from just having it up and
+16:39 running 24 7.
+16:42 four people five people six people are
+16:44 typically nice numbers for for an
+16:46 engineering team but you can also have a
+16:48 nice mix of skills but it's difficult to
+16:50 answer depends
+16:52 yeah at what point should I actually
+16:54 think about building because like let's
+16:55 say six people especially now when
+16:59 everyone's budgets are ended right yeah
+17:02 does it actually make sense to you know
+17:04 build a team with six people while
+17:06 they're they can be doing something else
+17:09 maybe it's a good idea just to buy an
+17:10 existing platform but there are quite a
+17:13 few on the market right yeah
+17:15 um absolutely so there is always I think
+17:17 how these days there are not many
+17:19 companies who make and should make the
+17:22 choice to build a platform ml platform
+17:25 from scratch I think usually what what
+17:27 companies look into companies that are
+17:30 not Uber right that are not uh that are
+17:32 not Amazon and these these big tech
+17:34 companies typically with normal
+17:36 companies look into is how do we buy
+17:40 exist from vendors tooling tools from
+17:42 vendors and how do we integrate them in
+17:45 our landscape and how do we work make
+17:47 them work together so usually it is more
+17:50 a what do I buy and maybe some parts you
+17:53 build yourself but even if you buy buy
+17:56 platforms or parts of platforms there is
+17:58 a lot of integration effort gluing
+18:00 things together making it fit to your
+18:02 workflows because these might be very
+18:04 different depending on your organization
+18:06 depending on your use cases
+18:09 um so even if people advertise
+18:11 end-to-end platforms you can be quite
+18:13 sure that you will either need to adapt
+18:15 your processes or you will just need to
+18:17 you know Bend Bend glutes and things to
+18:19 actually make it work for you
+18:21 but the three original question maybe
+18:23 how
+18:25 um when you should start building
+18:28 a platform
+18:30 um typically
+18:33 there are a few smells that you see and
+18:37 which give a bit of an of an indication
+18:40 that you should consider
+18:43 um thinking about a platform for example
+18:45 you have a a set of engineering teams
+18:48 that have data science somewhere in
+18:51 there in their products let's say you
+18:53 have five or ten teams and a couple of
+18:56 these teams
+18:58 are make products that are powered by
+19:01 some model
+19:02 let's see a team that is it takes care
+19:04 of some recommendation engineer team
+19:06 that takes care of some natural language
+19:07 processing but also thinking now a bit
+19:09 about my my e-commerce experience
+19:12 if you then see these themes can
+19:14 Reinventing the wheel
+19:16 in doing training serving all of these
+19:20 things in very in different ways without
+19:22 actually having a really really good
+19:25 reason that's usually the point where
+19:27 you should think about
+19:28 maybe a platform that helps me
+19:31 standardize some things and take away
+19:34 rebuilding of these things that could
+19:37 then definitely make sense and typically
+19:39 then uh you can also calculate the
+19:42 business case and see
+19:44 um does it pay off or not and one thing
+19:46 you mentioned that teams do things in a
+19:49 different way and teams is plural here
+19:52 it means that you have to have at least
+19:55 multiple teams in your organization
+19:57 right in order for them to do things
+19:59 differently because like maybe if you're
+20:01 a smaller company maybe just have one
+20:03 team yeah I think in in that case it
+20:06 doesn't mean that you should not
+20:08 consider a platform because even for one
+20:10 team at least some elements of a
+20:14 platform for example a an experiment
+20:16 tracker which is technically one piece
+20:18 of a larger platform when you build or
+20:20 procure it that is something that is can
+20:24 be super important in a massive boost
+20:25 ineffective even for one team and these
+20:28 things especially if you go for some
+20:30 isolated pieces typically that's there
+20:33 are sales offerings you do not need to
+20:34 worry about any maintenance whatsoever
+20:37 that is something that comes with very
+20:40 very little overhead engineering
+20:41 overhead does cost something
+20:44 obviously but these are things that you
+20:46 should consider in any case even if you
+20:48 have one team building things when I
+20:50 talk about platforms typically in my
+20:52 mind it's more comprehensive more
+20:55 comprehensive software and
+20:57 infrastructure that helps you do what
+20:59 you want but at scale
+21:02 and one thing we talked about was
+21:04 processes so right we talked about
+21:08 skills that people need to have but he
+21:10 also mentioned processes and actually
+21:12 one of the skills is understanding this
+21:14 process is understanding how data
+21:15 scientists build models
+21:17 and another thing you mentioned is if
+21:20 you use an external platform
+21:22 for instance work for being that
+21:24 external ml platform
+21:27 the flow they have the process they had
+21:30 in mind when building this external
+21:31 platform might not be the same as the
+21:34 processes you have right and then you
+21:36 would need to readjust to redo your
+21:38 your projects in a way that fit this
+21:41 platform
+21:42 right so the process the processes here
+21:45 seem to be quite
+21:47 it seems to be quite an important part
+21:49 so I'm wondering what these processes
+21:51 are maybe can you walk us through a
+21:54 simple process yeah
+21:56 uh simple process
+21:58 so
+22:00 as a simple process usually is the data
+22:04 science workflow starts with pooling
+22:06 data that's typically where a data sign
+22:08 the work of a data scientist starts
+22:09 let's say you want to do some expiration
+22:11 because you want to start building a new
+22:14 model you want to train a new model
+22:16 that your process your workflow would
+22:18 start with pulling data into a export or
+22:22 environment into a notebook for example
+22:25 that's usually where it starts so then
+22:27 you go on to well you wanna perhaps you
+22:30 need a cluster to actually do proper
+22:33 exploration experimentation on on that
+22:36 data set well again part of your a
+22:39 branch of your process will be well you
+22:41 have the need for actually some a bit
+22:44 more powerful scalable compute
+22:45 environment in an exploratory setting
+22:47 part of your process right it's starting
+22:50 to Branch off
+22:51 then you would train something you need
+22:53 to evaluate it you want to keep track of
+22:55 your experiments that would be also a
+22:57 piece of your process something that
+22:59 your platform should help you to do that
+23:00 it should cater to keeping track of
+23:03 your experiments of your model training
+23:05 and evaluations
+23:07 then you wanna as a Next Step you want
+23:09 to persist that model and perhaps share
+23:11 it as well make it available to services
+23:13 to Downstream processes now you need a
+23:16 model registry for that right then the
+23:20 story goes on how am I how is that model
+23:22 gonna be consumed by a downstream
+23:24 service
+23:25 does it even need to be consumed is it
+23:27 maybe only a batch chart that actually
+23:29 runs this model all these are that's
+23:32 when we speak about processes
+23:34 that's exactly it depending on your use
+23:37 case depending on what type what how
+23:41 your people build these models
+23:43 this Pro that process will look
+23:45 different and you might have several
+23:46 processes depending on your team and
+23:49 your use cases again
+23:50 so when I say you need to understand
+23:52 your process to build a platform to
+23:55 think about tooling even this is exactly
+23:57 it you need to understand how is how our
+23:59 data science products built in your
+24:01 company so for example if most of our
+24:03 projects like 78 of the projects ml
+24:08 products they don't need to be up and
+24:11 running all the time we just execute
+24:13 them in batch then maybe we do not need
+24:15 to invest a lot of time in making uh
+24:19 like a platform that can serve these
+24:21 models online exactly we should focus
+24:22 first on batch right exactly
+24:25 that can be a very you need to I think
+24:28 what you said is is already a bit one
+24:31 step further prioritization right
+24:32 because you could build this beautiful
+24:34 platform that does it all and serves
+24:36 every single thing that you might want
+24:38 to do but exactly that's not how you
+24:40 typically build you want to build
+24:41 iteratively incrementally also when you
+24:44 build your platform so you need to
+24:45 prioritize and if you see as you said 70
+24:48 of your models and let's say the value
+24:51 that these models generate is equivalent
+24:53 to to the quantity
+24:55 that's typically what you want to build
+24:58 out first
+25:00 it's also important if you decide which
+25:03 platform to buy because maybe not all
+25:05 the platforms support but because I know
+25:08 I definitely saw a couple that do not
+25:11 support batch mode they only support
+25:13 online like web services and then like I
+25:16 was like I really need this Spike it's
+25:20 not really what I want and some of these
+25:22 platforms they kind of they offer batch
+25:26 in aircose which is just sending a lot
+25:28 of requests to the online service yeah
+25:31 yeah that's a good one okay like do I
+25:33 really need that or maybe yeah something
+25:34 else yeah it's a very good point even
+25:36 thinking of Amazon sagemaker very
+25:38 popular very popular service especially
+25:40 for companies or in AWS
+25:42 um the way that batch processing is
+25:44 recommended is pretty much what you said
+25:45 it's a they call it batch transform so
+25:47 what it does it it spins up an endpoint
+25:49 shoots let's say you're complete batch
+25:53 run against it and that right in batches
+25:55 you often deal with large amounts of
+25:56 data shoots 100 gigabytes of data
+25:59 against it and then it tears down the
+26:00 endpoint again and that's batch mode
+26:03 it's actually spinning up an endpoint
+26:05 tearing it down whether that's really
+26:06 what you want and whether that is cost
+26:07 effective for you and whether the
+26:10 performance is all this is optimal for a
+26:13 performance perspective is questionable
+26:15 of course that's what you really need to
+26:16 look into a very good point that you
+26:18 made it's like on paper they have batch
+26:20 transform right but like when you look
+26:22 that look into this like ah like maybe
+26:24 it's not what I need so like and it
+26:27 comes back to the second
+26:29 skill set of skills that you mentioned
+26:32 like we need to understand
+26:34 the process like how exactly models are
+26:37 built in order to understand that okay
+26:40 this actually makes the difference like
+26:41 if I want my batch jobs to be fast then
+26:44 this platform does not work for me and I
+26:47 need to do something else maybe I need
+26:49 to build my own stuff with spark or
+26:52 whatever yeah right
+26:54 yeah see absolutely
+26:58 and that might that right that might not
+27:00 be then the killer argument not to go
+27:02 for that platform but there you will
+27:05 need to build something custom or a
+27:07 different route perhaps
+27:09 and then bend it that's what for example
+27:13 at the tml heavily using sagemaker as
+27:16 well
+27:17 well I need to paint some things and
+27:19 find other ways how to do batch
+27:21 processing without using batch transform
+27:23 but also that bites you a bit because in
+27:27 that specific case if you followed the
+27:29 recommended path
+27:31 then you would get some nice features
+27:33 down the line still you know automated
+27:35 some automated bias and fairness
+27:37 detection out of the box clarify it we
+27:40 call it that's what you do not get or
+27:42 the integration is just so much harder
+27:44 if you go for
+27:46 the non-batch transform the a way that
+27:49 where you don't spin up an endpoint
+27:51 shoot your data against it and tear it
+27:53 down again
+27:54 so there are downsides to
+27:56 to then having to Branch off and build
+27:58 your custom stuff
+28:00 okay so then to summarize the processes
+28:04 uh first exploration phase where you
+28:07 need to pull some data for that you need
+28:08 a platform like a data
+28:11 processing platform I guess where you
+28:13 can do things explore things quickly
+28:15 could be like I don't know a dateable
+28:16 house or I don't know a spark cluster
+28:19 right it could be it could be let's say
+28:21 you're on a gcp of bigquery and then you
+28:23 have some collab notebook and you
+28:25 authenticate the bigquery pull in right
+28:27 here SQL query The Notebook pull in your
+28:30 uh your data that would be an
+28:32 exploratory setup of course you wouldn't
+28:34 have enough infrastructure power behind
+28:37 your notebook so that you can actually
+28:38 to do what you want to do usually
+28:41 I think database yeah database also
+28:44 offers this kind of stuff right yeah
+28:46 it's inspired but
+28:49 databricks AWS has it I think pretty
+28:52 much all the big cloud vendors with the
+28:54 platform component about that is really
+28:56 giving your data scientists the ability
+28:58 to provision the resources that they
+29:00 need to do their job so obviously as a
+29:04 data scientist you don't want to then
+29:06 configure and spin up via infrastructure
+29:09 as code your own cluster but what you
+29:12 want to do is you want to click some
+29:13 buttons to spin up your cluster and
+29:15 connect me and this is really the
+29:16 platform part making it easy for people
+29:19 to do their work so they don't need to
+29:22 uh you know clone a terraform rep or
+29:25 create an EMR cluster there wait for
+29:28 some platform engineer to approve this
+29:30 exactly and then apply them maybe you
+29:34 want to build a self-service capability
+29:36 so that it's easy for people and they
+29:38 don't need to worry about infrastructure
+29:40 as code and PC
+29:41 okay so that's data exploration part
+29:44 right where we put the data we explore
+29:46 and we see what we actually can do with
+29:49 this this data the second one the second
+29:52 step is once we did the initial
+29:54 expression we train and evaluate models
+29:57 and then you mentioned that we need
+29:58 experimentary tools right so that's
+30:00 another set of tools or another tool
+30:03 that we need in addition to the first
+30:04 one
+30:05 right
+30:06 yeah um I think an experiment tracker is
+30:09 something that most teams specifically
+30:11 teams that at least use some evaluation
+30:14 metric to evaluate their models could
+30:16 benefit from a lot it's usually one of
+30:18 these low hanging fruits just to move
+30:20 from keeping track of your experiments
+30:22 in an Excel sheet to actually something
+30:24 that
+30:25 well that that works that's scalable and
+30:28 also shared and transparent to your team
+30:30 at least
+30:31 then the next thing is persist in the
+30:34 model making it available for Downstream
+30:37 usage and you mentioned that we need a
+30:39 thing called Model registry and I know
+30:41 that the experiment taking and model
+30:43 registry is tools they usually like at
+30:46 the same to like for example a multiple
+30:47 right or very often goes hand in hand I
+30:50 know weights and biases or like many
+30:52 platforms also available yes sagemaker
+30:54 as a DCP I'm sure they also have it and
+30:57 we will have it right yeah it very often
+30:59 comes in a package actually especially
+31:01 experiment tracker model registry meets
+31:03 a data store meter data tracker in store
+31:05 that is something that when you look at
+31:07 ml Ops tooling vendors it's something
+31:10 that you very often see packaged in one
+31:12 SARS offering mm-hmm
+31:15 so and then we kind of finish the
+31:17 training pace and then we go to the
+31:20 deployment base we need to make sure
+31:23 that the model somebody can consume the
+31:25 output of this model and then we'll talk
+31:26 about deployment
+31:28 like we need to understand if we want to
+31:31 solve this online thing as a web service
+31:34 or it should be like a bench job and we
+31:37 talked also a bit about the tools you
+31:39 mentioned it's possible to do a sage
+31:40 maker I think I brought up spark right
+31:43 so there are much of tools like that
+31:45 so after that after deployment there is
+31:48 something else right it's not the end of
+31:50 the process yet yeah
+31:51 yeah I think even deployment
+31:54 typically when you're when you depends a
+31:56 bit on how how
+31:58 much you how opinionated you want to be
+32:01 as an ml platform that's also a piece
+32:03 that you could build and you should
+32:05 consider a building for your teams a
+32:08 reusable centralized managed deployment
+32:10 pipelines especially if you have some
+32:12 narrow use cases let's say two or three
+32:15 use cases that you do very very often
+32:16 whether the pattern that the that the
+32:19 models follow and are pretty much the
+32:21 same then you should even consider uh
+32:24 building and managing centralized
+32:25 deployment pipeline so even that is
+32:27 something that you could take away from
+32:30 your from your data Science Focus teams
+32:34 not always a good thing doesn't always
+32:36 make sense something to always carefully
+32:38 wave between flexibility in the teams
+32:41 and what you as a platform push out
+32:45 that could be something
+32:47 after deployment well
+32:49 um it's about serving and serving at the
+32:52 principal decision is always well is it
+32:55 batch am I just gonna load the model in
+32:58 some batch job in some let's say spark
+33:00 job
+33:02 do some pre-processing and run it and
+33:04 store my predictions in some some table
+33:07 for example that's an option
+33:09 I think there it's a usually
+33:12 usually not so different from your
+33:15 training infrastructure typically you
+33:17 would choose some workflow orchestrator
+33:18 airflow sagemaker sagemaker pipelines
+33:22 then if you want to be in that ecosystem
+33:24 typically similar similar tooling choice
+33:27 at least as you would also do for
+33:29 training when it comes to orchestrating
+33:30 what you actually want to do and in the
+33:33 end a patch job
+33:34 performing model inference in a batch
+33:36 job is not that different versus model
+33:39 training in the batch job it's usually a
+33:41 sequence of jobs data loading
+33:43 pre-processing future engineering
+33:44 training slash inference and then just
+33:47 your output artifacts are different on
+33:49 the one hand you have a model as an
+33:50 output artifact and you could store it
+33:52 in the modern registry whereas in the
+33:54 batch influence job you would have data
+33:57 usually predictions whatever there's
+33:58 outputs and store it somewhere and when
+34:01 we talk about building a platform do we
+34:04 actually mean that okay let's create an
+34:07 experiment tracker from scratch or let's
+34:09 create a serving intersection of
+34:11 infrastructure from scratch and all
+34:13 based on classical whatever or here we
+34:15 mean more like okay what are the tools
+34:17 that are available are available there
+34:18 let's see how we can take these tools
+34:21 see if these tools fit whatever
+34:23 requirements will happen how we can
+34:25 stitch together these tools into
+34:26 something meaningful and then yeah the
+34:28 letter so again the format at least I
+34:33 could really not think of a reason why
+34:34 you would build your own experiment
+34:35 tracker I am certain there are good
+34:37 reasons in some very very Niche use
+34:39 cases
+34:40 but
+34:42 um these tools have become a bit of a
+34:43 commodity even
+34:45 there is there are lots of these tools
+34:48 out there from open source to
+34:50 self-hosted open source solutions to uh
+34:53 fully managed sales Solutions pretty
+34:56 much everything you can think of
+34:58 so I think there are very little reasons
+35:01 why you would really build that
+35:02 experiment tracker still yourself
+35:03 usually it's really about
+35:06 getting the right tools and integrating
+35:08 them and making them easily consumable
+35:10 and fit to your data science workflow
+35:13 it sounds like it's not
+35:16 a difficult job but I think actually
+35:19 it's it is the opposite right yeah
+35:21 because like that you still need to
+35:22 connect this tools somehow it makes it
+35:24 seamless experience I think it's a it's
+35:27 a common misconception people have when
+35:29 they think well such an ml platform I
+35:32 mean I'm just going to buy sagemaker or
+35:33 I'm just going to buy vertex AI
+35:36 yeah it's not too easy
+35:38 um usually well buying it is very easy
+35:40 people the company is happily going to
+35:42 take your money and give you give you
+35:43 access to their to their compute
+35:45 infrastructure
+35:46 but again as as you mentioned the the
+35:49 devil is then really in
+35:52 vestors really supports what I want to
+35:54 do does it support does it support what
+35:56 I want to do give them certain
+35:57 constraints that most companies have
+35:58 constraints meaning data governance
+36:01 meaning security
+36:03 uh meaning
+36:05 a meaning specific
+36:07 specific types of models right when you
+36:10 think nowadays when you think about
+36:12 large language models for example it's
+36:15 not trivial to fit some special needs of
+36:18 large language models into existing ml
+36:21 platforms and I think what you can see
+36:22 specifically based on this what you
+36:25 could see in the last one or two months
+36:28 so many vendors so many vendors in
+36:31 envelope space have pushed out um really
+36:34 really nice updates to their platforms
+36:36 to their tools that would allow you
+36:38 better handling of large language models
+36:40 and large language models now is one
+36:42 example usually as an organization you
+36:45 would have you would have just some
+36:47 Niche some weird
+36:49 stuff that's not default and therefore
+36:53 not as easily and nicely supported
+36:56 or another thing is that specifically we
+36:59 are investing a lot of time and energy
+37:01 in these phases improving developer
+37:04 experience
+37:05 it's not nice for a data scientist to
+37:07 interact with raw Amazon sagemaker it's
+37:10 a lot of overhead you need to think
+37:11 about bpcs you need to think about
+37:14 encryption and these things you should
+37:17 not need to think about this as a data
+37:19 scientist
+37:20 yeah sometimes I really question the
+37:22 design choices the sagemaker teammate at
+37:24 some point yes why would I need to
+37:26 Lambda in front of an sagemaking
+37:28 endpoint
+37:29 that's why the CSV data there in my
+37:33 request instead of Json it's like that
+37:37 okay
+37:38 it's something so they look pretty
+37:41 terrible today yeah then like it's not
+37:44 something data scientists who use it
+37:45 then so you need to make some tooling
+37:48 around that to make it easier to use
+37:50 yeah that just takes away the
+37:52 unnecessarily unnecessary complexity and
+37:55 introduces some opinionated things for
+37:57 example if we want to if we want to use
+37:59 if we want data scientists to use a
+38:03 specific KMS key to encrypt their data
+38:06 at rest well this is something that you
+38:08 would abstract away completely in a thin
+38:11 layer on top of sagemaker for example
+38:13 and data scientists don't need to worry
+38:14 they just can't be sure the the their
+38:17 data will be appropriately encrypted
+38:20 then you set thin layer I'll pin this
+38:22 layer is that something a one developer
+38:25 can do in one week or it's something
+38:27 that you need a team and work on this
+38:29 for happier
+38:31 um so specifically the example that I
+38:32 gave now
+38:33 um
+38:35 an existing platform
+38:40 so I believe that the layers around an
+38:43 existing pattern they should be as thin
+38:45 as necessary so as thin as possible
+38:49 um that means
+38:51 it always depends on what you really
+38:52 want to achieve so there is the there is
+38:54 one side where you basically say I want
+38:57 my models to be built independent of
+39:00 whatever they are running on meaning if
+39:03 I want to migrate from sagemaker to
+39:05 vertex AI for example I do not want to
+39:08 have to change my models but I'm going
+39:10 to change the platform piece I'm gonna
+39:12 change the interaction patterns with
+39:15 these models so if you want to achieve
+39:17 that then your platform will naturally
+39:19 be need to be a tad figure compared to
+39:22 when you just say well I wanna
+39:24 I trust that we are going to stay on
+39:26 sagemaker for many many years to come
+39:28 and what I want to do is making
+39:30 improving the developer experience then
+39:33 a fairly thin layer something that is
+39:35 really
+39:36 a matter of months to develop can be
+39:40 sufficient a matter of months so it's
+39:43 still not uh signal you it's not like
+39:45 you buy sagemaker platform and you're
+39:48 good to go you still need to put in some
+39:50 effort before yeah it's usable
+39:54 um I would definitely say so
+39:56 again always depends on your company and
+39:58 I might also be quite biased because
+40:01 currently currently I'm in the fintfect
+40:04 space and when it comes to financial
+40:05 stuff right there are a lot of
+40:07 regulations there are fairly strong and
+40:10 for a good reason requirements and
+40:12 everything that security compliance
+40:14 auditability related that of course
+40:17 um raises the power significantly
+40:19 in if you deal with
+40:22 let's say some iot generated data
+40:25 machine data where you know if you lose
+40:27 that data well you've lost that data but
+40:29 no person is affected whatsoever then
+40:31 you might have a lot less restrictions a
+40:35 lot less requirements on many things
+40:38 that will naturally translate to
+40:40 different choices when building your
+40:41 platform because you also worked in uh
+40:46 algorithmic advertising right and he
+40:49 also worked in e-commerce yeah I guess
+40:51 the requirements there are less strict
+40:54 compared to fintech depends on the use
+40:58 case as well so even e-commerce you can
+40:59 have quite sensitive use cases I think
+41:01 think of fraud detection for example
+41:03 exactly customer data fraud detection if
+41:06 you detect a case of Fraud and you bend
+41:08 a person from your platform well you
+41:11 need to be able to
+41:13 so why did this happen you need to
+41:16 basically be auditable right so that
+41:18 means you need to show for a certain
+41:20 period of time exactly why this decision
+41:23 was made and what happened
+41:25 and there are certain requirements
+41:28 typically around being able to explain
+41:29 your model being able to to ensure your
+41:33 model is not biased and that it's fair
+41:35 and that can even mean e-commerce with
+41:38 sensitive use cases even there that's
+41:40 going to be that's going to be more
+41:41 challenging
+41:42 however if this is a fraction of your
+41:45 use cases which it probably isn't
+41:47 e-commerce then you will probably not
+41:49 build your platform for that you would
+41:51 build your platform for the 90 of use
+41:53 cases
+41:55 so what to do with these cases with data
+41:58 governments with security without
+42:00 disability I don't know how much did
+42:03 maker offers yes disregard so I guess
+42:07 you still needs especially for a bank
+42:10 still need to be build something on your
+42:12 own right or there are actually tools
+42:14 that you can just take and adapt to your
+42:17 use case yeah I think so especially for
+42:19 for sagemaker it makes a lot of things
+42:21 definitely easier so just thinking of
+42:25 emitting and storing of metadata
+42:28 what what specific image your job used
+42:31 what data it what inputs it consume what
+42:34 outputs it wrote it makes tracking of
+42:36 these things and storing it persistently
+42:38 as well and connecting your metadata
+42:41 over over various pipeline runs it makes
+42:44 it fairly fairly easy
+42:47 there's still some glue glue code to be
+42:51 to be written if you want to be able to
+42:53 let's visualize that or have it nicely
+42:55 nicely connected in a kind of data model
+42:58 you will then you still need to do need
+43:00 to do a lot of glue work also when it
+43:01 comes to to reproducibility actually
+43:05 let's say you want to reproduce the
+43:07 results of a model that you ran three
+43:09 years ago
+43:11 yeah in theory of course your model is
+43:14 stored in the model registry and it's
+43:16 going to stay there for a couple of
+43:17 years if you don't delete it
+43:19 but what about it so the code is there
+43:21 and you know exactly which version of
+43:23 the caller will be used
+43:27 which version of the data was used three
+43:29 years ago yeah so it's right yes hmaker
+43:33 does help you for some things but you
+43:34 need to think this process through end
+43:36 to end and make sure that this works and
+43:38 that's what sagemaker doesn't do for you
+43:42 what actually is data governance when we
+43:45 talk about
+43:46 this specific case when we talk about ml
+43:49 platforms because data governance is a
+43:51 very large topic and we already had like
+43:54 a couple of podcast episodes about that
+43:56 when it comes to ml platform is there
+43:58 any specific part of the
+44:01 data governance framework that is most
+44:02 important for for platform engineers
+44:06 that's a good question so usually when
+44:08 you look at ml Ops tooling
+44:11 the the the first touch point you
+44:15 typically have with consuming data from
+44:17 a data warehouse data lake house
+44:18 whatever is that
+44:21 tools such as just gonna name a few
+44:23 weights and biases Neptune Comet ml they
+44:27 usually have some sort of Data Tracking
+44:29 functionality included so meaning and
+44:33 that what that means is actually fairly
+44:34 different depending on the tool so some
+44:36 tools really focus on
+44:38 logging storing metadata around around
+44:42 your query for example what was the
+44:44 query you used to fetch data
+44:47 whereas other some other tools go even
+44:49 beyond that and they say well basically
+44:51 you lock the entire artifact and with
+44:52 artifacts I mean the data you actually
+44:55 use and that means basically you would
+44:58 say well I want to store that artifact
+45:00 all the data that I consume for a
+45:02 specific model run I want to store it in
+45:05 some other cloud storage cloud storage
+45:07 provisioned by that by that vendor for
+45:09 example or cloud storage that I have
+45:12 some S3 bucket for example that's
+45:15 typically where it starts so there are
+45:16 already different approaches are
+45:17 emerging and how you actually keep track
+45:19 of your data so I think if you use ml4
+45:22 then you kind of need to arrive at the
+45:25 need of storing the data yourself so you
+45:27 would put the data to S3 and then maybe
+45:29 you would keep a pointer to this data
+45:32 yes while in tools
+45:34 rates and biases as this feature I'm not
+45:37 sure about others you can just block the
+45:40 entire yeah or some help you can just
+45:43 say okay this is the data
+45:45 keep it right you don't need to
+45:46 implement this yourself exactly that is
+45:50 yeah and the world is pretty cool if
+45:52 you're dealing with uh smaller data sets
+45:54 completely fine right you're just going
+45:56 to copy that I don't know 10 15 100
+45:59 megabyte data sets well if you're if
+46:01 your models run on
+46:03 tens hundreds of gigabytes of data this
+46:06 actually becomes difficult to use and
+46:10 not only difficult to use because
+46:12 obviously it's costs right
+46:14 um especially if you if you're using
+46:16 some proprietary storage of that vendor
+46:18 if you don't want to upload like 50
+46:20 gigabytes of data every time you train
+46:22 your model that hurts but not only that
+46:25 but also managing that data
+46:28 appropriately becomes a challenge
+46:32 exactly what if a gdpr request comes and
+46:36 that you need to delete a specific
+46:38 person from your data
+46:40 well good luck to do this if you log all
+46:44 your data every time you train a model
+46:46 it's going to be extremely hard to find
+46:48 that person in reliably delete it so you
+46:51 really need to think about how
+46:53 how do you manage your data to be
+46:55 compliant with certain regulations as
+46:57 well especially if you do things like
+47:00 logging your entire store duplicating
+47:02 basically every your data set every time
+47:05 you you run your model
+47:07 interesting and we have a couple of
+47:09 questions and the first question is like
+47:12 chicken and egg and that kind of
+47:14 question so the question is sometimes
+47:15 they encounter problems when trying to
+47:17 build a whole pipeline from scratch with
+47:20 no models built yet
+47:22 so how do you deal with interacting the
+47:24 infrastructure
+47:25 and do you even need that maybe this is
+47:27 a continuation from you like do you even
+47:29 need to think about building the
+47:31 platform before building a model what
+47:33 should come first yeah so I would a good
+47:37 question
+47:38 I believe
+47:39 they're always especially if you want to
+47:42 do this in a in a profit-oriented
+47:44 organization that needs to be a business
+47:45 case first I think there are hardly any
+47:48 organizations who would say yes please
+47:49 build that platform because at some
+47:52 point yeah we're going to build some
+47:53 models it's typically very hard it's
+47:55 beautiful if you can do this because
+47:57 it's a full Green Field project and it's
+47:59 going to be a lot of fun
+48:00 but it's very hard to argue usually so
+48:02 usually how it goes it you would have
+48:05 a set of models already running
+48:07 generating some kind of business value
+48:09 and then you would look at
+48:12 what would it have saved us on the one
+48:15 hand if we had a platform and you want
+48:18 to project look at look a bit into the
+48:20 future how many models do we actually
+48:22 expect to have in a year in two years in
+48:24 five years and what will this mean if we
+48:26 don't build a platform are we actually
+48:28 scalable in our efforts
+48:31 so that's usually how you would start
+48:33 thinking about the platform
+48:36 but usually model goals models come
+48:39 first otherwise it's going to be
+48:41 difficult to argue
+48:42 skills actually because this is the
+48:45 business case yeah right
+48:47 can we do this in parallel like can we
+48:50 so for example we just started the data
+48:54 science initiative in our company we
+48:56 know that we'll have a lot of use cases
+48:58 in the future and there is one business
+49:00 case that we selected as the most
+49:02 promising one
+49:04 do we need to maybe try build the
+49:08 start building the platform in parallel
+49:10 to the case or first develop the case
+49:13 develop the model and see how to deploy
+49:15 to start building the platform for this
+49:17 specific case
+49:18 I think there are some pieces of a
+49:20 platform that already make a lot of
+49:22 sense with one model I mentioned it
+49:24 before experiment tracker is a classic
+49:25 thing that is something I think no
+49:27 matter what size you are that's gonna
+49:29 pay off even for for a single model or
+49:31 for a single team there are parts of so
+49:34 that is definitely something that I
+49:35 believe you should consider
+49:37 it's at least if you have a couple of
+49:39 data scientists that will make sense
+49:41 there are other parts of a platform
+49:43 where
+49:45 it's going to be very difficult to build
+49:47 the platform in a targeted way if you do
+49:51 not have a good picture of what it
+49:54 should cater to
+49:56 it's basically trying to build a product
+49:58 but you don't really know your customer
+49:59 yet or your customer doesn't even know
+50:01 himself yet he doesn't even know what am
+50:04 I gonna want I know that now I need to I
+50:06 don't know
+50:07 open this door but whether tomorrow I
+50:10 maybe need to close it again I don't
+50:11 know yet so usually you would want to
+50:15 have at least
+50:17 a cast a user a customer or a customer
+50:21 base that kind that kind of knows which
+50:23 use cases are coming up
+50:25 that's what so you can build an
+50:28 architect around it
+50:30 if you don't have anything then it's
+50:32 it's a lot about guessing estimating
+50:34 what's going to come
+50:36 can work but you might be building
+50:39 things that are really just not
+50:41 um not going to bring that much value to
+50:44 your customer or they are just never
+50:46 going to be used and I think every
+50:48 person who builds a platform has
+50:49 experienced this thinking way too far
+50:52 ahead and you're building something
+50:53 that's gonna maybe be used two years or
+50:55 three years down the line
+50:56 so the summary would be here to wait
+51:01 with heavily investing on to the
+51:04 platform before you have at least a
+51:06 handful of use cases right and then you
+51:08 see what's common in these use cases how
+51:10 can you abstract away some stuff from
+51:12 there absolutely to the platform
+51:14 and absolutely I think that's very very
+51:17 well summarized
+51:19 naturally it does not mean that you
+51:22 should not build
+51:23 abstraction right so if it makes your
+51:25 life easier as a team if you build some
+51:27 abstraction on top of sagemaker well do
+51:30 it right if it makes the life of three
+51:31 data scientists easier do it you you may
+51:34 call it a platform and it may be just
+51:36 the starting point actually of something
+51:39 bigger
+51:40 yeah thank you another question seems it
+51:43 seems that mlops is base is biased more
+51:46 towards software engineering
+51:48 do we need do we still need to invest
+51:51 time to learn state-of-the-art models or
+51:54 we just take whatever is there like
+51:55 whatever hiding face and other framework
+51:59 offer and not bother with learning Sota
+52:06 that's uh that's a good question so if I
+52:10 understand it right what you're what
+52:12 you're saying is there is there there
+52:15 are quite some hugging phase as a model
+52:18 platform also kind of a vendor a service
+52:20 provider that make your life fairly easy
+52:22 already so the question as far as I
+52:24 understand is
+52:26 do we even need to worry that much about
+52:29 ml Ops itself if there are some or maybe
+52:31 the question is like do we need to worry
+52:33 about learning about these models the
+52:35 internals of these models so yeah yeah
+52:38 it's because we can just take whatever
+52:40 hacking face offers right and then I
+52:42 understand as a platform team maybe we
+52:44 don't even need to worry about yeah
+52:46 maybe as a larger organization some
+52:48 teams might want to learn more about
+52:50 state-of-the-art things and then how
+52:52 does it affect our office
+52:57 um I think it's a definitely a good
+52:58 point I think from um for for a ml
+53:02 platform engineer for an ml Ops person
+53:03 who builds a platform
+53:05 it's not really going to matter whether
+53:08 uh often it's not going to matter which
+53:10 exact type of model you want to run
+53:13 however
+53:14 there are definitely cases where this
+53:16 matters
+53:17 um again I'm gonna fall back to the
+53:19 example of large language models if your
+53:22 models reach an extent or are in a way
+53:25 that are that place specific
+53:28 requirements on your platform on your
+53:30 infrastructure for example or on your
+53:33 deployment flow or on your evaluation
+53:36 flow especially interesting for large
+53:37 language models again
+53:39 then
+53:40 definitely you as a platform engineer
+53:43 you should think about these aspects you
+53:45 should think not necessarily not a lot
+53:48 about
+53:49 how does this model exactly work
+53:51 but really what does it would this model
+53:54 run on my platform actually or and why
+53:57 would it not
+53:59 that will help you evolve your platform
+54:01 into directions that make it potentially
+54:03 future proof If These use cases will
+54:05 become relevant for your organization
+54:09 thank you uh another question how
+54:13 important is API design for envelopes
+54:19 um for
+54:22 well API design is
+54:25 definitely it depends a bit again on
+54:28 what what you want to run
+54:30 um it is from an ml platform perspective
+54:36 depends a bit how if you want to
+54:39 abstract that away I think what's that
+54:41 where it's definitely important is for
+54:42 the team who wants to deploy this model
+54:43 and needs to serve it needs to serve
+54:45 predictions to a set of consumers then
+54:47 you as that team need to think about
+54:49 that how that AP what that API should
+54:52 look like and how would you evolve it
+54:54 over time as well
+54:55 from a platform perspective
+54:58 and that there it depends a bit it's I
+55:01 would say not something that you
+55:03 typically care about that much as a
+55:05 platform as a producer of data and teams
+55:08 that build and deploy and serve models
+55:10 they are producers of data they should
+55:13 worry about how do I make and keep this
+55:16 consumable as a platform I would think
+55:18 about how do I make it easy to deploy it
+55:20 and serve it via an API but what that
+55:23 API specifically looks at it's typically
+55:26 not something that the platform engineer
+55:27 would probably look into
+55:29 so for me it was at some point it became
+55:32 important and the case was when we want
+55:35 to lock predictions in such a way that
+55:38 it's unified across all the use cases so
+55:42 like for example imagine that they have
+55:44 a model for I don't know current
+55:45 prediction you sent a request to the
+55:47 platform the platform replies with the
+55:49 prediction and you save these
+55:51 predictions you save the incoming
+55:52 request and you have safety response in
+55:55 a let's say some database in some block
+55:58 storage
+55:59 and you want to run some analytics on
+56:01 top of that and in order to do that you
+56:05 want the logs to be unified across all
+56:07 these cases so churn prediction use case
+56:09 uh I don't know lead scoring use case
+56:12 all the other use cases should follow
+56:14 singular schema in order to be able to
+56:18 analyze this later and maybe do some
+56:21 monitoring do some analytics but yeah
+56:24 this is maybe a specific one so not you
+56:27 don't always think about this
+56:29 until you need to do this but sometimes
+56:31 yeah it's important I think it's a good
+56:33 point I I think in your
+56:36 I would imagine in in that role you were
+56:39 build you're part of the team building
+56:41 these models
+56:43 yes yeah I was I was kind of
+56:47 doing being a part of all the teams so
+56:50 all my brothers to like Overlook the
+56:53 entire process okay
+56:55 I connect the platform team and the
+56:57 users of the team of the the platform
+57:03 okay yeah makes a lot of sense
+57:05 especially in that in that position I
+57:08 think this in such an in that interface
+57:10 position
+57:11 okay well we should be wrapping up and
+57:14 maybe last question for you is we talked
+57:17 about our Bitcoin platform the skills we
+57:19 need and I know that you have written a
+57:21 lot of stuff and actually in the
+57:23 questions I we prepared uh there were
+57:26 questions about stuff you wrote but we
+57:27 never had a chance never touched upon it
+57:29 too much yeah too many things to talk
+57:31 about so maybe you can
+57:34 yeah recommend some further reading if
+57:37 you want to learn more could be from you
+57:39 or from other people or maybe there are
+57:42 already books about this stuff maybe
+57:44 there are good courses or I don't know
+57:46 good videos good talks about this topic
+57:48 yeah
+57:51 um well I would
+57:53 of course as you said there are some
+57:55 good books about
+57:56 ml Ops and machine learning engineering
+57:58 I think what's important to note is
+58:01 envelopes is a term that's I think not
+58:04 not yet not very well defined for
+58:06 example when I speak about ml Ops it's
+58:08 usually from a platform perspective I'm
+58:10 thinking about ml platforms other for
+58:11 other people it's very different for
+58:13 them machine learning operations is
+58:15 basically everything from deployment
+58:17 onwards so that's also a bit with the
+58:20 books right there are some books for
+58:22 example designing machine Learning
+58:23 Systems is a very popular one it's also
+58:25 very good one but it does not take a
+58:28 very much the platform perspective
+58:29 actually it's really uh more around
+58:32 building that model
+58:34 uh nevertheless it's a great book
+58:37 um I also like particularly practical
+58:39 envelopes also a book by Noah gift and
+58:43 his co-author and what I like about that
+58:45 one is that it is well the name says it
+58:48 it's actually very practical and that
+58:50 means also it's really going to show you
+58:51 how to build things on the three big
+58:54 cloud providers and that I believe is a
+58:58 great great asset to have and that also
+59:01 brings me to My overall recommendation
+59:03 books are great and
+59:06 well but putting things to practice
+59:08 building your pet projects is that what
+59:11 I really recommend it's not all and I
+59:14 think that's also why I love data data
+59:16 talk scrubs the envelope Zoom came
+59:17 specifically because that's what you
+59:19 guys are doing and that's really where
+59:22 where you learn and that's also not only
+59:24 why you learn but also how you can
+59:26 showcase your skills to a future
+59:28 employer for example so it brings
+59:30 together a lot of these things don't get
+59:33 too stuck in books start building what I
+59:35 would recommend but that's also a bit
+59:36 the the type of learner that I am yeah
+59:39 thank you Simon thanks a lot everyone
+59:41 for joining us today thanks Simon for
+59:43 joining us today too and share all your
+59:46 expertise and
+59:48 yeah that's all we have now and yeah
+59:51 enjoy the rest of your day and the rest
+59:53 of the week and yeah see you soon thanks
+59:56 a lot yeah and now I will need to go
+59:58 outside and it's so hot I hope my brain
+1:00:01 does not melt yeah hopefully we will
+1:00:03 still be able to talk after

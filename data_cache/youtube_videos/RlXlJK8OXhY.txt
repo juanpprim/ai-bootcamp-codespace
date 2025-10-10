@@ -1,0 +1,1528 @@
+0:00 so hi everyone Welcome to our event this
+0:03 event is brought to you by data do club
+0:05 which is a community of people who love
+0:07 data we have weekly events and if you
+0:10 want to find out more about the events
+0:12 we have there is a link in the
+0:14 description click on that link and see
+0:16 what we have in our pipeline actually we
+0:19 are scheduling like a ton of new podcast
+0:22 interviews like I think we have five or
+0:25 six um so you need to watch out there
+0:28 will be announcements and this page is
+0:30 where you can see them also don't forget
+0:35 to subscribe to our YouTube channel this
+0:37 way you will also get notifications
+0:39 about uh streams like the one we have
+0:41 today and we have an amazing slack
+0:43 Community where you can hang out with
+0:45 other dat
+0:47 into during today's talk presentation
+0:50 you can ask any question you want there
+0:52 is a slid link it's pinned in the live
+0:55 chat click on that link ask your
+0:57 questions and we will be covering these
+0:59 questions after the
+1:01 presentation so I think that's all I did
+1:04 not forget to say anything H Andreas now
+1:08 the floor is yours please share your
+1:10 screen and let's
+1:12 start okay so I have to remember how
+1:17 actually
+1:19 uh oh I have to give permission to share
+1:22 the screen okay
+1:24 this you don't use zoom
+1:27 that's just give me two second I
+1:31 will already leaking details oh my
+1:35 God you mean about the the company where
+1:38 you work yeah oh my God we're not using
+1:41 Zoom
+1:44 no I imagine okay so if you were to
+1:47 estimate uh how often does the
+1:50 permission sharing happen then we can
+1:52 estimate the zoom
+1:54 adoption
+1:56 um not that uh
+2:01 like I don't remember last time it
+2:02 happened actually oh my God yeah want to
+2:05 adopt late majority yeah everything is
+2:09 going well not everyone is on Mac that's
+2:12 also like on Windows or Linux you don't
+2:14 need to to do
+2:16 that all right um Andre Alex are you
+2:19 seeing the screen yes sorry oh yeah
+2:22 perfect then sorry everyone for that for
+2:24 the short for like for the short uh uh
+2:26 Interruption but at least now we can
+2:27 share and everything is fine okay so hi
+2:30 everyone so today we will be with
+2:32 Andreas talking about inventory
+2:33 optimization in e-commerce and the good
+2:35 thing is that we're not only going to
+2:36 talk about it like in the thetical way
+2:38 or from you know far away but we going
+2:40 to actually base it on our experience as
+2:42 Alando and really share like you know
+2:43 what we learned what type of issues we
+2:45 met and what type of solutions you know
+2:47 we end up finding um so I remember I was
+2:50 talking with a couple of scientists and
+2:52 from different companies like they do
+2:54 either food delivery or they are like
+2:56 you know pure e-commerce and I remember
+2:58 like this topic of inventory
+2:59 optimization is a big one and we will
+3:01 see that actually lately this topic even
+3:04 be like become a bigger one due to uh uh
+3:07 due to basically uh the topics of cost
+3:10 optimization and also being efficient in
+3:11 the way we do operations so I'm hoping
+3:14 that this conversation will be
+3:15 interesting and that um yeah we will we
+3:18 will be having fun and hopefully you
+3:19 know we can also catch up after that
+3:23 yeah so uh before we do that I would
+3:25 like to maybe give us you like a short
+3:27 introduction of ourselves so uh um um so
+3:30 hi everyone I'm hagop senior apped
+3:33 scientist at zando have been working at
+3:36 zando for now three years almost and
+3:38 doing applied science for the last six
+3:40 seven years I had the pleasure to also
+3:43 so to work with alexe and yeah so um I'm
+3:46 usually very passionate about anything
+3:49 that touches like data science deep
+3:50 learning like specialty uh green tea
+3:52 cycling and running on my personal time
+3:55 and also my biggest hobby is my son who
+3:57 probably can be joining in the room with
+3:59 the call so I hope that's that's also
+4:02 fine and yeah on that I would like to
+4:04 give the floor toas for
+4:06 presentation hey everyone Andreas I'm a
+4:09 principal applied scientist at slando
+4:12 I've been here for roughly two two and a
+4:14 half years uh and somehow throughout my
+4:17 career I always end up doing Logistics
+4:20 never really planned it that way but
+4:22 here I am um yeah uh and uh I guess also
+4:27 I do things outside of work uh you
+4:29 usually it involves some kind of board
+4:31 sport or uh tabletop uh role playing
+4:34 games as a big as a big activity for me
+4:37 it's a great way to keep touch with the
+4:39 old friends what is a board
+4:41 sport uh
+4:43 snowboarding um skateboarding
+4:47 boarding you got two feet on a board
+4:51 you two feet on the board is is a is a
+4:54 good description this okay but um right
+4:58 okay so uh yeah so this was us contact
+5:01 us afterwards um we're pretty nice I
+5:03 think I hope so yeah don't hesitate but
+5:06 before we do super important um we are
+5:08 obviously the ones presenting the work
+5:10 and the learnings but it's only two of
+5:12 us right so the effort has been done by
+5:14 a bigger uh uh by by much bigger team
+5:17 and actually we would really like to
+5:18 thank them before we even start and that
+5:19 you also remind that if you need that
+5:21 information you can also you know have a
+5:23 contact with this with with any member
+5:25 of the team and yeah so thanks to them
+5:27 so super important and specifically call
+5:30 out if you look in the bottom right the
+5:31 little purple ribbon there exactly
+5:34 hiring that is also true so so the team
+5:36 is also hiring uh like depends on the
+5:38 position sometimes data engineering
+5:39 sometimes it's plat science or probably
+5:41 also machine learning engineering
+5:42 depending on the time of the year um
+5:45 yeah so please stay tuned and also happy
+5:48 to meet you for that purpose so very
+5:50 important good that you us very nice
+5:54 okay good so the agenda for today um we
+5:57 will basically uh try to to be doing it
+6:00 in 30 minutes 40 minutes and then we
+6:01 have time for like for the questions and
+6:03 the plan is very simple so we will start
+6:06 by saying okay so what's even like the
+6:07 problem of inventory optimization there
+6:09 is a lot of uh you know let's say
+6:13 misunderstanding about the topic several
+6:16 people say inventory optimization but
+6:17 they always mean different things so we
+6:19 hoping that this time you know we really
+6:20 kind of set up that and try to Anchor
+6:22 like the discussion um based on that
+6:25 we'll basically talk about what our
+6:26 inventory policies and what type of
+6:28 equations we're even trying to optimize
+6:30 right like what's the cost equation
+6:31 we're trying to optimize um the
+6:33 limitations of deterministic
+6:35 optimization that are very very common
+6:36 and and often baselines on this type of
+6:39 exercises and uh you know just review
+6:41 over optimization approach uh and use
+6:43 techniques that you found but also we
+6:44 tried and the one that we are actually
+6:46 betting on in production and uh and
+6:49 hoping to develop in the future and um
+6:51 there will be like a very small particle
+6:53 like like a technical part that is very
+6:54 important we will basically talking
+6:56 about how we took all this thetical
+6:58 concept right and we make it and and
+6:59 made it real and how we ended up
+7:01 basically having something that for
+7:03 those who do inventory optimization this
+7:06 number seems pretty uh pretty uh pretty
+7:09 pretty familiar you're basically able to
+7:11 optimize for a given SQ or a given
+7:12 article in less than like 20
+7:13 milliseconds which if you think
+7:15 optimization you usually think of
+7:16 seconds of minutes so we actually
+7:18 managed to reduce that to like something
+7:20 that is reable and also real time and
+7:22 we're hoping that we also discuss some
+7:23 uh let's say um technical uh
+7:25 implementation topics and see how we did
+7:27 this it's also pretty interesting so not
+7:29 only theoretical and Mathematics but
+7:31 also applied concept behind and some
+7:34 mlops um Concepts so that's the genda
+7:38 and at any time ask questions we're more
+7:40 than happy to stop or even take them at
+7:42 the end good um then on last you can I
+7:45 guess start with the mental condition
+7:46 topic cool cool cool and I'll I'll rign
+7:48 you for pressing the button sounds good
+7:51 it so uh first of all uh kind of 10,000
+7:56 ft view uh so uh let's take a step back
+7:59 and think about okay so we're in applied
+8:00 science we're trying to solve a problem
+8:02 um uh how do we how do we approach this
+8:06 inventory optimization problem and
+8:08 there's this model that would like to
+8:09 think about uh so essentially uh almost
+8:12 all applied science problems have these
+8:15 three components you got a decision uh a
+8:18 policy and some inputs into your policy
+8:20 now what's the decision I mean this
+8:21 might seem obvious uh but it's important
+8:25 to recognize right I used to call this
+8:27 the the money moment so when in real
+8:29 life does something happen where uh the
+8:33 world diverges into two parallel
+8:35 universes one where you make more money
+8:38 and one where you make less money for
+8:39 example uh and kind of identifying this
+8:43 point so I've given some examples here
+8:46 uh so for example you're working in
+8:48 Insurance uh there's a decision to
+8:50 approve an insurance claim right and uh
+8:53 if you're correct in that decision there
+8:55 are some outcomes if you're wrong in
+8:57 that decision uh as assuming there such
+9:00 a thing is wrong there's some other
+9:01 outcomes and and this is this is the
+9:04 goal right to optimize this decision it
+9:07 could also be you decide to increase the
+9:08 rotor Trust on a drone uh or that you
+9:12 decide to ship 100 items to the
+9:13 warehouse right uh and then working
+9:16 backwards then you would say okay so if
+9:18 I now want to optimize my decision uh
+9:21 then I need to find some policy to take
+9:23 that decision still right even in
+9:25 classification you end up deciding on
+9:28 your uh thresholds and the
+9:31 classification threshold of course
+9:32 impacts your uh the cost picture or the
+9:36 the the outcome picture of then using
+9:39 let's say a classification model uh you
+9:42 also see a policy in control theory
+9:44 right so if you're having a drone uh you
+9:47 might have an lqr controller running in
+9:49 there uh and that acts as a policy and
+9:53 in our case for replenishment you might
+9:55 look at an RSQ policy now hagab will
+9:58 tell you more about those
+10:00 uh but there would be a policy right and
+10:02 to run any kind of policy you of course
+10:05 need some inputs and some of those
+10:06 inputs they're know maybe you just query
+10:08 your database you have them and some of
+10:10 those inputs you don't have perhaps uh
+10:13 in uh the replenishment use case uh You'
+10:16 be uh wondering what is the upcoming
+10:19 demand obviously the future isn't in my
+10:22 database so I need to estimate that uh
+10:25 for example if you're running a drone uh
+10:27 you do state estimation right and and so
+10:29 the the data that you don't know or that
+10:31 is uncertain you do
+10:33 estimates uh and um uh in the claims
+10:39 situation you might uh use a
+10:41 classification model as input into your
+10:43 policy so kind of this is the
+10:44 overarching model that we want to apply
+10:47 and uh hob if you uh click the click the
+10:51 space I guess yeah um so here and I
+10:55 already alluded to this right but so how
+10:56 does this look in our case well in our
+10:58 case you have some Supply planner and
+11:01 they're uh sitting at work uh they're
+11:03 going through uh the inventory uh and
+11:06 they're deciding to ship a given number
+11:09 of a given article on a given date to a
+11:12 warehouse right and this is
+11:14 where fundamentally uh the outcome is
+11:18 decided right and this is the decision
+11:20 we need to optimize uh then you look at
+11:22 a policy so a replenishment decision it
+11:25 consists of what when how much you
+11:28 decide and and what you want to do is
+11:30 you want to optimize for profit right or
+11:32 you might have some other goal but let's
+11:34 use profit now it's a it's a very
+11:36 convenient one you can get that far um
+11:39 and then for these uh what are the
+11:41 inputs well to do this you need to know
+11:43 the current stock level this you
+11:44 probably know in your database uh and uh
+11:48 you need to know the upcoming demand to
+11:50 anticipate it and this you probably need
+11:52 to estimate right um uh and you might
+11:56 want to understand your resellable
+11:57 returns and so on so this is now kind of
+12:00 having the overall mental model let's
+12:02 now zoom into how you might approach the
+12:05 the inventory oranization
+12:07 problem uh so uh yeah uh inventory
+12:12 optimization in e-commerce let's
+12:15 go uh so uh as I already mentioned right
+12:20 what we're looking at is what when and
+12:22 where uh right so uh this is
+12:25 fundamentally what replenishment is
+12:27 about you need your inventory to be
+12:28 there when the customer is ready to buy
+12:31 uh now you need to decide when to put it
+12:34 there if you put it too early you end up
+12:35 storing inventory for a long time uh and
+12:39 if you put it there too late you might
+12:41 uh have what's called a stockout which
+12:43 is when you are out of inventory and any
+12:46 customer coming to buy your product uh
+12:49 they're now not able to purchase it and
+12:52 then of course uh just like you need to
+12:54 be there at the right time you need to
+12:55 be there at the right location so if you
+12:57 can't ship to the customer when they're
+12:59 ready to buy uh then of course you're
+13:02 not able to close the sale uh so
+13:04 fundamentally these are the sub
+13:06 questions um now let's dig a little bit
+13:09 deeper into this so how might you
+13:11 understand this decision uh in terms of
+13:14 outcomes so a simple kind of traditional
+13:17 model of how you look at this you'd say
+13:19 you're getting some inventory from A
+13:21 supplier into a warehouse you'll incur a
+13:24 cost shipping from the supplier to the
+13:26 warehouse probably also unpacking into
+13:28 the warehouse and so on uh in addition
+13:31 of course if you're buying it from A
+13:32 supplier you need to pay the supplier
+13:34 for the goods uh so now you bound up
+13:37 some Capital uh the inventory is sitting
+13:39 in your Warehouse uh and then the
+13:41 customer comes to buy it and then you
+13:43 incur an outbound processing cost so uh
+13:46 the customer makes a purchase you got to
+13:47 ship it to them uh your uh your shipment
+13:52 supply chain is then going to of course
+13:53 incur a cost now in reality uh as as is
+13:58 customary when you come to reality it
+14:00 isn't that easy um so here we're
+14:04 developing a few more of the factors
+14:05 right so uh often especially in online
+14:09 uh Commerce you have a significant
+14:11 amount of returns uh so uh uh after
+14:15 selling to a customer you might actually
+14:18 have to pay for processing a return from
+14:20 that customer uh but on the other hand
+14:23 uh many items that are returned you
+14:26 could potentially sell again right um so
+14:29 kind of Silver Lining uh then in
+14:31 addition uh you need to understand well
+14:34 what opportunity did you lose with your
+14:36 actions so for example if you didn't
+14:39 have inventory in your Warehouse when a
+14:41 customer was there to buy uh you had a
+14:44 lost sale right and so you could
+14:46 understand that as a opportunity cost uh
+14:49 of being out of stock uh and on the
+14:52 contrary if you're having a bunch of
+14:53 inventory sitting in your Warehouse
+14:55 doing nothing not only is it acre a
+14:57 storage cost uh but also you might have
+15:00 done something else with it let's say
+15:02 you're uh you're having both physical
+15:07 stores and online e-commerce uh you
+15:09 might then say okay uh if I if it was
+15:12 just sitting in the warehouse I might
+15:13 have put that in some of my retail
+15:15 stores uh so there's of course an
+15:18 opportunity cost of Overstock too um so
+15:22 yeah uh breaking this down uh or or
+15:24 rather developing in this so there are
+15:26 some practical constraints too so uh we
+15:30 in the real world usually have pretty
+15:32 complex systems so uh in our situation
+15:35 we're talking millions of different
+15:37 articles uh right a lot of a lot of
+15:40 decisions to replenish uh we're also
+15:42 having what's uh to use a fancy term
+15:45 multi-echelon system right so you got
+15:48 multiple warehouses multiple types of
+15:50 warehouses doing different types of
+15:53 operations uh and uh flows between these
+15:56 warehouses they might even cost
+15:58 different depending on which direction
+16:00 you're shipping things uh then you also
+16:02 have seasonal Goods right so uh perhaps
+16:05 if you're selling black socks you could
+16:07 sell those uh all year every year but
+16:10 for example uh shorts you probably only
+16:13 sell in the summer and sometime in the
+16:15 winter when people go to
+16:16 Vacation um so uh the value of shorts
+16:20 sitting in a warehouse varies uh over
+16:23 time uh and then of course what I
+16:25 already mentioned before uh often you
+16:29 see pretty high return rate so you can't
+16:31 assume that returns is a non uh is a
+16:34 non-significant part actually the way it
+16:37 rather turns out is much of much of the
+16:39 inventory you have on hand you have on
+16:41 hand because of a
+16:44 return um yeah uh so
+16:49 um to add to this right you have uh a
+16:53 lot of uncertainty in Supply chains and
+16:56 arguably uh the the job of a supply
+16:59 chain optim Optimizer or supply chain
+17:02 planner is really to deal with the
+17:03 uncertainty if you knew exactly what
+17:05 would happen in the future if you knew
+17:07 ex exactly how many items a customer
+17:09 would want to buy uh you could easily do
+17:12 some plus and minus and figure out how
+17:14 much you need in the warehouse but of
+17:16 course that's not the reality uh the
+17:18 weather changes customers purchase
+17:20 patterns uh you have fundamental
+17:22 uncertainty in demand you know someone
+17:24 someone about to click Buy and they get
+17:26 distracted by uh uh by their family
+17:30 right uh fundamental uncertainties you
+17:32 got economical factors that you can't
+17:34 really predict uh as we know uh we have
+17:38 pandemics geopolitical tensions trade
+17:40 barriers all kinds of things kind of
+17:43 coming in and messing up your nice
+17:45 mental mold right um so um with all of
+17:50 this said let's get a bit more concrete
+17:54 so how might it look then like if we're
+17:56 really coming down to what would a
+17:58 mathematical model of this look like so
+18:00 at a very high level uh at least what
+18:03 we're proposing here you want to
+18:04 maximize profit
+18:06 contribution uh and uh what do you do
+18:08 this well you do this with respect to
+18:10 your Revenue storage the Lost sales
+18:13 opportunity cost um the uh Overstock the
+18:17 cost of opportunity cost of having
+18:19 Overstock uh and the cost of the
+18:20 operations you need to go through to
+18:22 actually carry out uh your your
+18:25 replenishments uh and so here I put in a
+18:28 very simp simplified form a kind of
+18:30 optimization problem uh and later on
+18:32 you'll see how we how we tackle that in
+18:34 reality of course this becomes a
+18:36 constraint optimization problem and
+18:38 there's a whole question about how you
+18:39 estimate the objective function and so
+18:42 on um
+18:45 cool so I believe I'm now handing over
+18:48 to H yeah thanks andas so um basically
+18:51 now that we know the environment in
+18:53 which we operate and also the problem
+18:55 that we have to solve right so how do we
+18:57 do that so that's why we're going to
+18:59 talk about inventory policies right and
+19:01 the cost equation to optimize basically
+19:04 so the first thing is um the policy
+19:08 right so some who maybe have worked in
+19:10 like in re like in reinforcement
+19:12 learning or supply chain or operation
+19:13 research might be more familiar with it
+19:16 but what does a policy mean right so
+19:17 basically a policy is us trying to
+19:19 narrow dime kind of like the dimension
+19:22 of the problem right so we're trying to
+19:23 narrow down uh like down the like the
+19:26 decision space right and the decision
+19:28 space is called like inventary policy so
+19:30 there are like a lot of them in the in
+19:32 the literature and we can give some very
+19:34 simplified examples so like the most
+19:35 common ones that are let's say more
+19:37 school examples is what we call the SQ
+19:40 policy or the a US policy right for
+19:42 example the first one which is the SQ
+19:44 policy is when you basically Define a
+19:47 point from which you trigger a
+19:49 replenishment or a production order and
+19:53 Q is the quantity uh uh that you that
+19:56 you basically order or replenish
+19:59 so let's say you reach a certain point s
+20:01 right then at this point you decide to
+20:03 trigger your replenishment or your
+20:04 production decision with certain Le time
+20:07 the quantity that you ordered actually
+20:08 comes up a couple of days later then the
+20:11 inventory so like SS out until it
+20:13 reaches again the same reorder point
+20:15 with the lead time you order a quantity
+20:17 etc etc etc and the other pattern would
+20:20 be for example where you design what we
+20:21 call like a review frequency and a Max
+20:24 order right where basically every two
+20:26 weeks or every three weeks or every one
+20:28 week depending on on the on the r you
+20:30 basically automatically trigger a
+20:31 replenishment or a production decision
+20:33 until a certain point right so then you
+20:35 basically let's say every R this can be
+20:37 any date right any any period every like
+20:40 specific R you basically automatically
+20:42 trigger the decision is taken with some
+20:44 lead time then your uh basically uh
+20:47 replenishment or your inbound happens
+20:50 then your stock is updated and etc etc
+20:53 the the good thing about this is that
+20:55 really you're trying to make basically
+20:58 very comp licated decisions and trying
+20:59 to reduce the space in a low dimensional
+21:02 space where it's actually even feasible
+21:04 to solve like the problem right so let's
+21:05 say for every SKU so every article we
+21:08 want to find like these optimal values
+21:10 and which ones they be um the first
+21:13 question is wait so which one do I
+21:15 choose right so you said that there are
+21:17 many and you just gave us two examples
+21:18 actually there are a lot and not all of
+21:20 them are realistic some of them are
+21:22 simplistic they do not work but um so
+21:25 what we can say about them is that most
+21:27 Poes actually have do have have some
+21:29 nice properties in theory right so they
+21:30 are very good school examples where you
+21:32 can study and like learn the concept but
+21:34 most of the time we actually fail to
+21:36 satisfy some of the assumptions that
+21:37 they're based on um for example they are
+21:40 not adapted for articles that are
+21:42 extremely understuck at the start right
+21:44 so if you're like if you're having a
+21:46 season good let's say at the start at of
+21:48 your of your sales season you have
+21:50 almost no no inventory or even after
+21:53 stock out you have no inventory so
+21:54 basically um you don't know how to
+21:56 handle that case U most of the time they
+21:58 make the assumption that we have like a
+22:01 like some sort of cost of Demand right
+22:02 with with unlimited window of sale so
+22:05 the concept of season or the concept of
+22:07 perishable good basically with an end of
+22:09 you know like lifetime for that article
+22:11 doesn't exist they assume that you know
+22:13 you can basically be selling or
+22:15 replenishing this article forever which
+22:17 is not great right and what what really
+22:20 also bothers is that they make the
+22:22 assumption that most of the time your
+22:23 demand is stationary right that you know
+22:25 it like it follows like you know a
+22:26 constant demand and and it's like let's
+22:29 say like some sort ofon process but it
+22:31 doesn't have you know High season low
+22:32 season like it doesn't have this you
+22:34 know a constantly evolving Trend which
+22:36 you know is not really realistic so we
+22:39 really took this we like okay so how can
+22:40 we end up having a policy right that
+22:43 still is kind of simplifies our life and
+22:45 makes that the decision space is small
+22:47 but actually is adaptable to a real use
+22:49 case so we ended up taking what we call
+22:51 the RSQ policy and we adapted it a bit
+22:54 so the RSQ is basically is every week or
+22:57 every period R every review period R I
+23:01 check if I am reaching the limit and if
+23:05 I do reach that limit I basically uh you
+23:08 know um order a certain quantity to
+23:10 replenish or either to basically produce
+23:11 and inventory
+23:13 automatically that's a simplified and we
+23:15 were like Okay so this still doesn't
+23:17 work we have to adapt it further so we
+23:19 basically took this and then we added
+23:22 some parameters in it so we kept r s and
+23:25 Q but we added three terms that are very
+23:27 important we added the first next
+23:29 replenishment week Index right so if I'm
+23:31 today and I'm making this optimization
+23:33 now or if I'm making it tomorrow what
+23:35 would be the next recommended or what
+23:37 would be like the next optimal time at
+23:39 which I should basically trigger my next
+23:41 replenishment and what should be the
+23:43 quantity q0 for that replenishment why
+23:46 do we basically have a major focus on
+23:48 the next replenishment is that well
+23:50 obviously the concept of you know SQ and
+23:52 like something recurring is nice and
+23:54 efficient but it actually makes very
+23:56 little sense if you kind of you know
+23:58 mess up your first or
+24:00 next
+24:07 there's
+24:08 so sorry about that life as a parent is
+24:11 not always easy all right so I was
+24:13 saying why do we care that much about
+24:15 the next replenishment actually because
+24:16 if we really do mess up the next like
+24:18 replenishment like the long term makes
+24:19 little sense right like kind of you know
+24:21 it becomes very difficult to catch up or
+24:22 to even make any um meaningful decision
+24:25 so what do we do is that okay so let's
+24:26 give a bit more freedom to the next
+24:28 decision right the next time of the
+24:29 replenishment the next quantity and then
+24:31 let's let the algorithm to plan it
+24:32 further like like replenishment with
+24:34 some degree of Freedom so if we have a
+24:37 look at this policy how it looks like it
+24:39 looks like this so we want to basically
+24:42 Define the t0o basically when you should
+24:44 next like zero in terms of python so
+24:47 when should your first or next
+24:48 replenishment be at which quantity given
+24:51 that you also give you freedom for
+24:52 afterward to replenish if you need right
+24:54 several times following a very uh easy
+24:57 policy but we also give you a t limit it
+24:59 tweets that you would basically have to
+25:01 tell us when you think given a certain
+25:02 you know demand forecast pattern when
+25:05 you think it makes no more sense to do
+25:07 replenishment or do any other operation
+25:10 so from RSQ we ended up to basically
+25:12 like a more realistic uh a problem where
+25:15 we give a lot of freedom for the first
+25:16 one and we say Define your next Define
+25:19 some future replenishment but also tell
+25:21 us when we think you know or when the
+25:23 algorithm thinks we should stop even
+25:24 planning any that replenishment so this
+25:27 basically you know hope hopefully if you
+25:28 have like let's say a seasonal pattern
+25:30 right where you have a start of the
+25:32 Season High season and then end of the
+25:34 season you basically want toest stand up
+25:36 something like this where at the end of
+25:37 the season right you have no more stock
+25:39 and you tell okay let's stop
+25:41 replenishing we're out of the Season
+25:42 we're not you know need to have anything
+25:44 so you basically block it and if you're
+25:46 basically um running this every day this
+25:49 is dynamic right so the decision changes
+25:52 and basically every time your situation
+25:54 changed like might be that your like
+25:56 your forecast changes something happened
+25:57 to theice price something happened in
+25:59 the stock some exceptional returns came
+26:01 back basically this decision is is
+26:04 adapted to you know uh being modified
+26:06 over time and you have to run it on a
+26:08 regular
+26:09 basis um yeah so this is what we need to
+26:13 find this is the decision space to
+26:14 optimize right so think about it for
+26:16 those who do like machine learning or or
+26:17 deep learning these are literally like
+26:19 your weights basically these are the
+26:20 weights that we need to find but these
+26:22 weights have you know a business meaning
+26:23 basically they're not the weights of a
+26:25 model but they're the weights of your
+26:26 business you know your supply chain uh
+26:29 basically uh space so um yeah how does
+26:34 the cost equation look like so Andreas
+26:36 mentioned actually profit optimization
+26:38 so basic more like profit contribution
+26:40 optimization where we trying to maximize
+26:42 it and if we were like to remind that in
+26:44 terms of terms that would be you
+26:46 basically sum up your Revenue that
+26:47 you're expecting from your policy minus
+26:49 the cost of shipping to the customer the
+26:51 holding cost minus replenishment
+26:53 shipment cost the return processing cost
+26:55 Purchase cost and your alternative cost
+26:57 of over stock right let's say at the end
+26:59 of the six months you way too much
+27:01 Overstock you have to basically discount
+27:03 them or do something with it and you
+27:05 basically you know take that cost but to
+27:07 basically simplify the operation we can
+27:09 also like Express this not anymore as a
+27:11 profit contribution maximization but as
+27:14 a cost minimization exercise which is
+27:16 simpler to represent as long as we have
+27:18 the cost of loss sales right so like the
+27:20 cost of loss sales would be in your
+27:22 simulations or in your basically policy
+27:25 when you should have had stock to
+27:27 fulfill some demand but you didn't end
+27:29 up having stocks so you weren't able to
+27:31 fulfill the demand of the customer so
+27:32 you ended up basically losing money and
+27:34 once you put that equation or then then
+27:36 then then your reality becomes okay then
+27:38 actually we need to minimize um this
+27:41 both of them are equivalent as long as
+27:43 like you respect this constraint right
+27:45 um but you know often the cost
+27:47 minimization exercise is is much simpler
+27:50 right and if you think about it you know
+27:52 we're in a time where you know like
+27:54 economically like difficult situations
+27:57 and you know where where basically the
+28:00 concept of being coste efficient
+28:02 important this is you know like a pure
+28:04 example right like we don't have to make
+28:06 any more decisions that are you know
+28:07 random or they're not efficient there is
+28:09 always a way to basically anchor
+28:13 your decision space and you know to to
+28:16 to some economical value like like to
+28:18 some cost value and if you want to be
+28:20 you know efficient then you can actually
+28:22 go and model that and then try to
+28:23 optimize that so that's the main purpose
+28:25 of this exercise right okay
+28:28 um this is how it looks like then and if
+28:32 we were to visually like represent that
+28:34 um and then let's say on the x-axis we
+28:36 have our parameter set Theta and then on
+28:38 the Y set we have the function of theta
+28:40 so basically like the cost that we're
+28:41 trying to like to minimize then we would
+28:44 ideally land you know in this in this in
+28:46 this in this Global minimum area right
+28:49 um it's not fully convex but we will
+28:51 also Show You by plotting some cost
+28:53 space later on that actually like like
+28:56 this type of linear equation especially
+28:58 inventory they tend to be rather convex
+29:00 so they're not you know like the
+29:01 spikiest or like you don't end up having
+29:04 tens of different you know like local
+29:05 minimas but you do end up having maybe a
+29:07 couple of local minimas but still like
+29:09 you do have this like very nice uh
+29:11 semiconvex uh you know or actually fully
+29:14 convex pattern so so it it does become a
+29:17 rather let's say a nice exercise um to
+29:21 solve um
+29:24 yeah and um the policy input right so we
+29:28 talked about the problem the policies so
+29:29 the decision space we like okay so how
+29:31 how do you make your decision space
+29:33 we're going to talk about input right
+29:34 right so what do we feed in basically
+29:36 like your features in this in this in
+29:38 this problem to end up having like your
+29:39 decision so like a reminder right what
+29:42 do we even need to optimiz policy we
+29:45 have to distinguish basically between
+29:46 two categories like I think already
+29:48 mentioned what we know right because we
+29:51 observe or we we took addition on
+29:53 already this can be the current stock
+29:54 level the price of the item the
+29:56 processing cost if the there is the
+29:58 stock and Transit that we started that
+29:59 is like on the way what we do not know
+30:02 and we have to estimate so basically
+30:04 this is pure you know forecast right um
+30:06 and this can be machine learning
+30:07 forecasting it can be statistical
+30:09 forecasting any type of forecasting but
+30:10 you have to estimate them for example um
+30:13 alternative cost of Overstock upcoming
+30:15 demand um expected returns your lead
+30:18 times um you know many many parameters
+30:20 that you already mentioned that
+30:22 basically um you know you have to
+30:24 forecast so that's difficult because um
+30:28 they are basically completely sometimes
+30:30 independent you know Upstream products
+30:32 right demand forecast is like as one
+30:34 product return forecast can be like
+30:35 another product you basically have to
+30:37 take this already stochastic or
+30:39 probabilistic uncertain inputs and you
+30:41 have to make a decision that accounts
+30:43 for the variance that you have in your
+30:44 uh in your in your inflence so think
+30:47 about that the problem is already pretty
+30:49 difficult so here also make a kind of
+30:52 pragmatic comment right so I think many
+30:55 of you can probably relate to it being
+30:58 kind of sexy to do estimation and it's
+31:02 easy for a business to get stuck
+31:04 focusing a lot on the estimation but if
+31:07 you look at the overall problem the
+31:09 estimation is a very clear means to an
+31:11 end and an estimate can be as simple as
+31:15 get taking the mean right you if you
+31:18 imagine the policy we've been describing
+31:20 you could take uh like estimate the
+31:23 normal distribution for the demand and
+31:26 call a DAT right that's still an
+31:28 estimate and only when you need that
+31:30 estimate to get better like a sharper
+31:33 probability distribution or less bias uh
+31:36 that's when you start looking into more
+31:38 complex techniques uh but of course it's
+31:41 very easy to get stuck in uh spend like
+31:44 investing considerably in your
+31:46 estimations uh when actually uh the
+31:49 policy might be where the where the shoe
+31:50 doesn't fit that's that's true and I
+31:53 like I like the fact and I think it's
+31:55 important to put in mind that basically
+31:56 any forecast isn't like in this business
+31:59 environment is just a mean to like to
+32:01 reach a goal right so like the forecast
+32:03 will be a hammer right but you know if
+32:06 you like like you basically have to take
+32:08 your nail you have to take your painting
+32:09 you have to basically put like the nail
+32:11 put the painting that's the end goal
+32:13 right like having something beautiful on
+32:14 the on the wall and that's something
+32:16 beautiful then is like you know is is
+32:17 your actually health of your business
+32:19 right like how do you run like you know
+32:22 healthy Logistics operations that's your
+32:23 end goal and a forecast as beautiful as
+32:27 it is it just just only useful if you
+32:29 use it in the right way afterwards in
+32:31 the downstream application and um I
+32:34 think if I remember like Andreas like
+32:36 you actually realize that many people on
+32:38 online chats and I think even we we
+32:40 presented or at least I did present
+32:41 demand
+32:42 forecasting uh series couple of months
+32:45 or years ago and you were basically
+32:47 wondering you know like or you noticed
+32:49 that people were wondering or saying hey
+32:51 now I have forecast great now what do I
+32:53 do with it right so so so I think that's
+32:55 like that's the type of like um
+32:57 conversation
+32:58 and it's true that title
+33:01 once true so I have forecast now what do
+33:05 I do with it I think it's a it's a it's
+33:07 a good question so let's see what uh and
+33:10 how do we do with it all right um but
+33:13 before we go into like the actual
+33:16 mathematical solutions that we found and
+33:18 how do we solve this um so it's good
+33:21 that we even you know spend time on the
+33:23 concept of the terministic which the
+33:25 stochastic right and why actually there
+33:27 has to be this distinction and what you
+33:28 know passing from the terministic to
+33:30 stochastic actually even brings to your
+33:32 use case um and to do that I would like
+33:35 to basically remind right that
+33:37 deterministic forecast as inputs right
+33:40 what do they mean is basically when you
+33:41 have one point per time of forecast
+33:44 right let's say you're trying to
+33:46 forecast demand for next week and then
+33:48 you end up saying next week I will I
+33:50 forecast I will have 500 units then we C
+33:52 150 whatever right so but you always
+33:54 only give one one value per forecast
+33:58 and you do this for all of your inputs
+33:59 right like you say that my lead time is
+34:01 eight days right my shipment lead time
+34:03 is eight days my return rate is 50% or
+34:06 30% or 20% or whatever but you know you
+34:09 basically always end up having one value
+34:10 and you're very very confident about
+34:12 that value right and that's
+34:14 deterministic and I think that Alexi we
+34:17 played this game together but I still
+34:18 would like that we play it again so I'm
+34:20 gonna ask your questions and we then
+34:22 like you know try to resonate if indeed
+34:24 it's it's you know it does make any
+34:26 difference so Alex I first tell you
+34:28 right that we have a model that is
+34:30 forecasting that the demand for next
+34:32 week is going to be 5,000 units okay
+34:35 that's the information and now I tell
+34:37 you actually Alexi I forgot we have
+34:39 another model that is saying that it's
+34:40 highly possible that one of these three
+34:42 like this like distributions can occur
+34:45 around the same value right and the
+34:47 question is then how would you reach
+34:49 this like how would you take this input
+34:51 right would you react in the same way
+34:54 okay so the question is um
+34:57 there is an estimate on the number of
+35:00 items for a certain product right and we
+35:02 know that um this estimation is uh so
+35:08 this was a point estimation but there is
+35:09 some distribution around that estimation
+35:12 right um and your question
+35:16 is uh would I behave differently knowing
+35:21 that it's distribution one distribution
+35:23 two or distribution three right would I
+35:25 consider different things exactly
+35:29 uh well I
+35:32 guess so so let's say like in this case
+35:35 right where you have this type of like
+35:37 Pon process right where you oh wow I can
+35:40 actually have an exposion of demand and
+35:42 that thing is rather sudden what would
+35:43 you do Cas would you order more like in
+35:45 this case yeah because like in thir
+35:48 distribution the uncertainty is like the
+35:50 the variance is smaller right so I'm
+35:52 more certain in my decision yeah in the
+35:55 second case like I'm less certain in
+35:57 myis decision and thir is like there
+35:59 could be a spike right exactly exactly
+36:02 so so so basically like what you said
+36:05 ends up being most of the time reflected
+36:07 in a very concrete you know decision
+36:08 inventory which is your safety stock
+36:10 basically how much stock you want to
+36:12 have that you don't want to really touch
+36:14 or not as much as possible that
+36:16 basically is trying to account for that
+36:18 variance like in the future that
+36:19 decision is somehow implicitly done in
+36:22 the in the in the decision space that
+36:24 that we think you can specify it and
+36:26 like find a way in your simulation to
+36:27 isolate it and have a specific value for
+36:29 that but when you do optimize in a nice
+36:31 way and you're having like this
+36:32 distribution for castet right you
+36:34 actually have an impact on the Safety
+36:35 stock if you're like the more uncertain
+36:37 you are the more safety stock you will
+36:38 have so as you said right you would
+36:40 basically have more risk uh pattern
+36:43 there so Alex now I give you like the
+36:45 thing of the demand now I tell you
+36:47 another thing actually your lead time
+36:49 can be8 days so if you make a decision
+36:50 to order you can only have it in eight
+36:52 days not so not before you know someone
+36:54 has to pack it has to make it like in a
+36:56 beautiful box has to put in a beautiful
+36:57 you know car and that car has to R like
+37:00 to your destination and now I tell you
+37:04 okay so even that has you know oh oh oh
+37:07 sorry I put the so even that has you
+37:09 know completely different pattern so is
+37:12 it always possible then it's going to be
+37:13 eight days or sometimes it's eight
+37:15 sometimes it's six sometimes it's 12
+37:17 your like your average is eight but it's
+37:19 never the case that it will always be
+37:20 there so that even there you're not
+37:22 really sure so add more basically
+37:24 uncertainty
+37:25 there okay and now I Alexa you're not
+37:28 lucky all of your inputs have the same
+37:30 [Music]
+37:32 pattern so realistically there is no way
+37:35 you have confidence in any of your
+37:37 inputs neither your lead time neither
+37:39 like your demand forecast neither your
+37:40 return and I also don't know the
+37:42 distribution rate or I have some ideas
+37:45 it's up to you to make that decision we
+37:46 gonna so there's a choice where you
+37:48 basically are a bit more adventurous and
+37:50 you make a decision on the sh so like
+37:51 you know like a prior and some you got
+37:54 some prior data right so you can
+37:57 sometimes you can but for example like
+37:59 for the demand you can't for the lead
+38:02 time you do like you do observe some
+38:04 pattern so you can basically make some
+38:05 priors but for the demand you can't or
+38:08 you basically have to make really you
+38:09 know strong assumptions that huh why on
+38:14 the demand well let's say you have
+38:16 millions of skus right one SKU can have
+38:19 you know a person distribution the other
+38:21 can have Goan the other like can have
+38:24 gamma like basically are you ready to
+38:26 make your assumption that all of your
+38:29 skus have a demand pattern that on any
+38:31 given time table have the same
+38:32 distribution for all right is that I can
+38:35 give you one example that is really
+38:37 tough if you try to do this right so uh
+38:40 the distributional Assumption you would
+38:42 make for an article that sells maybe uh
+38:45 one item a week you don't know exactly
+38:48 which day but usually in a week you sell
+38:50 one item uh or an article where you sell
+38:54 a thousand items per week so for the
+38:56 article where you s th000 items per week
+38:59 you could do something like a plusone
+39:01 distribution right uh but uh for the
+39:04 article that sells maybe one in one
+39:07 every week you get it's super zero
+39:10 inflated and actually the way it turns
+39:12 out uh with a millions of articles in
+39:15 your assortment you can say that most
+39:18 articles never sell on average uh and
+39:22 anyway you end up selling hundreds of
+39:24 millions of items uh so uh already kept
+39:28 kind of transitioning between your top
+39:29 sellers and the vast amount of still
+39:32 selling slow sellers uh you already find
+39:35 that you need to use two
+39:38 distributions that so that happens and
+39:41 again Alexa right you don't have to have
+39:42 the same way of solving it for all it is
+39:44 possible that you like your like your
+39:46 lead times you do have a bit more
+39:47 observability right so you can go with
+39:49 one technique and make an assumption for
+39:51 the forast you don't want to take that
+39:53 risk right so it really is possible that
+39:55 which we did actually and you know by
+39:57 for every input we approach it like in a
+39:59 different way but we try to have still
+40:01 that you know variance estimation
+40:04 exercise accomplished or but you're bold
+40:07 to say you can't that's that has a
+40:11 tendency to make academically minded
+40:13 people
+40:15 toine that's true no so we try we try
+40:18 right so I mean you can never guarantee
+40:20 but basically the like you know that's
+40:22 the
+40:23 exercise right and sorry for the
+40:26 academics if you offend them I I hope
+40:28 not we love you very much all right so
+40:31 uh the main conclusion is that if you
+40:32 take the terministic right and it's
+40:34 often a good Baseline you do find out
+40:37 that you actually end up not making
+40:39 yourself safe against basically you know
+40:41 the unexpected of Life all the
+40:42 uncertainties that onas mentioned in the
+40:44 beginning right like the strikes the
+40:45 pandemics the demand all type of noise
+40:47 and any of your inputs if you don't take
+40:49 them into account well guess what you
+40:51 actually do see a very massive
+40:53 difference in the final decision space
+40:54 right so you can play a game you
+40:56 basically you know sample or you don't
+40:58 sample or basically you take the mean
+41:00 forecast or you take the distributional
+41:02 forecast and you start to do like the
+41:03 same operation you do end up in very
+41:05 different decisions right and that
+41:07 decision has a final you know very
+41:08 different final outcome on your
+41:10 economics so the main point is that if
+41:12 you go deterministic that thing actually
+41:15 tells you nothing about noise right like
+41:18 how how much noise is there is it high
+41:19 is it low noise how much confidence you
+41:21 are in your decision when you say okay I
+41:23 should replenish that amount right
+41:25 should I have more safety stock less SA
+41:27 talk on this one um how does this
+41:29 confidence evolve over time right like
+41:30 the more like the further I
+41:33 forecast how is it the forecast am I you
+41:35 know certain about it what should I do
+41:37 for that and yeah it's it's not easy
+41:40 right like modeling this is not easy
+41:42 modeling variance is not fun right
+41:45 already modeling mean like if you want
+41:47 to model mean is not easy and if on top
+41:49 of that you want to model mean and
+41:51 variant well good luck right that's so
+41:53 that's thing but but it's possible and
+41:55 that's what we try to do and we try to
+41:57 keep this basically concept of end to
+42:00 endend stochastic not only in the inputs
+42:02 so not only on the forecast but also
+42:04 take that also concept of stochasticity
+42:06 in the optimization Pro process itself
+42:09 so end to endend you know capturing the
+42:11 variant otherwise it makes very L sense
+42:12 to have you know probabilistic forecast
+42:14 but you do nothing with it it's
+42:16 basically pointless um so that's what
+42:18 we're going to try to speak about now
+42:19 and how we you know actually ended up
+42:22 doing something with
+42:23 it all right and I think Andreas this is
+42:26 up to you right
+42:27 this is where I come in hit
+42:31 it cool so uh with the risk of sounding
+42:34 a little bit like a broken record it's a
+42:36 two-step flow right we want to optimize
+42:38 the decision uh it's a policy to make
+42:41 the policy you got to put something in
+42:43 the policy you might have to estimate
+42:44 some that all right cool so first we
+42:47 build demand forecast return forecast a
+42:50 model of costs uh model of lead time so
+42:53 now we have either known or estimated
+42:56 everything we need to stick into the
+42:57 policy uh then we uh Implement a policy
+43:01 optimization engine so now we're saying
+43:03 okay given all of these parameters that
+43:05 comes into the policy uh I need to solve
+43:09 an optimization problem I need to find
+43:11 the replenishment decision that given
+43:13 the parameters gives me the most profit
+43:17 contribution uh so uh this is all uh
+43:21 nice but of course how do you get
+43:24 uncertainty in there well there are two
+43:26 kind of classic techniques one of them
+43:29 you make a convenient distributional
+43:31 assumption by all means Works um and
+43:35 that way you could uh solve that
+43:38 analytically in some cases uh and the
+43:41 other one uh the let's say the more
+43:43 pragmatic method uh you bring out the
+43:45 good old mon Carlo uh toolbox and uh
+43:50 actually I will say as you will see in
+43:52 the in the later slides by hagop uh
+43:56 Monte Carlo is is uh very attractive
+43:59 these days with easy access to compute
+44:01 all right so uh we made internally of
+44:05 course this consider consideration
+44:08 consideration ourselves and we kind of
+44:10 came up with this um this uh consult
+44:15 consultant level overview of the
+44:17 situation uh and essentially we're
+44:19 saying well so you got reinforcement
+44:20 learning you got M simulation you can do
+44:22 a parametric stochastic modeling and you
+44:24 can do deterministic modeling and we
+44:27 kind of put these into two axis we could
+44:28 say what's the complexity of your
+44:30 problem you're trying to solve uh and
+44:32 what's the risk of the solution approach
+44:36 you're taking being not feasible so
+44:38 deterministic uh modeling it's uh if
+44:42 your if your problem is very simple uh
+44:44 it's kind of very easy to see how the
+44:48 feasibility uh is is high right it's not
+44:50 a big risk if you're having a simple
+44:52 problem you can do some back of the
+44:54 envelope calculations and you can come
+44:55 up with a replenishment decision
+44:57 in fact uh I would Hazard for most of
+45:00 the replenishments that happen in the
+45:02 world this is the way it works right you
+45:04 have someone with an Excel sheet uh they
+45:07 put in the factors they have some
+45:08 equation uh and they come up with a
+45:10 decision and then they adjust as the
+45:12 world evolves so of course Very feasible
+45:15 uh then you can do a parametric
+45:17 stochastic modeling uh that gets you a
+45:20 little bit more into the complexity
+45:23 right so you might actually want to
+45:24 account for some uncertainty the problem
+45:27 as we discussed before with parametric
+45:29 is that uh it is uh you you end up
+45:32 finding that you need to use multiple
+45:34 different distributions or distributions
+45:35 can start becoming a liability for you
+45:38 in this uh and then you look over to mon
+45:42 Carlo simulation you're like well
+45:43 actually the assumptions I need to make
+45:45 for monticola simulations are pretty uh
+45:49 pretty attractive and these days uh with
+45:52 the accessibility you have to high
+45:54 performance compute the cost of mol
+45:56 isn't really that high anymore so I
+45:59 would say this is actually almost a
+46:01 somewhat of a shift in uh in the
+46:03 industry as of late that which kind of
+46:06 came on the back of all of the compute
+46:08 we use for deep learning uh all of a
+46:10 sudden you can uh put your monol
+46:13 simulations on the G GPU easily right uh
+46:16 which historically would have been
+46:18 pretty tricky uh and then of course
+46:21 reinforcement learning is a perhaps
+46:24 a for this problem it is uh attractive
+46:27 if you're if you're curious let's say if
+46:29 you're academically minded you're uh
+46:32 seeing this problem you might say yeah
+46:33 reinforcement learning would be this
+46:35 would be an excellent training ground
+46:36 for reinforcement learning which is true
+46:39 uh if your if your goal is to uh
+46:43 practice reinforcement learning this is
+46:44 an excellent problem to practice it for
+46:46 if your goal is to make uh great
+46:49 replenishments uh reinforcement learning
+46:51 might be a little bit too data hungry
+46:52 and a little bit not feasible especially
+46:55 once you're coming into modeling a
+46:56 complex
+46:57 domain uh so with that uh you'll see
+47:01 here uh in our case we're opting for
+47:03 monol simulation very attractive for us
+47:06 uh so what's happening here right so
+47:08 we're estimating to the left demand
+47:10 forecast the return lead times the uh
+47:14 lead time of replenishment we're looking
+47:16 at the economics of uh the the decision
+47:19 that needs to be taken uh
+47:22 you essentially uh uh take these
+47:25 parameters put them into to your Monte
+47:27 Carlo simulation and then uh you uh
+47:32 essentially explore the decision space
+47:34 and for each potential replenishment you
+47:36 can estimate what roughly the profit
+47:39 contribution should look like or the
+47:40 even what the distribution of Co profit
+47:43 contribution will look like uh and so
+47:46 then you might want to be a little bit
+47:48 robust the absolute simplest technique
+47:50 for being robust here this is really the
+47:54 absolute simplest way instead of
+47:56 optimizing the expected value you can
+47:58 optimize a quanti uh and then uh this
+48:01 you essentially have from a purely
+48:03 programming standpoint you know how a
+48:05 function multicol simulation
+48:08 parenthesis uh my uh my proposed
+48:12 replenishment I get an objective value
+48:15 oh the Apple sent balloons I think I can
+48:18 do again yeah oh go back go back and
+48:21 then of course this is a perfect
+48:23 formulation for uh a optimization solver
+48:27 right so there are plenty of good
+48:30 actually gradient free blackbox
+48:32 optimizers usually the con the
+48:34 limitation with those is that you need
+48:36 to have a somewhat well behaved loss
+48:38 surface and you need to have a uh a low
+48:42 dimensional decision space now thanks to
+48:45 the inventory policies hago spoke about
+48:47 before we do have a small decision space
+48:50 uh so uh we can actually do this so how
+48:53 does this look in reality now hagab
+48:55 alluded to this before we end up with a
+48:56 fairly nice decision space so if you
+48:59 look and I think the best part here is
+49:01 the top left one right so here you see
+49:03 in color the objective uh purple is you
+49:07 make more money yellow is you make less
+49:09 money uh and uh for the initial
+49:13 replenishment quantity q0 on the y- axis
+49:17 and then t0 the time of the initial
+49:20 replenishment uh on the x-axis and you
+49:23 can see that actually the objective
+49:24 surface is very well behaved uh this is
+49:26 is if I don't think I think I can see
+49:29 somewhat of a non-convexity but this is
+49:30 certainly monotonically increasing so
+49:34 easy enough to optimize with a with a
+49:37 gradient fre Optimizer the rest of these
+49:40 you can imagine I'm just scanning over
+49:42 the decision space putting constraints
+49:44 on the remaining parameters and seeing
+49:46 what the remaining parameters come it's
+49:49 an interesting exercise to look into
+49:50 this I'm mindful of time right now
+49:55 yes uh you want to do these H up or yes
+49:58 I can do so basically the question is
+50:00 okay so H up like or and so you
+50:02 mentioned that you know you like you
+50:03 like like you're sampling right like
+50:04 you're samping and like distributions
+50:07 how do you even actually get your
+50:09 initial input to sample from right so
+50:11 this is then the question of how you
+50:12 forecast your publicistic you know
+50:14 inputs so there are many ways right like
+50:16 um you have basically B methods or
+50:18 frequen methods but we want to focus on
+50:20 the frequen method because they are the
+50:21 most common ones specifically about you
+50:23 know how you basically learn your
+50:24 distribution parameters or how you learn
+50:26 directly quantiles to sample from the
+50:29 first thing is basically this is what
+50:30 you mentioned Alexi right so you
+50:32 basically have to make assumptions on
+50:33 your like distribution around like the
+50:35 forecast let's say you say I want my
+50:37 demand to be following a Deo
+50:39 distribution around the value or a Pon
+50:41 then you actually end up learning the
+50:42 parameters of that distribution right
+50:44 either mu Sigma or Lambda for theum and
+50:46 you say I want to basically learn this
+50:49 with my demand forecast or my return
+50:50 forecast on historical data doing uh
+50:53 basically Lo like Lo like
+50:55 maximization and then once you have like
+50:57 your distribution parameters then you
+50:58 have your parameters right you basically
+51:00 just take a you know like your
+51:01 distribution you put in the parameters
+51:03 and then you sample from that value in a
+51:04 random way that's the first way of doing
+51:06 it the big disadvantage is that you have
+51:08 to make assumptions about distribution
+51:10 and that's never guaranteed that you
+51:11 know it is going to work the second way
+51:14 of doing it is you're like okay I I
+51:16 don't want to make any assumptions I
+51:17 want to learn directly the Quantas of
+51:19 the distribution right so you then
+51:20 actually end up learning the quantal and
+51:22 this is like many methods and one of the
+51:24 best way to doing it is using the
+51:25 quantal LW right so I already mentioned
+51:27 about this in the demand forecast series
+51:29 but basically like it's the same content
+51:30 right so once you have your quantal
+51:31 Matrix so you let's say you forecast
+51:33 every fifth quantal 5 10 15 25 until
+51:36 like 95 then you have a matrix of 20 or
+51:39 you know 50 Quantas or whatever Quantas
+51:42 and then you can just you know sample
+51:44 the like the quantal index following
+51:45 like uniform distribution and then just
+51:47 take that value in the in the in the in
+51:50 the simulation so instead of samping
+51:52 from like like a distribution with
+51:53 parameters you basically sample directly
+51:54 from the Quant as following like you
+51:56 uniform distribution more of them work
+51:59 um it really depends on you know if you
+52:01 really want to be adventurous on making
+52:03 an assumption about the distribution or
+52:06 not um but both of them areed definitely
+52:10 and the question is okay so you told us
+52:12 the problem the solution that you found
+52:15 the sampling and the multicol
+52:16 experimentation and like basically how
+52:18 do you you know scale this up
+52:20 because I was just thinking like we
+52:22 don't have a lot of time and we have
+52:24 quite a few questions um so what do you
+52:27 think like do you think you'll I will
+52:30 make
+52:31 [Music]
+52:33 it questions two minutes okay maximum
+52:37 basically like like the slides and it
+52:38 took much longer than thought but I
+52:39 think this is this is basically like the
+52:41 good thing right like like like the good
+52:42 news is that and the conclusion of this
+52:45 is that um basically multicolor
+52:48 simulation has been seen really like a
+52:50 blocker right for many where they try to
+52:53 go up and do like crazy mathematical
+52:55 modeling and then they validate the
+52:56 modeling with with simulations but they
+52:58 don't take the simulation as a first
+53:00 solution because it's expensive to
+53:01 compute right let's say you're doing
+53:03 like a GRE search with npy for one
+53:05 article that took for us 45 seconds with
+53:08 you know 2,000 or 3,000 like uh demand
+53:11 trajectories from basically 45 seconds
+53:14 we manag using accter simulations with
+53:17 Numba and Intel svml and using Cy and
+53:21 Sho as Optimizer we ended up actually
+53:23 bringing that value to 200 milliseconds
+53:26 so B basically the entire engineering
+53:27 work was okay how can we make this
+53:28 simulation possible so that we don't
+53:30 even have to make any assumption about
+53:32 like the mathematical but let's just
+53:33 take the most realistic model which is
+53:36 the simulation where really we allow the
+53:38 complexity of our word in it and there
+53:40 you can put anything in your simulation
+53:42 and that was basically possible text
+53:43 Numba you can use Jack you can use any
+53:46 like any compiler but you basically have
+53:48 to get out of pure python you have to
+53:49 find a way to compile like your code and
+53:51 you have Solutions and this is
+53:53 what now the questions yes
+53:59 um so you finished yes I'm so number for
+54:03 the win right or number yeah really
+54:07 awesome tool so you showed that you
+54:10 optimize for quantiles and in particular
+54:13 I think in one of the slides I think
+54:14 Andreas was showing that it was q75
+54:17 right so you optimize you try to
+54:19 optimize for this cost quantile right
+54:22 yep um does it mean that um you're
+54:26 little bit more let's say pessimistic
+54:28 and you replenish sooner rather than
+54:30 later to minimize costs yes we want to
+54:33 be like Rovers yeah so we're a little
+54:35 bit pessimistic I'll say but it's not
+54:37 always working out to sooner so that
+54:39 depends on the order economics so if uh
+54:42 if you stand to lose more from Overstock
+54:45 then being pessimistic means that you
+54:47 replenish less whereas if you stand to
+54:49 lose more from uh lost sale being
+54:52 pessimistic means more so it's a little
+54:54 bit more complex but roughly that's the
+54:56 way to think about it s five here is
+54:58 just a number we pulled out of thin air
+55:01 actually what we're
+55:02 using and and and what forget that we
+55:04 have an actual human using this tool
+55:06 right like the human put some of the
+55:07 parameters and the human there's always
+55:09 a chance that the human makes a mistake
+55:10 so we also want to some input mistakes
+55:13 MH and um so when it comes to humans
+55:17 operators like how important uh ASL are
+55:20 like how you mentioned that you can do
+55:22 it pretty fast uh and being fast like
+55:26 how does it impact your
+55:28 models so if you do I mean basically you
+55:32 have to um you know so it the like the
+55:36 problem is in the optimizer right so
+55:38 because when you have like an Optimizer
+55:40 here for example um you have to make a
+55:43 choice right like the best solution is
+55:45 obviously like if you do like a GRE
+55:46 search or you do like Brute Force you go
+55:48 to the entire space that's the safest
+55:50 but is that really like realistic right
+55:51 so you just have to make a choice either
+55:52 like buing Optimizer either some hyper
+55:54 parameter Optimizer that use from even
+55:57 machine learning or like like a global
+55:59 you know black bloock Optimizer so this
+56:02 is where you basically lose something
+56:04 because they have to sample and the
+56:06 question is how well can you sample and
+56:08 compute or not derivative so in this
+56:09 case it's derivative free how can you
+56:11 basically represent with as Minal points
+56:13 as possible your entire space and then
+56:16 find that you know minimal point so
+56:18 that's where you have to lose uh some
+56:20 basic risk sometimes it might not always
+56:22 converge but that's a risk you have to
+56:24 take that you know if I want to work for
+56:25 like an average and which you check I
+56:28 have to make you know make it you run it
+56:30 for all the Articles right for all the
+56:33 SKS yeah so when for example the user
+56:36 like in real time puts a parameter let's
+56:38 say they update the price of of like
+56:41 like the average uh average production
+56:44 rate right they say I sell a product and
+56:46 and and average I pay 25% to buy or
+56:49 build that product then basically we
+56:51 have to update the entire
+56:51 recommendations for all of their catalog
+56:54 and this happens in an as sync way and
+56:56 every second
+56:58 matters and there are quite a few
+57:01 questions from Adrian and there is one
+57:03 question from Rona but we unfortunately
+57:05 cannot cover them because we need to
+57:08 wrap up soon so um hop Andreas is it
+57:12 okay if people can contact you directly
+57:15 through Linkedin or some other means of
+57:17 communication absolutely H go to the
+57:20 last slide yes the last slide
+57:23 is this one okay okay okay so take a
+57:27 picture everyone uh I mean not with your
+57:30 phone but a screenshot
+57:33 and this is how you can contact hope and
+57:37 and check the the first link also
+57:40 important and I want to thank you
+57:42 Andreas hob for being here for
+57:44 presenting that was very interesting
+57:46 talk and I expected nothing else from
+57:49 your previous talks um so I knew that
+57:53 this one would be really great it's
+57:55 packed with a lot of stuff I learned
+57:57 quite a few new things I had no idea
+57:59 like how actually these things work in
+58:01 practice so thanks a lot and thanks
+58:04 everyone for attending the talk too so I
+58:07 hope everyone learned something new
+58:09 today see everyone thanks Alex yeah have
+58:12 a great evening and yeah tell hi to your
+58:16 son and wife you spoke in both French
+58:19 and German right I think there was like
+58:21 I was thinking like which language did
+58:23 he speak like
+58:26 Alex sometimes like we speak five
+58:28 languages at the same time I'm like
+58:29 Jesus I have to do something about
+58:31 it now go speak your
+58:34 languages yeah okay and I'll go speak
+58:38 mine okay

@@ -1,0 +1,1375 @@
+0:00 hey Welcome to our event this event is
+0:03 brought to you by later talksclub
+0:04 and we have weekly events you can check
+0:06 the events there is a link in the
+0:08 description
+0:09 uh do not forget to subscribe to our
+0:11 YouTube channel
+0:12 and yeah we have an amazing Community
+0:14 it's like Community there's a link in
+0:17 the description and if you want to ask
+0:19 any questions during today's interview
+0:21 there is a paint link and live chat
+0:24 click on that link and ask your
+0:25 questions that's the usual intro I do
+0:27 but it's usually with with slides
+0:31 now I have the question it's opened that
+0:35 we and you prepared for this interview
+0:39 so if you're ready we can start yeah I'm
+0:42 ready
+0:44 this week we'll talk about data science
+0:46 in healthcare and we have a special
+0:48 guest today Elena Elena is a machine
+0:51 learning researcher and educator she's
+0:53 passionate about using data science to
+0:55 improve Healthcare and save human lives
+0:58 your expertise include signal processing
+1:01 deep learning and data driven design
+1:03 welcome
+1:05 thank you also thank you for the
+1:07 invitation to the podcast
+1:10 um I have been following some previous
+1:12 podcasts that you did some other talks
+1:14 but I'm also glad to meet you like that
+1:17 in live
+1:19 but I'm familiar like with this setting
+1:23 and also seeing you but not
+1:27 yeah big thanks to Adonis who
+1:30 recommended Elena and uh it's not the
+1:32 first guest here but recommend so thanks
+1:34 Adonis a lot and also the questions for
+1:37 today's interview are prepared by
+1:39 Johanna Byer thanks a lot yahana for
+1:41 your help
+1:43 and yeah let's start
+1:45 um before we go into our main topic of
+1:48 data science health and Healthcare let's
+1:50 start with your background can you tell
+1:52 us about your career Journey so far
+1:55 so as I said I am Greek so I was born
+1:59 and raised there I went to University
+2:01 there in the University of patras I did
+2:05 electrical and computer engineering
+2:07 which is a five-year Bachelor and
+2:11 Masters to join degree
+2:14 and during that studies
+2:18 Erasmus and I did part of my thesis in
+2:20 Brussels
+2:22 and I stayed there for one year it was
+2:25 my first International experience and
+2:27 then I got excited
+2:29 uh it was way Uber University
+2:33 so it was the Dutch um that speaking
+2:37 free University I studied in the French
+2:40 one
+2:41 um
+2:42 yeah exactly I also did some courses
+2:46 there because I I needed also to pick up
+2:50 some courses so I did also a bit of fuel
+2:52 but uh but mainly it was very Uber
+2:56 and then after that I was excited about
+3:00 going abroad and I applied for an
+3:02 internship at Philips Healthcare in the
+3:05 Netherlands so I moved to the
+3:07 Netherlands
+3:09 and actually now the last seven years
+3:11 I'm here
+3:13 and I have been doing different things
+3:16 the main focus is always Healthcare
+3:20 um
+3:21 and I also worked there at Phillips
+3:25 Healthcare after some point and then I
+3:28 did the two-year engineering doctorate
+3:30 diploma in data science that's the only
+3:34 thing that was not related to healthcare
+3:36 because we were involved in multiple
+3:38 projects and we worked with different
+3:40 companies and organizations but then
+3:43 after that degree I got back again to
+3:45 healthcare and I worked for the startup
+3:48 working on developing monitoring systems
+3:51 for vital signs for Pediatric patients
+3:55 in Africa
+3:56 so that's in short my journey but if you
+3:59 have questions you can ask me we can go
+4:01 more in detail
+4:03 how's your Dutch
+4:05 it's good at this Hood
+4:09 and so around B1 level let's say okay
+4:13 yeah yeah that's because like in the
+4:16 Netherlands everyone speaks English so I
+4:17 guess it's very difficult to actually
+4:19 learn and practice
+4:22 it's true but I find it interesting and
+4:25 also sometimes useful because some
+4:28 things are just written in Dutch or
+4:30 sometimes I need to search something in
+4:32 that like I can find better results so
+4:35 that's why I'm a bit also stick and I
+4:38 have also personal interest to learn
+4:41 so nice
+4:43 so um well I have never heard about
+4:46 Philips Healthcare so what I know about
+4:48 Philips is they produce lamps
+4:51 I have a few smart lamps this Philips
+4:54 Hue then I'll I also know they produce
+4:58 trimmers like for shaving but also you
+5:01 know
+5:03 but that's pretty much the extent of
+5:05 what you know what Philips I know it's
+5:07 like a gigantic gigantic company uh
+5:11 and I know that the headquarters is in
+5:13 it is in Idaho and red
+5:16 like what does actually Philips
+5:18 Healthcare do
+5:20 okay they don't do lamps anymore they
+5:22 sold the company so now with the lamps
+5:26 and like the smart lighting and all
+5:28 those things it's called signify
+5:30 and now if it's focusing on Like Home
+5:33 Care uh like shaving machines and things
+5:36 like that do brushes and also
+5:40 um like healthcare but like broad care
+5:43 of Health at home in the hospitals they
+5:46 do like also they have MRI scans
+5:50 and they have big machines as well so I
+5:53 worked also like I did my internship in
+5:57 the
+5:58 city arm which is like a machine used in
+6:02 the operation room and then I worked
+6:06 when I was working at Phillips
+6:07 Healthcare in the pregnancy Department
+6:11 so they were like two different projects
+6:14 focusing on different areas of
+6:15 healthcare
+6:17 yeah it's a huge company
+6:20 so what I understood is mostly about
+6:22 different devices that people use like
+6:25 doctors use for different things like be
+6:29 it MRI scans or support in decoration
+6:33 room or things like that yeah
+6:36 foreign
+6:38 and at your current company
+6:41 um
+6:42 what do you do you mentioned uh is it
+6:44 it's helping people in Africa maybe you
+6:47 can tell us more so actually I left my
+6:50 current company in July so I'm actually
+6:53 now in sabbatical but
+6:56 I worked for them for almost two years
+7:00 and there I was focusing more on
+7:04 designing uh like what is the future of
+7:07 data science in the company and how we
+7:10 can develop a data science into the
+7:13 Vital sign monitoring system we were
+7:16 working on
+7:18 and that was actually
+7:21 a system that was recording Vital Signs
+7:25 like heart rate respiration rate espe2
+7:28 of pediatric patients devices like these
+7:32 variables or something like more precise
+7:34 so it was actually a system for the
+7:38 Intensive Care Unit
+7:40 but then the difference was that we were
+7:43 working on a design for low resource
+7:45 settings and a mod also simplified
+7:48 design because
+7:50 sometimes like healthcare professionals
+7:53 there
+7:55 uh they might like find it more
+7:57 convenient if they like the device is
+7:59 simpler for them
+8:01 because actually a lot of hospitals we
+8:04 were working with Malawi and a lot of
+8:06 hospitals there they don't have
+8:09 um monitoring systems
+8:14 yeah and I was actually mainly working
+8:16 on the design on like because we were
+8:20 involved in a data collection process we
+8:23 were collecting data and there was this
+8:25 big question what we are going to do
+8:27 with this data and how we can use it to
+8:32 yeah to predict vital signs for patients
+8:34 to associate lab tests from lab tests we
+8:39 were getting uh to identify specific
+8:42 clinical outcomes
+8:44 so things like that but a one of my
+8:47 learnings there it's like that it's a
+8:49 very long process from like starting
+8:52 from the research part that was mainly
+8:54 focusing on into reading integrating
+8:57 those algorithms into the real setting
+9:00 and making it like
+9:01 usable for people
+9:05 so as I understood the devices are
+9:07 already there like all the things that
+9:10 collect data from patients like all
+9:12 these vitals is already there and what
+9:15 you were doing is
+9:16 thinking like okay we have all this data
+9:19 how we can use it but the devices were
+9:22 also were there because
+9:25 um we were part of a bigger research
+9:28 project so they were installed there for
+9:31 the purpose of the reset
+9:33 okay
+9:35 yeah that's quite interesting and you
+9:37 spent there like a couple of years right
+9:41 yeah
+9:42 okay so I see so you started in Philips
+9:45 Healthcare and then you worked in this
+9:47 company
+9:49 um what did why did you decide to go
+9:52 into Healthcare
+9:54 why did you decide to choose this area
+9:57 so
+10:00 before choosing and going into
+10:02 engineering I had this big question
+10:03 whether to go into studying or doctor or
+10:08 engineering then I went for engineering
+10:11 because I was in two months
+10:14 and then when the time came to decide on
+10:18 what kind of thesis I want to do
+10:20 the only topic that I was Finding most
+10:24 interesting was topics related to
+10:25 healthcare because there I was finding
+10:28 that there is more
+10:30 impact directly on people
+10:34 um I still remember for example that
+10:37 there were some projects on developing
+10:39 games and I was finding those like for
+10:42 me personally not impactful and then I
+10:46 choose for that
+10:48 and indeed it was true that I was like
+10:52 feeling that my work goes somewhere that
+10:55 can impact people's lives
+10:59 but here what was your thesis topic
+11:03 so I worked together with iMac I'm not
+11:07 sure it's a Belgian Research Institute
+11:10 and there we were working I had images
+11:14 from white blood cells
+11:17 and I was analyzing those images with
+11:21 like basic
+11:24 um conventional image processing methods
+11:26 and then the main goal was to classify
+11:30 those images into subcategories of white
+11:32 blood cells
+11:34 and that was actually part of a bigger
+11:37 project
+11:38 uh because they were working on the
+11:41 development of a cell short they were
+11:44 calling machine which was actually a
+11:46 machine that they wanted to
+11:50 filter the blood of people and to
+11:54 classify the blood cells into
+11:59 like wood cells and cancerous cells and
+12:03 they wanted to filter out the cancer of
+12:04 cells
+12:06 and then I was just working on a small
+12:08 part of this project on the white blood
+12:10 cells
+12:12 yeah I was going to ask like why exactly
+12:14 do you need to
+12:16 categorize but you answered that because
+12:19 like if the cell is uh
+12:21 has cancer right then you don't want
+12:24 itself yes and the main like they wanted
+12:26 to prevent metastasis of cancer into
+12:29 like another tissue
+12:32 yeah that does sound very impactful and
+12:35 for you as a student was like working I
+12:38 think like that
+12:39 yeah I can see why it was very
+12:42 interesting and like you worked on this
+12:45 master thesis and then the company
+12:48 you did some models right and then
+12:52 the company
+12:55 integrated this right in there
+12:57 sorting mechanism
+13:00 yeah that's pretty cool
+13:02 so you really like this topic and then
+13:05 you started researching okay what where
+13:08 can I go next and then I found Philips
+13:11 Healthcare right
+13:12 yeah and there I worked
+13:17 um on a topic that it was not really
+13:19 related to data science
+13:22 but
+13:24 they have this uh CRM which is like on
+13:28 the shape of seats like that and on the
+13:30 top of this arm there are four cameras
+13:33 and here it's like the bed of the
+13:36 patient and those four cameras take like
+13:40 a different perspective of the patient
+13:42 and they have also different angle and
+13:45 like my task there was to take those
+13:49 four Images calculate the geometry and
+13:52 create the 3D object the representation
+13:54 of the patient
+13:57 well it still sounds very mathematical
+13:59 heavy right yes
+14:03 but it's not like machine learning those
+14:05 things but it was yes
+14:08 do you know if this problem is being
+14:11 solved these days with machine learning
+14:13 with neural Nets
+14:17 I'm not aware about this because I saw
+14:19 like it's not related to healthcare at
+14:21 all I saw some demos where people were
+14:26 going around Berlin or other different
+14:28 cities taking pictures
+14:29 and then there is a model or something
+14:33 that just takes all these images and
+14:35 creates like a 3D model of these things
+14:38 and it
+14:41 looked really impressive like what they
+14:44 could do with just a few images
+14:46 I'm sure that probably machine learning
+14:48 can help on like the challenges of these
+14:50 computational methods
+14:53 because for example sometimes we had
+14:56 occlusions
+14:58 which means that
+15:00 um
+15:01 when there was no object between the
+15:04 cameras it was easy to reconstruct a 3D
+15:06 object but when we had like a surgical
+15:09 object
+15:10 it was harder to like create the shape
+15:14 of the 3D mode
+15:16 so this computational method was not
+15:18 really
+15:19 yes tackling this challenge or probably
+15:22 mache learning can create a better like
+15:24 graphical mode
+15:25 mm-hmm
+15:27 okay but it was still quite mathematical
+15:30 heavy and then eventually you after
+15:32 working on this 3D reconstruction you
+15:36 probably continued working in this data
+15:39 science areas right
+15:41 also Phillips I worked as a data analyst
+15:44 after
+15:45 uh on a project that was a research
+15:49 project
+15:50 again economy work in research all those
+15:53 years and we were actually collecting
+15:57 data from brandian women
+15:59 and that project was directed
+16:04 um
+16:05 like the users were midwives
+16:08 that they wanted to see how the pregnant
+16:10 woman are doing at home so it was home
+16:13 care
+16:14 and the pregnant woman were awaiting
+16:17 themselves every day they were waiting a
+16:19 smart watch that was calculating their
+16:21 heart rate
+16:24 um and actually this was important
+16:26 information for the midwives because
+16:28 also it's very important during the
+16:30 pregnancy
+16:31 how many weight the pregnant woman are
+16:35 gaining because it needs to be within
+16:37 some limits
+16:39 and I was working
+16:41 as a data analyst there on developing a
+16:45 dashboard visualizing in a user-friendly
+16:47 way this information for the midwives
+16:50 but we were actually co-creating this
+16:52 because we were getting a lot of
+16:53 feedback from them
+16:55 on what is like useful for them to see
+16:58 and what is like not so that was quite
+17:02 interesting because
+17:04 um it was also like I really liked that
+17:07 I was getting the feedback from them and
+17:09 then we were creating it together
+17:14 oh I'm trying to look at what we
+17:17 discussed so far yes and like you worked
+17:23 well first like your thesis was about
+17:26 the cell classification for cells or
+17:29 term
+17:30 then you worked at this with this 3D
+17:33 reconstruction then
+17:36 um the thing you just described so it
+17:39 was more like not for an operational
+17:41 room not for like a hospital but
+17:42 something you wear at home for pregnant
+17:44 pregnant women
+17:46 like is there like these areas they look
+17:50 quite different from
+17:51 one uh from from each other right so
+17:54 they're they're different so I'm
+17:56 wondering if there is any area of
+17:58 healthcare that you're more interested
+18:00 in or they're all equally interesting
+18:02 for you
+18:04 um now you said they're quite different
+18:06 with each other and also like if you
+18:08 consider the projects I worked later on
+18:10 there are also quite different
+18:14 uh but they have a common thing that
+18:19 the approach or the things that you are
+18:21 looking at
+18:23 when you are working with a healthcare
+18:25 data
+18:27 uh but personally what I find
+18:30 interesting is to work on the research
+18:32 side of healthcare
+18:34 because I like the novelty of create and
+18:37 also creating new ideas and
+18:41 another common thing is that I find
+18:45 interesting to work on projects that
+18:48 they also have the potential of a
+18:51 clinical application or that they're
+18:53 already like tested in a real setting
+19:00 so there is no specific area you more
+19:02 focus on like can I make impact now
+19:04 can I publish a paper or will the thing
+19:08 I work on will go and affect lives now
+19:11 after I finish
+19:12 yeah okay it must be really cool to see
+19:15 things you work on in action right
+19:17 yes that that is quite rewarding
+19:22 I think you've published a few papers
+19:23 research papers right
+19:25 what were these papers
+19:28 so during
+19:32 the period that I was working for this
+19:35 company that we were working for like
+19:38 Vital sign monitoring systems in Africa
+19:42 um
+19:43 I was working on
+19:48 and it's called ballistography signal
+19:51 data
+19:52 so it's actually
+19:58 a novel uh signal I'm thinking on how to
+20:02 explain that easier for people and it's
+20:05 actually this signal and this
+20:07 application wants to replace the
+20:11 electrocardiography signal
+20:13 uh
+20:14 and like in simple terms now if a
+20:18 patient is in the Intensive Care Unit
+20:20 they just put them electrodes on the
+20:24 patient and they need to like have the
+20:26 electrodes there for many hours and it
+20:29 can be tiring for the patient and the
+20:31 patient cannot move around
+20:33 while this sensor was actually in
+20:38 a mat that was going uh below the like
+20:41 actual mat of the patient's bed and was
+20:44 recording the signal of the movement
+20:47 including like the movement that comes
+20:50 from the respiration rate and the heart
+20:52 rate
+20:53 so I was actually working on that I was
+20:56 using uh the ballistography signal and
+21:00 the electrocardiography signal uh as a
+21:03 reference
+21:04 and then I was trying to remove the
+21:07 noise from the ballistography signal and
+21:10 extract the vitals from there
+21:13 so that was the novel application
+21:16 so if I understood correctly so in this
+21:19 method so there there is one
+21:22 more like not intrusive but Annoying not
+21:25 convenient method when the patient is
+21:27 covered with all this uh electrodes
+21:30 right it's not convenient and then there
+21:32 is less annoying method which is like
+21:34 just placing some things under the mat
+21:36 where the patient is right and what you
+21:40 were doing is trying to
+21:42 use machine learning to go from the
+21:45 signal like more noisy signal to more
+21:47 accurate signal
+21:50 of the heart rate and respiration rate
+21:53 for the respiration rate I used more
+21:57 conventional signal processing up
+21:59 approaches because it's simpler to
+22:02 estimate the respiration rate which is
+22:04 like much bigger signal what you get but
+22:07 then for the heart rate it was much more
+22:09 challenging and that's why we went into
+22:11 deep learning and we also like I had I
+22:14 have the approach that if we can use
+22:16 like if we can solve a problem with
+22:18 basic signal processing then it's much
+22:20 better to do it like that and if we need
+22:23 to use something like more advanced then
+22:26 we can go to deep learning machine
+22:28 learning techniques
+22:30 what is basic signal processing it's
+22:32 like these Fourier methods so filters
+22:36 Fourier methods yes
+22:40 I focusing on the frequencies of the
+22:44 respiration rate that we were interested
+22:46 in either there of course there were
+22:48 some challenges because we had to do
+22:50 with pediatric patients which means
+22:53 weaker signals like class movement
+22:57 and we also had the challenge that
+23:00 sometimes the frequencies of the
+23:01 respiration rate and the heart rate kind
+23:03 of overlap
+23:06 and then it's like hard to know what is
+23:09 what
+23:10 but yeah it's a it's it's a very
+23:13 interesting research I think
+23:15 I see that you shared a link to one of
+23:19 your Publications which is a unit deep
+23:22 learning model for infant heart rate
+23:25 estimation from ballistography right
+23:29 that's the paper you're talking about
+23:31 yeah
+23:32 and this is a the paper where we were
+23:34 estimating the heart rate
+23:36 uh we use this unit which is actually
+23:40 used for object segmentation
+23:43 but you will use it for the object
+23:46 augmentation in images but in this case
+23:48 we use it for the signal because there
+23:51 is um in the ballistography signal there
+23:53 is a very distinct
+23:55 pattern of the heart rate and actually
+23:58 our Focus was to identify this District
+24:02 pattern on the signal
+24:05 yeah quite interesting so I'm just
+24:08 looking at the paper well not at the
+24:10 actual paper is more like at this
+24:12 research gate website we will definitely
+24:14 put the link in the description so you
+24:16 can check it out
+24:19 um
+24:20 yeah a lot of words I don't understand
+24:22 like BSG waveform
+24:25 probably that's quite an understanding
+24:27 edit okay thanks
+24:31 um and I I think like when you uh
+24:35 probably you wanted to talk about some
+24:37 other papers right or some other
+24:38 research before we open the next one uh
+24:43 this is like my my first publication
+24:47 um
+24:48 I also um like uh I published a poster
+24:53 that it's not like available online
+24:56 [Music]
+24:57 um
+24:58 but it was about uh calculating a
+25:02 patient's coding based on the vitals of
+25:05 the patients
+25:06 and the main idea behind this was to
+25:10 have like a novel assessment of the
+25:12 health status of the patient so that
+25:14 like healthcare professionals can have
+25:16 an idea of like how critical is this
+25:19 patient
+25:20 yeah
+25:23 and I I already see quite a few
+25:26 questions and this is actually one of
+25:27 the questions uh we also have
+25:30 is about the challenges of working
+25:34 um
+25:35 in healthcare because it's a quite
+25:37 regulated
+25:39 um area right and like I guess there are
+25:44 a lot of privacy concerns and things
+25:46 like that so what are the typical
+25:48 challenges of working there
+25:51 hmm
+25:53 yes one it's like a
+25:56 getting regulatory approval for
+25:58 including algorithms and machine
+26:01 learning algorithms in the devices and
+26:04 the reason behind that is that it's like
+26:06 a black box so of course it's sometimes
+26:11 hard to like understand why a machine
+26:15 learning model predicts a specific
+26:17 outcome
+26:19 [Music]
+26:20 um
+26:21 yeah and they're there a lot of work
+26:24 needs to be done in the like explainable
+26:26 AI product on like
+26:29 um how we can give an explanation on why
+26:33 the algorithm predicts the specific
+26:35 outcome which like this field of AI is
+26:38 still in a very early stage so I think
+26:41 the more this field will be developed
+26:43 also the more trust would be like um
+26:46 from the side of the healthcare
+26:47 professionals but also from the people
+26:49 that approve
+26:52 such as devices to be used in hospitals
+26:59 yeah one this is it another is the
+27:04 a lack of data sometimes or lack of
+27:07 consistent data that
+27:11 in real data sets we see a lot of times
+27:13 that there are many data gaps so this
+27:16 makes it hard for them algorithms to
+27:19 take properly the inputs and sometimes
+27:23 we need to make assumptions on what kind
+27:26 of data we would expect to that patient
+27:29 but then still this is also not always
+27:32 the way to go so that's a problem and
+27:36 another big problem is that many times
+27:38 the data is being collected without
+27:40 having in mind what kind of a use like
+27:45 this organization wants to do with it so
+27:48 for example one common problem is lack
+27:51 of annotations
+27:52 and then like for example they say we
+27:55 want to do a predictive algorithm for a
+27:57 specific clinical outcome but then the
+28:01 proper data annotations for this outcome
+28:03 are not there
+28:06 what kind of outcomes is it like is a
+28:09 patient going to have a stroke things
+28:11 like that
+28:12 yeah and like in my previous research I
+28:16 was working on estimating sepsis let's
+28:19 say based on the vital signs of the
+28:22 patient and also their clinical data
+28:26 I don't know if I want to Google what
+28:27 sepsis
+28:31 it's extremely sepsis is the body's
+28:33 extreme response to an infection
+28:36 it is a life-threatening medical
+28:37 emergency so I guess you want to
+28:41 um understand do you want to predict
+28:43 that this thing is about to happen so
+28:45 you want to act as fast as possible
+28:48 right because the fastest you act on
+28:50 that the more like chances you have to
+28:53 treat it
+28:54 mm-hmm
+28:56 so I'd say guess why this explainable AI
+28:59 is very important because like if the
+29:02 algorithm predicts hey this patient is
+29:04 going to have substance right and then
+29:06 doctor looks at the patient thinks like
+29:08 okay like they look normal right so then
+29:11 they need to understand why exactly the
+29:14 algorithm this model thinks that there's
+29:16 a problem right and maybe if the doctor
+29:19 understands then yeah okay yeah now make
+29:22 sense let's make a few checks right and
+29:25 what I think about this topic is that
+29:27 the approach that should be taken like
+29:31 um for the algorithms needs to be like
+29:34 as a tool for the decision making and
+29:37 the algorithms are not like now in a
+29:39 level to do the decision making
+29:41 and that's why we need to be careful
+29:43 with that it's just a tool to help the
+29:46 doctors and assess the situation
+29:49 because also what they see people tend
+29:52 to really go far ahead and we say we
+29:55 want to predict what the patients we
+29:56 have we want to give advice on what the
+29:59 doctors should do but I think uh the
+30:02 more data-driven approach needs to be
+30:04 integrated slowly into the hospital
+30:07 settings by just in the beginning giving
+30:09 some recommendations or even say ah
+30:12 maybe there's 60 chance that this
+30:15 patient might have this kind of disease
+30:17 so to make the doctors aware that this
+30:20 is not a certainty they just need to
+30:22 look more on that
+30:24 so it's more like to get to gain trust
+30:27 from from the doctors from the medical
+30:29 personnel
+30:30 Personnel that they see okay like this
+30:34 model is actually making our life
+30:36 simpler now we're trust it and then it
+30:39 could be integrated in the workflow more
+30:41 and more right
+30:43 but also
+30:45 um what I think is that sometimes even
+30:47 just data visualizations of like uh with
+30:51 historical data what happened to similar
+30:53 patients in the past can be already
+30:56 helpful without any prediction
+30:58 so and then this is like more data
+31:01 science and not machine learning just
+31:03 like making doctors more aware of like
+31:05 what happened in the past
+31:09 and you talked about this regulatory
+31:13 approvals and I imagine that these
+31:17 things make it very difficult
+31:20 to like let's say you work on a thesis
+31:23 or like you work on a model and then now
+31:25 it's time to actually what we call like
+31:28 ship this model to production and this
+31:30 process of
+31:32 actually bringing this model an
+31:34 algorithm from research to production
+31:35 could be quite challenging right
+31:38 so
+31:39 I think it's there is also a question
+31:41 from David it's like how difficult is to
+31:44 come up with a solution that is actually
+31:46 used in the field
+31:47 like there are some political barriers
+31:49 that might appear along the way like how
+31:53 how how difficult and how do you usually
+31:56 solve these problems
+32:00 [Music]
+32:01 what we were doing is that we were
+32:03 getting a lot of feedback from the
+32:04 healthcare professionals on what we need
+32:07 I found the doctors from the nurses
+32:09 because they were also like they're like
+32:13 losing the Vital sign monitoring system
+32:17 um but indeed the regulatory approval
+32:20 part is a very big challenge
+32:24 and there there are also other people
+32:27 involved in the experts on that so
+32:29 asking those people what's the way to go
+32:32 it's like it can be helpful for bringing
+32:36 those things into production
+32:39 because many times we have the
+32:41 application uh but yeah it stocks
+32:46 and it cannot like it might take five
+32:48 years to like be used in a hospital
+32:55 so I guess in this case what you want is
+32:58 uh doctors also actively advocating on
+33:00 Urban Health saying that okay look like
+33:03 this thing is really useful
+33:05 uh we want to have it right and that's
+33:07 so what he said
+33:09 like you said you want to get feedback
+33:11 from this Healthcare professionals
+33:14 because like if the feedback is positive
+33:16 they clearly see the value in this thing
+33:18 then they help you right yeah and then
+33:20 they trust it also more
+33:23 because there is also lack of trust or
+33:25 some sometimes
+33:27 there is also this approach to people
+33:29 that they don't want to try something
+33:30 new they say ah now we work with ease
+33:33 and they don't want to change
+33:38 so you need to find doctors or
+33:41 Healthcare professionals who are a
+33:43 little more open-minded than others
+33:46 right
+33:48 could be difficult yeah
+33:53 so yeah I see that there's a comment
+33:56 from Sylvia thanks Eleni for sharing
+33:59 your experience how advanced and trusted
+34:02 is data science in healthcare compared
+34:04 to other sectors because for example I
+34:06 work in e-commerce and taking in
+34:08 e-commerce people already know that okay
+34:10 it's like
+34:12 we have to have like a recommender
+34:14 system like it's a default right so then
+34:16 there is automatically distrusted we
+34:18 know that machine learning and data
+34:19 science will help e-commerce so let's
+34:21 use it right so there are usually no
+34:23 questions asked but in healthcare as you
+34:26 said like people are not willing to try
+34:28 new things then like it's not always
+34:31 clear what exactly it brings and then
+34:33 like there is also this
+34:35 regular regulatory approvals might be
+34:39 difficult so imagine that maybe there is
+34:42 less
+34:43 like data science there's less advanced
+34:45 than in other areas is it correct
+34:47 assumption it's true and there is also
+34:50 something else uh like you said you work
+34:52 in e-commerce and everything is digital
+34:54 there so you can have a lot of data you
+34:56 can track what customers are doing and
+34:59 in the hospitals it's not like this
+35:01 because sometimes you have data but you
+35:04 don't have the timestamp of when this
+35:06 happened or you have a timestamp that
+35:08 might be wrong
+35:09 and then you need to assume like that
+35:12 this happened around this time so there
+35:15 are a lot of things that happening
+35:16 offline
+35:17 which makes the data less like accurate
+35:22 and like from there from the beginning
+35:24 that's already a difficulty and of
+35:28 course second thing is that the impact
+35:31 of like a prediction it can be it's much
+35:36 bigger than like maybe client gets um
+35:38 like a wrong recommendation what's the
+35:41 worst thing can happen
+35:44 because like they would not just buy
+35:46 things right and then they will continue
+35:49 living their own life while here
+35:52 actually like sometimes can be a matter
+35:54 of uh living in time right
+36:00 yeah how do you see this evolve like do
+36:02 you think it will get more trust in the
+36:05 future other successful use cases
+36:08 stories
+36:10 [Music]
+36:11 there is a lot of research and
+36:13 investment on that and I think
+36:16 at that already it means that the
+36:18 Alchemist will become better because
+36:21 okay there is a reason also why there is
+36:23 no trust it's not that this field is
+36:25 really evolved and that always the
+36:28 predictions are to be Trust
+36:30 so but then because there is a lot of
+36:33 research
+36:35 and
+36:36 also that means that um we have data
+36:40 from different populations because
+36:42 that's also a problem that maybe like uh
+36:46 what I noticed also with my previous
+36:47 working experience
+36:49 is that we were collecting data from
+36:51 Africa but there is not a lot of data
+36:53 for Africa and we cannot use an
+36:55 algorithm that we developed in Europe
+36:57 with European patients for African
+36:59 patients so I think uh like with time we
+37:04 will have data from different
+37:05 populations and then the algorithms will
+37:08 become better
+37:10 in that
+37:11 uh yeah so I see there is a lot of
+37:14 potential that's why I'm also motivated
+37:16 to contribute on that
+37:19 um
+37:20 but I think this like even if AI or like
+37:24 but now generative yeah it's really
+37:27 advanced
+37:29 AI is not really advanced in all the
+37:31 fields in society and still there are
+37:33 fields that they need a lot of
+37:36 um work to be done
+37:39 and one of the points you mentioned that
+37:42 you can just easily take data collected
+37:44 in Europe and use it for Africa which
+37:46 makes sense but also a bit not exactly
+37:50 intuitive at the first like when I first
+37:53 think about this because on one hand
+37:55 people with people everywhere right but
+37:57 then like probably the living conditions
+37:59 are different my climate is different
+38:03 so so why can't we just take data from
+38:06 Europe and use it for Africa what are
+38:07 the reasons
+38:08 like one thing is that in Africa there
+38:11 are more malaria patients for example
+38:13 than in Europe so what I want to say
+38:17 with that they are also sometimes
+38:18 different diseases in People based on
+38:22 the location they live
+38:24 and
+38:25 that's why it's important to take those
+38:28 things into account or also like in
+38:31 different settings
+38:32 maybe in Europe it's easier to collect
+38:35 data from every single thing of the
+38:37 patient but in Africa this is not
+38:39 possible so you have limited data
+38:41 collected and you need to take a
+38:43 decision on that
+38:45 mm-hmm
+38:47 and I imagine that a person like an
+38:50 average person who lives in their region
+38:52 in Norway work they're probably very
+38:56 different from an average person living
+38:58 in uh
+39:00 um
+39:01 I don't know Nigeria
+39:04 now they have different Lifestyles
+39:06 different yeah
+39:08 yeah interesting but uh still like his
+39:11 data European data not useful at all
+39:16 hmm we need to be careful when we do
+39:20 kind of things
+39:23 but it can be useful also maybe for a
+39:27 having some conclusions for us but not
+39:30 for developing really an algorithm to
+39:33 applying lot resource settings
+39:36 okay so you need to think okay like for
+39:38 this specific I don't know feature or
+39:40 data set like are there any problems
+39:44 that might like is there something that
+39:47 makes
+39:48 I don't know the way the data was
+39:50 collected in Europe different from the
+39:52 data was collected in Africa like can we
+39:54 actually use it right so for each
+39:55 specific case you need to think right
+40:00 and while we're talking about
+40:03 um
+40:05 integrating the solutions the algorithms
+40:07 bringing them from research to
+40:09 production
+40:10 so there is some pushback from people
+40:12 who don't want to try new things
+40:15 and I remember like even in the in
+40:18 e-commerce settings
+40:19 so I was working with moderation teams
+40:22 in the past
+40:23 and there was some moderators they were
+40:26 thinking okay like
+40:28 so now this data scientists come and
+40:31 they create machine learning models like
+40:34 this AI will automate our jobs and we
+40:36 will become redundant so let's not help
+40:39 them right well I'm not saying that
+40:42 people were explicitly saying that there
+40:44 but like I sensed the sentiment and for
+40:47 me as a data scientist my job was to
+40:49 also educate them say hey we are not
+40:51 going to make you redundant we are not
+40:53 going to fire you we actually want to
+40:55 help you be more effective
+40:57 and I wonder like is there something
+41:01 similar that is in healthcare like is
+41:03 there
+41:04 maybe this lack of trust
+41:07 coming from these Healthcare
+41:08 professionals is because they think okay
+41:11 now my job will be automated but there
+41:14 will be the sensors that monitor the
+41:16 patient's condition and why am I needed
+41:19 there like I'm not needed anymore so I
+41:21 will not try to help you because like
+41:23 why will I help you make myself
+41:25 redundant
+41:27 I have I have not seen it because
+41:32 they still have a lot
+41:34 of impact in the decision you're making
+41:36 and those algorithms are not too far
+41:38 ahead
+41:40 so for now I think maybe they don't feel
+41:44 that their job is at risk
+41:47 maybe in the further further future but
+41:50 uh for now I have not seen something
+41:52 like that but what I personally believe
+41:54 is that like by the years that I will
+41:58 become more developed and this is an
+42:01 actual risk because it already happens
+42:03 for example with some jobs like like now
+42:07 in the Netherlands in many supermarkets
+42:09 they had like the uh automatic cashier
+42:13 machine and before people were working
+42:15 there and now just one person observes
+42:18 if everything goes all right so and this
+42:22 is a like a simple automation but then
+42:26 yes in the future also more complex
+42:29 decision-making processes can replace
+42:32 humans
+42:33 but okay I know like the viewpoints on
+42:36 this topic are
+42:39 controversial sometimes
+42:42 I mean maybe the cashiers who worked
+42:46 and were replaced by the machines now
+42:48 they can do something else in the same
+42:50 store so they don't need to do this
+42:52 monotonous work
+42:54 every day maybe it's actually a good
+42:56 thing but we don't know what happened
+42:57 with licorice right
+43:04 let's see I'm also curious how this
+43:06 thing is going to be developed
+43:10 yeah I see that there is a comment about
+43:12 India that in smaller cities data
+43:16 is not created properly especially in
+43:18 healthcare and yeah even in Germany like
+43:22 it's such a mess to be honest like
+43:25 Germany is a pretty Advanced country but
+43:28 when it comes to healthcare like it's so
+43:31 decentralized like all the like
+43:33 different uh doctor offices like have
+43:37 their own methods of collecting data and
+43:39 yeah it's it's quite messy this is
+43:45 um yes this is true
+43:47 but I think there is a lot of work that
+43:50 is being done on organizing like the
+43:52 systems and also I think the healthcare
+43:54 system in the Netherlands when I came to
+43:58 the Netherlands it was much less
+43:59 organized and now they have like a
+44:03 patient files and they can just send
+44:07 your electronic file to another hospital
+44:09 and
+44:12 when I initially came those things were
+44:15 less
+44:16 automatic and less connected so
+44:21 yes there are people that they are
+44:23 working on standardizing likely systems
+44:25 that the data is going like also to be
+44:28 saved because that's also another thing
+44:30 that sometimes data is not properly
+44:32 saved in secured places
+44:36 but yeah
+44:38 yeah I think in general the Netherlands
+44:40 is pretty uh is a pretty Advanced
+44:43 country in many aspects not just
+44:46 Healthcare and the way data is collected
+44:48 because like in Germany people still
+44:50 send faxes like I don't know I recently
+44:54 didn't Mr I explanation and all I got
+44:58 was a compact disc I don't know like I
+45:01 don't even have like places where I can
+45:03 put a compact disc anymore
+45:05 yeah so yes well at least it wasn't like
+45:08 a discount or whatever
+45:10 could be a biscuit right too thank you
+45:14 and maybe I also see big differences
+45:16 because I see that Healthcare in Greece
+45:18 for example is also like different than
+45:22 in the Netherlands they don't have this
+45:24 like digitalization that they have here
+45:27 we also give compact discs sometimes
+45:30 okay yeah well from what I heard about
+45:34 the Netherlands like
+45:36 it is doing a really amazing job when it
+45:39 comes to all this digitization of things
+45:43 yeah do you think that like coming back
+45:47 to this last topic so I imagine that
+45:51 most of these Healthcare problems like I
+45:53 don't know self-classification and I
+45:56 don't know like the thing you were
+45:58 talking about predicting from like quick
+46:00 signal predicting like always uh
+46:03 um body vitals
+46:06 um like I imagine that it's since we
+46:08 know that machine learning is not always
+46:09 accurate I imagine that in many cases
+46:12 like it's not as 100 percent
+46:16 accurate prediction so it can be like 80
+46:18 70 like does it make it more difficult
+46:21 like do we see do we have to like have
+46:23 really accurate systems to use them or
+46:26 like if it's already like 60 accurate
+46:29 it's already good
+46:31 um I think the case is that it's not
+46:33 very accurate we need to give more
+46:35 information to the people so that they
+46:37 can take decisions like we can what I
+46:39 said before say we have 60 percent
+46:41 accuracy
+46:43 so then the person knows that the
+46:46 this is just an estimation and it's not
+46:50 really what's the reality so they need
+46:52 to check by themselves or they need to
+46:54 like see that and say okay we will do
+46:56 this extra lab test because of that so
+46:59 at the end it's not a tool that says
+47:03 what happens in reality but it's more
+47:05 like a notification like oh maybe this
+47:09 patient has this or even
+47:12 if we want to make them
+47:15 like to make systems that they don't say
+47:18 ah this patient has this critical
+47:19 outcome it can be that you say this
+47:22 patient has a high risk factor which is
+47:25 more genetic
+47:26 so they are different things and
+47:29 different ways you can phrase and you
+47:31 can give estimations about the situation
+47:33 of the patient and what I think is that
+47:36 we need to build this this thing
+47:40 gradually
+47:41 so maybe first just give a description
+47:44 of the date of the patient in a more
+47:47 like in a better visualization because
+47:50 data visualization is also a part of
+47:52 this so that the healthcare professional
+47:54 can understand the current status
+47:57 then okay if you develop like a
+47:59 mathematical model then you can say uh
+48:02 there is this patient has a bit higher
+48:04 risk just look at the space
+48:07 and maybe like with time also those
+48:10 algorithms as I said they will be
+48:11 developed more and they will be more
+48:14 accurate
+48:16 Plus
+48:17 I I think
+48:19 for the algorithm to be developed and to
+48:21 be more accurate we need feedback from
+48:23 the healthcare professionals so if they
+48:25 like there is a prediction then they can
+48:28 say this was a good prediction this was
+48:31 a bad prediction and religions
+48:33 so that the algorithm can take this
+48:35 feedback and improve
+48:39 so it all comes back to topics already
+48:41 two things already talked about like
+48:43 getting feedback from Healthcare
+48:45 professionals and then investing into
+48:47 better data collection processes right
+48:49 but more feedback on the prediction so
+48:52 like have the prediction and then
+48:54 respond on that but what I see this is a
+48:58 kind of um
+48:59 a cyclical process
+49:03 so it's not that I have the algorithms
+49:05 will be ready and they would be used
+49:06 like in a linear way it's more about
+49:09 secret clean and like making more and
+49:13 more accurate predictions
+49:14 but I think for me it's important to be
+49:17 as much as possible transparent
+49:20 and give information to the people
+49:24 and don't make big claims about things
+49:27 okay that's not like uh
+49:30 yeah this patient definitely has
+49:33 um
+49:35 Texas right so instead like this is a
+49:38 high risk patient please check them
+49:40 right and then the doctor makes
+49:42 explanation and says okay indeed this
+49:45 was a high-risk case so then you get
+49:47 this feedback and you try to incorporate
+49:49 this feedback into
+49:51 well collect this and add this to your
+49:54 data right
+49:56 yeah
+49:57 and there is a question from Avinash
+50:00 about data engineering and data science
+50:04 which made me think like okay we talked
+50:06 about the data science part but there is
+50:09 also
+50:10 like for example I'm again thinking
+50:13 about the camera settings so like there
+50:16 is a data scientist Who develops
+50:18 the machine learning algorithm like a
+50:20 model right and then there is typically
+50:22 a machine learning engineer who takes
+50:23 this model
+50:24 and
+50:26 takes care of all the engineering around
+50:28 the model
+50:30 is there something like that like how
+50:33 does exactly
+50:34 you go about deploying this thing
+50:36 provided that all these bureaucratic
+50:38 things are solved like I imagine that
+50:41 it's not like you just take this speaker
+50:42 file and put this on the device there is
+50:45 a process and there is a lot of
+50:46 engineering involved there too right
+50:49 but then this is indeed it's like for
+50:52 the data engineer to just take the model
+50:54 that the data science scientists created
+50:57 and then deploy that on the machine so
+51:00 that it also works and aligns with the
+51:02 rest of the software there
+51:06 and also they're taking into account
+51:10 uh the restrictions of that because for
+51:14 example in the low research setting
+51:16 sometimes uh you cannot for example have
+51:19 the model on the cloud it's not a good
+51:21 idea because there is no internet there
+51:23 is not a lot of
+51:25 um like always
+51:27 connectivity so then you need to deploy
+51:30 the model on the device itself
+51:32 so
+51:34 yes you need to take into account the
+51:37 specific use case that you deploy the
+51:39 model
+51:41 um yeah for this unit that we talked
+51:45 about uh wasn't on device or in the
+51:48 cloud
+51:50 so this unit it was more on the research
+51:54 phase
+51:55 um and
+51:58 we wanted to validate it further so on
+52:01 that phase is things don't go very fast
+52:04 we need to keep yeah okay okay so it was
+52:07 more about like okay we have this data
+52:09 we applied the model the research looks
+52:12 promising let's continue rather than
+52:14 okay like we already deployed and and
+52:17 it's working everywhere and the continue
+52:19 information is also the validation of
+52:21 this so
+52:23 before deploying it uh validating with
+52:26 new data
+52:28 and checking whether it works or not and
+52:31 like what's the accuracy of it so there
+52:35 are many steps on it yeah and Regulatory
+52:38 approval it's also a big one like it
+52:41 takes more time
+52:44 so you mentioned that you're having a
+52:47 sabbatical at the moment
+52:50 um are you working on some
+52:52 personal projects that are related to
+52:54 healthcare too
+52:56 I'm working on some personal projects
+52:58 and I'm also doing some traveling and
+53:01 I'm having some plans also for the next
+53:03 months
+53:05 and I'm actually reflecting on like what
+53:08 I'm going to do next and like taking a
+53:12 break to like rejuvenate
+53:15 yeah
+53:16 is there something you can already tell
+53:18 us about or we will need to wait till
+53:20 the next interview
+53:25 okay okay we will keep an eye on your
+53:27 LinkedIn profile
+53:31 if somebody wants to get into Healthcare
+53:35 and like somebody as a data scientist
+53:38 what's uh how would you recommend them
+53:40 to to do that so let's say I'm a data
+53:43 scientist I have this typical e-commerce
+53:45 experience but I got so motivated after
+53:47 listening to you right now and I think I
+53:49 want to to do something
+53:51 so how can I get started how can I start
+53:54 using my skills for that
+54:00 I think first it's like more getting
+54:05 um
+54:06 a general idea on like do you want to
+54:08 focus on Research do you want to focus
+54:10 and to apply for a company that they
+54:12 already like uh have already people
+54:15 working on the regulatory approval and
+54:18 then you can already work on deploying
+54:20 those models in actual devices that
+54:23 they're being sold
+54:24 and yeah it depends it starts from you
+54:28 and what you want uh but from my
+54:31 experience because I I had like the
+54:34 technical background and I'm working in
+54:36 a different Healthcare projects when I
+54:38 started the project I I learn a lot of
+54:41 clinical information so in the beginning
+54:44 because also it's Healthcare field is
+54:46 different I have a lot of unknown like
+54:48 conditions or known words like also
+54:50 sepsis for me as it was for you it was
+54:53 unknown but then after a while
+54:55 it becomes one word of my vocabulary so
+54:59 it's like if you have the technical
+55:01 knowledge then you get also the context
+55:03 by like spending two months on the sad
+55:07 thing
+55:09 yeah
+55:10 but uh so what you said it's about you
+55:12 and what I want but is it enough for me
+55:15 to just want to work in healthcare or I
+55:18 also need to have to get some prior
+55:20 knowledge to be able to do that so with
+55:24 my typical data science data scientist
+55:27 who has experience working at the at an
+55:30 internet company
+55:31 they have no idea what sepsis is as mean
+55:34 like they can just apply start applying
+55:37 because the skills they have are already
+55:40 enough or there should be some
+55:41 preparation
+55:43 before that
+55:46 I think the skills are already enough
+55:49 and maybe they will get a more technical
+55:51 job
+55:52 in the beginning in a Healthcare company
+55:54 and then they can
+55:56 received more if they want that's what I
+56:00 saw for example in Philips Healthcare
+56:02 that people entering the company and
+56:05 then they were finding their way
+56:08 okay so the important thing is as you
+56:11 said what you want right if you already
+56:13 have the skills then you can just apply
+56:15 and
+56:15 learn along the way
+56:18 yeah
+56:20 in general so I imagine that there are
+56:24 many
+56:25 um
+56:27 like it's not the easiest job to have
+56:29 because of all the problems all the
+56:31 difficulties we discussed
+56:33 so does it
+56:35 children like
+56:37 what I what I what I tried to ask is
+56:39 like is there a lack of people who want
+56:41 to work in healthcare or there is
+56:44 usually a lot of interest from
+56:47 from candidates from like you know data
+56:49 scientists
+56:51 there's a lot of interest but they also
+56:53 ask for a lot of people in general in
+56:55 the field of data science so that's what
+56:59 I have seen but okay it depends also on
+57:01 the country but still
+57:04 but like for example in the Netherlands
+57:07 there are like plenty of options
+57:12 but indeed plenty of data scientists as
+57:15 well because what I have noticed with
+57:17 many people they like they shift to that
+57:21 domain
+57:22 there is like a trend
+57:25 yeah wow it's great that there is
+57:28 funding
+57:32 there are companies who can pay money
+57:34 and then the data scientists who are
+57:35 interested in working on this so they
+57:38 can you know find each other and
+57:40 actually you know make something work on
+57:43 something meaningful while not
+57:45 starving right while making enough money
+57:47 to leave that's really good especially
+57:49 in the healthcare domain there are still
+57:51 a lot of fields that um they haven't
+57:54 included a lot of data science yet they
+57:57 use like statistics they use linear
+57:59 regression models so yes and there is
+58:03 already funding so they need a lot of
+58:05 people
+58:06 to work on that
+58:09 and why I mentioned about starving
+58:11 because I remember talking to somebody
+58:15 and they said it was like a few years
+58:18 ago that
+58:20 sometimes these projects are not really
+58:21 well funded so it's like really people
+58:24 who who want to make the change
+58:29 but they have to be like very
+58:30 enthusiastic about this right so it's
+58:34 compared to working in an internet
+58:36 company
+58:38 that sometimes you know pays less right
+58:41 so people need to be really you know uh
+58:45 you know willing to to do this work I
+58:48 hope this has changed
+58:50 I have not seen this but maybe it
+58:53 depends also on the country
+58:55 including different countries there are
+58:57 different funds as well so the
+58:59 Netherlands is pretty Advanced as we
+59:01 discussed so hopefully it's not an issue
+59:03 there okay it's all we have time for
+59:06 today thanks a lot Elena for joining us
+59:08 today for sharing your
+59:10 experience with us it was really
+59:13 interesting to listen to your studies
+59:16 and to everything you said and thanks to
+59:18 everyone else for joining us today
+59:20 and listening in and asking questions
+59:23 thanks as well for inviting me it's also
+59:26 it's nice to talk to you likewise and
+59:29 thanks again Adonis for introducing
+59:32 Helena and me
+59:34 so yeah well looking forward to seeing
+59:38 what happens after your sabbatical so
+59:40 I'll keep an eye good luck with
+59:43 everything thank you
+59:45 okay bye and have a great weekend
+59:47 everyone
+59:48 great week not weekend yeah

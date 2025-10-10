@@ -1,0 +1,1609 @@
+0:00 hi everyone welcome to your event this
+0:02 event is brought to you by data tax club
+0:03 which is a community of people who are
+0:05 data we have weekly events and today is
+0:07 one of such events if you want to find
+0:09 out more about the events we have there
+0:10 is a link in the description go there
+0:13 click on this link and you'll see all
+0:15 the events we have in our schedule
+0:17 then to make sure you do not miss any of
+0:20 our events
+0:22 live streams like today
+0:23 subscribe to our YouTube channel so then
+0:25 you will get notifications from YouTube
+0:27 about that and then finally we have an
+0:29 amazing slack Community join us if you
+0:31 want to hang out with other data
+0:33 enthusiasts
+0:34 during today's interview
+0:36 you can ask any question you want there
+0:39 is a pin Link in live chat just click on
+0:41 that link and ask your questions and
+0:44 also during today's interview you will
+0:45 just see my face
+0:48 so this is nothing is broken this is on
+0:50 purpose
+0:52 um so yeah
+0:53 and I guess now I will stop sharing my
+0:56 screen
+0:59 and I will now open the document with
+1:01 questions that we prepared for you
+1:04 [Music]
+1:04 um
+1:06 and
+1:08 I think I'm ready are you ready yeah I'm
+1:11 good
+1:12 okay so let's start
+1:14 this week we'll talk about self studying
+1:16 and continuous learning in machine
+1:18 learning and bioinformatics we have a
+1:20 special guest today Aisha Aisha is a
+1:22 self-taught bioinformatician machine
+1:24 learning engineer and data scientist
+1:26 from Johannesburg
+1:27 Johannesburg South Africa
+1:30 she gradated from machine learning Zoom
+1:32 camp that we have here in data talks
+1:34 club and she studied Python and
+1:37 basically developed development
+1:39 and she maintains the local and
+1:41 bioinformatics and machine learning
+1:42 topics Beyond touch is interested in
+1:44 many other things such as photography
+1:46 and digital art so maybe if you saw the
+1:49 picture we have for the cover today like
+1:53 there is this spice mushroom spicy
+1:56 mushroom and this is what we talked
+1:57 about so this is something Asia true so
+2:00 welcome to our interview today
+2:03 glad to be able to speak on the podcast
+2:06 and thank you for having me
+2:08 yeah the questions for today's interview
+2:10 were prepared by Johanna Byer thanks
+2:12 Johanna as always for your help you are
+2:14 very helpful in preparing all these
+2:16 questions and let's start so before we
+2:19 go into our main topic of self-study and
+2:22 continuous learning in machine learning
+2:23 bioinformatics let's start with yeah our
+2:26 background can you tell us about your
+2:28 career Journey so far
+2:29 yeah
+2:31 um my career journey I would say is like
+2:34 just beginning still considering like
+2:36 I'm basically a student I've just uh
+2:38 I've been mostly um doing my studies up
+2:40 there now but like um I started studying
+2:42 python
+2:44 um quite a few years ago I don't
+2:47 remember how old I was I think I was
+2:48 like 12 or something or 11 maybe
+2:51 um and I've been started I did like
+2:53 introductory Python and then I did like
+2:54 JavaScript and HTML and CSS like the
+2:57 standard I want to do coding what do I
+2:59 do package
+3:01 um and then I discovered like data
+3:03 science and bioinformatics and I was
+3:05 like okay this is like a cool field to
+3:06 go into and I started studying that and
+3:09 I was also studying like biology and
+3:11 chemistry and like the more sciencey
+3:13 fields and um then recently I started
+3:16 going into more machine learning and
+3:18 like actually focusing on trying to
+3:19 build my career in machine learning so
+3:22 that is like my goal now is to like
+3:24 establish myself in machine learning and
+3:26 still be able to like do my
+3:28 bioinformatics along with it if there's
+3:31 like some way I can merge these two
+3:34 different fields I've been doing
+3:36 and then the scientific illustration is
+3:38 something I only like pursue on the side
+3:40 maybe as like a second field or
+3:43 something like that
+3:45 scientific illustration what is that
+3:48 um scientific illustration is like there
+3:51 are different types of scientific
+3:52 illustration like the uh you might I'm
+3:54 not sure if you've seen those where they
+3:56 make like infographics or like
+3:58 animations or stuff explaining like
+4:00 scientific Concepts New York Times well
+4:02 New York Times is different maybe there
+4:04 are not so many and not so much
+4:06 scientific
+4:08 I've seen there are like um scientific
+4:10 illustrations published in New York
+4:12 Times as well so that's like one of them
+4:13 and um then also like just general
+4:16 making
+4:17 um art to explain science basically is
+4:19 how I describe it's like explaining
+4:21 science through ART and like uh visually
+4:23 engaging appealing manner for like
+4:25 people maybe who are not so much into
+4:28 sand so just have like a general
+4:29 interest in science like explaining all
+4:32 the D jargonifying signs and explaining
+4:35 like a easy nice manner is what I would
+4:37 consider scientific illustration or art
+4:39 as a whole
+4:41 I think we had a podcast episode
+4:45 um maybe over a year ago or something
+4:46 like that it was with me or
+4:49 um and we talked about visualizing
+4:51 machine learning and we spent most of
+4:54 the time on that interview discussing
+4:56 how exactly more comes with
+4:58 uh his visualizations
+5:01 um like how he goes from a concept to
+5:04 like an illustration What is the process
+5:06 so probably it's related yeah it's like
+5:10 a similar thing
+5:12 okay and then you set you studied python
+5:16 you started studying python like 12
+5:17 years ago or sometimes like that quite
+5:19 some time ago and then it wasn't that
+5:22 long ago I was like 12 myself I was 12
+5:24 years old
+5:26 ah ah 12 months ago not 12. no no like
+5:30 it wasn't 12 months ago I was 12 years
+5:33 ago when I started studying python I
+5:35 think it was like five or six years ago
+5:38 see I see so you're not like uh you're
+5:41 what I'm trying to ask here is you're
+5:44 not taking these classes as any part of
+5:47 any formal education right so you're
+5:49 just going there on the internet finding
+5:52 things there to study and you just study
+5:54 them right or how does it work like how
+5:56 do you learn all these things
+5:58 all right uh so I would
+6:01 I would have internet and just start
+6:02 studying things like um I I try I'm a I
+6:05 try not to be like randomly pursuing
+6:07 everything I find interesting it's not
+6:08 formal education right yeah yeah it's
+6:11 all study yeah like I'm doing this at
+6:13 University
+6:14 I'm being homeschooled so I haven't gone
+6:16 to any formal education technically I
+6:18 now went to school I've not gone to UNI
+6:20 I like technically if I was going in
+6:23 school I would be going to UNI now so
+6:26 I'm not going to UNI I've not been to
+6:28 any school so like I everything I know
+6:30 I've either like my mom used to teach me
+6:32 before that or I've still studied so I'm
+6:34 either homeschooled or self-taught
+6:36 interesting I don't think I ever spoke
+6:39 to anyone who was homeschooled so how
+6:42 how did it feel
+6:51 it's good because I've like literally
+6:53 never gone to school so
+6:55 but it would be your mother or like just
+6:59 teaching you some stuff and then
+7:00 eventually maybe it was just you
+7:03 know things yeah like obviously when I
+7:05 was a kid then it was like my parents
+7:07 thought I would like teach for like with
+7:09 study whatever and like we never like
+7:12 followed a curriculum or something so I
+7:14 was like um I whatever at that point
+7:16 like that's why I started studying
+7:18 programming or scientific stuff much
+7:20 earlier I think that I would have gotten
+7:22 to at school because like I I found it
+7:25 interesting so that my mom would like
+7:26 gather resources and let me just learn
+7:28 it and teach me or whatever and then
+7:31 after that once I was old enough I just
+7:33 started studying by myself online with
+7:35 online resources and stuff so
+7:38 interesting yeah well when my kid is
+7:42 sick and we need to do some
+7:43 homeschooling too I just never have
+7:46 patience to actually sit with you and
+7:49 explain all the stuff so your parents
+7:52 must be very patient people yes my
+7:55 parents put up with a lot of stuff yeah
+7:58 that's cool well I guess you have more
+8:00 flexibility this way right so like yes
+8:04 yeah
+8:05 um even even not like I'm not like even
+8:07 if traveling stuff just in what I'm
+8:09 studying there's like so much more
+8:10 flexibility than in school where okay
+8:12 you're studying one thing and then like
+8:14 you're gonna study everything you want
+8:16 maybe at school because you have to
+8:18 follow the school system and this way I
+8:21 can like study things I I can pick and
+8:23 choose what I want to study like if
+8:25 there's something I already know then I
+8:26 don't know if like go through again and
+8:28 like I would have to in school
+8:29 curriculum
+8:31 mm-hmm
+8:32 yeah because what I wanted to ask you
+8:34 next or the question with prepared is
+8:36 what motivated you to take this approach
+8:38 and I guess you kind of answered it
+8:40 already because
+8:41 you have been doing self studying since
+8:45 forever rights since yeah since school
+8:48 days yeah
+8:49 so maybe what is interesting is how do
+8:52 you decide to learn what exactly like
+8:54 there are so many things on the internet
+8:56 right so you open any I don't know data
+8:59 science subreddit or I don't know any
+9:01 data science community and then you're
+9:03 immediately bombarded with all these
+9:05 links all these new things and then you
+9:07 feel okay um like I have to study all
+9:09 that and if I don't they have this uh I
+9:12 feel I have this fear of missing out so
+9:15 how do you approach this systematically
+9:16 how do you not go crazy when
+9:19 so
+9:22 um as a general like topic like okay I
+9:25 want to study I don't know
+9:26 bioinformatics or whatever
+9:28 um that I I think I started following it
+9:30 like out of Interest a bit more because
+9:33 I always wanted to do like the cool
+9:35 scientific research and stuff
+9:38 um but that hasn't always been possible
+9:40 to like pursue that pass so then I
+9:42 discovered that like there's something
+9:44 more realistic within my reach that I
+9:46 can do with like Tech stuff and online
+9:49 and with the resources I have available
+9:51 and it's sort of like I still get to do
+9:54 the cool sciency stuff but it's like
+9:56 practical because I can do it so that is
+9:59 how I began studying it and I I maybe
+10:03 um finding resources
+10:07 um I don't know I I've always like maybe
+10:09 I did waste a bit too much time doing
+10:11 like introductory python courses because
+10:14 I was like okay well I did this course
+10:15 and I did that course and then like I
+10:18 faffed around for a while but then
+10:20 um it I think I've just gotten good at
+10:22 like finding the good resources because
+10:25 like you get you get the hang of it
+10:26 after like doing it for a while of
+10:28 finding out that these are like the best
+10:30 resources and then it helped that like I
+10:33 had like a sort of guideline in my mind
+10:35 of what I need to know so I need to know
+10:37 like this much of biology or chemistry
+10:39 or whatever and my python skills need to
+10:41 be at this level and then for
+10:43 bioinformatics specifically I found this
+10:45 a really cool pathway
+10:47 um made by the open source Society
+10:49 University where they make like these
+10:52 tracks and stuff so then I followed that
+10:54 and I think generally like filtering out
+10:57 information is a skill
+11:02 I think we're lost here
+11:07 or at least I don't hear you anymore
+11:18 one two one two
+11:21 I think I'm still Audible actually I
+11:24 think we lost your sound
+11:31 yeah no pressure
+11:47 I think guys all hear something again
+12:15 so I just make this glitching this is
+12:17 what you're about me
+12:18 so she should be back soon hopefully
+12:24 interesting testing
+12:25 yep works
+12:27 okay you got me now
+12:29 yes
+12:31 okay sorry about that
+12:33 I don't remember what you were talking
+12:35 about when it stopped well you were
+12:37 talking about different tracks uh that
+12:39 there is this uh there are some open
+12:41 curricula online and like you found some
+12:45 tracks for bioinformatics and this is
+12:47 what you studied yeah
+12:49 um but I'll say like in general in
+12:51 finding resources I think um spending a
+12:54 lot of time online helps with that
+12:56 because like you can start curating the
+12:58 resources that you find and they're like
+12:59 okay this is covering this skill set and
+13:02 maybe this is not what I need right now
+13:04 and it might be cool but maybe I can
+13:07 just at some later point and not now
+13:09 or if you can find like communities
+13:12 where people have gathered resources
+13:13 like okay to achieve this certain skill
+13:15 set this is what you need to learn and
+13:17 then you can either follow those
+13:19 specific resources or you can find like
+13:21 alternate resources but I think majorly
+13:23 what has helped is having a like idea in
+13:26 my mind of what skills I need so like if
+13:29 I want to pursue machine learning I need
+13:32 like a basic introductory look at
+13:34 machine learning and that's why I did
+13:35 the zoom Gap in the first place was
+13:37 because I was like okay this seems like
+13:39 a good resource to get my basic Stone
+13:41 and then once I know a bit more about
+13:43 the field then I can decide that okay
+13:45 what skills do I need to develop further
+13:47 yeah I have so many questions based on
+13:50 what you just said so there are so many
+13:53 interesting directions so first of all
+13:56 you said that
+13:57 you developed a Feeling
+13:59 you know when you look at the resource
+14:01 you know that it's good and they wonder
+14:03 how does it work like how do you know
+14:05 let's say you look at the zoom Camp of
+14:07 course maybe this is a very good example
+14:11 of course I mean let's not take a zoom
+14:14 come like you take a resource right so
+14:16 how do you know it's if it's good like
+14:18 how do you understand that
+14:22 so um I've like there are a few things I
+14:25 look at the first are like skimmed the
+14:26 syllabus or whatever and see if the
+14:29 content that they're teaching is
+14:30 something that I need right now if it's
+14:32 like applicable to me right now so like
+14:34 obviously if I'm there's so much cool
+14:36 stuff that I want to learn and I'm like
+14:38 okay maybe knowing exactly how stars
+14:41 explode in space is not something you
+14:42 know right now so obviously that's
+14:44 something I just like throw out the
+14:46 window there but then say I pick up like
+14:48 a course on machine learning and I will
+14:52 see that okay the syllabus is good it's
+14:54 teaching me how to use a framework that
+14:56 I need to know right now so then I'll
+14:58 like watch like the introductory videos
+15:00 and see that okay does it feel like this
+15:02 course is offering quality does it look
+15:04 like something that is being got in a
+15:06 good way does it look like the people
+15:08 know what they're talking about or am I
+15:10 gonna get ripped off here like that kind
+15:12 of thing like just gorging the general
+15:14 quality of it like if you were to pick
+15:16 up a book and you'd flip a few pages
+15:19 around read a bit and you see like okay
+15:21 does this look like something that is
+15:23 quality or does it look like somebody I
+15:25 don't know just wrote a bunch of stuff
+15:27 that they don't know what they're
+15:28 talking about and published it
+15:30 because obviously on the Internet it's
+15:32 like that YouTube stereotype where the
+15:34 people on YouTube who don't know what
+15:35 they're talking about but there are lots
+15:37 of there's so much good resources on
+15:39 YouTube as well but like you use you can
+15:41 get an idea for how much the person
+15:43 knows what they're talking about how
+15:46 beneficial it might be if you like skim
+15:48 through it a bit and like just
+15:50 pick out bits and pieces and like listen
+15:52 to them or whatever and then you can
+15:54 decide that okay this up till now this
+15:56 looks like something that's good and
+15:57 then you can like commit to studying it
+15:59 and then see how it is
+16:02 you mainly look at free resources or you
+16:04 also consider paid courses
+16:07 um I try and go for free where possible
+16:09 obviously because like it's more
+16:12 affordable uh but if it if it's like
+16:14 good resources then I'm not like averse
+16:17 to investing in it because like okay
+16:19 this is something that will benefit me
+16:20 or my career down the lane then okay
+16:22 it's a worthwhile investment but I will
+16:25 make sure that if I'm investing
+16:27 something it is quality and it is worth
+16:29 it it's not like I would try to avoid
+16:32 investing in something where I can learn
+16:34 with the free resource resources even if
+16:36 it's like a hardware study or whatever
+16:39 because scheming a paid course might be
+16:42 more difficult right because you don't
+16:44 have access to the course usually yeah
+16:47 maybe some parts but you don't usually
+16:50 get the access to the course to know if
+16:52 it's good or not
+16:54 for a paid resource I'd go more like
+16:56 okay who's the author who published it
+16:58 is there any free content that they've
+17:00 put out or somewhere where I can like
+17:02 get a general idea for their sort of
+17:05 content elsewhere like aside from this
+17:07 one paid course so you can like get a
+17:09 general profiling of who is teaching the
+17:12 course before you like pay for it
+17:13 they're like get me see if it's credible
+17:15 or not see their credentials what work
+17:17 they've done that kind of things
+17:20 then finally that you mentioned this um
+17:24 information about how stars explode
+17:26 because this is what I was just reading
+17:28 the other day that's pretty cool stuff
+17:30 and quite interesting oh yeah but maybe
+17:33 like in this example if you study
+17:35 machine learning then obviously
+17:37 astronomy is not super relevant to that
+17:39 at least most of astronomy right
+17:42 so this is kind of a no-brainer right so
+17:44 if you want to learn about linear
+17:46 regression you know that how stars
+17:48 explode it's not gonna help you yeah but
+17:52 when it comes to machine learning there
+17:54 are many things like for example when I
+17:56 was studying machine learning I thought
+17:57 that support Vector machines are super
+17:59 important to understand and also because
+18:02 I was taking the machine learning class
+18:04 at the University and that at the
+18:06 university the teacher was one of the
+18:09 like he was doing a lot of research and
+18:11 support technicians so I thought that
+18:13 it's very important to really understand
+18:14 these things well but when I started
+18:16 working I understood that nobody really
+18:18 cares about them yeah because machines
+18:20 are not really useful anymore
+18:22 so how do you
+18:24 understand that like how do you
+18:26 understand these things that okay
+18:28 astronomy is not relevant but when it
+18:30 comes to machine learning there are some
+18:31 topics that are perhaps more relevant
+18:33 some are less relevant so how do you
+18:35 understand which direction to go I think
+18:38 this one I this one is just something
+18:40 like you do it and then realize okay it
+18:42 wasn't that needed like I spent a lot of
+18:45 time doing a data science
+18:47 um course and that had a lot of like
+18:48 data visualization and I also had like
+18:51 data cleaning and everything and at that
+18:53 point I was like okay maybe this is not
+18:55 the direction I want to go in so it's
+18:56 not that important as what I was like I
+18:59 was doing it for machine learning or
+19:01 data science more so seeing how the data
+19:04 is cleaner or maybe good knowledge to
+19:06 have but maybe not as relevant as what I
+19:08 wanted to do then so okay I did it and
+19:11 maybe it would come in handy later but
+19:12 at the time it was not what I was
+19:14 looking for so I think that's just
+19:16 something you have to like you figure
+19:18 out after the fact that you studied that
+19:20 okay this is not something as relevant
+19:22 like because there's no way you'd know
+19:24 that without studying okay so I thought
+19:27 maybe you'll just tell me okay do that
+19:29 that and then you'll know what is it no
+19:32 unless I'm not maybe somebody can figure
+19:34 out some spells then please share with
+19:36 me
+19:37 well I guess in this case Community is
+19:41 helpful right so because you can always
+19:42 ask people and like you could I think
+19:46 like to some degree maybe it is you can
+19:48 like get an idea by doing your own
+19:50 research or like figure finding people
+19:52 more in the field and like getting their
+19:54 if they have done like interviews or
+19:56 question answers whatever you could like
+19:57 ask them or communities could be helpful
+20:00 but I think to some degree it's
+20:02 unavoidable that you end up studying
+20:04 something and they're like okay maybe it
+20:05 wasn't that important
+20:10 yeah
+20:11 sorry I interrupted you
+20:13 no
+20:16 um I I just wanted to say that while
+20:18 doing my masters and also my bachelor I
+20:21 also studied a lot of stuff that is not
+20:22 relevant so maybe if I was doing
+20:25 self-study
+20:26 instead
+20:28 then things would have
+20:30 been different right yeah maybe I would
+20:33 have actually spent more time on
+20:35 studying things that are relevant not
+20:36 because teachers thought so what did you
+20:39 think of everyone and like
+20:40 um there was somebody who mentioned that
+20:42 they were studying computer science and
+20:43 they said that for the first two years
+20:45 of the curriculum they don't touch
+20:46 computer science at all and they must
+20:48 learn English and maths and chemistry so
+20:51 like it's it's funny how the school
+20:53 system works like why must you study
+20:54 chemistry in your University when you're
+20:57 majoring for computer science like okay
+20:59 that's one thing to have a basic
+21:01 knowledge of it and it's one thing that
+21:03 you're studying it in University when
+21:05 you're trying to study computer science
+21:06 whereas if you're like you could just
+21:08 focus on computer science and learn
+21:10 whatever is necessary and if there are
+21:13 any gaps in your knowledge you can also
+21:14 go back and study later it's not like if
+21:16 you didn't study chemistry your first
+21:18 year but then you needed in your fourth
+21:19 year it's the end of the world
+21:21 yeah indeed well I did not have that
+21:25 when I was studying computer science
+21:26 well we had obviously it would also
+21:29 depend on like where you start but like
+21:31 I'm just giving an example we did have
+21:33 chemistry but later like on third grade
+21:35 which is not very clear why I mean I had
+21:38 fun I like chemistry at school and then
+21:40 at University I also kind of enjoyed it
+21:43 but it's not something I really need to
+21:45 know yeah apart from having pleasure in
+21:49 studying this yeah there's no other
+21:51 applications
+21:54 yeah but we did spend a lot of time
+21:56 studying math and
+21:57 while fun like I enjoyed like solving
+22:01 all these equations and all these things
+22:04 like a game at my work as a data
+22:07 scientist yeah most of these things
+22:09 aren't really needed so yeah it's like
+22:11 one thing that um you have you study
+22:14 something because you find it
+22:15 interesting or you want to go into like
+22:16 a research field or something so you
+22:18 studied it but I think in like a
+22:20 day-to-day application you're you're
+22:22 hardly going to need a lot of this kind
+22:25 of stuff and if you need it again you
+22:27 can just like say you wanna you sit
+22:29 you're joining your pursuing a career
+22:32 path and you're like okay this is needed
+22:34 so you can study it then instead of like
+22:36 wasting all of your time studying it
+22:38 where you could be building up a main
+22:39 skill instead
+22:42 yeah and how do you approach this how do
+22:45 you approach learning do you focus on
+22:47 building projects you focus on learning
+22:50 theory first or how does it work for you
+22:52 in general
+22:53 um
+22:55 I like I think a balance of both is
+22:58 needed
+22:59 um because obviously without make
+23:00 building projects it's like there's
+23:02 always that aspect to just Theory which
+23:04 is lacking because like you could know
+23:06 something very well in theory but in
+23:08 practice it you're like your knowledge
+23:10 will end up falling short you run into
+23:12 issues which you wouldn't have known in
+23:14 how to solve with just the theory
+23:16 but um I think also learning new things
+23:20 in the theory is important like building
+23:21 new skills or advancing your skill set
+23:24 especially in something like Tech like
+23:26 if you were to build more projects in
+23:28 like a particular field but then you're
+23:31 not learning new skills and then at some
+23:33 point you're gonna be like okay these
+23:35 skills that I have are outdated and I
+23:37 spend all of my time building a bunch of
+23:38 projects with a skill that's now falling
+23:40 out of the market
+23:42 and like I like learning more by
+23:45 building projects as well as like I like
+23:47 reading and stuff so I'll just read a
+23:50 bunch about things and then I'll go and
+23:52 try to build a project and I'm like okay
+23:53 I did half of the things I learned
+23:55 weren't needed and half of the things I
+23:57 needed to build the project I didn't
+23:58 know so then you hit the Google
+24:01 so I think like a balance of both is a
+24:04 good way to go so like you you're
+24:05 covered on both fronts
+24:08 yeah I'm a big fan of uh the projects
+24:12 approach and then I think I neglect
+24:13 theory on them if it's not the ideal
+24:17 case maybe yeah like it should be a
+24:19 balance like you said yeah well to some
+24:22 other projects always a bit more
+24:23 interesting because you've like got
+24:24 problem solving or whatever so I think
+24:26 that that the projects have a bigger
+24:28 appeal at some point
+24:30 look but I'm wondering for you how do
+24:32 you decide what to build
+24:34 like if you want to build a project then
+24:37 you probably there is a skill you want
+24:38 to master and then
+24:40 how do you decide that
+24:42 to master the skill I want to build this
+24:44 project that should do this this and
+24:46 that how does it work well
+24:49 um
+24:49 I don't know I just I I
+24:52 think of ideas first and I'm like okay
+24:54 this would be a good way to use these
+24:56 skills like
+24:58 um I like I like surfing I like just
+25:01 surfing on the internet and finding like
+25:02 for for the data and stuff I like just
+25:04 finding cool data and okay what can I do
+25:07 with this data because I want to use
+25:09 this data because the data is
+25:10 interesting and I'm like okay maybe this
+25:12 would be something I want to like I
+25:14 don't know get better at pandas or
+25:16 something as a random example and I'm
+25:18 like okay I could use this data to build
+25:20 something with this framework I'm like
+25:23 okay let's just do it like there isn't a
+25:26 lot of reasoning behind my project
+25:27 sometimes Beyond it's cool let's do it
+25:31 so I like going on those um data set
+25:33 searches and just typing keywords which
+25:36 I'm interested in and then just seeing
+25:37 what comes up and picking random stuff
+25:39 that is cool
+25:40 okay let's say if you're interested in
+25:42 astronomy and exploding Stars you can go
+25:45 to kaggle or whatever data set yeah
+25:47 website and then you can just look for
+25:50 astronomical stuff and then okay there's
+25:52 an interesting data set let's see what
+25:54 they can we can do with it yeah like um
+25:57 I'll another way I found of finding good
+25:59 idea is like you know they publish the
+26:01 research papers on random stuff on like
+26:03 on science scientific stuff and a lot of
+26:06 them they publish the data with it so
+26:08 it's not very clean data a lot of the
+26:10 time because not like meant to be used
+26:11 for data stuff but if you like clean up
+26:13 the data it is you can make like it's a
+26:16 cool way of finding data that's like
+26:18 linked to like a study or something and
+26:20 then you can see like okay what else can
+26:22 be done with this data can I like make
+26:24 something cool using this data in a
+26:26 different way maybe
+26:30 I like just go into like studies that I
+26:33 read because I like I like reading
+26:35 scientific papers just for the fun of it
+26:37 so then I've bookmarked the studies
+26:39 which are cool and then just see what I
+26:40 can do with the data in my free time
+26:43 how do you find this Peppers Peppers
+26:45 that you want to read
+26:48 um mostly it's like I just if I have
+26:49 like some sort of question like I was
+26:51 wondering like
+26:53 um I don't know I'm falling short on
+26:55 examples but like I spent a lot of time
+26:57 reading about horse color genetics
+26:58 because I was like okay so if the horses
+27:00 have this colors and how does their
+27:02 color genetics work and then I was like
+27:04 okay so how does the human and human
+27:06 pigmentation work and I just fall in
+27:08 like a Google revitor until I find cool
+27:11 research papers about it
+27:13 yeah
+27:15 I don't typically do this every day but
+27:17 I remember when I Was preparing for my
+27:19 master thesis when I was writing it and
+27:22 of course I needed to do some
+27:25 research to understand what was done
+27:27 before that before my work what's I can
+27:32 baste my my work on I found the Google
+27:35 Scholar very useful yeah
+27:40 yeah I I use Google Scholar but often I
+27:44 just go on like the main Google and I
+27:46 just search and like there's like the
+27:48 they just put like research article or
+27:49 article as a keyword and then you can
+27:52 get like um there's like PubMed
+27:54 um nature articles
+27:57 um quite a few I'm forgetting the names
+27:58 now but like there are quite a few which
+28:00 are like free Publications that allow
+28:02 you to read the entire things without
+28:04 paying for it
+28:05 foreign
+28:07 it's good for like when I'm just sitting
+28:10 free and I like I just end up spending
+28:12 like hours on Google wasting my time
+28:14 reading absolutely random stuff but
+28:17 sometimes the data can come from which
+28:19 is useful
+28:20 yeah I remember one of the most useful
+28:23 feature of Google Scholar was this
+28:24 citation graph
+28:26 you know which what are the impactful
+28:29 papers that this particular paper cites
+28:32 yeah so that you can kind of go back
+28:34 yeah it happens and you can also see
+28:36 what paper cited this paper so you can
+28:38 yeah exactly then you have like it's
+28:41 you have this both directions right you
+28:43 can go to the past and see what was done
+28:44 before and then yeah what kind of work
+28:46 was based on this paper yeah and then
+28:49 I remember also spending a lot of time
+28:52 on that but I kind of had to
+28:55 to do this because I needed to
+28:58 like one of the chapters in my thesis
+29:00 was state of the art uh research I mean
+29:04 so that was a part of the thesis
+29:07 but I can understand how fun it could be
+29:10 like when you have a topic that you're
+29:12 interested in and just yeah explore
+29:16 and uh yeah I'm really curious now to
+29:20 talk about your experience with our
+29:22 course machine learning Zoom Camp
+29:24 how did you find it uh like why did it
+29:28 attract you why did you decide that this
+29:30 is actually a good course
+29:32 um mostly because it was fast like it
+29:35 was like four months so it's brief
+29:37 because like I don't I I get bored so I
+29:39 didn't want to do sometimes very long
+29:40 I'm like okay four months it's fine I
+29:42 can do it and also it mentioned like
+29:45 three it's a lot of time four months is
+29:47 a lot of time many things can happen in
+29:49 four months yeah but it's like not it's
+29:51 not like a huge long one year long
+29:53 you've got to study for one year
+29:55 sophomore year
+29:56 yeah
+29:57 like I'm already studying my balance
+29:59 projects has been going on for like
+30:01 three or four years so I wanted
+30:02 something that's not going on for that
+30:03 long I wanted something like okay just
+30:05 quick be quick about it don't spend
+30:06 years and I thought that was like a good
+30:09 way to like break into machine learning
+30:11 like it's uh it's gonna offer me like a
+30:14 good comprehensive look at the different
+30:16 aspects of it
+30:17 um this I got from like reading your
+30:19 guys syllabus and everything and then I
+30:21 also saw that I mentioned three projects
+30:22 and like weekly small projects so I
+30:25 thought maybe it's more project oriented
+30:27 so that'll be fun because I didn't want
+30:28 to like do too much Theory so mainly the
+30:30 things that was like okay it's not that
+30:32 long and it has projects so I was like
+30:34 okay let's give this a try it should be
+30:36 interesting
+30:38 remember where you found it like on
+30:40 Reddit or on social media somewhere
+30:43 um first my mom mentioned it to me I'm
+30:46 not sure where she found it I think she
+30:47 follows the uh vodka the music or
+30:51 something and then I saw it and then I
+30:53 saw it after that on LinkedIn so I was
+30:55 like okay I'm gonna check this out
+30:58 is your mom listening to us talking
+31:00 right now I'm not sure she might be okay
+31:04 well tell her hi
+31:08 anyways how we were talking about
+31:10 projects right and since you mentioned
+31:13 uh and this is what I wanted to talk to
+31:15 you about too so in Zoom camp we have
+31:16 these three projects and I wanted to
+31:19 talk to you like to understand how
+31:20 exactly
+31:22 you approached your approach what was
+31:25 your approach when it come when it came
+31:27 to selecting projects uh how did you
+31:29 decide what to do there like was it also
+31:31 the data set first approach or how did
+31:34 you go about that yeah I thought
+31:38 second like the first Capstone project
+31:40 that I was doing
+31:41 during the castle competition for the
+31:43 kitchenware thingy
+31:45 um and then I ran out of time to build a
+31:47 separate one for the Capstone so I used
+31:49 the same project in both places
+31:52 um but the first project I did like the
+31:54 midterm was about predicting the
+31:56 toxicity of frogs based on their color
+32:00 um so initially I was gonna make
+32:02 something I was like wanting to find
+32:04 something cool because I didn't want to
+32:06 do like the economic or political the
+32:08 like property and price data because
+32:11 that was boring I don't want to do it
+32:13 um so I think I went I don't remember
+32:15 there was like one website either was a
+32:17 Google data set search or some other
+32:19 website and I just like searched like
+32:22 poison or something like that I
+32:24 initially when I do like I want to do
+32:26 like um the most toxic poisons or
+32:28 something like that but then I found
+32:30 this one where they um they did an
+32:32 entire study
+32:33 about how a species of Frog's color
+32:35 indicates its toxicity like its
+32:37 brightness and everything so I was like
+32:39 okay well what if I make a model that
+32:41 can if you input the data it can predict
+32:43 the um species of the Frog instead and
+32:46 how like it's toxicity
+32:48 so that's what I built then so I built a
+32:51 model that like it takes the values
+32:54 um the values had to be given in like
+32:55 the accurate form that the study
+32:57 measured them in so it wasn't like
+32:59 practical probably but then I would just
+33:01 predict how jock said that frog species
+33:03 would be
+33:04 so I just went on like data set search
+33:06 in Google
+33:07 and then I think the next one I did was
+33:09 like a landscape recognition so that
+33:11 also I just like okay I went on Gekko I
+33:13 wanted for that one I wanted to do
+33:15 something with like the image um
+33:17 recognition so I just went on Gekko and
+33:19 I went open the image recognition data
+33:21 sets and I saw like a landscape
+33:23 classifier and I didn't have too much
+33:24 time uh that time around so I just
+33:26 picked like a easier one and went for
+33:29 the landscape classifier
+33:31 see well this one about frog toxicity is
+33:35 really interesting so I guess this is
+33:36 one of the things that were interesting
+33:39 for you back then right and then we
+33:41 decided to find something yeah actually
+33:44 I wasn't even looking for anything to do
+33:45 with frogs I was looking for something
+33:47 that was poison because like I've been
+33:48 reading about poison recently and I was
+33:50 like okay this is cool let's do
+33:51 something poisonous and then I saw the
+33:53 frog one and then I did my research I
+33:55 read the research papers and then I went
+33:56 to another about that fish is a frog and
+33:58 I was like okay this is way cooler we're
+34:00 doing this
+34:02 I kind of want to ask you more about
+34:04 like how did you even
+34:07 come across you know this poison topic
+34:10 why because art of self studying I guess
+34:14 you you said you spent a lot of time
+34:16 just doing random stuff on the internet
+34:18 reading things so I'm really curious
+34:20 like how exactly it happened did you
+34:22 even realize that okay now you're all of
+34:25 a sudden interested in uh poisons no I
+34:29 honestly didn't I keep I keep like
+34:31 finding random things that are
+34:32 interesting and then I just spend a lot
+34:34 of time Googling them until I'm bored
+34:36 with them and then I never think about
+34:37 them again so poison is just one of
+34:39 those that's like okay this is
+34:40 interesting let's read about it but then
+34:42 like it's not like a lasting interest
+34:44 yeah let's see do you somehow structure
+34:47 all these things like all these topics
+34:50 uh I don't know poison then uh call like
+34:54 you said horse genetics and all the
+34:56 other things
+34:58 I gotta just you keep everything in your
+35:00 mind like in your uh in your brain how
+35:04 does it work yeah that these are mostly
+35:06 just like I'm free I have free gems so
+35:08 like I just do random stuff but none of
+35:10 these are like structures just like okay
+35:11 whatever interest in it at the moment I
+35:13 might go and read about it it's it's
+35:15 like if I have free time or if I like
+35:18 can push my time around then I'll just
+35:20 squeeze them in anywhere I can but it's
+35:21 not like something I like dedicate time
+35:24 to reading about or anything they're
+35:25 like very unstructured
+35:27 okay so you I don't know wake up with
+35:30 your breakfast and then you have some
+35:31 free time and then okay what I'm going
+35:33 to read about today uh let's read about
+35:36 frog poison it's more like I've been
+35:39 thinking about this for the past one
+35:41 week so I'm still really about it and
+35:42 I'm like okay well next topic check on
+35:44 board of frogs okay now let's read about
+35:47 horse genetics right yeah
+35:51 is it related to your interest in
+35:54 bioinformatics in any way
+35:56 um bioinformatics is more born from my
+35:59 general like I was at that time very
+36:01 much obsessed I wanted to be a
+36:02 researcher at any rate I don't want to
+36:04 be anymore but like at that point I was
+36:06 like biology and chemistry research is
+36:09 all I ever want to do in life and then
+36:11 obviously that was not possible at the
+36:12 time because like I waited I didn't have
+36:14 the resources I were able to like pursue
+36:16 that and that's probably a good thing
+36:18 because now I'm not so sure if I want to
+36:20 do that but then at that point I was
+36:21 like okay what else can I do that is
+36:23 related to this and then I discovered
+36:25 that Byron ferment into this entire
+36:26 field which is like the closest I can
+36:29 come to combining what I can do and what
+36:32 at the time I really wanted to do
+36:34 so I was like okay this is like a nice
+36:36 mesh of my like Obsession at the time
+36:39 and what I can actually do and then I
+36:41 was like okay well I really want to do
+36:43 this like long term so bioinformatics
+36:46 was like like one of the things I just
+36:48 kind of stuck around one of these
+36:49 obsessions that just stuck around
+36:54 and I'm really curious about
+36:57 like so for example you said you wanted
+36:59 to do research and then you started but
+37:03 then you realized you don't want to do
+37:04 research but how do you
+37:07 stay motivated when learning by yourself
+37:09 because I imagine
+37:11 for me at least I quite often need an ex
+37:15 like external push coming from somewhere
+37:17 to when I'm not motivated to actually
+37:20 keep learning because if I don't do this
+37:23 then I just
+37:25 I don't know
+37:26 not do anything
+37:29 so how do you
+37:31 keep yourself motivated when you learn
+37:33 by yourself and you don't have this
+37:34 external push then all your motivation
+37:36 is coming from from you like how do you
+37:39 do this
+37:41 um
+37:42 what's that not really sure I think
+37:46 I work better
+37:47 a deadline so when I'm like not
+37:50 demotivated I just set up like okay I
+37:53 have to finish this at this point so
+37:55 then I know like okay there's a
+37:56 difference yourself
+37:57 I set the deadline myself here I think
+38:00 to some degree being homeschooled might
+38:01 have helped with this like I've never
+38:03 had much of an external factor to like
+38:05 keep me going so just being like okay
+38:07 well you got to do this at some point so
+38:09 just like pick a date and then that that
+38:11 date cannot move so even if I have to
+38:14 stay up till like 2 A.M I have to finish
+38:16 it because of the deadline so it's like
+38:18 okay I just set my deadlines and then I
+38:20 try to plan them as best as I can and
+38:22 unless like something very big came up
+38:24 but the deadlines do not move so if I've
+38:26 been lazy one week I can't say okay I'm
+38:28 gonna push the deadline one week because
+38:30 I didn't do anything I'll just have to
+38:31 do it then so I think that's that though
+38:34 like oh goodness the deadline's almost
+38:36 here is my motivation
+38:40 yeah that's a lot of that requires a lot
+38:42 of discipline because if you set the
+38:43 lines yourself then yeah
+38:46 yeah like
+38:48 that
+38:50 that's really cool like uh and when you
+38:55 you have a deadline and you know okay I
+38:57 have to do this
+38:59 but then since this deadline is not
+39:01 kind of real
+39:03 I'm still
+39:04 trying to understand like probably
+39:06 wouldn't work for me maybe I don't know
+39:08 I don't know I mean I I think
+39:11 I think some point you it's like I'll
+39:13 write my deadlines and I'll I have
+39:16 I have computer like a digital one
+39:18 obviously and I just like bright in big
+39:20 bold that and to the point where it
+39:22 annoys me and like I cannot remove it
+39:24 until I've finished it so it's mostly
+39:26 just like bullying my brain and you're
+39:27 like okay you just have to do this now
+39:29 stop being lazy it's like I will I'm not
+39:31 like I don't I don't think I'm very
+39:32 organized with my time I should be
+39:34 better at it so sometimes I like will
+39:37 waste an entire week doing nothing much
+39:39 but then I'm like okay well let's not
+39:42 let's not mess up this one deadline
+39:44 let's just stop messing around and do
+39:46 the work so I think once that's ups and
+39:48 downs like I get back I Won't Say I'm
+39:50 the most organized or most uh very
+39:53 self-disciplined person but like it
+39:55 works for me so it's fine it I get the
+39:57 work done eventually so it also helps
+40:00 that I like switch between a lot of
+40:01 different things so if I'm bored of one
+40:03 thing and I'm sick of doing it then I
+40:05 can just switch the next thing I like
+40:07 run things in parallel so I can like I
+40:09 have an escape like okay I'm sick and
+40:11 tired of doing data science let's go
+40:13 illustrate something instead
+40:16 see yeah that's cool mushroom is the
+40:19 mushroom is really cool
+40:22 but yeah
+40:25 I
+40:28 I'm just curious
+40:30 so I forgot what I wanted to ask so let
+40:33 me just uh
+40:34 um yeah it was about Zoom Camp so
+40:37 in the zoom camp in Machinery Zoom camp
+40:39 we had some deadlines I guess for you it
+40:41 was helpful right so that's the
+40:43 deadlines were external
+40:45 yeah
+40:47 yeah well at least for me that would be
+40:49 much much more helpful than the
+40:50 deadlines I would set for myself to my
+40:53 yeah the deadlines were helpful like um
+40:55 at some point I was ignoring the midterm
+40:58 project because I didn't want to do it I
+41:00 was bored and I was like studying other
+41:02 stuff and then it was like I think it I
+41:04 only begin it like in the second week I
+41:06 was like oh yeah I should do this now
+41:08 because I'm a runoff game and I did run
+41:10 off them because I got stuck and then I
+41:12 finished it I think I submitted it like
+41:14 the Sunday before after I'd been where I
+41:16 like I got up early this Sunday and I'm
+41:18 sitting working on the project that
+41:19 entire Sunday and like I was like okay
+41:22 maybe I shouldn't have ignored this for
+41:23 all of the first week but like having
+41:25 the dead and I was like okay I gotta get
+41:26 this done like I might have skipped on
+41:28 it otherwise but like I was okay I gotta
+41:30 like I want to stay on the leaderboard I
+41:32 can't skip this project
+41:35 and then while you were procrastinating
+41:38 you were reading procrastinating I mean
+41:40 taken some time off the course you can
+41:43 call it procrastination it's fine
+41:45 you were probably about poison and
+41:48 toxicity of frogs right no I think
+41:51 yeah
+41:53 remember I I was like convincing my
+41:55 brain that this is
+41:57 this is the wrong kind of
+41:59 work
+42:01 and in general how do you
+42:05 well you said that you use the sticky
+42:07 notes to
+42:08 I think you said bully your brain into
+42:11 yes doing stuff but when it comes to
+42:15 actually studying like taking notes and
+42:19 keeping your projects organized
+42:21 organized do you have any system
+42:27 no I don't take notes because I forget
+42:30 to read them and I forget to pay
+42:32 attention if I'm making notes so notes
+42:34 are like I never do something they never
+42:36 help me so if I do get if I like forget
+42:38 things I just re-watch it or Google it
+42:40 instead because notes have never worked
+42:42 for me and
+42:44 um as far as like time tracking
+42:46 YouTubers and stuff go no I don't use
+42:47 them it's just like okay I have the
+42:49 deadline but before the deadline I just
+42:51 mess around and do whatever as soon as
+42:52 the work gets done by the deadline I
+42:54 don't care what my daily schedule looks
+42:56 like it's like some days I will do a
+42:58 bunch of stuff in the day and then some
+43:00 days I just do one thing in the day like
+43:01 focus on one thing so it's like whatever
+43:03 my mood is for that day whatever I'm up
+43:06 doing
+43:08 but I don't really use like any
+43:10 structural tools or anything
+43:12 cool
+43:13 yeah that's interesting that he
+43:14 mentioned us because for me notes is the
+43:17 only thing that actually works if I want
+43:19 to read any information so it's funny
+43:21 how
+43:22 everyone is different right yeah like I
+43:25 try taking notes because everyone's like
+43:27 notes are your key to success and if you
+43:29 don't take notes you never like learn
+43:30 properly so I was like okay well I gotta
+43:32 take notes now and I couldn't I would
+43:35 forget to pay attention or I'm listening
+43:36 so that I end up like listening to the
+43:38 entire lecture and I heard not a word
+43:40 and I would forget Adam anyway I
+43:43 wouldn't ever read my notes I would
+43:44 forget what the notes mean so notes just
+43:47 never worked for me
+43:50 are there any drawbacks for stealth
+43:52 studying so let's say we compare a zoom
+43:56 Camp which where deadlines are let's say
+43:59 external they are forced Onto You versus
+44:04 self-style in when you find material
+44:06 online and you take this if you learn it
+44:09 at your own pace so what are the some of
+44:13 the drawbacks in this approach when it's
+44:15 completely self-studying completely
+44:17 based on your own motivation and
+44:18 discipline
+44:20 um um I think one of the drawbacks could
+44:23 be the same motivation discipline thing
+44:25 that's like it's easier to not fulfill
+44:28 deadlines when you are the one setting
+44:29 them and nobody else is like responsible
+44:32 for them and also I think it can be a
+44:36 bit harder to make sure you are learning
+44:39 the correct things on your own like you
+44:41 could end up wasting time or resources
+44:43 studying something that is down the line
+44:45 you're like okay I shouldn't have done
+44:47 that whereas if you're following a
+44:49 course or like a system somebody else
+44:51 made you're like okay these are people
+44:53 in the industry obviously they know what
+44:54 is more beneficial to study at a given
+44:57 time so like they're having the
+44:59 resources compiled is obviously a lot
+45:01 easier and maybe to some degree more
+45:04 efficient like there's a higher chance
+45:06 of making a mistake when you're doing
+45:08 yourself because before you study and
+45:10 you don't know anything about that thing
+45:12 and then afterwards you can be like okay
+45:14 well hindsight 2020 I shouldn't have
+45:16 done that
+45:17 but um
+45:19 obviously at this point because I am
+45:21 doing all the self-study I think its
+45:23 benefits outweigh this like the freedom
+45:26 you get and the how much more it works
+45:28 for me personally but obviously it may
+45:31 not be for everybody and like there are
+45:32 these things which are maybe better in
+45:35 like following a structural structured
+45:37 study program
+45:40 you find do you find study groups
+45:42 helpful for you or you prefer doing
+45:45 things yourself yeah I prefer doing
+45:46 things myself I don't like study groups
+45:48 I don't like um I'm not very much a
+45:51 social person I don't like doing things
+45:52 with others I'm fine on my own but I
+45:55 know for others they're like vastly
+45:57 helpful like lots of people have said
+45:58 that study groups give them the
+46:00 motivation and stuff to self-study so I
+46:02 think for people who are of that like uh
+46:06 personality it would be very helpful for
+46:08 them maybe but personally I don't like
+46:10 them or maybe other things that study
+46:13 groups help with is the deadlines so you
+46:17 as a group is that on the deadlines and
+46:18 then you walk through a course even if
+46:20 this course is a self-paced course then
+46:22 it kind of work is a like in a small
+46:24 cohort sort of like yeah yeah
+46:28 like I know I've never seen any appeal
+46:30 in that myself because that's just not
+46:32 like how I like studying but I assume
+46:34 for people who like the social part
+46:37 there'd be they'd be a lot more
+46:38 motivated even with like multiple people
+46:40 doing it or something
+46:43 and then I think at the beginning you
+46:45 set one of the goals you have is to
+46:47 break into machine learning
+46:49 yeah so having this goal does it help
+46:52 you to actually focus on studying and
+46:54 selecting which kind of material you
+46:56 want to uh focus on and things like that
+46:59 yeah definitely
+47:05 how the industry works I'm trying to
+47:07 find that what type of opportunities are
+47:09 open in machine learning because now I'm
+47:10 like serious okay I want to do machine
+47:12 learning whereas previously at most I've
+47:14 had like a passing interest in machine
+47:15 learning like okay it's cool but I don't
+47:17 know if I'm doing it or no so I never
+47:19 paid as much attention to it whereas now
+47:21 I'm like okay I need to seriously do
+47:22 this so I should find resources I should
+47:24 try and make connections in the machine
+47:25 learning world I must try and get my
+47:29 name out there
+47:36 F1 call for some reasons
+47:41 and my phone will die so
+47:45 because I lost
+47:47 um live chat anyways
+47:50 yeah um
+47:54 and uh
+47:56 yeah somebody keeps calling me so
+48:04 I'm just
+48:05 wondering what else to ask you because
+48:08 now I got distracted
+48:10 um
+48:11 baby Zoom camp
+48:13 [Music]
+48:14 um
+48:17 were two kind of parts so there was a
+48:20 data science part or focused on machine
+48:22 learning theory and then there was more
+48:25 practical data machine learning
+48:26 engineering part which one did you like
+48:28 more
+48:30 um
+48:31 I don't know I kind of like both
+48:33 um I didn't have like any particular
+48:35 preference either way I I didn't much
+48:38 like the ammo up like the cloud part
+48:40 with like the kubernetes and Docker
+48:42 because I don't like that no I don't
+48:44 like it as much it's like I don't wanna
+48:46 I don't want to focus on the ml Ops part
+48:48 like obviously I know it's necessary if
+48:50 you're going in this journal but like I
+48:52 preferred the working with Gold without
+48:54 any worry how to get it running in
+48:56 deployment but it wasn't I like the way
+49:00 it was handled in the zoom Camp um I
+49:02 actually thought it was a lot more
+49:03 difficult from like what I had seen
+49:04 briefly out of the zoom camp but then
+49:07 okay this is maybe not so bad like after
+49:10 I'd done it but like before especially
+49:12 before like we reached those modules I
+49:14 was like oh goodness we have to do like
+49:15 Docker because I was like I was very
+49:17 much daunted by the fact that Docker is
+49:19 like this huge thing I was like okay
+49:21 it's not so bad it's fine I can do this
+49:22 but like I think those are probably my
+49:24 least favorite segments was the
+49:26 especially the kubernetes
+49:29 do you have any tips for anyone who
+49:31 wants to start
+49:32 Amazon Camp as a student now for example
+49:35 in a self-paced mode
+49:38 um tips
+49:39 I don't know
+49:41 use the uh just the approach studying it
+49:47 um I don't know I never really thought
+49:48 that much about um doing it I was just
+49:51 like okay I'm doing this maybe I don't
+49:53 know I think I did find this like
+49:54 Community very hopeful
+49:56 um and I think one of the like the set
+49:59 community not only like asking them
+50:01 questions because to be honest I didn't
+50:03 do that as much I preferred Googling
+50:04 yourself asking on the slack but even
+50:06 like just read it and if anybody's stuck
+50:09 helping them because like and try to
+50:11 help them you realize that okay I never
+50:12 understood this as well as I thought I
+50:14 did and then if you're like helping them
+50:16 with things at all you can further your
+50:18 own understanding so I think that was
+50:21 like kind of the one thing maybe I could
+50:24 give I don't know I know what to give
+50:25 for chips
+50:27 that's a good tip I think uh at least
+50:30 for me teaching is the best way of
+50:31 learning something so when I can explain
+50:33 a concept then I am fairly confident
+50:37 that I probably understand it more or
+50:39 less yeah because explaining in a way
+50:41 that somebody else understands is so
+50:42 much harder and like I'm not I don't
+50:44 like
+50:47 people because I don't like doing that
+50:49 but I try to make a point of doing it in
+50:52 this um Zoom camp and like encouragingly
+50:55 I must say that okay it did help me
+50:57 understand this better when I had to do
+50:58 it like also help other people do it
+51:01 then I don't know if you use it uh maybe
+51:05 your
+51:06 the
+51:08 uh you're tired of hearing about child
+51:10 GPT but what I find useful also is just
+51:13 talking to the to the chatbot about the
+51:18 topic and then just asking it questions
+51:19 and then making sure I understand it
+51:21 yeah that was very helpful I guess for
+51:24 you you said you don't really like
+51:25 static groups
+51:26 but yeah it's like okay I'll take a fake
+51:31 study group yeah I fixed a group exactly
+51:34 yeah I never really thought about using
+51:36 GT in that way before that's interesting
+51:39 do you use it at all
+51:42 I have like missed was there a few gems
+51:43 but not like actually used used it
+51:45 because I've never like I still go to
+51:47 Google first and never thought that I
+51:49 should ask jqpg
+51:52 yeah
+51:53 interesting um well let's see I think we
+51:57 have a few questions
+51:58 um
+52:00 yeah one question is how can we learn
+52:03 about Advanced topics like PhD level
+52:05 courses
+52:08 um yeah that could be hard like I don't
+52:11 know I'm not sure how much like how
+52:14 advanced you could go in like there are
+52:16 lots of postgraduate resources available
+52:18 online as well like you might have to
+52:19 pay for there might be more paid than
+52:21 free there might not be as much for your
+52:23 resources but I think you could um go a
+52:26 bit way like with page resources and
+52:28 reading research articles and like I I
+52:31 definitely think it is possible but
+52:33 maybe harder than doing like undergrad
+52:36 stuff
+52:36 because there's a lot of resources for
+52:38 undergrad and maybe not that many for
+52:40 like PhD or whatever
+52:42 yeah because I guess there is more
+52:44 demand for beginner level stuff yeah
+52:46 yeah
+52:47 and I think people I don't know if like
+52:49 that many people who are doing online
+52:52 self-study pursue that degree like that
+52:55 high level of study or no but I think it
+52:57 is possible I like I don't think it is
+52:59 impossible it might just be harder to
+53:01 study that kind of stuff on your own
+53:03 and also doing PhD on by yourself is
+53:08 probably
+53:09 difficult in a sense that uh you
+53:13 probably need an institution that helps
+53:15 you with research yeah yeah connections
+53:18 helps you with access to I don't know
+53:19 Labs or whatever yeah I don't know if
+53:22 you can like I don't even think it's
+53:23 possible to get a PhD like PhD level
+53:26 entirely by yourself but I'm not I've
+53:29 never really researched officially
+53:31 getting a PhD if you've not gone to like
+53:33 uni or school before I'm not sure how
+53:35 that would work but I think like publish
+53:37 a paper without yeah yeah I think you
+53:40 could get to that knowledge level on
+53:42 your own
+53:44 okay
+53:45 yeah but and uh also like if you spend
+53:49 time doing this
+53:50 you need to live on something like you
+53:53 need to eat or yeah obviously it's
+53:56 usually University pays money right and
+53:58 yeah
+53:59 if you don't get income and we spend
+54:01 like six years doing research
+54:06 that's a that's a practicalities of it
+54:10 but the main resource here is papers
+54:13 right so there are there are no not so
+54:15 many other resources that you can use
+54:17 that like there is no Zoom Camp about
+54:18 some PhD level topic yeah I don't think
+54:21 so
+54:22 um but there might be like
+54:24 um I think papers must be the major ones
+54:27 or like getting if we can get like
+54:28 subscription to libraries or something
+54:29 where they have more
+54:31 um in-depth stuff I'm not sure like how
+54:33 that would work because not something
+54:35 I've like heavily researched myself like
+54:37 I've now been interested in getting to a
+54:39 PhD so
+54:41 by libraries you mean like this
+54:43 electronic libraries from Springer or
+54:46 nature or yeah yeah something like a
+54:48 publication that can get you access to
+54:50 like a lot more of the
+54:52 the higher level stuff then you can get
+54:54 access
+54:55 ACM this kind of I guess organization
+54:58 yeah what I'm assuming like being in a
+55:00 uni would give you access to because
+55:01 like a lot of them have like if you have
+55:03 like UD email address or stuff you can
+55:04 log in so I'm assuming that is the kind
+55:06 of stuff that uni already gives you
+55:08 access to so
+55:10 I remember having access to all this
+55:12 major
+55:13 uh I didn't have to pay for for reading
+55:16 articles because like it's another topic
+55:18 for discussion right why do you need to
+55:20 pay 50 euros for a three page four page
+55:24 same thing Tactical
+55:27 also finally that researchers who
+55:28 publish articles need to pay to publish
+55:31 articles so like this is wrong on so
+55:33 many levels yeah it's like um I'm in a
+55:36 lot of um scientific communities on
+55:39 Twitter and more than half of them are
+55:41 always complaining about how hard it is
+55:43 to just get researchers published that
+55:46 you think that scientific institutions
+55:47 would be more welcoming of like it's new
+55:49 research it's cool don't learn more
+55:51 about the world but also you have to
+55:53 jump like five billion groups and pay
+55:54 your arm and a leg just to get your
+55:56 research out there so like it seems like
+55:58 a very counter-intuitive process
+56:01 that's why I like this archive where
+56:04 it's just all the previous prints are
+56:06 there but then again you have to do a
+56:08 lot of filtering yourself you don't know
+56:09 yeah
+56:10 the paper from archive is good or it's
+56:13 not yeah I assume that is like some of
+56:16 the money that Josh was like you get
+56:17 curator resources like there's a lot
+56:20 less chance of bad Publications coming
+56:23 in those
+56:26 and then another question is related to
+56:28 uh burnout I don't know if you ever had
+56:31 to deal with anything like that like
+56:33 when you're you cannot just study
+56:35 anything and all you want to do is I
+56:37 don't know watch YouTube videos with
+56:39 cats did whatever happened to you
+56:43 um I don't know I don't think so I like
+56:46 I haven't I don't know I haven't really
+56:48 like taken a break in a while so I'm not
+56:51 really sure I feel like if I would stop
+56:52 then maybe there would be an issue but
+56:54 like I just it's fine I've just been
+56:55 going for a while so like I have the
+56:57 momentum
+57:00 and uh probably you mentioned a few
+57:03 times that you like to switch between
+57:05 topics like one day you read about
+57:08 machine learning and then the other day
+57:10 you create illustrations right yeah this
+57:14 helps right
+57:15 yeah like I switched between a lot of
+57:17 things like
+57:18 um right now I would switch between like
+57:20 my bioinformatics machine learning and I
+57:24 have in my illustration I have like two
+57:25 or three different projects I'm doing at
+57:27 the same time so it's like if I get
+57:29 bored of one thing I'm like okay hop
+57:30 onto the other hop on to the other side
+57:31 I have like a fallback route instead of
+57:34 like getting doing nothing like if I
+57:37 were to doing only one thing I feel this
+57:38 would be a bigger issue because I do get
+57:40 bored of things very easily so I'm like
+57:42 okay I'm sick of this I don't do it
+57:44 because I did like two days in a row
+57:45 which I know it's not a lot but it's
+57:47 like I don't want to do this anymore so
+57:48 I have like I can work on another
+57:50 project I can do something else and then
+57:52 I'm like okay I have some I'm I have
+57:54 some more interest in that project a few
+57:55 days later
+57:57 yeah interesting well I think we should
+58:00 be slowly slowly wrapping up so maybe
+58:03 the last question is are there any books
+58:06 or other good resources that you can
+58:08 recommend to the listeners
+58:11 um
+58:13 that's a hard one because this is on my
+58:15 watch machine learning writing machine
+58:18 learning uh learning in general
+58:20 bioinformatics anything you think that
+58:23 would be interesting for the listeners
+58:27 um
+58:28 for python I can recommend like I had
+58:31 done a course which was pretty which was
+58:32 very interesting was python for
+58:34 everybody and I liked it because the
+58:36 person was not spending too long on the
+58:39 stuff it was like a bit of a fast pace
+58:41 but also if he went into a bit more in
+58:44 depth than like okay right so and so
+58:46 syntax because just because
+58:49 um machine learning I haven't like
+58:51 looked up that many resources as I have
+58:53 for other stuff but like I can recommend
+58:55 the zoom camp and your book because I
+58:58 found those helpful and
+59:00 um I would say that they're like good
+59:01 resources so I think I can recommend
+59:04 those
+59:05 and for like the thing is I haven't
+59:08 spent like a lot of time following
+59:10 specific resources because I jump
+59:12 between them so much so it's hard for me
+59:15 to say like there's so many which I
+59:16 would have to like I could dig into my
+59:18 resources and say so it's hard to like
+59:20 say off the top of my mind that okay
+59:22 that's a good resource
+59:24 did you take any course about studying I
+59:27 know that there is a course in Coursera
+59:28 learning to learn something like this
+59:30 did you ever took did you ever take
+59:33 anything like that or from your School
+59:35 homeschooling you kind of knew how to
+59:40 um I did see I have seen that learning
+59:43 how to learn course and I think I
+59:45 watched to take introduction or
+59:46 something but I was so bored but I just
+59:48 closed it I didn't like watch it further
+59:52 okay then um that's all we have time for
+59:55 today thanks a lot for joining us today
+59:58 for sharing your experience about self
+1:00:00 learning and thanks everyone also for
+1:00:02 joining us today for listening and um
+1:00:06 yeah I guess that's it really yeah thank
+1:00:08 you for the opportunity to speak on the
+1:00:10 podcast I really enjoyed it our pleasure
+1:00:13 so yeah have a great weekend everyone
+1:00:15 thanks you too bye

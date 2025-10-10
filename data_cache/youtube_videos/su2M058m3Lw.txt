@@ -1,0 +1,1367 @@
+0:00 hi everyone I'll skip the usual
+0:01 introduction yeah so like just check
+0:04 make sure to check the links in the
+0:05 description and subscribe to our YouTube
+0:07 channel very important very
+0:10 important and uh today this week we'll
+0:13 talk about the unwritten rules for
+0:16 success in machine learning and many
+0:17 other things and we have a special guest
+0:20 today Jack Jack transitioned from
+0:22 software engineering to data science and
+0:25 he worked in both as both indid
+0:27 individual contributor and in leaders
+0:30 ship roles so he managed at some point
+0:32 teams to up to 15 people and currently
+0:36 he is the VP of data science and machine
+0:38 learning and soon and there's even a
+0:41 date you gave us a date November
+0:44 15th he plans to move to become an
+0:47 entrepreneur so yeah Welcome to our
+0:52 podcast yeah thanks Lexi thanks for
+0:54 having me great to be here uh the
+0:57 questions for today's interview are as
+0:59 always prepared prepared by Johanna
+1:00 Bayer thanks Johanna for help and let's
+1:03 start so before we go into our main
+1:06 topic of these unreasonable rules let's
+1:08 start with your background can you tell
+1:10 us about your career Journey far yeah so
+1:13 I started out um my professional career
+1:16 in
+1:17 2015 as a fullstack software developer
+1:21 um I was working in a company called uh
+1:23 Trunk Club um they're sort of like
+1:25 Stitch fix they're owned by Nordstrom
+1:27 online
+1:28 retail and uh started out as a software
+1:31 developer uh worked there for a couple
+1:34 years in that role but then became
+1:36 interested in data science and machine
+1:38 learning and made a transition within
+1:40 the company to a data science do you
+1:42 remember what made you interested in
+1:44 data science yeah so actually I had I
+1:48 had sort of always been interested in
+1:49 data science back going back to my
+1:52 undergrad days when I was a physics
+1:53 major and took a lot of stats classes
+1:56 but you know this was 10 years ago so at
+1:58 the time data science was was not well
+2:00 established and there was no master's
+2:02 degree there was no bachelor's degree
+2:04 there was no clear career path so I
+2:08 decided to do software engineering a
+2:09 masters in software engineering um
+2:12 intending to go into data science but I
+2:14 ended up just really enjoying software
+2:16 engineering so I stuck with it for a
+2:17 couple years and then um at some point
+2:20 though uh I started to become interested
+2:23 in machine learning again and uh a data
+2:27 science team was spun out at my company
+2:29 you know I watched what they were doing
+2:31 and became very uh interested in it and
+2:33 so uh I made the transition into that
+2:36 team uh through an apprenti an internal
+2:40 opportunity yeah it was not easy um it
+2:43 was you know I had to I had to be very
+2:45 assertive and ask a lot of times uh and
+2:48 then eventually landed a informal
+2:51 apprenticeship opportunity within that
+2:53 where I was like doing a side project
+2:56 but um was able to switch did data
+2:58 science at Trunk Club for a year and
+3:01 then moved on to a company called go
+3:03 Health which is sort of like orbits or
+3:05 kayak but for health
+3:07 insurance and I was a senior
+3:10 machine orbits I think wait wait wait I
+3:12 think like I was in the states at some
+3:14 point and I needed to buy a
+3:15 ticket uh airplane ticket and this is
+3:18 what he used for comparing prices right
+3:20 exactly yeah okay it's like
+3:23 skyner yes so I think about that for
+3:26 health insurance you know mo at least in
+3:28 the United States most of us get health
+3:29 insurance through our employer um and
+3:31 you have like three plans to choose from
+3:33 but for people who are not employed or
+3:36 people who are uh you know
+3:38 self-employed uh to choose a health
+3:40 insurance plan you know it's it's
+3:42 complicated so this was this platform
+3:45 was basically like the the selection
+3:47 process for that um in any case um so
+3:50 was a senior machine learning engineer
+3:51 there started out in that role this the
+3:54 data team was also new at go health and
+3:57 quickly I found myself informally
+3:59 managing that team um because you know
+4:02 there was a data science team within go
+4:04 Health uh and the data organization
+4:08 itself was maybe 15 to 20 people all
+4:11 being managed by one person and so uh
+4:14 naturally you know people stepped up as
+4:16 informal managers and that was me for
+4:19 the data scientist and the data analyst
+4:21 around me uh so I was formerly promoted
+4:23 to manager after a year or two and then
+4:26 um again uh I was promoted to director
+4:29 after another year two after that most
+4:31 of that was around having successful
+4:33 projects launched so after a big project
+4:35 launch you know they would generate a
+4:37 bunch of excitement and demonstrate
+4:39 value to the company uh leadership would
+4:41 want to invest in more data science and
+4:43 machine learning and naturally that
+4:45 would come to me um I'm just curious in
+4:48 retrospect do you think it was a bit too
+4:51 fast too quick because like you worked
+4:54 for a few years as a individual
+4:56 contributor and then like boom you
+4:58 become became a manager was it
+5:02 like like what like now when you look
+5:05 back was it too quick or was it like
+5:08 just the right
+5:09 base it's a good question I'll I'll give
+5:13 you two short answers to that the first
+5:15 one I'll say is that um I had uh because
+5:20 I did a lateral move between software
+5:21 engineering and data science and machine
+5:23 learning there's so much overlap between
+5:25 those skill sets and like professional
+5:27 maturity that I would say help to right
+5:30 it did yeah so it wasn't like I had just
+5:32 one year of experience before management
+5:33 it was more like I had like four uh
+5:35 before being promoted because there's
+5:37 again there's just so much overlap
+5:39 between the two so I would say that the
+5:42 other part though I would say is that
+5:44 being promoted to manager it's almost
+5:46 always like it feels too soon and it
+5:48 will always feel too soon because there
+5:50 just is a shift that is very difficult
+5:53 to emulate a seamless transition like
+5:55 it's a new paradigm it's a new thing to
+5:58 experience and it is always going to be
+6:00 a difficult transition that being said
+6:03 sure it was it was fairly fast and you
+6:05 know both good and bad uh results came
+6:07 from that but you also learned a lot I
+6:10 assume right oh yeah like when you move
+6:12 fast you also learn fast right because
+6:14 like you have no
+6:16 choice exactly yeah so that was you know
+6:19 when I think about like the pivotal
+6:20 years of my professional career there
+6:22 were two sort of time periods the first
+6:25 was just my first couple years at Trunk
+6:26 Club being in part of a strong
+6:28 technology organization
+6:29 develop a lot of really good
+6:30 fundamentals and you sort of like get
+6:32 into your groove and then the the next
+6:35 phase was going from a senior IC role to
+6:38 director within a couple years that was
+6:40 just you know very very different from
+6:43 the other part but um learned a lot you
+6:46 know that's where you learn a lot of
+6:47 things that like are not really taught
+6:49 anywhere it's very difficult to teach
+6:51 them because
+6:53 everything's piece of data science right
+6:55 so you just have to like yeah how do you
+6:58 actually learn this skill
+7:00 yeah uh I mean for me it was trial and
+7:02 error it was it was realizing what
+7:04 worked and what didn't work but um yeah
+7:07 how do you even know work like yeah a
+7:10 lot of that is what I'll is what I'll
+7:11 share you know in general is just like
+7:14 what works what doesn't work why does it
+7:15 work and you know in fact that's a lot
+7:18 of the reasons why I started to be more
+7:20 proactive on social media um but yeah
+7:23 that was a great learning period for me
+7:25 um you know you learn a lot of lessons
+7:28 around
+7:30 being able to convince people uh of
+7:32 value you know being knowing when and
+7:35 how to articulate accuracy vers versus
+7:38 something that may be less precise but
+7:40 more compelling things like that you
+7:42 know a lot of being a leader is you have
+7:45 to in some sense be a salesperson uh to
+7:47 the rest of the business where you have
+7:49 to be able to demonstrate value you have
+7:51 to sell value you have to translate you
+7:54 know why is this needed you know trying
+7:56 to convince a non-technical stakeholder
+7:58 why you have to spend a month on
+8:00 cleaning up Tech debt you you need some
+8:02 sales skills to do that well um so
+8:05 there's just a lot of things that are
+8:06 very you know it's difficult to teach
+8:08 those in in any kind of technical
+8:09 curriculum because they're so opposite
+8:12 of what needs to be emphasized early on
+8:15 in that career do do you have
+8:17 engineering background engineering
+8:19 education like software engineering yeah
+8:22 so my my my Master's Degree was in
+8:25 software engineering um and then my
+8:27 first couple years were software
+8:28 engineering assume it's not uh a skill
+8:31 you picked up during studies right so
+8:33 like during software engineering
+8:35 classes you are not taught like how to
+8:38 sell things you you learn how to I don't
+8:41 know do Java and algorithms and all that
+8:43 stuff databases right so you're not uh
+8:46 you're not learning how to sell things
+8:48 so how did like it's it was all trial
+8:50 and error right so you just see like how
+8:52 you approach a person and you try to
+8:55 kind of sell a project or something and
+8:58 then you see you feel what works what
+9:00 doesn't right yeah I would say it's a
+9:02 mix of trial and error and it's also a
+9:05 mix of observing works for others so um
+9:09 you know another thing that is not
+9:11 really taught very often in any kind of
+9:13 school environment is the importance of
+9:17 technical problem Framing and
+9:20 understanding the business and user side
+9:22 of the applications You're Building uh
+9:26 one one uh story I like to tell is when
+9:29 when I was a young software developer
+9:32 you know a couple years into my career I
+9:34 felt like I was really strong
+9:36 technically and then I would look around
+9:38 myself at like the people on my team and
+9:40 think okay who's better at what how do I
+9:42 make myself better and then I would look
+9:44 to my tech lead and see okay what makes
+9:46 them special and something I observed
+9:48 was that my tech lead at the time was
+9:52 strong technically definitely more
+9:53 strong than or stronger than I was
+9:55 because they were more experienced but
+9:57 relative to the people around him he was
+10:01 not necessarily that much stronger but
+10:03 there was a clear difference in how much
+10:05 he could produce and the value that he
+10:07 provided and the difference was that he
+10:09 was really really good at taking the
+10:12 time to understand deeply the
+10:15 applications that we were building and
+10:17 you know taking our to our meetings with
+10:20 stakeholders to ask them questions and
+10:22 really just understand the aspects of of
+10:26 the product as well as anyone else did
+10:28 at the business
+10:29 because once he understood that he could
+10:31 then come back to the tech team and be
+10:33 able to translit okay here's what we
+10:34 need to do here's what we need to
+10:35 prioritize here's why this is the way
+10:37 that it is and that is something that's
+10:41 very difficult to teach you know it's
+10:44 difficult to teach because when you're
+10:45 learning software development you're so
+10:47 overwhelmed by everything else that
+10:50 hearing someone try to explain that is
+10:52 like well that's obvious you know I can
+10:53 focus about that later it's very
+10:55 difficult to sort of like mentally
+10:57 allocate the right capacity to something
+10:59 something like that when you're getting
+11:00 crushed by all of this very difficult
+11:02 technical stuff so that's sort of
+11:04 something that you know even on LinkedIn
+11:05 when I post if I post something about
+11:08 that the amount of interest that I'll
+11:09 get relative to posting something very
+11:11 technical is so much lower right because
+11:14 most people are not don't feel like
+11:16 they're struggling with that right now
+11:17 they feel like they're struggling with
+11:18 the technical parts and so that is the
+11:20 more valuable piece to them and so the
+11:22 these other parts that really do help
+11:24 differentiate people in their careers
+11:26 often go unnoticed and are not learned
+11:28 until triy on error several years
+11:32 later so like one of these things that
+11:35 go unnoticed as you mentioned is
+11:39 U understanding the applications right
+11:42 on the Deep level and understanding what
+11:46 um I know what generates value right
+11:49 that's one of the things as you
+11:50 mentioned this Tech lead had that other
+11:53 maybe less less senior people did not
+11:56 are there other things like like these
+11:59 hidden things that uh are not obvious
+12:01 when you study when you like focus on
+12:05 technical things but that are actually
+12:07 very important at
+12:09 work yeah
+12:12 so one thing that's extremely important
+12:15 is people's perception of
+12:17 you another thing that is never taught
+12:20 in any course that I've ever seen is in
+12:23 order to be successful in any especially
+12:26 in leadership but really in any role
+12:28 people have to respect your opinion and
+12:30 you know when you ask for things they
+12:32 have give them to you like that is just
+12:34 an essential part of being a high impact
+12:37 uh either IC or
+12:38 manager and in order to do that well you
+12:41 people have to respect your opinion and
+12:44 developing a reputation for respect and
+12:48 you know strong consideration is
+12:50 something that is difficult and uh
+12:52 something that I learn just over time
+12:54 how to do you know one simple tip that I
+12:58 give to people is anytime you're given
+13:01 an opportunity to do a presentation in
+13:03 front of an
+13:04 audience spend way way more time on that
+13:07 than you think you should like anytime
+13:10 you are you have an opportunity to speak
+13:11 to people that you don't normally speak
+13:13 to they will they will base their
+13:16 perspective of you very heavily on that
+13:20 discussion or that presentation because
+13:22 that's really their only perspective
+13:24 into you is that's their only
+13:25 interaction with you and so you know if
+13:28 you're giving a presentation to
+13:29 leadership or even just other teams if
+13:31 those teams aren't working with you
+13:33 directly frequently they don't know how
+13:35 good you are they don't know any of that
+13:37 and so you really have to make sure that
+13:39 anytime you're given an opportunity to
+13:41 interact with others who uh you don't
+13:45 interact with on a day-to-day basis you
+13:47 have to take advantage of that and
+13:49 that's where like the sales stuff comes
+13:51 into play where you know maybe maybe
+13:54 saying things as um as they are is not
+13:58 always the best and you want to sell
+13:59 them you want to promote them and really
+14:02 what you should be thinking about is
+14:03 like what is the ultimate action that I
+14:04 want to be taking so you know if you're
+14:06 thinking about the the month of
+14:09 stakeholder or I'm sorry the month of
+14:11 technical debt cleanup you know if you
+14:13 try and explain the exact reason why
+14:15 that's so important you probably won't
+14:16 get what you need and so you need to be
+14:18 able to communicate it in another way
+14:19 and you need to be able to uh you need
+14:22 to be able to put on a Persona that is
+14:24 well respected so that you get what you
+14:26 want so that that's another aspect that
+14:28 is just like you know it's more of a a
+14:30 quote unquote softer skill but it's
+14:32 critical to success you know a lot some
+14:34 people can get to the top through just
+14:36 technical skills but there are very few
+14:38 and far between the people most people
+14:40 who get to the top are doing so through
+14:43 non-technical means so look for
+14:45 opportunities to speak in front of
+14:48 people who you don't interact with
+14:49 regularly and when you get this
+14:52 opportunity invest a lot of time in
+14:53 preparing the presentation that you give
+14:56 right yes and probably like you should
+14:59 avoid technical things like in your
+15:01 example of technical debt like you
+15:03 shouldn't say like I don't know we need
+15:06 to refactor a lot of code cuz like our
+15:08 classes are too long right like you
+15:11 should probably come up with a good
+15:13 metaphor right instead of explaining
+15:16 like the code like you probably find a
+15:20 relatable uh idea from The Real World
+15:22 and then explain based on that right
+15:25 yeah and uh even extending that um
+15:29 something that I like to do is to Think
+15:31 Through think through what is uh what
+15:34 people care about you know so if you're
+15:36 working professionally and you have
+15:37 let's say you're interfacing with like
+15:39 marketing marketing will obsess over
+15:42 things like Tech cost pre-acquisition
+15:44 you know they all they care about is
+15:46 conversion and CAC and things like that
+15:48 so if you're trying to present to them
+15:49 something like you know related to
+15:51 machine learning data science or
+15:52 whatever it is uh if you can talk to
+15:54 them in terms of you know impact to CAC
+15:57 or some or something that you know that
+15:59 that they will care about you'll get a
+16:02 lot more s uh C so CAC cost PR
+16:06 acquisition cost per
+16:08 acquisition so it's it's the amount of
+16:11 money that marketing needs to spend in
+16:13 order to acquire a customer on average
+16:16 so it's like their primary uh kpi or key
+16:19 metric so like when you speak with the
+16:22 marketing people you need to learn they
+16:26 vocabulary right so you need to say like
+16:28 to to to use words like this um cost
+16:33 perquisition and so on right cost per
+16:35 customer I already forgot and uh so then
+16:39 they can already relate to what you're
+16:41 talking about right right and and once
+16:44 you start using that terminology or
+16:46 vocabulary now they feel like you
+16:48 understand them and will start to treat
+16:50 and it will start to have more respect
+16:52 for you because what often happens is
+16:54 you know technology people speak
+16:56 technology marketing people speak
+16:57 marketing and both sides feel like the
+17:00 other doesn't understand what they think
+17:02 is important and therefore does not
+17:03 understand anything important and so you
+17:06 kind of talk past each other a lot but
+17:08 if you're able to speak at their
+17:10 language you're able to uh get their
+17:12 respect and now they'll actually start
+17:14 to listen to you more seriously because
+17:17 they feel like you know what matters to
+17:21 them okay so we will see how relevant it
+17:25 is I hope it is relevant to the actual
+17:27 discussion we plan to have today which
+17:29 is like the rules for success in machine
+17:31 learning probably is related I just want
+17:33 to summarize like if you want to be like
+17:37 a technical leader there are some
+17:39 qualities that uh good to have like
+17:43 understanding the
+17:44 application and then the important thing
+17:46 is people's perception of you so you
+17:48 need to gain respect from them and for
+17:50 that you need to appear in front of
+17:51 other people and speak their language so
+17:54 use their terminology and then you kind
+17:56 of become I bi or like they treat you as
+18:01 one of their own right so then this way
+18:02 you get respect so these things that we
+18:05 discussed they're pretty interesting to
+18:08 discuss like how related they are to
+18:12 successful machine learning
+18:15 projects uh very very uh well
+18:18 intertwined um
+18:21 so especially with machine learning uh
+18:24 like uh you know any kind of project but
+18:26 specifically machine learning one of the
+18:28 challenges with machine learning is just
+18:30 how complex it is and how many how much
+18:33 support you need from every part of the
+18:35 business for machine learning to work
+18:37 you know any software developer will
+18:39 tell you like getting support for a new
+18:41 project is difficult and that's
+18:43 absolutely true but the level of support
+18:46 that you need to execute a machine
+18:48 learning project that actually works and
+18:50 provides value is you know on I I'm
+18:53 going to pull out a number here but
+18:54 maybe 3x what a typical software project
+18:57 does and that's because there's so much
+19:00 level of care that needs to be involved
+19:02 with generating data transforming it
+19:04 setting up that pipeline building the
+19:06 model building the prediction pipeline
+19:08 there's just so many things that can go
+19:09 wrong and so much effort that needs to
+19:12 be taken that in order to allocate the
+19:15 resources for that you have to have a
+19:18 lot of motivation and a lot of buying
+19:20 from stakeholders so being able to sell
+19:24 is very crucial skill of pretty much any
+19:27 machine learning person
+19:29 because in order to gain enough support
+19:32 for your projects you have to be able to
+19:34 get people excited about the potential
+19:36 of what of what you're going to build
+19:38 and so that's something that I learned
+19:40 you know maybe a year or two into my
+19:42 career in machine learning was that I
+19:44 was a a lot of the projects I wanted to
+19:46 build were dead in the water because I
+19:48 couldn't get enough support so what I
+19:50 started to do was to figure out the the
+19:52 ways in order to generate excitement and
+19:55 get that support that I that I needed
+19:57 one example is uh being able to uh get
+20:02 to a proof of concept that I can uh that
+20:05 I can use in a demo very quickly to show
+20:08 on like a real sample data set like a
+20:10 prediction in real time that is very
+20:13 effective at getting interest between
+20:15 people because they can see like the the
+20:16 potential value of it but going back to
+20:18 your question so like how do these
+20:20 skills intertwine with successful
+20:22 machine learning or you know the rules
+20:24 of machine learning you have to
+20:27 understand that like machine learning
+20:28 you don't just get handed machine
+20:29 learning projects and your only task is
+20:31 to execute on it that does not happen a
+20:33 huge part of a huge part of your role in
+20:35 machine learning is to be able to
+20:37 communicate back value to BU yourself
+20:39 you know the the bandwidth and the
+20:42 resources that you're going to need in
+20:43 the future that's a very often
+20:45 overlooked
+20:47 aspect so you mentioned that uh these
+20:50 machine learning projects are quite
+20:52 complex and then they require 3x like
+20:56 arbitrary number but they require a lot
+20:57 more effort than a traditional usual
+21:00 software engineering project not to
+21:02 mention that these projects often fail
+21:04 right because you don't know in advance
+21:06 whether the project will succeed after
+21:07 you put so much effort in them like how
+21:09 do you sell that like uh by doing this
+21:13 PC and showing it kind of sort of works
+21:16 or yeah so there's a couple things going
+21:19 for you with machine learning that you
+21:20 can leverage to your benefit right now
+21:23 it's actually this is the best time ever
+21:25 for this because large language models
+21:27 have generated excitement across the
+21:28 entire planet so in this moment it is
+21:31 much easier to sell people on machine
+21:33 learning than it was four or five years
+21:35 like there's this hype everywhere in
+21:37 like open any website and you see gbt
+21:39 llm
+21:41 whatever it's a double-edged sword where
+21:43 there's benefits that and negatives to
+21:45 that however even so it is still
+21:47 difficult to sell projects because like
+21:49 you said there is so much risk involved
+21:52 uh a lot of what people really uh like
+21:57 what the connection that people make
+21:58 with machine learning is they want to
+22:01 automate their decision making uh or
+22:04 what they think is possible with
+22:05 decision- making so a lot of people you
+22:07 can you can play off of that so you know
+22:09 for example if you wanted to build a
+22:11 model that was prioritizing incoming
+22:14 inbound leads for your you know your
+22:16 sales process the PE there are people at
+22:19 your company who are they spend their
+22:21 days trying to think through how do we
+22:24 ensure that we're um properly handling
+22:27 like the highest
+22:28 quality leads people who are actually
+22:30 going to buy and spend a lot of money
+22:32 like how do we ensure that they're
+22:33 treated well well if you can build a
+22:35 model that you know if you can showcase
+22:37 a simple model that says we can detect
+22:40 which leads are going to be high value
+22:43 that is like very very easy for people
+22:45 to realize the potential impact or use
+22:48 for that and if you can give them even
+22:50 just a little bit of evidence that
+22:52 you're capable of building that that
+22:54 then they'll buy into that so really you
+22:56 want to like play to what they
+22:58 what they care about and then give them
+23:00 some evidence of that and showcase it
+23:02 and usually like visuals are very uh are
+23:05 really good selling points here and if
+23:07 you can give them that you're much more
+23:09 likely to get that buy in and if you
+23:11 have stakeholder you know support you
+23:13 can typically get the engineering
+23:15 resources all that
+23:17 stuff by visuals so you said visuals are
+23:20 important to them what do you mean by
+23:22 that like is it uh he's having a demo
+23:25 with user interface where they can play
+23:29 is important or you meant something else
+23:31 or like having a picture planting a
+23:32 picture in their head or something else
+23:36 yeah so it's a good question um let me
+23:38 make another comparison uh using like
+23:42 the domain from a different company I
+23:44 worked for so I worked for Wayfair uh a
+23:46 couple years ago and you know using this
+23:50 context just because it's easy to
+23:51 understand furniture they sell Furniture
+23:53 right yeah yeah so we the model that I'm
+23:55 going to describe we didn't like I
+23:56 didn't build but here's hypothetical
+23:58 model and here's how two ways that you
+24:00 could pitch it uh and one would be
+24:02 effective and one would not be so let's
+24:04 say you wanted to build a uh a model
+24:08 that could detect someone's um
+24:11 preferences for like styles of furniture
+24:14 so let's say that it's you know like I
+24:16 like rustic
+24:17 furniture uh Farmhouse or something like
+24:20 that whereas maybe you like modern
+24:21 furniture or
+24:23 something and I could let's say that I
+24:26 built a pro of concept model in wanted
+24:28 to pitch this I could show people you
+24:30 know the accuracy of uh items bought
+24:34 that were related to the style of
+24:37 furniture that I said they were so you
+24:40 know somebody purchases a couch with 70%
+24:43 probability I can predict which type of
+24:46 style it is based off of my model that
+24:49 is not a good way to sell your model a
+24:51 better way to sell your model is to go
+24:54 and show three examples of you know
+24:57 stylistic preferences that a customer
+24:59 has and then uh that they purchased in
+25:01 the past and then show them the next
+25:03 three items that they might purchase in
+25:05 the future because they have similar
+25:07 Styles so this is a good way to
+25:09 visualize customer you pick a customer a
+25:11 random customer and say okay this is
+25:14 person next and this is what they like
+25:16 this kind of furniture they like right
+25:18 so these are the preferences and based
+25:20 on that we think that the the next three
+25:23 orders will be these
+25:24 things right and what that does is it
+25:27 gives your audience your
+25:29 stakeholders uh it shows them like
+25:32 Loosely how the model is thinking about
+25:34 things so you know maybe the two
+25:36 different couches are the same material
+25:38 or something and they can start to
+25:40 mentally wrap their head around oh
+25:41 here's what the model is how it's able
+25:43 to think and then they can take that and
+25:46 they can generalize that to all these
+25:47 other things that they care about where
+25:49 it would be useful to have an automated
+25:51 decision making process that could
+25:52 detect that so really you're trying to
+25:54 get them to understand the model and
+25:56 what it can do and and then let them
+25:58 take that notion and like run using
+26:01 their own you know internal knowledge
+26:03 communicating things like in accuracy
+26:05 where at the at the end of the day those
+26:07 are the things that matter but they're
+26:09 not great for selling because that's not
+26:11 how your stakeholders are thinking about
+26:14 things and if you start talking about
+26:17 accuracy right then you say like okay
+26:19 this model is 70% accurate which like
+26:22 which may or may not be a good number
+26:24 depending on the the model right but
+26:26 like to the stakeholders and might might
+26:27 sound scary like H 30% error rate like
+26:30 30% of times it will make mistakes like
+26:33 oh how bad like how do you handle
+26:37 that um yeah so speaking about that
+26:42 or
+26:43 so it's a it's a good question and uh
+26:47 you know actually of the two problems
+26:50 that is the easier problem is trying to
+26:51 communicate error rates and things like
+26:53 that so typically what I like to do
+26:55 actually is not communicate accuracy
+26:57 because it is the easiest one to pick
+27:00 apart and say like this is not good
+27:02 enough what I try and do is discuss
+27:04 precision and recall because like when
+27:07 you discuss they're quite technical
+27:09 right like it's uh like you need to give
+27:11 very good illustrations to people cuz
+27:15 like even data scientist I remember
+27:16 studying machine learning at University
+27:19 like I was always lost at Precision
+27:21 recall like for me it was super
+27:22 confusing like I always confused the two
+27:24 like it took me some time to actually
+27:26 feel comfortable with these two
+27:28 metics yeah so I don't actually use the
+27:31 words Precision or recall but what I'm
+27:33 actually like what I what I am
+27:35 discussing is precision recall and what
+27:36 I say is I'll show like for example uh a
+27:40 sliding bar of how specific do you want
+27:43 or how how much of a threshold do you
+27:45 want to draw between overg guessing or
+27:48 underg guessing and so typically I'll
+27:50 use precision and Rec call and then
+27:52 discuss and the goal is not necessarily
+27:55 to give them exact numbers but it's to
+27:58 inform them that that there is we can
+28:00 control the tradeoff that we're making
+28:02 and it gives them more like they're more
+28:04 comfortable with that because it means
+28:06 oh well if we're over predicting we can
+28:08 just you know take that slider back and
+28:10 they remember the slider they remember
+28:12 that there is a threshold and it gives
+28:13 them more Comfort to know that they're
+28:15 in control do you use something like
+28:17 stream lead or gradio for that or you
+28:20 use your full development skills and
+28:22 like build Thea no I I do whatever I can
+28:26 generate in the shortest amount of time
+28:27 time thats decent is what I do which is
+28:30 like usually gradio or something like
+28:31 that right yeah sometimes um a lot of
+28:34 the times it depends depends of the
+28:36 organization you know if I have more
+28:37 time I'll do something like that
+28:38 honestly sometimes I'll just go into
+28:40 Google Sheets and something that's very
+28:44 uh very very basic I see I see yeah yeah
+28:47 interesting well we still wanted to talk
+28:49 about the rules of machine learning and
+28:51 the written once and there is this
+28:55 famous article from Google which is
+28:57 called the rules of machine learning
+29:00 right you probably know about that and I
+29:01 remember like the rule number one is
+29:04 don't be afraid to start without machine
+29:06 learning that's my favorite
+29:08 one like and it's kind of funny because
+29:11 like you're a data scientist or machine
+29:12 learning engineer like how can you
+29:14 advocate for not using machine learning
+29:16 like it's a bit cond intuitive right and
+29:18 then like the they talk about metrics
+29:20 and so on so this is definitely a really
+29:23 good article to talk about but since
+29:26 today we talk about about the written
+29:28 rules so I'm wondering what these rules
+29:32 are yeah awesome question there's a lot
+29:34 of them
+29:36 so I I think actually let me touch on
+29:39 what you just mentioned really quick
+29:41 because I think it's so like regardless
+29:42 of if it's written or not written I
+29:44 think it's maybe let me expand on that
+29:47 because of the importance of that which
+29:48 is which is often not written so I
+29:51 completely agree with that statement
+29:53 that it is critical to and I I would
+29:56 even go beyond saying don't be afraid to
+29:58 start and I would say always try to
+30:00 start without machine learning and the
+30:02 reason for that is because the most
+30:05 often the most frequent reason that I
+30:07 see machine learning projects fail is
+30:09 because whatever you end up building
+30:12 doesn't naturally solve any problems so
+30:14 even if you build an accurate machine
+30:15 learning model that that does not
+30:18 necessarily mean that whatever it's
+30:20 doing is going to provide value to the
+30:22 business and so ensuring that you are
+30:26 before you build machine learning
+30:28 ensuring that whatever problem you're
+30:29 solving is actually worth solving with
+30:33 or without machine learning that is that
+30:35 should always be the first Focus so you
+30:38 know I always emphasize you should do a
+30:40 proof of concept herotic like rule-based
+30:42 model first forget machine learning
+30:44 forget all the complexities with that TR
+30:46 try to just spin up a a manual process
+30:48 or a rule-based process that emulates
+30:51 what a machine learning model is going
+30:52 to do but does so at a at a much more
+30:55 basic level and honestly nine times out
+30:58 of 10 if if you can't make that work the
+31:01 machine learning model is also not going
+31:02 to work I about that yeah so like a few
+31:06 years
+31:07 ago so we wanted to launch a model for
+31:11 predicting the quality of pictures like
+31:14 if a picture has a good quality like it
+31:17 was an on in online classified so there
+31:20 people would sell and buy cars
+31:23 right so one idea was that to make
+31:26 listings more attractive we can look at
+31:28 listings with bad quality pictures and
+31:32 if there are bad qual if there are bad
+31:33 pictures we contact the sellers and ask
+31:35 them to improve the picture which is
+31:37 like probably a reasonable assumption
+31:39 that if they improve then probably more
+31:42 people will become interested in that
+31:44 and then we started building the model a
+31:46 deep learning one of course cuz it's
+31:48 images right and then like a few months
+31:51 after we were finally ready to test it
+31:53 turned out that nobody really cared like
+31:56 they think that people mostly care about
+31:58 when looking at listings is Price Right
+32:01 not quality of images and like the the
+32:03 sellers they aren't really super
+32:05 reactive to these suggestions so what
+32:08 what could have happened instead is like
+32:11 I just sit down take a sample of images
+32:14 and say this image is good this image is
+32:16 bad we sent an email to the settler
+32:20 saying okay your image is bad like do
+32:22 something about this and see how many
+32:24 people react one day of work right
+32:28 and then like okay nobody cares about
+32:30 that so let's just you know put this
+32:32 idea aside for some time and focus on
+32:36 something
+32:38 else I love the story like it's
+32:40 something I experienced myself right and
+32:43 then like one thing is somebody when
+32:45 somebody says like you just not and say
+32:47 yeah but like having experien this
+32:50 firstand is like totally different
+32:52 thing I exactly that is exactly like the
+32:56 type of situation that occurs and again
+32:59 it also is uh evident in software
+33:02 engineering where a lot of people ask
+33:05 for things you know 10 years ago or
+33:07 whatever the common thing was can you
+33:09 build me an app that does this that was
+33:11 the question everyone wanted was I have
+33:13 an idea for an app and you know after or
+33:16 I need a feature that does this and
+33:19 eventually you you realize that you have
+33:21 to start vetting who is asking that
+33:22 question why they're asking it because
+33:24 oftentimes people think they want
+33:25 something and then in reality they don't
+33:27 even use it so that it's basically like
+33:29 the same problem as that but uh much
+33:33 more intense because machine learning is
+33:35 so much more difficult and uh expensive
+33:39 both in terms of actual monetary cost
+33:41 and uh development time that making a
+33:44 mistake here is much more costly than in
+33:47 just a typical software development
+33:49 project usually so it's definitely very
+33:52 critical so I just wanted I wanted to
+33:53 highlight that point because you know
+33:55 when you think about like the unwritten
+33:56 rules rules of machine learning is that
+33:59 you really have to understand that sort
+34:01 of like the the human nature of getting
+34:04 lost any technical details in machine
+34:06 learning projects that all of us yeah
+34:09 and then you establish a baseline well
+34:12 you first proof like if this idea is
+34:14 valuable at all then you can establish
+34:16 Baseline and then you have you can
+34:19 iterate on top of that and you can
+34:20 always see like if this is actually an
+34:23 improvement over the previous sitation
+34:25 right exactly so one another concrete
+34:28 example of this with machine learning
+34:30 was at at one point in my career I built
+34:32 a customer churn model so you know in
+34:35 any subscription based company uh churn
+34:38 is uh when they cancel their
+34:40 subscription and uh for the company
+34:43 question I won't mention which one it is
+34:45 uh just to keep things uh somewhat
+34:47 private is uh we we try to build a turn
+34:50 prediction model and I did and it
+34:52 actually was pretty accurate it could
+34:54 detect who was going to turn the problem
+34:56 was with that was there was nothing we
+34:58 could do about it at like we we thought
+35:00 that there was going to be something we
+35:02 could do when we were able to identify
+35:03 someone who was about to turn but in
+35:05 this in this case there was really like
+35:08 no there was no action to take that was
+35:10 likely going to make them not churn and
+35:12 so because of that the whole model was
+35:14 useless right like it didn't provide any
+35:15 value and the reason for that is because
+35:18 it wasn't actionable and had we gone
+35:21 through like a more you know heris based
+35:23 approach we would have saved ourselves
+35:25 several months of development time
+35:27 was it the case cuz um when you try to
+35:31 approach people and prevent them from
+35:33 not churning they are annoyed even more
+35:37 or not so I I would guess that that is
+35:41 often the case in this case it wasn't
+35:42 and it was more so it was because of
+35:45 like the reason that they were turning
+35:46 was not because they were unhappy but
+35:48 because of external factors that were
+35:50 driving them to turn again I don't want
+35:52 to get I don't want to get too into it
+35:54 then you would give away the the company
+35:56 right
+35:57 yeah situation like let's say there's a
+36:00 telecom provider and people are turnning
+36:03 because like there is a different
+36:04 provider with better prices and you
+36:06 cannot lower lower your prices exactly
+36:10 exactly that lower then you kind of work
+36:13 uh um like you don't generate enough
+36:18 Revenue right your margin is will be
+36:21 yeah okay well so the first Unwritten
+36:25 rule h I'm wondering so in this podcast
+36:28 we have um transcripts right so like
+36:32 after this is transcribed this rule
+36:34 becomes RM
+36:36 or yeah I well most of the stuff I'm
+36:39 already posting on LinkedIn anyway so I
+36:41 guess at this point delay like a
+36:44 commonly Unwritten Rules by but Jack has
+36:48 written about them
+36:49 right okay so the first rule is like
+36:53 we'll get caught up in technical details
+36:57 and we what's the expression we lose
+37:01 like we don't see the forest behind we
+37:03 lose yeah we lose sight of the end goal
+37:06 yeah so we lose sight of the end goal
+37:07 and then like we just get too interested
+37:11 to invest it in details like tun in this
+37:13 like because it's exciting to to tune
+37:16 all this knobs of a deep learning model
+37:17 for example or any machine learning
+37:20 model anyway so that's one thing so we
+37:23 don't we need to focus on the end goal
+37:25 and sometimes means like doing things
+37:27 manually
+37:30 right yes
+37:33 exactly the next one uh so here's
+37:36 another Unwritten Rule and that is uh
+37:41 well let me let me describe the more
+37:43 common uh written rule and let me
+37:45 describe what I think the unwritten
+37:47 version should be or what the version
+37:49 should be that is
+37:50 Unwritten so the
+37:52 commonly uh told rule is you should be
+37:57 obsessing over data and obsessing over
+37:59 understanding the patterns and the
+38:01 distribution and nuances to it and I
+38:05 agree however I think that that is
+38:07 somewhat misleading and I think a better
+38:09 way of phrasing it is that you need to
+38:12 understand not only the data but you
+38:14 need to understand the process or the
+38:16 things that the data
+38:18 represents uh that's that is really what
+38:21 you should be obsessing over so for
+38:23 example um if you are looking at
+38:27 customer buying patterns for an online
+38:29 retail company you need to understand
+38:32 who your audience is you need to
+38:34 understand how they like to buy you you
+38:36 it's even better if you yourself are a
+38:38 customer you need to really understand
+38:40 like what is it that is producing this
+38:42 data that I'm looking at from every
+38:44 angle because it's very easy to uh again
+38:48 lose sight of like what's actually
+38:49 happening when you're just focusing on
+38:51 numbers and data all of this makes way
+38:53 more sense and all of the directions you
+38:55 go with your analysis are much easier to
+38:59 do if you focus first on just completely
+39:02 understanding the the real world process
+39:04 that data represents so um a quote that
+39:08 I've started saying more recently is you
+39:11 need to recognize that data is a shadow
+39:13 of reality not reality itself because
+39:16 data is just an artifact being produced
+39:18 by something and so inherently it is
+39:20 always going to be an imperfect
+39:23 representation of something else and if
+39:25 you have access to understanding that
+39:27 real representation or whatever it is
+39:29 you should focus on that because the
+39:31 data will never tell you everything it
+39:34 will only be a shadow of what you're
+39:35 actually trying to understand and so if
+39:38 you can understand you know customer
+39:39 buying patterns because you yourself are
+39:41 a customer if it's you know
+39:43 understanding the output of a machine in
+39:45 a machine shop you should be able to you
+39:47 know deeply understand what the machine
+39:49 is all of its parts why it's doing what
+39:51 it's doing if you can do that all of the
+39:53 data will start to make sense and you
+39:55 know one example example of uh where
+39:58 where I see people trip up with this is
+40:00 that people will find nuances or
+40:03 patterns or significant things in data
+40:05 that are actually just not real and
+40:09 they're just anomalies with how the data
+40:11 is being produced and you know people
+40:13 will think oh I just found this new you
+40:15 know hidden reason for why customer
+40:17 trains when in reality it's just sort of
+40:19 like uh because the process for logging
+40:21 the data is biased in some way so nine
+40:23 times out of 10 If You observe some
+40:25 anomaly dat it's probably not a real
+40:28 world anomaly it's probably just
+40:30 something to do with either the way the
+40:32 data was stored or your perspective of
+40:34 the
+40:35 data so you need to have this domain
+40:37 knowledge like let's say if you work at
+40:39 Ware or like some other store that sell
+40:42 sales Furniture you need to understand
+40:44 the domain like all
+40:47 this let's say customer Journey from
+40:49 like the moment they sign up to the
+40:51 moment they receive Furniture happily
+40:56 like hopefully like in time right so
+40:58 like you need to understand all this
+41:00 journey and like all the problems that
+41:01 can happen on the journey from like the
+41:04 the first step till the last
+41:06 step and the best way of getting this
+41:09 domain knowledge is being a customer
+41:13 yourself right like if you work at a
+41:16 company that sells Furniture go ahead
+41:17 and use that website to order some
+41:20 furniture for
+41:22 yourself yes absolutely in fact like
+41:25 I've always once I realized this I
+41:28 started looking for jobs only where I
+41:31 was a customer uh because I realized how
+41:34 important it was understand uh to put
+41:37 myself in the shoes of the people I was
+41:38 building stuff for that um so I really
+41:41 wanted to be able to identify with the
+41:42 customers you know my first job my well
+41:45 my first job was at Trunk Club but that
+41:47 was only a year in data science machine
+41:48 learning and I was at go Health most of
+41:50 our customers were uh Medicare
+41:52 recipients which is people who are 65
+41:54 and older in the US so I couldn't really
+41:57 identify with them so I always found
+41:58 that part difficult but when I went to
+42:00 Wayfair it was very easy because I was
+42:02 already a Wayfair customer I already
+42:03 purchased Furniture we had just bought a
+42:05 house so like I was buying furniture all
+42:07 the time and so it's just like very
+42:08 relevant and then same thing the house
+42:10 where you live now yeah this is the
+42:12 house uh the chair from
+42:15 Ware uh actually no in fact my office is
+42:19 actually most of it is not Wayfair but a
+42:21 lot of the rest of the house is is
+42:24 way yeah and uh and then the same thing
+42:28 with Fi my current company so um we make
+42:31 smart dog cers and I I think my dog is
+42:34 probably somewhere in my office but um
+42:36 dog what a dog collar so uh like a coll
+42:42 that they wear around their neck and
+42:45 sorts yeah so it's it's more of like a
+42:48 like a Fitbit or a GPS tracker so it's
+42:52 if your dog escapes you can track them
+42:54 but we also do stuff like you know step
+42:56 counts and movement and behavior
+42:58 tracking things that like trackers but
+43:00 for docks exactly and so you know you
+43:03 have an app where you can see okay got
+43:05 this many steps today or you know I took
+43:08 my dog for 10 miles of walks the past
+43:10 week that's five miles uh less than what
+43:13 it was the week before so for people who
+43:15 are dog owners it's like and interested
+43:18 in like Fitness or Data Tracking it's
+43:19 like it's a fun thing and you know dogs
+43:22 and Data Tracking and health tracking
+43:24 are all things that I'm interested in so
+43:26 to me it was like oh this is a product
+43:28 that I am very interested in it will be
+43:31 very natural for me to put myself in the
+43:33 shoes of a customer because I I I am one
+43:36 essentially Okay and like if you had a
+43:38 cat had you had a cat not a dog then for
+43:41 you it would be more difficult to relate
+43:44 it would be actually you would have to
+43:46 like get a
+43:47 dog I would you know what's funny is a
+43:49 lot of people who come to five you end
+43:50 up getting a
+43:52 dog well that's not bad right no no it's
+43:57 great okay like um so the second rule is
+44:02 understand how the data is generated and
+44:04 the quote you gave was realize that the
+44:08 data is actually only the shadow of the
+44:11 reality so you need to remember that and
+44:14 like uh and make sure you understand the
+44:16 process and then the data will make more
+44:18 sense and you will not you will be able
+44:22 to understand that the patterns you find
+44:24 they're not actually like real patterns
+44:26 but more like anomaly and if you don't
+44:28 have this domain knowledge you will not
+44:30 be able to understand
+44:31 that exactly yes okay well I guess we
+44:35 have time for one or two more rules like
+44:38 do you have I guess you have a bunch of
+44:40 them right so what's the third one sure
+44:44 so another uh Unwritten rule that I've
+44:47 written about many times is that there
+44:51 is
+44:52 uh there is a lot of uh emphasis when
+44:56 teaching machine learning on mathematics
+44:58 and algorithms and things like that
+45:00 which are absolutely essential however
+45:02 what one thing that I think is often
+45:04 under addressed is that to be successful
+45:07 in machine learning or to be high impact
+45:09 you really need software development
+45:11 skills at the end of the day machine
+45:13 learning is software it is a specific
+45:15 type of software but when you build
+45:17 machine learning you are building
+45:19 software and it is likely going to go
+45:21 into a production State and so being
+45:23 familiar not just familiar but like
+45:26 actually um you know intermediate to
+45:29 Advanced in software development skills
+45:31 is critical to being successful in
+45:33 machine learning you know this is maybe
+45:35 this is more of a I would say sometimes
+45:38 a Hot Topic that I'll have where not
+45:40 everyone agrees with me um but what I
+45:43 can tell you is that in you know the six
+45:45 years that I've been in machine learning
+45:47 almost everyone who's been successful in
+45:50 machine learning has been successful um
+45:54 largely due to their skills in software
+45:56 development or that they will spend the
+45:59 time to get good at them because it's
+46:01 very difficult to have success when you
+46:04 are only able to address one part of the
+46:07 machine learning funnel and you have to
+46:09 hand off everything else because it
+46:11 requires that everyone that you be in a
+46:13 position where there are others who are
+46:15 extremely competent and can work with
+46:17 you to take you know handoff a model in
+46:19 a juper notebook and hand it off and
+46:21 then deploy it there's a lot of stuffs
+46:22 involved there and to be reliant on
+46:25 others to do that well is very limiting
+46:27 in terms of your own success and it also
+46:29 means that it's difficult to put you on
+46:32 projects where there are there are
+46:34 limited resources you know I can't give
+46:36 somebody uh a project if I know that
+46:39 like you know a full stack ml project if
+46:41 I know that I don't have enough mlops
+46:44 resources which is especially true in
+46:46 smaller
+46:47 companies so you need to be some sort of
+46:50 full stack data science machine learning
+46:51 person ideally right and then like if
+46:54 you can do that then you can take a
+46:57 project end to end like you don't need
+46:58 to be an expert in all the areas but
+47:00 just to know enough like to know to take
+47:05 the notebook and put it as a web
+47:08 service yeah and I want I want to make a
+47:11 careful distinction that because a lot
+47:13 of times what people think that I'm
+47:14 saying is that you don't need to know
+47:15 machine learning that well which isn't
+47:17 true you do need to know machine
+47:18 learning you also need to know software
+47:21 engineering or software development so I
+47:22 would say it's more so that like there
+47:24 is a strong balance and typically the
+47:26 emphasis is on learning the machine
+47:28 learning side you know again because
+47:30 it's so difficult and it's very
+47:31 overwhelming that even understanding
+47:33 that part is so takes up all of your
+47:35 mental bandwidth that thinking about
+47:37 software development too is just seems
+47:39 unnecessary when in reality it is very
+47:42 important to understand you know can you
+47:44 take a piece of code and put it into a
+47:46 web server on AWS you know if you can do
+47:49 that and you can do it comfortably
+47:51 you're in a really good spot to be able
+47:53 to deploy machine learning models and be
+47:54 a full stack and an Our
+47:57 developer yeah so what we teach in our
+47:59 courses what we say in our courses like
+48:01 your model can be like super good but if
+48:04 nobody can use it if it's just in jupter
+48:06 Notebook then it's not good like it's of
+48:08 no use so you need to be able to do that
+48:12 and all these Unwritten rules were
+48:14 already written as you said somewhere
+48:16 probably your LinkedIn uh um You
+48:19 probably published them on LinkedIn so
+48:21 can you tell us more about like where
+48:23 can people find
+48:26 this content that you like all this U
+48:30 all these things we talked about yeah so
+48:33 uh as of right now it's all on LinkedIn
+48:36 and uh I wrote I write one post every
+48:39 day um post it every day at 6:15 am
+48:43 central time um and for the ones that I
+48:46 think are really good and
+48:49 informative yeah well I write it the day
+48:51 before and then I schedule it to be uh
+48:53 posted at 6:15 but then up at I'm up I'm
+48:57 actually up at 6 to respond to people's
+48:59 comments um so uh but I leave them in my
+49:04 featured section on LinkedIn at some
+49:06 point um maybe I'll consider doing a
+49:08 newsletter I know that's commonly what
+49:09 people do at the moment though you know
+49:11 I'm still I only started writing on
+49:14 LinkedIn uh a few months ago I started
+49:16 in like Late July was the first time I
+49:17 ever posted on LinkedIn so I'm still
+49:20 like you know even just now I'm I'm sort
+49:22 of figuring out what what I want to say
+49:24 and how I want to say it um so at the
+49:27 moment that's where it is but if you
+49:28 follow me there you know you'll stay in
+49:30 touch with some other places that I'll
+49:32 be putting this data and a good idea is
+49:35 like in LinkedIn you can click on this
+49:38 rink icon not rink like Bell icon and
+49:42 then like the moment you do this you'll
+49:44 get notified about the
+49:46 posts because the problem with LinkedIn
+49:48 is like you need to rely on the
+49:49 algorithm so make to make sure that next
+49:52 time I open it I see your post while in
+49:55 newsletter you don't have this problem
+49:57 right like you actually deliver and then
+49:59 then it's up to me to to to decide like
+50:01 do I have time to read it now or I'll
+50:04 have time to read it later so you're not
+50:07 at that's actually a good point and I
+50:09 had I actually had thought about that
+50:10 that is a very good point I think you
+50:12 should start a newsletter because like
+50:14 for me like if I really want to make
+50:16 sure I do not miss your content like I'd
+50:19 rather subscribe to newsletter rather
+50:21 than rely on the algorithm to constantly
+50:24 show it to me yeah cu my day decide that
+50:27 okay let's show more ads and then I see
+50:30 you actually that's point I hadn't
+50:32 thought about that so maybe I'll not
+50:34 maybe I'll consider that now yeah what
+50:37 happens on November
+50:39 15th on November 15th um that will be my
+50:42 last day at my at my company fi so um I
+50:46 am leaving to start a new business in uh
+50:50 machine learning data science and more
+50:52 generally data uh recruiting so my this
+50:56 is there's an idea that I've been
+50:59 thinking through the last couple years
+51:00 I've known I wanted to do this and I
+51:02 think now is a good time which is I
+51:04 think we are in a spot where we need a
+51:06 big shift in how technology hiring is
+51:09 done I I'm very unhappy for many reasons
+51:12 with the current state of hiring both
+51:14 from an employer perspective and a
+51:15 candidate perspective I think there's
+51:18 there is so much noise in the system
+51:20 that is very subjective who is
+51:22 considered for a role people don't feel
+51:25 like they have any control over where
+51:27 they get considered for a role I don't
+51:29 think people are interviewing for the
+51:30 thing for all the things that actually
+51:31 matter in success you know I think
+51:34 through all the things I discussed today
+51:35 in terms of what drives success how many
+51:37 of those things are actually interviewed
+51:39 for well in in technology inter very few
+51:42 so I I I have done hiring differently
+51:45 you know throughout my career I've
+51:47 approached it in ways that I think make
+51:49 sense and you know you can take a look
+51:51 at the teams that I've built over the
+51:53 last five six years and
+51:55 they they speak for themselves in terms
+51:57 of how strong they are and so what I
+51:58 want to do is take this and and give it
+52:01 to other employers and other companies
+52:03 is hey here's a here's a different way
+52:04 of thinking about hiring where you can
+52:06 actually have a much clearer picture
+52:08 around what success looks like and for
+52:10 candidates to be able to give them more
+52:12 control of you know let's think through
+52:14 what are your strengths how do we best
+52:15 showcase them rather than you know
+52:18 putting you through arbitrary uh quizzes
+52:20 and questions that may not actually well
+52:22 align with your strengths so I'm going
+52:24 to start a business that is in
+52:26 technology hiring and recruiting and
+52:29 it's going to focus uh in the short term
+52:31 on machine learning and data science and
+52:34 uh maybe some other data roles but in
+52:37 general I would like to extend it to uh
+52:39 any technology role and the idea is to
+52:41 be able to give people more ability to
+52:44 articulate on a candidate side what
+52:46 their strengths are and showcase that
+52:47 make that available than just a
+52:49 traditional resume and on the employer
+52:51 side be able to both understand what it
+52:54 is that they need to succeed and be able
+52:56 to find that quickly instead of having
+52:58 to do you know many hours of
+53:00 interviewing on their own yeah so we
+53:02 will all subscribed follow you on
+53:05 LinkedIn and we will see all the updates
+53:07 about uh your new Endeavor so I don't
+53:13 like saying good luck cuz you probably
+53:15 don't need luck you more need like
+53:17 perseverance but luck also is important
+53:19 so have fun with your new project and
+53:23 thanks a lot for coming joining us today
+53:25 sharing all your experience all this and
+53:27 written rules and thanks everyone too I
+53:29 unfortunately have to run but it was
+53:31 great pleasure talking with you and yeah
+53:34 have a great rest of your week likewise
+53:37 thanks l

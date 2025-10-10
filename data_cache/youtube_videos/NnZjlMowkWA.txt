@@ -1,0 +1,1687 @@
+0:00 hey everyone Welcome to our event this
+0:02 event is brought to you by data talk
+0:03 stop which is a community of people who
+0:05 love data we have weekly events today is
+0:07 one of the of one of such events I think
+0:10 this is already second this year so yeah
+0:13 welcome
+0:14 if you fall if you want to find out more
+0:16 about it more about the events we have
+0:19 there is a link in description go there
+0:21 uh click on this link and you'll see all
+0:23 the events we have now Pipeline and by
+0:25 the way this screenshot is so up to date
+0:27 outdated because I think YouTube changed
+0:30 the interface
+0:33 the important part is don't forget to
+0:35 subscribe to our YouTube channel if you
+0:37 want to get notified about uh interviews
+0:40 and webinars like um cool videos like we
+0:45 have today and then we have an amazing
+0:46 slide company which you need to join if
+0:49 you don't want to miss out you'll be
+0:51 able to talk to a lot of people exist so
+0:55 during today's interview you can ask any
+0:57 question you want there is a link in the
+0:59 description click on that link ask your
+1:01 question and I will be covering this
+1:02 question
+1:04 and yeah about most of the words I
+1:09 usually say during the intro so I have
+1:11 to improvise a little bit but now I will
+1:14 open the questions we prepared for you
+1:17 do you know man I've only literally just
+1:19 saying those questions because
+1:20 everything they really need it they were
+1:23 in the invite right and uh yeah I didn't
+1:26 catch them until literally 10 minutes so
+1:28 did we not send you the actual file
+1:31 don't think so but it's okay I'll flick
+1:33 through and they're all fine so it's all
+1:35 good yeah we can improvise things that
+1:37 there will be questions from the
+1:39 audience we which are locks in the file
+1:42 anyways
+1:43 okay so it means you're ready right
+1:46 I'm ready man boom ready
+1:51 okay this week we'll talk about
+1:52 preparing for a technical data science
+1:54 interview and we have a special guest
+1:56 today look look is a co-founder of
+1:58 neural AI a company that specializes in
+2:01 recruiting data scientists and other AI
+2:03 professionals he has over 10 years of
+2:05 experience working with the recruiter
+2:07 and
+2:09 what is more Luke is also at podcasts
+2:12 podcast post so he's posting the AI game
+2:16 changer
+2:17 pleasure to have you
+2:19 pleasure to be here man for the second
+2:21 time I feel like you and I we just do
+2:25 podcast episodes with each other now we
+2:27 really need to get out of the guests I
+2:28 think exactly yeah I was going to
+2:31 mention that Luke is actually second
+2:33 time today so Luke is one of our very
+2:36 first guests thank you for like third or
+2:39 fourth I don't remember like but it was
+2:42 last time
+2:44 I interviewed her with you it was two
+2:46 years ago when data talks about podcasts
+2:48 just started it's been a while and yeah
+2:51 before we actually start I want to
+2:52 mention that the questions for today's
+2:54 interview are prepared by Johanna Empire
+2:57 so thanks Johanna for account and let's
+3:00 start so Luke tell us what's up what
+3:03 you've been up to since uh with sport
+3:06 last time yeah
+3:08 um yeah maybe also tell us a few words
+3:11 about yourself before that yeah so um
+3:13 maybe I can give you in the listeners a
+3:15 bit of background about me so um as you
+3:18 quite broadly mentioned I've been in
+3:19 recruitment for uh well over a decade
+3:22 now so
+3:23 um I've got the gray hairs and the
+3:25 Crow's eyes fee uh to prove it
+3:28 um but historically I used to help
+3:29 companies find data professionals but
+3:32 more from kind of like a traditional bi
+3:35 descriptive analytics you kind of focus
+3:39 um but over the past 10 years that's
+3:40 kind of transitioned and I've kind of
+3:42 worked with the market so over the past
+3:45 maybe six years now I would say that
+3:47 I've had three key focuses so number one
+3:51 um machine learning or deep learning at
+3:54 the core of all of the engineering highs
+3:56 I've made and obviously that would
+3:58 encapsulate all of the other bits around
+4:00 that so traditional data science or data
+4:02 engineering and everything else in
+4:04 between
+4:05 um
+4:06 I've worked pretty much exclusively
+4:08 exclusively with early to mid-stage
+4:11 startups
+4:13 um so I don't do much in the corporate
+4:14 space anymore as I say I tend to work
+4:17 with smaller organizations that really
+4:19 need me
+4:21 um and then lastly
+4:23 I do most of my work in Germany I'd say
+4:26 that 90 of my work is in Germany
+4:28 um but since the pandemic I've kind of
+4:31 broadened out to kind of Central Europe
+4:33 as a whole but I've still got my kind of
+4:35 core client base in uh in Germany so
+4:38 yeah that's me
+4:40 um
+4:42 no I mean Ken if anyone knows where that
+4:45 is it's a really beautiful part of the
+4:47 UK so uh yeah I don't know if you can
+4:50 see actually but the background I've
+4:51 just had the office uh renovated and
+4:53 stuff so uh yeah really happy about that
+4:57 I'm just curious how does it happen that
+5:00 the recruiters from the UK work in
+5:02 Germany
+5:04 well this is a bit of a long story
+5:08 that's the only equator from the UK who
+5:11 works in Germany like it's quite a trend
+5:13 I don't know actually many Germans
+5:16 yeah um so the story is I'll try and
+5:19 condense this as much as I can so I
+5:21 can't remember what it was but I don't
+5:24 know what year it was but long story
+5:25 short I was moving to Australia and in
+5:27 the time I joined the company in
+5:28 Australia and in the time period of me
+5:30 waiting for my visas to come look why
+5:33 don't you join us and work with our
+5:35 German business and help us do some
+5:36 business development and win some
+5:38 clients and do some recruitment in
+5:40 Germany and call it the interim of you
+5:42 moving over to Australia
+5:44 in that interim period I met Rachel
+5:46 who's my co-founder girlfriend
+5:49 and life partner
+5:52 um and uh yeah as I say it got to a
+5:54 stage where I was like well I've got to
+5:56 move into Australia and blah blah blah
+5:58 so uh yeah long story short it kind of
+6:01 worked out that actually I just stayed
+6:02 in the UK and I really enjoyed working
+6:04 with German clients and German people in
+6:06 general so
+6:07 um so yeah it just continued from there
+6:09 that was a very convinced version but
+6:11 yeah serendipitous I guess but um yeah
+6:14 it was cool man
+6:16 okay
+6:17 um do you remember what we spoke two
+6:19 years ago
+6:22 standing out as a data scientist was the
+6:24 topic right but it wasn't that big yeah
+6:26 yeah the specifics man you're gonna have
+6:28 to remind me I don't remember but uh
+6:32 yeah what video we're up to this little
+6:35 change
+6:37 um
+6:39 yeah I mean um to be honest with like
+6:42 not much has changed since we last spoke
+6:44 in terms of what I do on a day-to-day
+6:46 um I think now as a individual and a
+6:50 business I feel a lot more like embedded
+6:51 into the community like obviously I've
+6:53 been running a podcast
+6:55 um I've already released a lot of
+6:57 content on a weekly basis and I feel
+6:58 like I'm much more well known in the
+7:00 industry now than what it was three four
+7:03 five years ago
+7:04 um I think that's largely due to
+7:06 [Music]
+7:12 as well but I think largely when I used
+7:16 to work for other organizations that
+7:18 were
+7:19 um a lot more corporate and bigger
+7:22 um I had to kind of be a recruiter for
+7:24 that business but now I feel like I can
+7:27 be exactly who I am and all of my
+7:29 content and what I do and how I work
+7:31 with customers and people
+7:33 um it reflects that
+7:35 so um yeah I feel like I'm just much
+7:38 more
+7:38 like much more bone Loan in the industry
+7:40 now than what I was when we we first
+7:42 spoke
+7:43 um but yeah as I say I think that's
+7:45 largely due to just being able to be
+7:47 myself and do what I do
+7:49 um without having
+7:51 Ultra amounts of pressure from directors
+7:53 and the organization to make placements
+7:56 at all costs
+7:58 um so yeah but I mean on a day-to-day
+8:00 basis man I do Recruitment and I work
+8:02 with my customers and we make placements
+8:03 and it's some really good fun but um
+8:05 yeah as I say it's been fun I mean
+8:09 did we talk at the beginning of the
+8:11 pandemic I can't remember when we
+8:13 actually recorded that podcast but that
+8:15 was probably the worst thing to your
+8:17 recruitment career yeah so two years ago
+8:19 so now it's 2023 right it was 2021
+8:23 January yeah so we we'd probably just
+8:27 come out of the worst year of my
+8:28 recruitment career
+8:30 um and we were probably just stepping
+8:31 into the best year of our recruitment
+8:32 career so
+8:33 um yeah it's been fun man it's been good
+8:38 so I typically hear that so tell us
+8:41 about your podcast
+8:43 uh yeah so the podcast was spun off of
+8:47 um
+8:48 in the midst of the pandemic my job
+8:51 became pretty redundant uh I mean I
+8:54 didn't know many companies that were
+8:56 hiring and the ones that were were
+8:59 definitely not using external
+9:01 Headhunters to find Talent so for
+9:03 probably about nine months
+9:05 I just I was like [ __ ] I just don't know
+9:08 what I'm going to do now because most
+9:09 companies don't want to use me and
+9:13 it's all I'm known for right so what
+9:14 what am I going to do
+9:16 um so yeah the podcast found out I've
+9:18 learned in that time period I need to do
+9:20 something for the community
+9:23 um right now I can't offer them jobs I
+9:25 can't help them get into jobs
+9:27 so what I was going to do and I've
+9:29 always toyed with the idea of running a
+9:31 podcast but um to be honest it was kind
+9:33 of always like a side note for me like
+9:36 if I get time to do it then it'll be
+9:37 something I will do but
+9:40 um yeah it kind of always been pushed it
+9:41 aside so
+9:43 um yeah I think 2020 was the best chance
+9:44 to kind of launch something like that
+9:46 and um yeah I'm really glad I did so
+9:49 it's really cool
+9:51 um again I just talked to AI
+9:54 um data science and machine learning
+9:55 learning leaders in Germany and Central
+9:57 Europe about their journey within
+10:00 um the space that we were working
+10:01 [Music]
+10:03 um typically I'll talk to like early
+10:04 stage Founders and we'll talk about
+10:07 their Journey from the first initial
+10:09 concept
+10:11 um up to where they are today and their
+10:13 journey to get there
+10:14 um so yeah it's going well man
+10:16 um but yeah to be honest like after
+10:19 after the pandemic work like completely
+10:22 exploded so I take a bit of a backseat
+10:24 on the podcast for a bit
+10:26 um
+10:26 which was probably not my best decision
+10:29 because we got it up to a really good
+10:30 stage and then I kind of dipped off
+10:32 because I was just so busy with work
+10:35 um and now we're gradually getting it
+10:36 back up there now so we run everything
+10:38 on video now and um yeah it's a slightly
+10:40 different angle than what we had before
+10:42 but um yeah if anyone's Keen
+10:46 the difference between what you do and
+10:48 what I do is that yours is very
+10:51 practical right people can actually
+10:52 learn from the data tools Club podcast
+10:55 in one way shape or form
+10:57 my podcast is a little bit more about
+10:59 stories so I really want to explain kind
+11:01 of the Journey of organizations and give
+11:03 people
+11:05 um an opportunity to kind of share their
+11:07 story what the business does
+11:10 um and ultimately just like illuminate
+11:11 the companies that are working in the AI
+11:14 community in Germany
+11:16 um so yeah if you're interested in
+11:18 stories maybe not necessarily learning
+11:20 but like interesting conversations then
+11:22 it's probably cool to check it out but
+11:24 if you want to learn stuff stick with
+11:26 Alexa
+11:26 [Music]
+11:28 one does not exclude another right yeah
+11:31 wondering if we look at the number of
+11:33 podcasts three over a year or like each
+11:36 year and there must be a spike in 2020
+11:39 right because this is where data talks
+11:41 about podcast also started
+11:43 apparently everyone was like okay
+11:45 pandemic what do we do let's start yeah
+11:48 it's probably like boredom had a bit of
+11:51 Parts playing in that right it's just
+11:52 something to do but I don't know if it's
+11:55 just boredom but I don't need to be
+11:57 connected maybe
+11:59 yeah yeah
+12:01 okay so well we said during the pandemic
+12:05 times you wanted to do something for the
+12:08 community but you couldn't help them get
+12:09 jobs so you decided to do a podcast but
+12:12 now you can actually help them get jobs
+12:15 right so how do you do this
+12:18 um so clients typically work with me on
+12:21 positions that they find really
+12:23 difficult to fill so
+12:26 um traditional kind of data science
+12:28 positions I don't get a lot of work in
+12:30 that kind of space anymore usually what
+12:33 happens with most markets is
+12:36 um as new things come into
+12:39 the machine learning data Science World
+12:40 there are fewer and fewer people at the
+12:42 beginning of that kind of bell curve
+12:44 right of
+12:45 um uh like that particular thing so
+12:48 usually
+12:49 um clients work with me right at the
+12:51 beginning of like new things that
+12:53 happening in the market so to give you
+12:55 an example like mlops is a really hot
+12:57 topic for me right now
+12:59 um most companies that I'm working with
+13:01 are looking for someone or people to
+13:02 help with like infrastructure and the
+13:04 operational side of ml
+13:06 um but if you ask me that like the
+13:08 typical roles that I recruit for like
+13:10 five six years ago I'd say data
+13:11 scientists Big Data Engineers
+13:14 um so my role kind of transitioned with
+13:16 the market
+13:18 um but yeah customers work with me to
+13:20 find Niche hard to find people
+13:23 um and my role essentially is an
+13:27 intermediary between the customer and
+13:30 the individuals I'm representing so in a
+13:33 slightly different way than what most of
+13:37 the recruitment industry works like
+13:39 I only work with two to three customers
+13:41 in [ __ ] I'm only one person so
+13:44 I can't work with 100 customers in one
+13:47 satellite I just wouldn't be able to
+13:48 service them
+13:50 um but yeah so I work with two to three
+13:52 customers at once and I work really
+13:54 really closely with them so the way that
+13:56 I typically try and frame it with those
+13:58 customers is that I'm your embedded AI
+14:00 Talent specialist for the time that
+14:03 we're working on a particular project
+14:04 together
+14:06 um but externally with the candidates
+14:08 that I represent
+14:10 I try and be as involved in the job
+14:14 search with the individuals that I work
+14:15 with as possible so what I don't want to
+14:18 do is just be kind of like a a job
+14:20 filterer for people to just send them
+14:22 job specs and just coordinate interviews
+14:24 that's really not what I want to do what
+14:28 I actually this is going to sound a bit
+14:29 cheesy but what I really want to kind of
+14:31 become and be known for is that
+14:33 I'm a seminar career coach that does
+14:36 sound super cheesy but ultimately I
+14:38 think if you've ever worked with with me
+14:40 before
+14:41 um you'll know that I pretty much help
+14:43 you with every single stage of the
+14:45 process be that the intro stage be that
+14:49 technical
+14:50 um how to speak to VPS and like Senior
+14:52 Management offer negotiation and closing
+14:56 and pretty much I'll hold your hand
+14:58 through the entire into process from the
+15:00 very very get-go
+15:02 um and I'll pretty much walk people
+15:03 through the stages within all of the
+15:05 companies I work with so
+15:07 um yeah if you've ever worked with me
+15:08 before I hope you would agree with that
+15:11 um but yeah so as I say I work pretty
+15:14 much in the middle between customers and
+15:15 candidates
+15:17 um but what I try to do is work really
+15:19 really closely with the people that I
+15:21 work with
+15:23 I cannot say publicly if I worked with
+15:26 you
+15:33 should go through each of these like you
+15:36 said that it's intro stage technical
+15:38 stage talking to management negotiation
+15:40 I definitely want to cover all that but
+15:42 before that
+15:44 very interesting question
+15:46 so now the market for all the tech jobs
+15:49 seem to be like
+15:52 a ghost
+15:54 sound right I mean what I want to say is
+15:56 like I see companies doing layoffs uh
+15:59 getting a joke is harder
+16:02 um like there are now the market is
+16:04 shifting from the candidates
+16:07 being a candidates Market to the
+16:09 company's market so
+16:11 it's harder and harder to find positions
+16:13 for you as a recruiter what changed in
+16:16 the last six months
+16:19 um
+16:20 I can only talk from my own personal
+16:22 experience but being really honest I've
+16:25 not noticed any difference okay
+16:27 um in big Tech yes of course
+16:29 everything's on fire at the moment
+16:31 there's tons of layoffs happening and no
+16:33 doubt people are already affected by
+16:35 that but the work that I do right now
+16:40 honestly it's not it's not any different
+16:43 um I mean this week
+16:45 I've brought on well I mean there are
+16:48 potentially another two to three
+16:49 customers that want to work with me
+16:51 right now
+16:52 um so I'm still at capacity all the time
+16:55 um that says you know I don't work with
+16:56 everyone so I might have a very small
+16:59 window and what the market actually
+17:00 looks like
+17:02 um but for me that meant like
+17:05 I mean the customers that I'm working
+17:06 with are still hiring
+17:08 um they've got the funding to do so
+17:10 maybe I'm just lucky in the fact that
+17:13 the customers I do work with are in
+17:14 really good positions like no doubt
+17:18 um there's different stories across the
+17:19 whole Market but for me personally
+17:22 um it's pretty good I mean touchwoods uh
+17:26 I hope that continues
+17:29 um but yeah as I say man like right now
+17:31 well I mean I feel like I'm in a pretty
+17:33 good position and I feel like the
+17:34 clients I'm working with are in pretty
+17:35 good positions
+17:37 um so it's really difficult because I
+17:39 don't know the entire market right but
+17:41 this small subsection of the clients I
+17:43 work with and who I know are in the
+17:45 market
+17:48 um seems fairly similar
+17:51 um bar a couple of little events that
+17:53 have happened but
+17:54 generally
+17:55 [Music]
+17:57 I can see the market kind of bouncing
+17:59 back within the next couple of this like
+18:00 I've seen this happen throughout my
+18:02 career at pretty much every single
+18:04 company that I work with to get huge
+18:06 layoffs
+18:07 um there's tons of [ __ ] on LinkedIn
+18:09 about the markets and fire and there's
+18:10 going to be a huge recession period and
+18:12 stuff
+18:13 um and then in six months time
+18:14 everything is kind of back to normal so
+18:17 um I'm not I'm not worried about what's
+18:20 happening out there I guess but um maybe
+18:22 that's super naive and really ignorant
+18:24 but
+18:25 um yeah from where I'm sitting right now
+18:26 man the Market's still on fire
+18:27 especially if you're good at what you do
+18:30 um I mean there's always going to be
+18:31 opportunities if if it's not there it's
+18:34 going to be somewhere else right
+18:36 um so yeah I mean from where I'm sitting
+18:38 man it seems pretty good but I people
+18:41 are probably shaking their head at me
+18:42 right now and thinking well you don't
+18:44 know what I know but
+18:45 um I don't so yeah well it's good to be
+18:49 an optimistic
+19:00 budgets are still the same right so they
+19:03 are not reducing budget so you can the
+19:05 candidates can still get salary it's the
+19:07 same salaries they were getting
+19:09 previously you still have clients
+19:11 clients have money
+19:13 um they are in a good position so for
+19:15 now you don't see any business for it
+19:17 I don't think we've seen the full like
+19:20 flow down effect of what's happened in
+19:21 my it's too early to say right now right
+19:24 um so it could be a very very different
+19:27 Market in the next six months
+19:29 um what I know right now is that not
+19:31 much has changed from my side
+19:34 um
+19:35 so yeah I'm not really seeing any kind
+19:37 of electrical down effects just yet what
+19:39 that looks like in six to 12 months I'm
+19:41 not sure
+19:42 um
+19:43 well what about um like maybe it became
+19:46 easier to close positions because there
+19:48 are more and it's on the market or still
+19:50 for the positions you work
+19:52 um on it's asparagus
+19:56 like nothing yeah yeah
+20:01 like you know we wouldn't I don't think
+20:03 I would have a job if it ever became
+20:05 easy because what like if there were a
+20:08 huge influx of candidates on the market
+20:09 that made them redundant and
+20:12 um people would get them directly right
+20:13 and they would just hire them directly
+20:15 but I think the True Value in working
+20:17 with a heads Hunter is not necessarily
+20:19 the presentation of candidates
+20:21 um it's much more about the kind of
+20:23 process ownership from end to end both
+20:25 from a client and from a candidate
+20:27 perspective so
+20:29 um there might be more
+20:31 people on the market right now
+20:33 um
+20:35 but then there's still the same amount
+20:37 of competition going after that Talent
+20:39 so that doesn't change
+20:41 um I mean it's a bit messy right now
+20:43 right I don't you know I don't know
+20:45 exactly how that's going to kind of
+20:46 transition over the next six to 12
+20:48 months but
+20:49 um
+20:50 yeah for me I've not I've really not
+20:52 seen anything where I'm like oh [ __ ]
+20:54 this is a big change so to give me an
+20:57 example
+20:59 when covered here that was the biggest
+21:01 shock of my entire career where I was
+21:03 like this is
+21:05 awful we could potentially go out of
+21:07 business and I could run out of money
+21:09 and right now we're looking at the
+21:12 client pipeline that we have
+21:14 um just what's happening like generally
+21:15 the energy in the market
+21:18 if anything I'd probably hear a little
+21:20 bit more from a candidate perspective
+21:23 they're a little bit more apprehensive
+21:25 about going to startups and companies
+21:27 that don't necessarily have
+21:29 um a route to profitability and they're
+21:31 very
+21:32 um there's a lot more questions that are
+21:35 uh focusables are funding and stability
+21:37 and stuff like that that I didn't really
+21:40 get in 2021 I did but not as much as now
+21:45 um so it's probably a little bit more
+21:47 kind of like Risk on the side of the
+21:49 candidates right now but generally
+21:51 um as I say compared I compare
+21:53 everything to covered now right and I'm
+21:55 just like is it as bad as March 2020 no
+21:59 so it's
+22:00 it's not too bad let's see okay well the
+22:05 topic today is a technical interview
+22:07 right just
+22:09 I think there is and he said that you as
+22:12 a recruiter you're quite involved in the
+22:14 interview process and what you do you
+22:18 help the candidates at every stage which
+22:21 you mentioned introduction stage then
+22:23 technical interview then speaking with
+22:26 top management like the P directors and
+22:30 then finally the negotiation stage so
+22:32 can you walk us through the stages what
+22:35 happens at which the stages and how do
+22:37 you help and events yeah
+22:39 yeah
+22:41 um
+22:42 that's quite I want to work out where we
+22:45 need to start with that so people don't
+22:47 get like kind of like overwhelmed with
+22:49 information because if we do the whole
+22:50 thing it so if we kind of break that
+22:53 down I guess and we just do one stage at
+22:55 a time
+22:56 um because personally I think that
+22:57 there's different expectations for like
+23:00 obviously all of those stages right and
+23:02 I think the prep needs to be Associated
+23:04 to what we're trying to achieve in the
+23:05 individual stages so
+23:08 um I think if we just make some
+23:10 assumptions now right because I'm going
+23:11 to talk really broadly and this isn't
+23:15 necessarily there are going to be some
+23:17 companies out there where this doesn't
+23:19 it's not going to make sense and there
+23:21 are going to be some situations where
+23:22 they're a bit abstract and a bit
+23:24 left-wing and
+23:25 um I think the challenge with interviews
+23:28 is is that if you interview a hundred
+23:30 different companies you'll probably get
+23:32 100 different experiences right or at
+23:34 least 50. so
+23:37 take everything that I'm saying now with
+23:39 like a pinch of salt and I think I put a
+23:42 post out not too long ago about if
+23:44 anyone wants this document then I'll
+23:46 happily send that to them and if anyone
+23:48 wants to talk to me about it directly
+23:50 um and ask me specific questions about
+23:51 specific interview processes that I'm
+23:54 more than happy to help
+23:55 um but so anyway just that's a bit of a
+23:58 caveat but I think the assumptions that
+24:00 I would make not that I've made are
+24:03 this is pretty much focused on what's
+24:05 kind of Junior to senior ish level hires
+24:07 right anything principal lead management
+24:11 uh any of those kinds of highs that's a
+24:14 different level of prep and different
+24:16 levels of expectations so I'm kind of
+24:19 push that to one side
+24:21 um number two is that in the interviews
+24:23 you're going to you're actually capable
+24:25 of doing that role and it's a logical
+24:26 step so you can't if you're a junior
+24:29 engineer in your program for a CTO role
+24:31 I mean you can prep until your eyes fall
+24:33 out but that's probably not going to
+24:34 happen right so number two the roles
+24:37 that you're interviewing for you're
+24:38 capable of doing
+24:39 um it's a role that you want not just an
+24:42 interview
+24:43 um and the process is fairly standard so
+24:48 I mean what three stages intro technical
+24:51 final stage Senior Management VP ish
+24:55 kind of
+24:57 uh interview that's typically what I see
+25:00 maybe two stages in the technical part
+25:02 but generally that's the kind of process
+25:05 um
+25:06 and then yeah the last kind of
+25:07 assumption that I make is that you're
+25:08 working with someone who's semi-decent
+25:10 at giving you some information so you're
+25:12 working with either a good recruiter
+25:15 um a good internal person and you know a
+25:18 good HR person internally or the manager
+25:21 that you're working with from a
+25:23 technical side of things is a good
+25:24 person
+25:25 um
+25:26 or the founder or whatever but you've
+25:28 got a contact that's associated to that
+25:30 business that you can strip information
+25:32 from in some sort of way it's not always
+25:34 the case but nine times out of ten
+25:36 there'll be someone in that chain that
+25:38 you'd be able to speak to right
+25:42 um does that make sense I feel like I've
+25:44 rambled my way through that but uh maybe
+25:47 we can go to the actual stages right
+25:49 yeah yeah yeah yeah do you think they're
+25:51 fair or something but yeah of course so
+25:54 um
+25:55 so the intro meeting is obviously going
+25:57 to be obviously the first stage but it's
+25:59 all coming together right or
+26:02 um I don't class me as a stage in the
+26:04 interview process so it's like stage
+26:07 zero sort of like the chat with your the
+26:09 initial one when you reach out to bid
+26:11 you say okay I'm working with this
+26:13 client I have this awesome role how
+26:16 about him right yeah that's fine you
+26:19 reach out then you have a conversation
+26:21 that's like stage zero then you
+26:23 understand okay the candidate wants to
+26:24 move uh to to try this position right
+26:27 and
+26:28 you
+26:30 what do you do you show this the CD of
+26:33 the candidate to the company they said
+26:35 okay let's interview that person
+26:37 and then you arrange the interview and
+26:39 then this is where the introduction the
+26:41 intro stage happens right yeah correct
+26:45 um so typically well I mean the
+26:47 companies that I work with now
+26:49 I've worked with them for quite some
+26:51 time so usually I'll just put people in
+26:53 onto the Diaries because I've got such a
+26:55 good understanding of what they're
+26:56 looking for
+26:58 um I'll send the CV as you know just to
+27:01 be polite just be like hey man I'm
+27:02 booking this guy in with you
+27:04 um
+27:05 if you've got any questions let me know
+27:06 but I'm kind of at a stage now where the
+27:09 customers I work with I just know them
+27:11 inside out so
+27:13 um there's not really there's not really
+27:15 much guesswork in terms of the work that
+27:17 I do now but anyway yeah exactly so the
+27:19 way that you should look at me is I'm a
+27:22 filter between the client the end client
+27:25 and the candidate so
+27:28 um I'm not an interview like for me I
+27:30 really want to understand what makes you
+27:32 tick as a candidate right because you
+27:34 might say some things to me that I think
+27:36 do you know what them that's not going
+27:38 to work with this customer or that's not
+27:39 going to work and that's not the right
+27:41 role for you so there's going to be
+27:43 better opportunities out there that will
+27:44 give you that kind of thing that you're
+27:46 looking for right and then vice versa
+27:48 if there's
+27:50 Parts about the cultural fit or if
+27:52 there's Parts about the technical skills
+27:53 that I know that they definitely need
+27:56 um that are going to be like an instant
+27:57 reject then that's my job to not put
+28:00 forward people that are just totally
+28:01 irrelevant right so
+28:03 um that's where I said so um yeah first
+28:06 stage is obviously always going to be
+28:07 the intro meeting right
+28:10 um again there are going to be different
+28:12 ways that companies run this but
+28:14 typically what 30 40 minutes of
+28:17 conversation and I guess the key thing
+28:20 that most people are trying to get to in
+28:22 the intro stage of an interview is is
+28:26 there Synergy between us as an
+28:28 organization the role that we have open
+28:30 and from a personal perspective does
+28:32 this make sense right
+28:35 um that's kind of the main goal but from
+28:37 both sides so the prep of that I mean if
+28:42 you've got any specific questions that
+28:43 you want me to answer about that or
+28:45 yeah like what does it look like is it
+28:48 uh like tell us about yourself or
+28:51 there is more structure yeah so I guess
+28:54 we'll get into the well the typical
+28:57 questions that I see in that are really
+28:59 broad open-ended questions like that
+29:01 right
+29:03 um but if we're talking about prep
+29:05 specifically
+29:07 for me I think it breaks down into
+29:10 three four elements so number one the
+29:16 person and character that you're going
+29:18 to be speaking to because ultimately in
+29:20 an intro meeting as much as it's about
+29:22 outlining the skills of who you are and
+29:25 what you do it's about building the
+29:27 relationship with that person because if
+29:29 you get off a call with someone and you
+29:31 have that kind of internal feeling like
+29:33 yeah kind of that's kind of the thing
+29:36 that we're looking for from both sides
+29:37 but he she was a dick then that's not
+29:41 really going to go past that first
+29:42 initial stage right so Point number one
+29:45 is about the character that you're going
+29:47 to be speaking to and the relationship
+29:48 between those people
+29:50 Point number two is
+29:52 sorry go ahead I'm just starting to
+29:55 understand like how does it help me as a
+29:57 candidate like uh okay I know that the
+30:00 person I will be speaking to is I don't
+30:03 know data science manager in this
+30:05 company
+30:06 so what are my actions like do I
+30:08 research them on LinkedIn do I think
+30:11 what is interesting to them like do I
+30:15 um like the way I told to tell my story
+30:18 I use the same language that they relate
+30:21 to they they would relate to or how do I
+30:23 how do I use this information yeah so
+30:26 there are two elements to that so it's
+30:29 the pre the the free research and the
+30:33 immediate things that you do on the call
+30:34 with that person right so if I was going
+30:36 to interview with you Alexa I mean
+30:39 you're a brilliant example of someone
+30:41 that you can actually research
+30:43 um yeah a lot of people it is difficult
+30:45 but the first thing I do is I really try
+30:47 and understand the person that I'm going
+30:50 to speak to so number one I would ask
+30:52 the recruiter the internal person that
+30:55 I'm working with what's a Lexi like like
+30:57 really really simply what kind of
+30:59 characteristics does Alexa have or some
+31:02 type of communication style or so let's
+31:04 you got I really want to try and gauge
+31:06 who you are before we jump on the course
+31:08 there's as little surprises as possible
+31:11 um so the person internally that you
+31:13 work with or externally as a header
+31:14 Center I would be stripping that person
+31:17 for information because
+31:19 I want to know that when I jump on that
+31:21 call is this guy going to be an
+31:23 extroverted hands wavy in the air kind
+31:25 of person is he going to be super direct
+31:27 and just get straight to the point like
+31:29 what type of character and rights are
+31:31 you actually going to be speaking to
+31:32 here because I think that the key thing
+31:35 that you need to do in that scenario is
+31:38 you really need to kind of work with the
+31:41 person that you're talking to so if
+31:43 we've got an ultra direct straight to
+31:45 the point manager of something and you
+31:48 go in there and you want to kind of
+31:50 shoot the breeze You're just going to
+31:51 annoy that person but then equally if
+31:54 it's the other way around and you're
+31:55 super direct and you just like want to
+31:57 get straight to the point and get to it
+31:58 but the other person is like hey man
+32:00 Mike how's your day going like yeah
+32:01 would you get up until the weekend if
+32:04 you don't match or try to at least match
+32:06 the energy of the person that you're
+32:08 speaking to
+32:10 there's going to be friction and the
+32:12 point I'm trying to make about
+32:13 researching the person before you
+32:15 actually jump into the interview is
+32:17 there are a lot of signals in terms of
+32:19 how people communicate so it would be
+32:21 very easy to work you out because you've
+32:23 got podcasts so
+32:25 you can watch them and you can see how
+32:26 you can communicate right but doesn't
+32:29 mean they behave like that yeah right
+32:32 I probably I probably have no problem
+32:35 yeah I would imagine you probably do but
+32:40 maybe there there would be a slight gear
+32:43 shift but I would say that eighty
+32:45 percent
+32:47 um but anyway so the way that people
+32:49 communicate online it gives you a lot of
+32:51 signals about how that person
+32:53 um is going to communicate in real life
+32:55 so even the way that they would explain
+32:58 what their roles are on LinkedIn for
+33:00 example for me I mean I do this all the
+33:02 time right but if I jump onto a LinkedIn
+33:05 profile now and I'm making huge
+33:07 assumptions here but like usually I can
+33:10 get a really good feel for that person
+33:12 before we even jump on a call and then
+33:15 when we jump on about oh yeah like that
+33:17 kind of makes sense right so just in
+33:19 terms of like the communication style
+33:20 how they write about what they do just
+33:22 their their writing communication will
+33:24 typically fold over to who they are as a
+33:26 human being so
+33:28 um what's the point Sorry I'm rambling
+33:30 here but before the intro meeting I want
+33:33 to really understand or try to gain as
+33:36 much information about the type of
+33:37 person I'm going to be speaking to not
+33:39 about the topics and
+33:42 so I guess in this case when you're
+33:45 helping the candidate when you're
+33:47 working with the client your candidate
+33:49 you already did this homework right so
+33:51 then you would tell the candidate hey
+33:53 this is this is the person you're going
+33:55 to speak to well so this is his uh this
+33:58 is their personality
+34:00 right so
+34:01 like they prefer to be direct so they
+34:03 have to
+34:05 get to the point
+34:07 yeah but let's say if somebody is not as
+34:11 lucky to work with you
+34:13 quite different process then this is
+34:16 something they can do on their own right
+34:18 take a look at the LinkedIn profile look
+34:21 up the person in Google right maybe
+34:23 there are some custom appearances maybe
+34:26 there's uh I don't know talks maybe
+34:28 there is something that can help to
+34:30 understand that
+34:31 Personality yeah I mean and don't get me
+34:34 wrong this is not only exact science
+34:35 right so it's not something that if you
+34:38 follow this process you're going to get
+34:39 it right 100 of the time because you
+34:41 know some people just don't even post on
+34:44 LinkedIn and they've got no online
+34:45 community right so how can you work out
+34:47 anything
+34:48 at all right yeah exactly so like don't
+34:51 get me wrong but you want to use these
+34:52 as signals right so you don't want to
+34:54 make any like absolutes before we jump
+34:55 into that call you want to think I think
+34:58 this is the type of person that he's uh
+35:00 he or she is going to be like so if you
+35:01 can kind of get to a stage where you
+35:03 like right well this is the type of
+35:04 person I'm going to be talking to this
+35:06 is the type of character this is the
+35:08 type of personality you can start to
+35:09 adjust who or how you communicate to
+35:12 that person right the second part
+35:16 in terms of the intro meeting is you
+35:17 need to really quickly assess the person
+35:20 on the other end of the zoom call or
+35:22 directly in front of you or on the phone
+35:23 call within literally seconds of
+35:26 speaking to that person because
+35:29 people will tend to like communicate in
+35:32 the way that they want to communicate
+35:34 right so if you ever have a zoom call
+35:35 with me I'm like hey how's it going and
+35:39 that's how I communicate as a person so
+35:41 I'm full of emojis and I'm like super
+35:42 expressive and that kind of stuff right
+35:44 when someone links with me on that the
+35:46 calls are really like they they do well
+35:48 right but when I have a call with
+35:51 someone and I'm like hey they're like
+35:53 hello I'm like I need to change the way
+35:56 I am right now otherwise I'm going to be
+35:58 jarring for this person and they're
+35:59 going to think I'm a dick right so
+36:02 there's a website that I'll send I'll
+36:05 put it on the document but it's called
+36:06 16 personalities
+36:08 um it's essentially like a
+36:10 psychoanalysis of different personality
+36:13 types different communication Styles I
+36:15 recommend it to anyone who's
+36:16 interviewing to really try to understand
+36:18 at least their own but have a good
+36:20 understanding of what other people or
+36:23 who other people can be and how they
+36:25 like to communicate because the first
+36:27 initial 10 seconds of conversation if
+36:30 you don't pick up on that and then you
+36:32 continue going down a road of jarring
+36:35 completely different energy level be
+36:38 that one way or another
+36:40 the cool
+36:42 again I don't want to talk in absolutes
+36:44 but nine times out of ten people will be
+36:46 on that opposite ends of the kind of
+36:48 spectrum in terms of how they're trying
+36:49 to communicate to each other so for me I
+36:52 always try and work out the personality
+36:54 character and the person before I do any
+36:57 prep
+36:58 um because the way that you communicate
+37:00 to that person is going to be one of the
+37:02 most important things you can do the
+37:04 content is obviously important but if
+37:06 you deliver it in a way that doesn't
+37:08 land it's kind of irrelevant but also
+37:11 it's important not just for interviews
+37:13 right but pretty much everything else
+37:15 still
+37:19 yeah or like I don't know meeting
+37:20 networking right yeah yeah exactly like
+37:24 you there's probably been times in
+37:28 everyone's life where they've had a
+37:29 conversation with someone and they just
+37:31 instantly click they're just like we get
+37:34 each other we just we're on the same
+37:36 wavelength right this is probably we've
+37:38 got the same personality
+37:40 yeah it's the same communication
+37:43 you're singing from the same hymn she
+37:45 and you're communicating in a way that
+37:47 the other person likes to communicate
+37:49 and understands and it's natural but in
+37:52 interviews obviously don't have the
+37:54 privilege of choosing who interviews you
+37:57 right so it's not like they're one of
+37:59 your friends or whatever so you have to
+38:01 deal with the person in front of you and
+38:02 I think that understanding the
+38:04 personality type of the person that
+38:06 you're talking to doing your research
+38:08 about that individual will give you a
+38:11 good at least a good start right
+38:14 um I took a look at the time and
+38:16 realized that the topic for this uh
+38:18 interview is technical or like technical
+38:21 right yeah I love the topic like this
+38:24 this is really interesting like it's 16
+38:25 personalities of like you know oh you're
+38:28 assessment
+38:30 um anything else you want to mention on
+38:32 the intro meeting before we move on to
+38:35 definitely yeah there's one more thing
+38:37 so typically you'll have standardized
+38:40 questions tell me a bit about you what's
+38:42 your background tell me about some
+38:44 projects that you've worked on what
+38:45 you're looking for or the normal kind of
+38:48 everyday recruitment stuff right one
+38:50 more final thing on the intro call is
+38:52 well there's a lot more in the document
+38:54 but one more for now
+38:57 um I would highly recommend
+38:59 standardizing your answers to that and
+39:01 practicing them so they are really
+39:04 fluent and you can articulate who you
+39:07 are what you do while you're looking
+39:08 projects you've worked on examples of
+39:10 things that you've done in a just just
+39:12 on demand so if someone says Alexi
+39:15 says Alexa tell me about a project
+39:18 you've worked on that you're proud of
+39:19 cool here it is would be like in the
+39:22 elevator pitch for pretty much
+39:23 everything right like yeah tell you
+39:26 about yourself like I don't know a bunch
+39:28 of projects you worked on so you should
+39:30 have a story prepared for that like ties
+39:33 to the point where and if they ask for
+39:35 the company
+39:36 yeah so like the star methodology if no
+39:39 one's ever heard of that it's situation
+39:41 task action result
+39:43 um it's a good thing to kind of um work
+39:45 towards but if you practice enough you
+39:48 can it can sometimes feel a bit rigid if
+39:50 you like hey like this is the situation
+39:52 this is the task this was my action it
+39:55 that's going to come across a bit a bit
+39:57 manufactured but if you can stick to
+39:59 that and wrap it into
+40:02 um the normal way that you communicate
+40:04 so you've done it so many times it just
+40:06 becomes second nature
+40:07 it's a good kind of framework to work so
+40:10 I guess but yeah standardized questions
+40:12 you know pretty much what they're going
+40:14 to talk to you about and what they're
+40:15 going to ask you it's going to be a get
+40:16 to know there's going to be some
+40:17 standard questions get some good
+40:19 examples work on them have them so
+40:22 they're on demand ready to go and you
+40:24 come across really articulate because I
+40:25 think
+40:26 you don't want to get caught out on hey
+40:29 man tell me about you and it's
+40:31 I mean they might like if they don't
+40:34 practice uh like it would say last time
+40:36 I had interview was four years ago
+40:39 I might be oh and then start like the
+40:42 story from my childhood
+40:44 yeah yeah
+40:48 exactly man
+40:50 um but yes the internet for me is like
+40:52 quite
+40:53 um that's one thing obviously this is
+40:55 about technical interviewing right so
+40:57 um
+40:59 the key okay
+41:01 I noticed that I cannot access slider so
+41:05 if any of you are asking questions
+41:08 slider just doesn't load so please put
+41:11 them in the live chat and I will be able
+41:12 to see them from the live chat I don't
+41:14 know what happened to slider but I
+41:16 imagine that there are 30 43 people on
+41:20 this stream right now and
+41:23 yeah probably a couple of questions I
+41:24 unfortunately cannot exist down so
+41:26 please put them in the live chat and
+41:28 yeah we can maybe move on to the
+41:30 technical part
+41:32 so
+41:33 where should we start
+41:35 so
+41:36 yeah like what is it like what what is
+41:39 the what do we usually have in the
+41:41 technical part like it's like recording
+41:43 hearing questions uh what else
+41:47 yeah so
+41:49 I think probably there's mainly three
+41:53 maybe four key things in the technical
+41:55 thing
+41:57 um number one binary questions what's
+42:00 the answer to this what is the correct
+42:02 answer to this thing
+42:04 um number two
+42:06 what would you do or what if situations
+42:09 so what happens if this happens how
+42:12 would you deal with that
+42:14 um example based questions so tell me
+42:17 about the time that you did this
+42:19 and then lastly coding challenges coding
+42:24 like tasks and stuff like that right
+42:27 um
+42:28 so yeah that's typically what's in the
+42:30 technical interview but um I mean again
+42:32 this is why we need to be fairly generic
+42:34 here is that most companies or all
+42:36 companies are quite different from how
+42:39 they run their interviews
+42:41 um so this isn't like this isn't the
+42:43 blueprint of how it works but generally
+42:46 there'll be some kind of like technical
+42:48 session in the middle how companies
+42:50 frame that is different from business to
+42:52 business
+42:54 what a typical questions that ECF of
+42:57 course companies are different if you
+42:59 interview with other companies you will
+43:00 look at probably 100 different
+43:02 questions but well some of these
+43:05 questions will be probably similar like
+43:06 in your data scientists you will see
+43:09 something that come up comes up
+43:12 right so do you know what what kind of
+43:15 questions there are usually
+43:19 kind of theory coding yeah I'm with
+43:22 geometry um it's probably it's very
+43:24 closely aligned to like those four types
+43:27 of things right so again all companies
+43:30 and this is part of the prep
+43:32 um all companies will have different
+43:34 expectations and what they're going to
+43:35 speak to you about so
+43:37 for me I would never prepare for
+43:39 specific questions I would practice
+43:41 questions in case they come up but when
+43:44 it comes to preparation for technical
+43:46 interviews you what we need to do is
+43:50 really under or try to understand the
+43:52 expectations of the individual customers
+43:55 that we're trying to work with right or
+43:57 the individual companies that we're
+43:58 trying to join so the questions I mean I
+44:02 could tell you something but they're not
+44:03 going to be relevant for everyone else
+44:04 right but what is relevant is
+44:08 um
+44:09 setting the expectations or under trying
+44:11 to understand the expectations of the
+44:13 clients that you're interviewing with so
+44:15 again if you had someone on the inside
+44:17 or a HR Talent person that you're
+44:19 working with or a recruiter when you get
+44:21 to a technical interview the first thing
+44:24 that you should be asking is what are
+44:25 the expectations of this interview you
+44:27 should never ever in my opinion go into
+44:30 an interview and say it's a technical
+44:33 interview and that's all you know that
+44:35 is blasphemy here my word
+44:38 um
+44:39 every single time you go into any
+44:41 interview you should really understand
+44:42 at least from an agenda perspective
+44:46 the context of what you're going into
+44:48 and speaking about right because you
+44:50 need something to base your prep offers
+44:54 um so yeah number one I'd always do this
+44:56 before so let's say
+44:59 and working with you so I am over like I
+45:03 passed this introduction stage and now
+45:05 you set
+45:07 an interview a technical interview with
+45:10 oh like somebody I don't know senior
+45:12 data scientist
+45:14 so what I do do I ask you or do I ask
+45:16 that person like what are your
+45:18 expectations in email before the
+45:20 interview so I know what to expect
+45:22 yeah this is what you're saying yeah so
+45:25 let's say you got through the the intro
+45:28 stage and that went really well look I'm
+45:30 really Keen to continue
+45:32 um what's the next stage and what are
+45:33 the expectations so if we're in that
+45:35 technical stage I should be able to give
+45:37 you a very strong or at least some
+45:40 pointers in terms of what they're going
+45:41 to be looking for within that technical
+45:43 stage right and that's the kind of
+45:45 Baseline for your preparation what we
+45:47 don't want to do is go really broad
+45:49 really generic and kind of not really
+45:51 know what goal we're shooting at and yes
+45:54 there are some really good sites out
+45:56 there where you can go and practice like
+45:57 coding questions and Link code and
+46:00 hackarack and code forces and stuff like
+46:02 that but generally I think when we are
+46:05 prepping for
+46:06 an organization we want to keep it as
+46:09 focused towards our business as we
+46:10 possibly can which leans back on to
+46:13 I would only recommend that you do this
+46:15 if this is like the role that you
+46:17 actually want and this is the company
+46:18 that you actually want because it takes
+46:20 time and you need to look at the
+46:22 organizations and think well firstly you
+46:24 want to ask the question because that's
+46:27 going to give you the good Baseline to
+46:28 work on but then secondly you want to
+46:31 start looking at the individual job
+46:33 specs and roles that you're applying for
+46:35 in interviewing for and start to work
+46:37 out
+46:39 um
+46:40 the levels of
+46:43 um
+46:44 essential the secondary the ideal skills
+46:49 because that's going to give you the
+46:51 prep and that's going to give you the
+46:52 direction of how much time you put on
+46:54 the prep because for me I'd much rather
+46:57 the candidates that I work with spend a
+47:00 ton of time focused on really getting up
+47:03 to scratch on the core Essentials of the
+47:05 role spending 20 of their res like their
+47:09 prep time on like secondary skills and
+47:12 then if we've got any time left over
+47:13 throughout that prep stage
+47:16 work out what else is the like ideal
+47:19 other things that might be really
+47:21 beneficial to the role but aren't
+47:22 essential or secondary
+47:24 um so the questions for me are they're
+47:26 important because with the customers I
+47:28 work with now I do know some of the
+47:30 specific questions that they would ask
+47:32 um but
+47:34 I don't typically I don't share them
+47:36 with candidates because then it will
+47:37 become unfair like if I said this is
+47:39 exactly what they're going to ask you
+47:40 then that's not fair right but um yeah
+47:44 so I'll give people pointers about the
+47:47 areas of what's going to get spoken
+47:49 about
+47:50 um and then I'll set the expectations
+47:52 for how much they should know
+47:55 or how much they should be able to
+47:58 articulate themselves within those
+47:59 particular things right do you mean like
+48:02 how deep in theory should go or like you
+48:04 can just uh cover the basic concepts
+48:07 like we don't need to go to the things
+48:09 like that right yeah official so I
+48:12 always think it's like if you look if
+48:14 you imagine like three Circles of like
+48:16 depth so the first point is you know
+48:19 um
+48:20 uh fairly basic
+48:23 um everyone should understand points
+48:25 about this then I would never skip over
+48:29 those points because candidates
+48:30 sometimes when you think that you know
+48:32 if you've not been asked to articulate
+48:34 it for a while
+48:36 um the fundamentals are always really
+48:37 important right so I never say skip over
+48:41 um the kind of basic questions and the
+48:43 basic knowledge because I think that if
+48:45 you get asked the question that's fairly
+48:47 simple and something that you probably
+48:48 do on a day-to-day basis but you you
+48:50 like you don't know how to articulate
+48:52 that in a really fluent way
+48:55 how they read that is do you actually
+48:56 know that's correct yeah exactly it
+48:59 doesn't answer but it's like um you will
+49:01 start rambling and then you don't beat
+49:03 answered them right yeah so like um to
+49:06 give you to give you an example one of
+49:08 the questions that catches like loads of
+49:10 candidates out and one of the clients
+49:11 that I work with is what do generators
+49:14 and decorators do
+49:16 um
+49:18 yeah and tons of people use them and
+49:21 they know them but to articulate what
+49:24 they do is some people get really caught
+49:26 up on that and then they look at that
+49:28 Candlelight and think didn't really know
+49:30 it
+49:30 like didn't really explain himself very
+49:32 well or herself very well on that
+49:34 particular point and then it's just a
+49:36 little it's not obviously a red flag but
+49:37 it's a it's a cross next to your name in
+49:39 terms of one of the particular things
+49:41 right so I always say definitely think
+49:43 about the fundamentals you don't get
+49:45 caught up on anything that you know that
+49:46 you could easily work with but
+49:49 just for some reason interview nerves
+49:52 being pressured in an interview whatever
+49:53 you just you [ __ ] that part up right
+49:56 anyway so first circle like essential
+49:59 things that are real high priority in
+50:01 the fundamentals secondary how do we
+50:03 level that up now like what's the more
+50:05 difficult versions of this and if I was
+50:08 interviewing you
+50:09 what would what would my question be
+50:11 that's going to be a follow-up question
+50:13 to what I've just answered like how do
+50:16 we make that question I've just answered
+50:19 correctly 10 times harder like what's
+50:21 the what's the natural follow-up stage
+50:23 there that's what they'd be usually like
+50:25 I don't have at least questions they ask
+50:26 I just uh yeah tell me about the project
+50:29 you worked on and then the person tells
+50:31 about the project and they say okay I
+50:33 use this model like I don't know random
+50:35 course I'm gonna tell me about around
+50:36 the poor sports yeah man
+50:39 um and then I like to start digging like
+50:41 every time you say something I try to
+50:44 you know follow up and then yeah exactly
+50:48 I guess some people have different
+50:49 individuals that's right some people
+50:50 just get those questions and then maybe
+50:52 don't dig deeper but want to check your
+50:56 in like the breadth of your knowledge
+50:59 right yeah but then if that is the case
+51:01 we should know that right if so if
+51:06 if someone's going in for like a breadth
+51:09 interview where they want to see how
+51:11 much you know in cloud and X and Y and Z
+51:14 and all of these areas then that's what
+51:16 we should be prepping for but we can't
+51:18 do that if we don't know the
+51:20 expectations from the business or from
+51:23 the recruiter or from the internal
+51:25 Talent person right so for me I always
+51:27 think that all businesses should not
+51:29 give people the answers and not give
+51:31 people like so much information that
+51:33 they can kind of
+51:35 they come up for the into process easier
+51:37 because it does need to be in my opinion
+51:39 it needs to be tough and we need to work
+51:40 out if people can actually do it and
+51:41 they can think from themselves and all
+51:43 of that sort of stuff but
+51:45 you can't set people up to phone like
+51:48 you can't be like Turn Up For a
+51:49 technical interview and we'll see how
+51:50 you go like that for me is [ __ ] so I
+51:53 think we definitely need to at least
+51:55 have context about what's going to get
+51:56 spoken about
+51:58 and then you can prep for it right but
+51:59 then it still follows the same principle
+52:01 in my eyes like what's the follow-up
+52:03 question to this particular thing like
+52:06 what kind of flowchart would I ask
+52:07 candidates or would I ask myself if I
+52:10 was interviewing that will make this
+52:11 difficult and then that gives you a lot
+52:13 more of a kind of like free throw at
+52:15 free flowing prep rather than being like
+52:18 I think they're going to talk about this
+52:19 I think they're going to talk about this
+52:20 realistically
+52:22 if we're talking about this particular
+52:24 subject most companies interview in the
+52:26 same sort of ways you do so let's talk
+52:28 about this particular question let's see
+52:30 how they answer it and then let's stem
+52:32 from that particular answer
+52:35 um so if I was prepping for like if I
+52:37 was a machine learning engineer a data
+52:38 scientist this is how I would I'd be
+52:40 like right let's start on something that
+52:42 we definitely know is going to get
+52:43 spoken about outside of that how do we
+52:46 work around that to build more of a
+52:49 um breadth but also depth within that
+52:52 particular thing right
+52:54 um
+52:55 I'm rambling now but
+52:58 um I'm just thinking how do I stop you
+53:03 that was fine I'm joking so I see that
+53:05 we have three questions say maybe it's
+53:07 time we actually covered them so the
+53:09 first question is what do you think of
+53:10 companies that mainly ask very
+53:12 theoretical questions as if data
+53:15 scientists should all know mathematical
+53:17 and statistical for laws
+53:22 I think it's if it's relevant for that
+53:24 business
+53:25 then it's valid
+53:27 but I think
+53:30 how often is it relevant sometimes I
+53:32 feel like people don't know what to ask
+53:34 for the internet and just just Google a
+53:36 list of questions and this list is
+53:38 theoretical and just fire these
+53:40 questions
+53:40 yeah so if it's completely abstract
+53:43 these are our interview questions for no
+53:45 other reason apart from these are kind
+53:47 of the right things that you would ask
+53:48 in an interview for a data scientist
+53:50 then no that's [ __ ] like all of the
+53:53 interviews in my opinion should work
+53:57 backwards from the job responsibilities
+53:59 and what they're going to do on a
+54:00 day-to-day basis so if that's something
+54:02 that they're never going to touch or
+54:04 don't need to know then why why ask it
+54:07 like what's the point what's your
+54:09 schedule yes at University
+54:16 yeah I mean I've I've heard that before
+54:19 from clients I work with
+54:21 um but
+54:23 how much impact does that have on a
+54:26 candidate's ability to do the job right
+54:28 now if they can recall something that
+54:30 they left like learn six seven eight
+54:32 nine years ago of a very like specific
+54:37 like the thing what impact is that going
+54:40 to have on if they can do that right now
+54:42 I guess the
+54:44 the flip side to that is no I don't even
+54:47 miss Cliffside actually
+54:49 um I think they're [ __ ]
+54:50 [Music]
+54:53 I'm checking the second position
+54:56 so how do you keep going with an
+54:58 interview if you've locked in between
+55:00 and feel uncomfortable
+55:02 um what does what mean it's like when
+55:04 you felt like if they've just if they
+55:06 bonded
+55:08 um all depends to like if you're kind of
+55:10 failed right if you didn't do that yeah
+55:13 um now it's uh 18 plus podcast
+55:16 sorry man
+55:20 um so I guess it depends sorry I know
+55:23 it's already awful answer but
+55:25 um I I guess it depends on
+55:29 how you've Bond and like
+55:32 how that feels in the scenario like it
+55:36 would be good if they can be a little
+55:37 bit more of a specific but and it
+55:39 depends if you really want that job so
+55:41 if I've bombed and I've bonded an
+55:43 interview before like absolutely and
+55:47 um but I really wanted to work there so
+55:49 my it didn't it didn't work out in the
+55:51 end but I've got nothing to lose at this
+55:53 stage right so if you've bond in an
+55:55 interview and you think I can do better
+55:56 than that that was a really bad day for
+55:58 me I'd tell them I would go back and
+56:01 I've had multiple people that I've
+56:03 worked with who have Bond interviews and
+56:06 I've said look take four weeks we're
+56:08 gonna prep on these particular things
+56:10 that you absolutely bombed on and then
+56:11 we're going to retake that interview
+56:13 with Declan
+56:15 um and people have got jobs from that
+56:17 um
+56:18 something
+56:26 yeah when I failed something then I just
+56:28 okay I should have to answer it this way
+56:30 and then I do some research and I was
+56:32 like okay like this is
+56:33 this is what the answer should be right
+56:35 and then I just don't do anything else
+56:37 just next time this question comes up
+56:39 maybe I answered better but that's
+56:41 that's it but what you say is instead of
+56:44 you know just uh you know working
+56:46 through this and think you know better
+56:48 answer you reach out to the company and
+56:50 say look I had a bad day this is uh like
+56:54 I need a bit of uh thinking and I want
+56:56 to retake it and some companies actually
+56:59 agree to
+57:00 the interview for for example and then
+57:04 that and then they take those people in
+57:06 the end yeah so there's three examples
+57:08 I've got in my mind right now of people
+57:10 that have done that over the past like
+57:12 year with me
+57:13 um but anyway so if you if you've bombed
+57:16 an interview this all depends on if you
+57:19 really want it if you really want it
+57:20 then what have you got to lose right you
+57:22 should definitely go for it but
+57:25 if you bumped an interview and you think
+57:27 oh this is
+57:28 it's not for me anyway I mean I would
+57:30 just wrap that interview up really
+57:31 quickly and then just get out there but
+57:33 if you think I bombed that and I want it
+57:36 exactly how you said I would message the
+57:39 person that's just interviewed me
+57:41 another like Alexa I've actually bombed
+57:44 that interview and that was awful
+57:46 um I can 100 do better than that will
+57:48 you just do me a favor and give me three
+57:49 to four four weeks let me come back and
+57:51 retake that
+57:53 can we do that most people would say
+57:56 yeah
+57:57 um just wondering what would I do what
+57:59 if I get if I receive the requests like
+58:01 that
+58:02 against what uh our recruiter would tell
+58:04 me to do I never received the request
+58:06 like that
+58:11 listening to this interview right now
+58:13 and then we'll have an interview with me
+58:15 and hopefully you don't want it but in
+58:18 case it happens
+58:19 but I risk that sometimes sorry just one
+58:23 more thing on that so the risk there is
+58:25 that you do that and then you bomb again
+58:28 oh yeah oops
+58:30 um I've had that and it is heartbreaking
+58:32 to be like sorry man you still wasn't
+58:35 good enough
+58:37 um that's the risk that you take but if
+58:40 you really want the thing that you're
+58:41 going after I mean I would take that
+58:43 risk every day
+58:46 questions from Alvin is the key to apply
+58:49 to different roles in the same company
+58:50 within a short amount of time
+58:53 if it's relevant
+58:55 um
+58:57 yeah but I wouldn't like pepper Garner
+58:59 company and apply for everything like so
+59:01 I
+59:03 I mean there were some people that would
+59:05 look at that and think oh that's a bad
+59:06 sign I don't really see it as a bad sign
+59:10 um as long as I just think it's a bit
+59:12 lazy
+59:13 um to be like apply all click click a
+59:16 click
+59:17 um because I've seen people that have
+59:18 applied for like work student jobs and
+59:20 then Senior and principal Engineers I'm
+59:22 like that's you're not looking at what
+59:25 you're doing right so
+59:27 um I don't think it's a bad thing but
+59:28 just make sure it's super relevant and
+59:30 just keep it focused towards what you
+59:31 actually want to do so
+59:33 um but I think we spoke about this last
+59:35 time I think the best thing you can do
+59:36 is actually just reach out to the right
+59:37 people and speak to them directly
+59:39 otherwise you just get put into a black
+59:40 hole of 10 000 other applications and
+59:43 you probably never contacted
+59:45 um for me the standing out part is about
+59:48 being different and doing something
+59:49 differently so
+59:51 I would personally just reach out to the
+59:54 people and say this is what I want to do
+59:55 and this is where the impact I can have
+59:57 with you guys this is the impact I can
+59:59 have with you guys these are the roles
+1:00:01 I'm thinking about what what should I
+1:00:02 apply for and where should I go
+1:00:04 yeah I can add to that but I also see
+1:00:08 nothing wrong so we and staff for
+1:00:11 positions that look similar but they're
+1:00:13 from different teams
+1:00:16 and then yeah talk to the recruiter on
+1:00:19 the first interview say foreign
+1:00:23 and two we should be wrapping up so the
+1:00:26 last thing I want to ask you if you have
+1:00:28 any book or other resource
+1:00:30 recommendations that you can give to
+1:00:32 listeners
+1:00:34 yeah
+1:00:35 um so on this document I mean I'll tell
+1:00:38 them now
+1:00:40 um link code hacker rank code forces
+1:00:42 algor monster
+1:00:44 um educative I don't know if you've ever
+1:00:45 heard of them before they're really all
+1:00:47 of that if you want to practice just
+1:00:49 questions and interview questions and
+1:00:51 Engineering questions and science
+1:00:53 questions they're really really good
+1:00:56 um they're really I know there's a lot
+1:00:58 of controversy about lead code questions
+1:01:00 and all of this sort of stuff but
+1:01:02 companies run interviews like that so if
+1:01:05 you want to practice
+1:01:06 they're really good places to start
+1:01:08 um but then equally as I say this
+1:01:10 document that I'm putting together about
+1:01:12 interview prep I'm really sorry we
+1:01:13 didn't get to really dive into like a
+1:01:15 lot of the topics today but yeah
+1:01:19 um this document I'm gonna work on it
+1:01:21 and I'm going to expand on it so if
+1:01:23 anyone wants it reach out to me on
+1:01:25 LinkedIn and give me a couple of days to
+1:01:27 make it look like it's not been written
+1:01:29 by five-year-old and then I'll happily
+1:01:31 share that with everyone okay I have
+1:01:33 your reports right
+1:01:40 thank you
+1:01:42 is there any chance we could include it
+1:01:44 in the show notes
+1:01:45 it will be released like in a couple of
+1:01:47 weeks
+1:01:48 sure yeah
+1:01:50 um
+1:01:51 yeah as I say man just give me a couple
+1:01:53 of days and I'll dress that up and then
+1:01:55 we'll uh yeah without it in
+1:01:57 okay it's always pleasure talking with
+1:01:59 you so second time was fun maybe we
+1:02:02 should a couple of years do the first
+1:02:04 one yeah I'll see you in two years man
+1:02:07 yeah
+1:02:09 thanks for joining us thanks everyone
+1:02:11 for joining us too thanks for questions
+1:02:13 I hope you enjoyed it and
+1:02:15 have a great weekend oh okay guys

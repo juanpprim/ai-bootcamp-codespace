@@ -1,0 +1,1411 @@
+0:00 so this week we'll talk about switching
+0:02 careers from marketing to analytics
+0:04 engineering and we have a special guest
+0:06 today Nikola so Nikki started here
+0:09 career as a Performance Marketing
+0:11 specialist
+0:12 um
+0:13 and to quickly realize that she needs to
+0:16 rely on data to make good decisions
+0:18 that's how her data Journey started and
+0:21 she eventually became an analytics
+0:22 engineer and in this interview we'll
+0:25 know how that happened so welcome to our
+0:28 uh to our event
+0:30 thank you very much for having me
+0:32 and so I want to mention so this is
+0:35 something new
+0:37 questions for this interview were
+0:39 prepared by liat shamesh and Victoria
+0:41 Perez molar so thanks a lot for your
+0:44 help in uh in preparing the questions
+0:46 and if anyone's here who is listening
+0:48 want to help us prepare for more
+0:51 interviews in the future please reach
+0:52 out to me okay and let's start so before
+0:56 we go into our main topic of switching
+0:58 to analytics engineering let's start
+1:00 with your background can you tell us
+1:02 about your career Journey so far
+1:04 yeah of course
+1:06 um so yeah I actually uh studied in the
+1:09 UK in London and I moved over to Berlin
+1:11 soon after graduating from my bachelor's
+1:14 um quite spontaneously
+1:17 um and I found myself uh just in the
+1:21 Berlin startup scene like many
+1:23 English-speaking people do uh because it
+1:25 was pretty much the only available
+1:28 um route so I started out working for
+1:31 movinga which was a big
+1:34 um removals startup
+1:37 um backed by rocket internet and I was
+1:38 working in the operations
+1:40 um Team there so I kind of had my first
+1:43 um Taste of working at a startup
+1:46 um there that was of course as you can
+1:48 imagine very
+1:50 um intense fast growth lots of change
+1:53 um so it was kind of the baptism of fire
+1:56 um
+1:56 for six months and after that I uh found
+2:00 a job at ekovia um I was really
+2:03 following a Cozier really closely
+2:05 because I really was inspired by the
+2:06 business model and the mission so for
+2:09 those who don't know Cozier is the uh
+2:12 search engine that uses its profits to
+2:14 plant trees
+2:16 um so yeah it's essentially
+2:18 um
+2:19 it's a purpose company which means that
+2:22 yeah profits are basically entirely used
+2:24 towards
+2:25 um yeah financing uh the tree planting
+2:28 project
+2:29 um so yeah then I suddenly saw a job for
+2:33 a kind of generalist marketing role
+2:35 which I applied for
+2:39 um and yeah so my first role at Cozier
+2:41 was actually
+2:43 um sort of more generic marketing
+2:46 um was it something that you also did uh
+2:49 Moringa like
+2:51 or was it something different it was
+2:53 completely different um but it was stuff
+2:55 that
+2:56 um
+2:56 it was kind of a generalist kind of
+2:58 Junior role where you're kind of helping
+3:00 like write press releases
+3:02 um think up campaigns
+3:05 um yeah reaching out to potential
+3:07 Partners this kind of work and I've done
+3:09 quite a lot of that through University
+3:11 and I've been volunteering for a
+3:14 um an organization that helped students
+3:18 get into
+3:19 um volunteering
+3:21 um so through that kind of work and
+3:23 through more kind of actually not
+3:24 professional
+3:26 um work rather just like
+3:29 um more
+3:30 organizing political work and stuff I've
+3:33 done at University that's kind of where
+3:35 I had those event event planning
+3:38 um where I built up those kind of
+3:40 organizational and marketing skills from
+3:43 so that's essentially what what um I
+3:46 ended up really speaking about largely
+3:47 at the at the interview
+3:49 um and we were a really small company we
+3:51 were 15
+3:52 um
+3:53 uh people when I joined
+3:55 um so it was really one of those early
+3:57 stage kind of startups were doing
+3:58 whatever job needs to be done sometimes
+4:01 it was replying to use the feedback at
+4:04 the times it was helping test or
+4:07 new app design or all sorts of things
+4:12 um but yeah at some point I
+4:15 um I felt like I really wanted to go
+4:17 deeper into a an area and
+4:21 um
+4:22 yeah I basically started running the
+4:24 um paid campaigns that we sort of
+4:28 started doing after I joined the company
+4:31 um first on Facebook but later then we
+4:33 expanded on to YouTube and Instagram
+4:36 um and I really enjoyed
+4:38 um that I found it very helpful to
+4:41 really focus in
+4:42 um on a specific
+4:44 um area and something I found very
+4:46 gratifying about Performance Marketing
+4:48 was you get kind of results very quickly
+4:50 so you can kind of really see what's
+4:52 working and what's not working
+4:54 um as opposed to other areas of
+4:55 marketing where something like you know
+4:57 a press campaign or
+4:59 um a brand activation you know it's not
+5:02 necessarily clear what impact that might
+5:05 have had right away and sometimes it's
+5:07 really difficult or almost impossible to
+5:09 measure
+5:10 which I found very frustrating
+5:13 um but with Performance Marketing like
+5:15 the data you're given immediately and
+5:17 you can analyze that and make a decision
+5:19 in in minutes on how to to move forward
+5:24 um so I got really really into that I
+5:25 had
+5:26 um of course there are so many online
+5:28 resources for Performance Marketing and
+5:30 in general and it's relatively new
+5:32 discipline as well in the yeah grand
+5:35 scheme of history of marketing so
+5:38 um yeah I was really able to kind of
+5:40 uh dive into that by myself largely
+5:44 um and I was given a lot of
+5:45 responsibility at the company as well so
+5:47 I yeah learned that way I did that for
+5:50 two years
+5:52 um and at some point I also started to
+5:55 kind of think okay well
+5:57 I feel like I've kind of understood this
+6:00 and it maybe has its like limits in
+6:02 terms of
+6:03 um what's interesting or not so and the
+6:06 part that I really enjoyed was
+6:08 looking at looking at the data coming in
+6:10 analyzing what are the click-through
+6:12 rate saying what are the conversion
+6:13 rates what does that mean
+6:16 um
+6:17 um yeah how can we optimize this
+6:18 campaign based on the data that we're
+6:20 getting uh how does it compare with
+6:22 historical Trends all of this sort of
+6:25 work I really enjoyed
+6:28 um and at the same time I'd um around
+6:31 this time the company uh had switched to
+6:33 lookup from tableau
+6:36 um and at the time we only had one
+6:38 um data um person at cosia
+6:42 um so I helped her with the migration to
+6:46 looker just as like a side project
+6:48 and since I was kind of the person who
+6:51 was most comfortable with data and
+6:53 Reporting and numbers and um yeah
+6:56 measuring kpis and whatnot in the
+6:58 marketing team I took on building out
+7:00 the marketing team reporting
+7:02 and I really enjoyed that what's your
+7:04 initiative right so nobody like told you
+7:06 hey you should do this you just okay
+7:08 like sounds interesting I really like
+7:10 this topic and I kind of learned
+7:12 everything that was there about
+7:13 Performance Marketing so let me try to
+7:15 also learn this new tool yeah exactly
+7:19 and I think at this point it wasn't
+7:20 really clear to me that I wanted to
+7:21 necessarily move into the data team I
+7:24 just wanted to maybe have more focus on
+7:27 numbers and data in general but probably
+7:30 still within the marketing team
+7:32 um
+7:33 and then eventually I think what the big
+7:36 shift happened was I think the pandemic
+7:38 um
+7:39 hit and I think like a lot of people
+7:42 just forced me to to consider
+7:46 um you know what I was doing and whether
+7:48 I was happy in my role and I really
+7:49 found that I I really wasn't
+7:52 um and at this point I decided to
+7:56 um yeah make the shift
+7:59 um
+8:00 into the bi team and I think at this
+8:03 point I had already been
+8:05 um I'd already done a sequel course
+8:08 um some months before
+8:10 um I guess with a view to going down the
+8:13 kind of marketing analytics route
+8:16 um but with the pandemic I really
+8:18 realized that I wanted to move away from
+8:22 yeah purely marketing focus and go yeah
+8:25 towards um the FBI
+8:28 were you taking the courses this secure
+8:32 SQL forces now
+8:34 like did you have a plan that you want
+8:37 to work in the Via team eventually or it
+8:40 was like okay let me see what I should
+8:42 do to do my job better
+8:48 [Music]
+8:49 um
+8:50 my colleague in the bi team who
+8:52 I think in the context rather of being a
+8:56 sort of like marketing analyst persons I
+8:58 think initially the idea was kind of I'd
+9:00 sit maybe between marketing and bi
+9:04 um
+9:05 but I think it's because I sort of
+9:06 really didn't think it was possible for
+9:08 me to move
+9:10 um Department that hadn't really
+9:11 happened in the company before so there
+9:13 wasn't really an example of that
+9:15 um to me
+9:17 um so I think I was kind of rather
+9:19 thinking well what's possible what could
+9:21 I do and then it was this kind of
+9:22 marketing analyst role
+9:25 um but uh yeah definitely I took the
+9:29 sequel course in order to yeah move
+9:32 closer towards the um yeah data side of
+9:35 the
+9:36 how did you so then you realized okay
+9:39 maybe I'm not really super happy with
+9:41 the job I'm doing in the marketing
+9:43 department and then there is this bi
+9:45 team so did you just approach them and
+9:48 say and ask can I just join you and
+9:51 start working with your how did this
+9:53 happen yeah I think eventually
+9:56 yes I think eventually the conversation
+9:58 was already there as I mentioned before
+10:00 around how to become more into this
+10:03 marketing analyst role and
+10:05 already my colleague was giving me lots
+10:08 of advice and
+10:10 I think probably through that process
+10:12 and conversations
+10:13 the possibility of me moving into the bi
+10:16 team like came up to be honest I don't
+10:18 remember exactly who brought it up
+10:21 um but
+10:24 um I think what I remember is you know
+10:27 the my colleagues my colleague MBI is
+10:29 saying well these are the things that we
+10:31 really need you to have and then once
+10:35 you have those things you can there's no
+10:37 reason why you shouldn't be able to join
+10:39 the team as a as a junior analyst
+10:41 um do you remember what these things
+10:43 were yes I suppose yes equals the main
+10:47 thing and then
+10:49 um learning the learning understanding
+10:51 the data pipeline that we had
+10:54 um so it wasn't like a list of courses
+10:56 you have to take but rather okay these
+10:58 are the things we work on and try to
+11:01 figure out what's happening there yeah
+11:03 exactly exactly I think in terms of the
+11:05 I mean she even you know one of the
+11:08 things was like python would be great
+11:09 but I ended up doing a python course
+11:12 that barely actually using it and
+11:16 um
+11:17 it's yeah it's been useful to have but
+11:19 of all the things I think the most
+11:22 useful practically was jumping into the
+11:27 once once learning sequel has been once
+11:30 you know SQL and you can write and read
+11:31 SQL you'll still need to get good at
+11:34 reading and writing SQL and you start
+11:36 coming across much more complicated SQL
+11:38 queries and you're like there's
+11:40 like a nested Loop here at like I don't
+11:42 know where this is coming from so then
+11:44 improving the your sequel to be able to
+11:47 to read and understand uh much more
+11:51 complex data models so that was kind of
+11:53 a big part of the journey and was really
+11:55 understanding
+11:57 um what our models were how everything
+12:00 um yeah fit together in the wider scheme
+12:03 of the pipeline and how it came to be
+12:05 that
+12:06 um because I had no idea even like what
+12:08 really how a Tracker really worked I
+12:10 just sort of knew that there was this
+12:11 thing called the snowplow tracker that
+12:13 like collected the data but
+12:15 it was all sort of um
+12:17 uh yeah not very not very like detailed
+12:20 knowledge so really going in and
+12:22 understanding like how things really
+12:24 work
+12:25 um to get the data from one point to the
+12:27 other and transform it
+12:29 um did you need to keep doing your you
+12:32 know old job of marketing Specialist or
+12:36 you completely could in like start like
+12:40 just uh started oh immerse yourself in
+12:44 in this bi or there was like some in
+12:48 between period where you had to do both
+12:50 yeah I think it was
+12:53 well to be honest I'd already been doing
+12:56 the Performance Marketing role I was
+12:57 also doing I was really acting like a
+12:59 kind of marketing analyst in a way and
+13:02 building the reporting for the teams and
+13:04 you know people who were doing other
+13:05 jobs I was kind of helping them build
+13:07 reports and managing that so I was
+13:10 already kind of doing a lot of that kind
+13:12 of work so there was a transition period
+13:15 where kind of like the first projects
+13:16 that I've worked on were sort of more
+13:17 marketing focused like I think one of
+13:20 the main projects was
+13:23 um
+13:24 are helping establish like how to
+13:26 measure brand campaigns
+13:29 um yeah looking into that and like
+13:31 building dashboards based to that and
+13:33 kind of a wider topic around that and
+13:35 but yeah I think it was kind of a
+13:38 transition but at some point
+13:41 um yeah I just handed over the main
+13:43 Performance Marketing tasks which are
+13:45 managing the campaigns but it was it was
+13:47 quite a good moment because
+13:49 the pandemic meant that
+13:53 um we were already hitting a kind of
+13:55 slight stagnation point with some of our
+13:57 campaigns and then pandemic hit and it
+13:59 was really difficult to record new new
+14:02 ads as well um in quarantine so
+14:06 um there was a kind of natural slowing
+14:08 down of that side of the work anyway so
+14:10 it was a good moment to um to Pivot
+14:14 and what do you do now what what do your
+14:17 responsibilities include
+14:20 so I'm working as a yeah as I've
+14:22 mentioned analytics engineer but also
+14:24 data analysts so we are still a
+14:26 relatively small team we are um four
+14:29 people in in total
+14:31 um uh yeah for reference the company
+14:33 size is just over 100.
+14:36 um so we
+14:39 um don't none of us have a particularly
+14:42 specialized role we kind of do a little
+14:44 bit of everything and at the moment
+14:47 um our team lead is on extended uh leave
+14:50 so I'm acting as interim
+14:52 um Team lead so a lot of work is really
+14:54 working with the new CPO who's just come
+14:57 in reassessing we keep kpis that we have
+15:00 of the company how we measure them
+15:02 um
+15:03 yeah of course
+15:05 um as a quite common I mean I think a
+15:07 new sea level comes in as often a
+15:10 rehashing of dashboards and um reworking
+15:13 of them
+15:14 the core reporting
+15:16 um to suit the new the new requirements
+15:19 um so a lot of work has been recently
+15:20 done on that
+15:22 um
+15:23 we also each uh there's like two two of
+15:27 us that are kind of these analysts
+15:29 um in analyst roles and we work very
+15:32 closely with the product managers so
+15:33 we're focusing very closely on
+15:35 supporting the various product teams
+15:37 with experimentation and building out
+15:40 new features a b testing and evaluating
+15:44 those and yeah where necessary
+15:47 um building out our data model to
+15:50 um to reflect those new
+15:52 uh changes
+15:54 um as I think the day-to-day is really a
+15:57 mixture of
+15:58 um supporting the teams so a lot of
+16:02 sometimes ad hoc analysis needed if for
+16:05 example there is a new feature being
+16:07 developed and there's some hypothesis
+16:09 around yeah
+16:11 um yeah the kind of user that they want
+16:14 to reach and how big those cohorts might
+16:15 be they're kind of yeah jumping into
+16:18 the data and taking a look at that and
+16:20 other workers maybe more on an
+16:22 initiative of our own so for example
+16:25 recently we ran a big rfm analysis so
+16:28 recency frequency monetary user Behavior
+16:31 Analysis
+16:34 um which was a bigger project
+16:36 um because yeah there's many ways to do
+16:38 it and we took some time to kind of
+16:40 experiment with some different options
+16:41 and that was a that's been a larger
+16:43 project over some months
+16:45 with several presentations of of
+16:47 insights and yeah so there's kind of
+16:49 those bits of work that aren't
+16:51 necessarily
+16:52 um we're not necessarily working
+16:53 directly for an individual product
+16:55 manager but yeah working on wider pieces
+16:57 of
+16:59 um analysis and insight that's
+17:01 beneficial kind of for the for the
+17:03 company as a whole
+17:10 um I just wanted to add the yeah we've
+17:12 also recently started doing a few small
+17:13 data science projects in the team just
+17:16 on the side
+17:18 um which I myself am not directly
+17:19 involved with but one of my colleagues
+17:21 is yeah we're trying to basically
+17:25 um
+17:27 um run some NLP
+17:30 um uh models on basically trying to
+17:32 improve how we understand basically
+17:35 queries and that our users make and try
+17:37 and essentially to build better query
+17:39 categorization so we can ultimately
+17:42 serve better results and that's been
+17:44 really nice that we've been able to kind
+17:46 of pick up some more yeah data sciency
+17:49 topics in the team and not kind of work
+17:51 exclusively on sort of um yeah sort of
+17:55 reporting and um
+17:57 yeah internal and this query
+18:01 understanding is it's about
+18:02 understanding intent right so why a user
+18:05 is searching some information like do
+18:07 they want you can like navigate to a
+18:10 certain website do they want to get some
+18:12 information do they want to buy
+18:13 something yeah exactly specifically it's
+18:16 around kind of being able to segment
+18:19 various queries into the correct
+18:21 categories so it does this query or you
+18:25 know query group fall into the category
+18:27 of travel or shopping or
+18:31 um transport or yeah Etc it's a
+18:34 different kind of categorization and
+18:36 when you're describing what kind of
+18:39 Duties you have what kind of things you
+18:41 work on so mentioned that you're working
+18:44 on kpis dashboards or like like what
+18:49 else was there experiments supporting
+18:51 product teams with experiments
+18:53 um
+18:54 ad hoc analytics and then you mentioned
+18:57 a data model so up to the data model I
+19:00 think I understood more or less what you
+19:02 were doing but what is uh what is data
+19:04 model why do we need to build a data
+19:05 model why do we need to update it so we
+19:08 have a
+19:09 um
+19:10 we've built uh they don't roll in DBT
+19:12 based on something called The Domain
+19:15 mode a domain model so we began
+19:19 um
+19:20 basically uh two two or so years ago
+19:24 maybe even longer now we migrated from
+19:27 uh to to DBT
+19:29 and in that moment we basically re-wrote
+19:34 um all our uh basically queries and to
+19:38 build all our tables or the whole data
+19:40 model was rebuilt from scratch
+19:42 um because yeah it had evolved over time
+19:44 so we had something like six install
+19:46 tables um or something like ridiculous
+19:48 they're just six foot tables in the
+19:51 store yeah like tables the six data
+19:55 model is about describing what kind of
+19:57 data you have like all this schema
+19:59 definitions oh yeah okay sorry yeah so
+20:01 for the data model what I mean is kind
+20:03 of the
+20:04 what we have in DBT essentially is all
+20:07 of our different
+20:08 um
+20:08 uh transformation Logic for the entire
+20:12 um business so from uh from the most
+20:15 basic sort of staging layer through down
+20:17 to the presentation
+20:19 um tables that we then
+20:22 um
+20:23 yeah use for analysis
+20:26 um
+20:27 yeah I if you wanted to finish right
+20:31 though no go for it
+20:33 yeah so I was just trying to understand
+20:36 what kind of tools you use so you
+20:38 mentioned three tools already so you
+20:40 mentioned snowplow right so snowplow is
+20:42 a two for tracking right so to
+20:44 understand what kind of actions users
+20:46 perform and Save in these sections right
+20:49 then you also mentioned DBT which is a
+20:51 tool for transformation right so you
+20:53 have some data sitting somewhere and you
+20:55 need to
+20:57 um we will change it slightly it worked
+21:00 like uh aggregate rights and then put it
+21:02 in such a form that you can use
+21:05 for reports right and you also have DB
+21:07 looker looker is a tool for uh
+21:10 dashboards right what else do you use so
+21:12 probably use some sort of database a
+21:14 database right maybe some other tools
+21:17 too yeah exactly so we use
+21:20 um we use
+21:21 um yeah AWS services so we use S3 and
+21:24 redshift
+21:26 um and also Spectrum as well
+21:29 um you have to query
+21:31 um yeah Athena so we really uh we play
+21:35 around a lot with yeah so-called Hot and
+21:37 Cold Storage so keeping data in redshift
+21:40 versus keeping it in S3 in parquet files
+21:43 um that's due to cost optimization
+21:47 um so yeah that's what we use for our
+21:49 Lake um Warehouse
+21:51 um and then we use um airflow as well as
+21:54 our orchestration tool
+21:56 um and uh yeah for our
+22:00 um extracting and loading potions was it
+22:04 a part of your job to set up all these
+22:06 tools
+22:08 um it was part of my job to set up DBT
+22:10 yes
+22:11 um so that was one of the first big
+22:13 projects
+22:14 um so I'd been in the team for maybe six
+22:16 months or so and then we began the
+22:18 migration to DBT
+22:20 and we actually worked with a data
+22:22 consultancy
+22:23 um a small one to just help us because
+22:26 yeah we were essentially three people
+22:28 um
+22:29 and my yeah I led that project
+22:33 um was one of my first big projects
+22:36 um which was great it was a really big
+22:37 learning curve and I got to learn yeah
+22:39 not only about yeah DBT the tool itself
+22:41 but also data modeling Theory and
+22:44 practices in different ways of uh doing
+22:47 things what makes sense depending on the
+22:49 size of your data and your goals and
+22:52 needs that was really great
+22:54 um
+22:55 yeah so DBT is is the main one looker as
+22:58 well as I mentioned I helped to to
+23:00 um
+23:01 to
+23:03 migrate to and Implement for the company
+23:06 it was before you actually joined the
+23:08 item right so yeah you started as a in
+23:11 marketing looking at this before
+23:12 actually strangely learned like lukamel
+23:14 before I learned SQL which is a slightly
+23:17 strange I think way of doing things
+23:19 there we go that's how it happened
+23:22 um yeah an airflow
+23:24 um was
+23:26 um set up by our my colleague who is uh
+23:30 has more of a data engineering role
+23:31 within the team
+23:33 um and that was also set up relatively
+23:36 uh relatively recent in the last like
+23:39 two three years or so
+23:41 um yeah those are the main uh tools
+23:43 we've recently started using air byte
+23:47 um that some people might be familiar
+23:48 with to
+23:49 yeah basically be able to extract from
+23:53 some kind of common apis and data
+23:56 sources
+23:57 um we haven't used it extensively so far
+23:59 we often find that
+24:00 got a lot of options but specifically
+24:02 what we need
+24:03 um often that doesn't necessarily have
+24:05 the connection yet but been a it's a
+24:08 nice I think it's a nice tool relatively
+24:10 easy to use
+24:12 um and we've also recently started using
+24:13 redash which is like an open source
+24:15 visualization tool that we use for more
+24:17 like ad hoc
+24:18 queries that yeah to be able to have a
+24:21 visualization attached to them
+24:24 um as well
+24:25 it seems like most of the tools are open
+24:27 source they're all apart from AWS right
+24:29 I don't know about Lookers look at open
+24:32 source no no but the rest are right so
+24:35 snowplow is open source DBT is open
+24:37 source air byte is open source reduction
+24:41 is open source as well
+24:44 yeah so you you like open source don't
+24:46 you yes
+24:49 yes exactly do you host all these things
+24:52 yourself or like for example when it
+24:54 comes to DBT you use their Cloud no we
+24:57 host everything ourselves
+25:00 yep that's just a general decision of
+25:02 the engineering department decision
+25:06 and when you joined the pi team was your
+25:09 already called analytics engineer or you
+25:12 just over time realize that okay this is
+25:14 how I should call myself
+25:17 um well my official role is analytics
+25:18 engineer and data analyst because I
+25:20 really do both
+25:22 um we're not the size of a bi team that
+25:24 it's possible for someone to do just one
+25:27 too much to do
+25:29 um role but I think initially it was I
+25:31 don't know what the title was initially
+25:33 bi analyst or something data analyst and
+25:36 then I think
+25:37 at that point even the the term
+25:40 analytics engineer really wasn't
+25:42 common I think I really only learned
+25:45 about that in the process of
+25:47 implementing DBT which was in 2020 so
+25:52 yeah really sometime has passed I think
+25:55 since
+25:56 the deputies have obviously become huge
+25:59 um in the data community and I think
+26:01 this role of an engineer is becoming
+26:03 also much more common but I think at the
+26:06 time when I joined the team that wasn't
+26:07 even a
+26:09 um an option I think I don't think
+26:12 anyone even
+26:13 um thought of that I don't think the
+26:15 people in the bi team were actually
+26:16 calling themselves that themselves even
+26:18 though that's essentially the job they
+26:20 were doing
+26:21 um so yeah over time as we all
+26:24 um became familiar with that new term
+26:26 and realized that it basically described
+26:28 what we were doing
+26:31 um yeah then
+26:32 that was um yeah taken on do you think
+26:36 there's some hype in uh in that role I
+26:39 mean that it's uh there was no such
+26:42 thing and now then all of a sudden
+26:43 everyone's talking about analytics
+26:46 yeah I think to be honest I think
+26:49 there's if you're talking if you have a
+26:52 small bi team
+26:54 um you know I think
+26:56 you know six or less people in the team
+26:59 I mean I guess depending on your on your
+27:01 on your company and your product and the
+27:03 business
+27:04 um business model but I think
+27:07 it's a little bit overhyped I mean
+27:08 ultimately
+27:10 I still think that you need quite a
+27:13 large organization to be able to
+27:14 comfortably segment data analysts and
+27:17 analytics engineer they have so much
+27:19 crossover anyway I can see that in
+27:21 larger organizations it's really helpful
+27:23 to have the separation but I think in
+27:25 smaller ones it's not so
+27:29 um and it's in my experience which is
+27:31 yeah simply this is one company
+27:34 um can't speak for others I found that
+27:37 it's uh it's helpful in terms of
+27:40 your own personal progress because you
+27:43 can sort of align yourself with this
+27:45 role and say okay yes this is this is
+27:47 what I do this is somewhere where I
+27:48 could improve and an area that yeah I
+27:52 could spend more time on but I'm not
+27:54 necessarily shh yeah I think for most
+27:58 kind of small medium-sized companies I
+28:00 don't think it's necessary to get really
+28:01 bogged down into the differences between
+28:04 the two because ultimately
+28:07 you're still going to need very
+28:09 overlapping skills like you need to be
+28:11 very analytical very comfortable with
+28:13 your kpis what the business model is the
+28:15 domain model all of that work which is
+28:17 not limited to analysis engineering good
+28:20 data analyst needs all of those things
+28:21 more so
+28:23 um yeah I think there's maybe a little
+28:25 bit of of hype but again as I said it
+28:26 depends on the on the on the
+28:28 organization side if you have a huge
+28:30 company where the data or Department of
+28:33 20 30 40 people then of course like it
+28:35 it just makes like structural sense to
+28:37 to split out and focus
+28:40 do you think it is a synonym like it's
+28:43 synonymous to
+28:45 uh using DPT like you use DPT data for
+28:49 your analytics engineer and if you use
+28:51 if you're an analytics engineer then you
+28:53 use DVT like uh are they the same thing
+28:56 or you can't be an analytics engineer
+28:58 without using DPT it's a good question I
+29:01 mean I feel like the
+29:03 DVT themselves have really promoted this
+29:06 I think yeah
+29:08 exactly so you know
+29:12 in a way I think yeah it kind of is
+29:15 synonymous like I don't I at least
+29:17 haven't seen many job applications for
+29:20 analytics engineer that haven't been
+29:22 like your job is to work with TBT so I
+29:26 mean I'd be interested to kind of
+29:28 see how whether that yeah how that role
+29:31 could look with a different
+29:33 um stack and I imagine there are people
+29:38 who are working under the title of data
+29:40 engineer or data analyst to you know do
+29:44 the work of an artist's engineer but
+29:45 just don't call themselves that in in
+29:47 other companies that maybe don't use it
+29:48 because in the company where I work we
+29:51 don't have DPT we have a homegrown DBT
+29:54 kind of uh
+29:56 replacement but it was before DBT was
+29:59 popular right yeah so as many other
+30:01 companies we kind of invented DBT which
+30:03 is like airflow based way to schedule
+30:06 CCO queries right
+30:09 um I don't think we none of our analysts
+30:12 who use this to call themselves
+30:14 analytics engineers
+30:16 so I'm wondering are there any tools
+30:19 that are doing the same thing as DBT
+30:21 apart from these homegrown tools like we
+30:24 have or are there any such things on the
+30:26 market
+30:27 I don't know
+30:29 um to be honest I haven't had the time
+30:33 to really look in I mean I think at the
+30:36 moment DBT is on such a gross trajectory
+30:38 as being I see so many yeah
+30:42 job up job ads for looking for people to
+30:45 help them set up DBT and
+30:47 I think it's really taking off so I
+30:49 don't personally know but I I do
+30:53 you know like you said we were
+30:54 previously using SQL Runner which is
+30:56 like snow plows kind of similar and
+30:58 um is that exactly what you described
+31:00 basically in the orchestration tool for
+31:02 SQL queries
+31:03 um
+31:04 well yeah you can specify the order and
+31:06 whatnot and yeah incrementalization
+31:09 strategies were not invented by DBT
+31:11 there's there's many ways to
+31:13 to to set those up
+31:16 um in those other kind of setups
+31:19 um
+31:20 so I think that for me and his
+31:22 engineering
+31:24 I think where for me the focus there is
+31:27 on which for example with the data
+31:28 analyst perhaps is not so much the focus
+31:30 is really around
+31:32 I guess the The Wider architecture right
+31:35 of the data model for me that's where
+31:37 the analytics engineering role is really
+31:41 is really important it's once you start
+31:44 collecting you know there is different
+31:46 data sources you have you know all of
+31:49 these issues around
+31:50 uh consistency and um yeah of course
+31:54 freshness and all of these various
+31:56 concerns I think that
+31:58 this is where an analytics engineer
+32:00 really needs to shine is to understand
+32:03 how everything fits together in this
+32:05 wider ecosystem which
+32:08 um perhaps an analyst might know you
+32:10 know doesn't necessarily need to
+32:12 understand like the full
+32:15 um
+32:16 all the Transformations and how
+32:17 everything connects to each other but an
+32:20 analytics engineer really really does so
+32:22 I think this kind of focus on data
+32:25 modeling like theory is much more
+32:28 important
+32:30 um so I think in that way it's kind of
+32:32 slightly more like a theoretical role in
+32:34 many ways which I think is often not
+32:36 really talked about
+32:37 um it's often like Technic like
+32:39 circumstance like technical which which
+32:42 it is but I think that
+32:44 I think it's really important to
+32:46 understand as an analytics engineer the
+32:48 different kind of data modeling
+32:49 Frameworks and what's possible and
+32:52 um you know
+32:54 whether having a you know wider table or
+32:57 a narrower table like why when in which
+32:59 case should you go for one versus the
+33:02 other
+33:03 um when should you choose a certain kind
+33:05 of incrementalization when not
+33:07 um strategy and
+33:09 so I think that's that's kind of the
+33:11 part of the the role that I think is
+33:14 probably
+33:15 uh
+33:16 yeah very specific and
+33:19 I guess becoming more and more important
+33:22 just as there is so much more data that
+33:24 companies in general are collecting so
+33:25 by virtue of
+33:27 more companies smaller companies
+33:30 different kinds of companies in the
+33:31 traditional kind of big Enterprises
+33:33 start using and collecting data and
+33:35 building up data departments then of
+33:38 course like this becomes more of a need
+33:41 um
+33:42 I think
+33:45 I'm curious about this data modeling
+33:48 theory that you mentioned and selecting
+33:51 like whether it should be a white table
+33:52 it should be narrow table
+33:54 if I wanted to learn more about this
+33:57 where do I go what kind of resources do
+34:00 I have about this this is a good
+34:02 question I think I really uh struggled a
+34:05 little bit with this because there's
+34:05 really a lot of
+34:07 there's a lot of quite I wouldn't even
+34:09 call it advanced stuff but the textbooks
+34:12 and and that you can buy on like datum I
+34:15 have this very dry like I'll just be
+34:17 honest gimbal right
+34:19 like there's loads of textbooks
+34:21 something I think I studied at
+34:23 University but never actually saw this
+34:25 book outside of University exactly I had
+34:28 to be honest I I I've given a good I've
+34:30 given them a good and I found that
+34:34 I just learned by doing I learned
+34:36 through talking to to people who'd who
+34:40 yeah but yeah my mentors or senior and
+34:45 who are experts and I just asked as many
+34:48 questions as I could and never afraid to
+34:51 just ask stupid questions and repeat
+34:53 questions if I needed to until until it
+34:56 made sense and then sometimes if I had
+34:57 the basic knowledge I had something that
+34:59 I wanted to understand I would go and
+35:00 just research online and there are a lot
+35:03 of good
+35:04 um increasingly actually a lot of really
+35:06 good like blog posts
+35:08 um
+35:10 um newsletters
+35:11 um
+35:12 that are available and I think
+35:14 increasingly there are more and more
+35:15 resources that are a lot more like
+35:17 accessible and for people who haven't
+35:19 necessarily studied like computer
+35:21 science or like data science or
+35:24 um statistics or these sorts of subjects
+35:27 at University you didn't study that
+35:29 right you do no I studied Classics which
+35:33 is Latin and ancient Greek
+35:35 that was your medication that was my
+35:39 bachelor yeah
+35:41 you speaking Greek and Latin no I I read
+35:46 I can read it
+35:48 interesting okay that this just made our
+35:52 interview even more interesting
+35:55 like how do you go from you know uh
+35:59 studying ancient Greek and a lighting to
+36:02 being an analytics engineer so you
+36:03 learned basically everything you needed
+36:06 yourself right yeah exactly so by
+36:09 yourself I mean not as a part of any
+36:12 official curriculum yeah I did a um to
+36:16 be honest I did this
+36:18 SQL course on udemy that cost me 12
+36:22 euros and it was great it was really
+36:24 really good it was quite long
+36:27 um but the the guy I can't remember I
+36:30 think it was just call it the complete
+36:31 guide to Sequel and it's run by this
+36:33 American dude called Colt steel it was
+36:36 just a very strange name he's got loads
+36:37 of he's got like a good python course as
+36:39 well that I did
+36:40 and I just did that in my spare time and
+36:42 to be honest I was just it was really
+36:45 great that it was cost me all of 12
+36:46 euros and I haven't done a single other
+36:48 SQL course
+36:49 um since
+36:51 um so I do sometimes
+36:54 sometimes I do like think oh like should
+36:58 I go and pay for one of these like fancy
+37:00 courses and like data science or
+37:02 something
+37:03 um because it's nice to kind of have
+37:05 structure and and whatnot but then I'm
+37:07 like if I just motivated myself I could
+37:10 do it for something too bad
+37:12 uh there's so much stuff online
+37:15 um but it's just the case of I think I
+37:16 was quite lucky to find a good course
+37:18 right away I think there are some not
+37:20 very good courses out there but
+37:22 um so it's a little bit of Hit and Miss
+37:24 but I think that's one thing that's
+37:26 really great about
+37:28 um well I guess software engineering in
+37:30 general and computer science is that you
+37:32 if you don't have a lot of resources you
+37:34 can really teach yourself and there's a
+37:36 lot of
+37:37 um resource online but at the same time
+37:39 as I said like practicing is really the
+37:41 thing that makes the difference and I
+37:43 was very lucky that I was already at a
+37:46 company that I knew the domain like very
+37:48 well business model very well kpis so
+37:52 I kind of had all of that already
+37:53 covered
+37:54 um and could just focus on developing
+37:56 like the SQL skills and data modeling
+38:00 Etc
+38:00 I can imagine that someone who is maybe
+38:03 approaching this as a career change
+38:05 um and maybe taking some time out to do
+38:08 it
+38:08 it's a little bit more difficult because
+38:10 you don't have that context of a
+38:13 specific business or a specific
+38:15 uh problem or
+38:17 um yeah that you can kind of
+38:19 hold in your mind as you think about
+38:21 these problems and have an example that
+38:24 you can apply
+38:25 and apply the theory to
+38:27 yeah there is a thing called
+38:28 just-in-time learning and I think you
+38:30 took this to to the extreme right so
+38:32 without any formal education in computer
+38:35 science or analytics you just focused on
+38:38 a specific problem which in your case
+38:39 was marketing right and then okay like
+38:41 how do I I don't know set up looker to
+38:45 do this thing by the way do you are your
+38:48 tasks that you do now are they still
+38:50 more or less related to marketing so you
+38:52 mentioned this rfm analysis right I
+38:55 think it's still somewhat related right
+38:59 um not really to be honest no I think at
+39:01 the moment I'm really working very
+39:03 closely with the product teams so it's
+39:06 really around but you know eventually
+39:07 ultimately
+39:09 um yeah we are focusing on yeah growing
+39:14 um acquiring more users attending more
+39:16 users which are all of course
+39:17 interlinked
+39:19 um goals of the marketing team so
+39:20 nothing is not super
+39:24 um not not directly relevant but yeah my
+39:26 stake my direct stakeholders are the
+39:28 product managers
+39:30 okay so I guess your
+39:33 background in marketing really helped
+39:36 you yeah it really really it really did
+39:39 um I really really noticed how
+39:43 just in everyday work I really think
+39:46 that I had I do there I definitely see
+39:49 an edge
+39:50 um that I have because I'm very
+39:52 comfortable with the
+39:54 you know things like a marketing funnel
+39:56 and um a conversion funnel a web
+39:59 acquisition funnel these are things that
+40:01 for example a product manager might be
+40:03 focusing specifically on a on a part of
+40:05 a funnel or a whole funnel uh as part of
+40:08 the user Journey
+40:10 and as a marketing person you kind of
+40:13 think about the user Journey all the
+40:15 time you know what are the touch points
+40:16 of the user how do they feel at this
+40:18 moment what are they thinking at this
+40:19 moment what have they done where have
+40:20 they come from so you I kind of you have
+40:24 this
+40:25 quite close
+40:27 um
+40:28 I guess empathy with the with the user
+40:31 and specifically the journey but at the
+40:32 same time your goal is marketing up to
+40:34 kind of you know constantly optimize and
+40:36 grow and get more users or higher
+40:39 retention or
+40:40 um you know more signups or whatever it
+40:42 might might be so you have this mindset
+40:44 as well this growth mindset and that I
+40:47 think is a is very useful when you come
+40:50 to advising uh people from like a data
+40:53 point of view because you can ask the
+40:55 question like okay but yes you've got
+40:57 some good feedback from the users on
+40:58 this feature but
+41:01 um you know ultimately the Top Line
+41:03 hasn't like moved at all and we we did
+41:05 this because we wanted to grow you know
+41:07 whatever this kpi is so I think it um
+41:11 yeah it definitely does does help
+41:14 largely in the in the realm of like
+41:16 understanding the user journey and it
+41:18 means that you can
+41:19 you can really hold in your head like
+41:21 this user
+41:23 um perspective but also the data
+41:24 perspective together and like kind of
+41:26 advise with those two things in your
+41:28 head
+41:30 and if somebody wants to follow your
+41:33 journey if somebody's working in
+41:35 marketing or maybe not necessarily
+41:38 marketing but they really want to go
+41:40 into data and to start doing analytics
+41:42 engineering
+41:43 and they are domain experts in their
+41:46 domain right so what kind of thing would
+41:48 you suggest them to do
+41:50 so firstly I would say
+41:52 um
+41:53 Excel is your best friend I mean
+41:56 Excel is great ultimately it doesn't get
+41:59 I mean I know everyone hates it but it
+42:01 really doesn't get the credits
+42:04 I mean I still have people in the
+42:06 company who really
+42:09 um should and don't know how to use it
+42:11 make a pivot table and they are quite
+42:13 annoying to make in Excel like the most
+42:15 difficult pivot table you make will be
+42:17 an Excel if you can do it there and be
+42:19 comfortable understand what's happening
+42:22 with columns and rows
+42:24 it's that's the first place to go so be
+42:27 really really comfortable with Excel
+42:28 play around with functions
+42:30 um pivot tables
+42:33 um
+42:34 just explore explore it looking at
+42:37 different ways of trying to you know
+42:39 take a data set that you feel
+42:40 comfortable with it might just be
+42:41 something that's really simple like
+42:43 daily sign ups and by country and just
+42:48 in Excel stop playing around with that
+42:51 and asking questions and then of course
+42:52 SQL the most important thing
+42:55 um learn SQL try and find online there
+42:59 are some data sets that you can play
+43:00 around with and kind of practice the
+43:02 sequel and
+43:04 that's really really useful
+43:07 um
+43:08 But ultimately I think what
+43:11 where I found a little bit of a gap in
+43:14 the in the self learning was between the
+43:16 online SQL resources and like
+43:19 finding like Advanced SQL queries that
+43:24 made sense that weren't written by
+43:26 someone outside the world about a
+43:28 company that had no connection to didn't
+43:30 understand a business model so and was
+43:32 written in a way that for example wasn't
+43:34 the style that was going to be written
+43:35 in my team so it ended up just being a
+43:37 little bit
+43:38 confusing and extra work to try and
+43:41 understand so if there's a way to access
+43:44 like some of the SQL codes the vit were
+43:46 using maybe you can ask them to share
+43:48 like you know
+43:50 a couple of
+43:52 um SQL queries they use to make the main
+43:54 tables or
+43:55 that's definitely something to to do if
+43:59 your company is using looker there's a
+44:01 great
+44:02 um
+44:02 that's amazing like to get familiar with
+44:05 that really just start building building
+44:07 there's some dashboards explores become
+44:10 really comfortable with filtering
+44:12 pivoting those sorts of things there's a
+44:15 lot of resources as well online from
+44:16 looker and I think also I think the
+44:19 Tableau as well
+44:21 um
+44:22 or whatever visualization tool you're
+44:23 using it doesn't really matter just I
+44:25 think become comfortable with the basic
+44:27 basic kind of features of those
+44:30 um yeah those would be the main things I
+44:32 think and then go from there I think
+44:33 also find someone who can be your if not
+44:37 mental kind of your Champion or someone
+44:40 that you can uh
+44:43 uh an ally I guess in the data team and
+44:46 ask them you know what what do you what
+44:48 do I need to do what uh what skills are
+44:52 still missing how do I do them like do
+44:54 you think it's possible ask them what
+44:55 they would
+44:57 um
+44:57 recommend if you're in an existing
+45:00 company and you're looking to move to
+45:01 that department
+45:03 um
+45:04 yeah I think that would be kind of my
+45:07 that's the job
+45:08 how important do you think to have this
+45:10 Mentor or champion in this journey like
+45:14 for you from what I understood it was
+45:16 quite important it was crucial right
+45:18 that person it was a marketing analyst
+45:21 if I remember correct that actually
+45:22 helped you like she said you what she
+45:26 told you what you should do like what
+45:27 kind of things you should focus on and
+45:29 then she also was helpful for you to
+45:32 actually transition to the team exactly
+45:34 she was um she was the B she was the bi
+45:37 analyst the data analyst the only one
+45:39 that we had at the time I I think
+45:40 actually sorry had two people in the
+45:42 data team she was one of them
+45:45 um for me it was very useful and
+45:47 important I think to be honest though it
+45:49 depends
+45:51 it depends on on the company your
+45:53 position in the company how comfortable
+45:55 you feel what level of kind of like
+45:57 power so to speak you have in the
+45:59 company
+46:00 um and also I mean for me as a woman I
+46:04 think you know transitioning from
+46:06 marketing into
+46:08 a more technical
+46:11 um role I was going to move to the
+46:12 engineering department
+46:14 there was immediately I felt an element
+46:17 of I don't know a lot of uh what's the
+46:20 word
+46:21 um
+46:22 uh
+46:25 the syndrome imposter imposter syndrome
+46:27 I thought oh what am I doing like can I
+46:29 really do this and I think it really
+46:30 helped me to have another
+46:33 um yeah a female basically
+46:37 um a mentor to
+46:40 um
+46:41 to kind of Champion me and encourage me
+46:44 and say yeah you can do this like
+46:46 definitely you can do this like you just
+46:47 need to do this and this and like you
+46:49 can definitely do that once you've done
+46:50 that like come and we can find a way so
+46:53 it depends I think if you have a lot of
+46:55 motivation then you're very clear on
+46:57 what you want and you're confident
+47:00 um then I don't think it's necessarily
+47:02 needed but particularly for minorities
+47:07 um
+47:08 especially I think also in um
+47:11 there's a lot of kind of
+47:14 um support groups like outside of like
+47:17 uh you know those pie ladies and lots of
+47:19 different um uh various support groups
+47:22 and minorities in Tech which are great
+47:24 to be inspired by but I think having
+47:27 that one person in your company
+47:29 uh who you can relate to
+47:32 um Can can be really helpful just in
+47:34 terms of building up your own confidence
+47:37 um and it's definitely something that
+47:39 helped me also to not just transition
+47:42 into the team but you know once I was in
+47:45 the team kind of accelerate quite
+47:48 quickly because yes I was Junior when I
+47:51 joined but my career path up to being a
+47:55 mid-level
+47:56 analyst and now sort of intern team lead
+47:58 was a lot quicker because
+48:00 I had to fight and be like well I have
+48:02 been doing analytics work for years
+48:04 before I haven't actually picked all of
+48:06 this up from
+48:07 scratch and sort of having to like
+48:09 have the confidence to to make that
+48:12 clear and argue it and
+48:14 um yeah it was really helpful having
+48:16 someone to basically Champion so I would
+48:18 recommend finding one person in that
+48:20 company who can kind of be that for you
+48:24 yeah did you did you take any
+48:27 did you take part in any of this support
+48:29 group that you mentioned like Pilates or
+48:31 did you have mentors or people who you
+48:34 constantly talk to outside of the
+48:36 company or it was mostly the person and
+48:39 the rest of the team that you
+48:41 um talk to to learn yeah
+48:44 in my case it was mainly
+48:47 um my two two teammates
+48:50 um who were the bi team when I joined
+48:52 they were incredible so supportive they
+48:55 really
+48:56 um encouraged me a lot and yeah have
+48:59 helped me hugely I'm very excited for me
+49:01 to join and the team and yeah and made
+49:06 me feel very welcome and like I deserved
+49:09 to be there which was uh yeah very
+49:11 useful because at times I was like oh
+49:13 what am I doing it like is this too hard
+49:16 um
+49:17 but in terms of externals but not really
+49:19 to be honest I had a few friends who
+49:22 also worked in
+49:24 um two very close friends who worked in
+49:26 data who yeah it was nice to talk to
+49:29 them and have their advice as well and
+49:30 have different perspectives from
+49:32 different companies which I think is
+49:34 something that
+49:35 um particularly as someone who's been at
+49:37 a company for a very long time I
+49:38 definitely feel the need to speak to
+49:41 people in different places and see like
+49:43 oh is it also like this where you work
+49:44 or like is this a specific issue like
+49:48 just that we're facing or is this a
+49:50 general thing and having that
+49:52 perspective has also been really useful
+49:54 um in order to just sort of like
+49:55 Benchmark certain issues that you come
+49:58 across
+50:00 um so yeah I wish I actually had I think
+50:02 having a few more external I think
+50:06 um
+50:07 mentors or support would would be yeah
+50:11 great I think probably in the coming
+50:12 year I'll probably look for a mentor
+50:15 um just to
+50:16 to kind of help with like kicking off
+50:19 the next phase the development but yeah
+50:22 let's see do you have any ideas where
+50:24 you can look for this sort of mentors
+50:27 like would it be conferences meetup
+50:29 groups or I don't know some place online
+50:31 yeah probably a combination of LinkedIn
+50:37 um I mean faster than the networks
+50:39 they're asking yeah asking people that I
+50:42 know if they have anyone they recommend
+50:44 and then yeah meetups as well I think is
+50:46 probably the a good way to go
+50:49 is there an analytics engineer
+50:53 engineering Meetup in Berlin
+50:56 I'm not sure there's definitely like a
+50:58 snow plow
+51:00 um Meetup I think has just started up
+51:02 again we're about to
+51:05 um
+51:06 then yeah in terms of engineering I'm
+51:10 not sure to be honest I don't
+51:13 then things I know there are some data
+51:15 meetups
+51:16 um I'm not sure if they're specifically
+51:18 analytics engineering
+51:20 um I have kept an eye open on silai on
+51:23 the DBT slack Group which is extensive
+51:27 and actually great
+51:30 um yeah they have like uh some City
+51:33 specific groups and Berlin has yet to uh
+51:36 I think make its appearance so perhaps
+51:37 in the future there might be like a DBT
+51:40 Berlin yeah I think there should be so
+51:43 one of the people who helped me with the
+51:46 questions is Victoria so Victoria was a
+51:48 guest on this podcast like more than a
+51:50 year ago and now she works at DBT and I
+51:53 think she is she is or will be
+51:55 organizing something soon I think maybe
+51:58 maybe she will tell us
+52:01 um I see that it's almost
+52:04 yeah it's almost time to finish so I
+52:07 wanted to ask you last one last thing so
+52:10 you mentioned that you are subscribed to
+52:12 some new starters so there are good blog
+52:14 posts good newsletters and these
+52:17 newsletters are quite useful for you
+52:19 what kind of newsletters are you
+52:21 subscribed to so if I want to
+52:24 um keep an eye on what's happening in
+52:26 this in this area what kind of
+52:28 newsletters a do I subscribe to
+52:32 uh it's a good question there's one I
+52:33 think I'm subscribed to uh analytics
+52:36 engineering one that's called like the
+52:38 route I think I think it might be the
+52:40 DBT one I think it's called like the
+52:41 Roundup or something
+52:44 analytics engineering Roundup
+52:48 um I think it's
+52:49 I think it's I think it might be the DBT
+52:51 actually newsletter I think
+52:55 um there's another one I just subscribed
+52:57 to like a week or two ago that's called
+53:01 um Lenny's newsletter
+53:04 um Lenny's newsletter so it's Lenny is
+53:06 the name of the person yeah double NY
+53:10 um and I don't
+53:13 um I've only just subscribed to it
+53:14 recently I think it was slightly more
+53:15 like kind of product
+53:17 um analytics Focus
+53:20 um and then the
+53:23 there is a Blog that I'm sure most of
+53:27 your readers will know I've just
+53:28 forgotten the name of it it's like
+53:31 it's got a like profoundly optimistic or
+53:34 something it's called locally locally
+53:36 optimistic yeah
+53:38 that one yeah they have us like coming
+53:39 into yeah yeah that um yeah sometimes
+53:44 the time I'll check that that profoundly
+53:47 optimistic is also a good name yeah
+53:50 I think
+53:53 okay so if somebody has questions uh for
+53:57 you how can they find you is it LinkedIn
+53:59 or you have some other well there are
+54:02 some other ways to contact you
+54:04 um yeah LinkedIn would be best they can
+54:05 just message me directly on there
+54:07 okay Mickey thank you very much thanks
+54:10 for joining us today
+54:11 um it's been a while since we started
+54:13 this conversation so finally we had this
+54:16 interview so thanks a lot for joining us
+54:18 today for sharing uh for telling us
+54:20 about your journey for sharing
+54:22 um the all the experience and expertise
+54:25 you have and thanks everyone also for
+54:27 joining us for being active here and uh
+54:30 yeah I guess uh have a great uh rest of
+54:33 the week
+54:35 you're having me thank you

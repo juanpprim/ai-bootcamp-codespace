@@ -1,0 +1,1225 @@
+0:00 this week we will talk about Indie
+0:01 hacking and we have a special guest
+0:03 today Pauline
+0:05 Pauline is a data science manager and a
+0:07 consultant at ABM IBM where she has
+0:10 worked for eight years she's also an
+0:13 indie hiker and is working on a few side
+0:14 hustles in crypto and generative Ai and
+0:17 one of her latest projects I'll also
+0:19 upload in a few selfies and it generates
+0:21 a lot of cool and stylists stylish
+0:24 pictures and I use this service too
+0:27 um so welcome Pauline hi
+0:30 and I I'm glad to be invited here I
+0:34 don't see anyone but uh I guess there's
+0:36 some people yeah let me just
+0:39 open
+0:40 um I'll open YouTube from my phone so I
+0:43 make sure I don't miss any questions so
+0:45 today I didn't create a slider link
+0:48 um because we were late and I was
+0:50 struggling with um
+0:53 I was struggling with zoom so today you
+0:56 put all the questions if you have any
+0:58 questions during today's conversation
+0:59 please put them in the live chat and
+1:01 that will be
+1:02 covering these questions
+1:04 and also the questions for today is
+1:06 interview were prepared by Johanna buyer
+1:09 thanks Johanna for your help and now
+1:12 let's start before we go into our main
+1:14 topic of Indie hacking let's start with
+1:16 your background can you tell us about
+1:18 your career Journey so far
+1:20 so I
+1:21 as an engineer and when I I studied
+1:25 engineer at school but at this time
+1:28 eight years ago data science was very
+1:31 new so there wasn't any curses about it
+1:35 just one in France actually but I wasn't
+1:38 in this school and so well I applied to
+1:42 IBM because it was my dream to work
+1:45 there and uh well it was a match I was
+1:49 accepted so I studied as a junior that I
+1:53 sent this but as I didn't learn it
+1:55 before because there wasn't any lotion
+1:58 I I learned by myself and then I became
+2:03 a senior consultant in that Essence two
+2:06 years later and it's been
+2:09 um yeah three or four years I'm a
+2:11 manager now
+2:13 and the side of this I am an ND I care
+2:17 from my beginning this this year uh it's
+2:21 been a year actually more or less
+2:23 exactly one year and uh yeah but we will
+2:26 tell more about it in this interview
+2:30 okay so your first job after good dating
+2:32 was IBM until you're still at IBM
+2:36 yes that's that's very impressive like
+2:39 people usually don't stick around for
+2:41 that long at one company
+2:44 uh yes I know you must like your job
+2:47 like you must like it a lot yes it's I I
+2:50 like it indeed
+2:53 so what do you do as a data consultant
+2:55 at IBM
+2:58 um yeah when you are a data consultant
+3:00 it means uh I work in data science area
+3:05 but for various clients
+3:07 I work from Project to project a project
+3:11 is a mission it can be it can last one
+3:14 month or four years for example I think
+3:18 my shortest Mission lasted one month and
+3:22 the the longer one uh two years so it
+3:26 really depends and I see various clients
+3:30 various domain I'm not specialized in
+3:33 business in a special this business so I
+3:37 work in
+3:39 um Banks
+3:41 aerospatial automotive and also on
+3:45 different data scene context which can
+3:48 be like a predict sales or
+3:51 explainability models so yeah it's a
+3:55 whole uh yeah I'm not specialized and
+3:59 it's your choice actually
+4:01 so the way it works is a customer
+4:04 approaches IBM says hey I have this kind
+4:07 of project uh give us some people to
+4:10 work on these projects and you uh along
+4:13 with your team you join the client and
+4:15 you work with them on a particular
+4:17 project right yes exactly yeah usually I
+4:20 have I am I'm working on a team and
+4:23 um uh there is like uh two or four data
+4:27 senses I'm working with and I'm more in
+4:30 the managing part now but I can also do
+4:32 the models and help by by coding usually
+4:36 in Python most of the time
+4:39 what do you do as a managing partner
+4:41 what kind of responsibilities do you
+4:43 have I'm not a partner but uh
+4:47 yeah Management Consultant right or yeah
+4:50 yes as manager you like you ensure that
+4:54 the models are created that it fits the
+4:57 clients needs uh you also uh are you are
+5:01 also the relation between the clients
+5:04 and the team
+5:06 um like I can present the results
+5:10 um what what we achieved what is in the
+5:13 roadmap uh that kind of
+5:15 of tasks
+5:17 okay yeah interesting and I don't know
+5:21 if you can discuss that but maybe if you
+5:23 can
+5:24 um what are some interesting projects
+5:27 that you worked on at IBM
+5:30 yes
+5:32 um I I won't name the clients but uh I
+5:36 worked for two years to detect some
+5:38 laundry Murray and uh
+5:42 laundry money yeah money laundering okay
+5:45 yeah oh yes sorry I know it's so
+5:49 but uh yeah and it was very interesting
+5:52 because I had to sing as a person that
+5:56 can do money laundering and um so I I
+6:00 have the like okay okay I have this data
+6:04 what can I do and I was uh working on
+6:08 two years past data so I had to build
+6:11 intima not just me a Model A system to
+6:16 to detect a
+6:18 yeah strange behavior let's say
+6:23 so how can you think as a money
+6:26 launderer
+6:28 uh but first there is some patterns that
+6:32 are famous like I don't know you are you
+6:35 do some sport bits and I say okay I
+6:40 think it's a tennis match for example uh
+6:42 Nadal Federer and you say Okay Nadal is
+6:45 uh will win and you also bet that
+6:48 Federer will win
+6:50 so I did in the end you will have spent
+6:53 some money on both so of course you will
+6:55 lose money but the aim is not to uh for
+6:59 someone we want to do money laundry he
+7:01 doesn't want to earn money but to lose
+7:03 the less possible
+7:06 okay that's a nice strategy yeah and
+7:09 what was interesting is that I I studied
+7:12 uh to frame the project and I see it
+7:16 until the end the deployment the
+7:20 deployment part yes
+7:22 okay yeah that's all quite interesting
+7:25 and I want to ask more but that's not
+7:28 the main topic today right so the main
+7:30 topic today is what you started one year
+7:31 ago as you said uh it's Indie hacking so
+7:35 maybe
+7:36 can you tell us what in the hiking
+7:38 actually is
+7:40 uh when you are bling project
+7:45 sure it is
+7:47 exact definition but uh it's uh to build
+7:50 project and to monetize them
+7:53 um so without any funding like when you
+7:57 what was famous before because I think
+8:00 this is a new trend
+8:02 um what was famous before is you have a
+8:05 project you pitch deck you do a pitch
+8:07 deck and you are trying to find
+8:10 investors uh to invest invest Fund in
+8:13 your in your company but I won't I don't
+8:18 do this I build uh with uh another
+8:21 friend
+8:23 we are free actually but two of us build
+8:25 it and the other one help us with
+8:28 administrative
+8:29 and Lego and
+8:32 um and yes we build this at our on our
+8:36 free time so
+8:39 it's we don't have any pressure we don't
+8:42 uh we launch when we can like we start
+8:46 we wanted to launch something this week
+8:48 but it will be delayed let's see it's
+8:51 okay we don't have any pressure nobody
+8:53 knows about it so yeah that's uh by
+8:56 definition
+8:57 so basically during uh day time you work
+9:01 at IBM as a manager data science manager
+9:04 but after work after I know 5 PM or 6 PM
+9:07 you start
+9:09 you work on your side projects
+9:12 yes exactly and during weekend most
+9:15 during weekend and it was great because
+9:18 in December I had a lot of holidays so I
+9:21 could have I worked a lot on my project
+9:24 yeah I know in France you get a lot of
+9:27 holidays right a lot of vacation days
+9:29 uh yes we are quite a lot yeah so that's
+9:32 a good country for Indie hacking right
+9:33 yes so indeed I guess means independent
+9:38 right so that's the part that you said
+9:40 that you don't get any funding from
+9:42 anyone you just start working on a
+9:45 project and then you see what happens
+9:47 and the goal that we have is monetizing
+9:49 this project earning money with this
+9:51 project yes exactly it doesn't cost a
+9:54 lot it just servers but we don't need
+9:57 funding
+9:59 why why hacking why hacking though so
+10:02 Indie is independent but why hacking why
+10:04 not just in the uh I don't know projects
+10:07 or Indie work or
+10:09 yeah he's more attractive for what I'm
+10:11 not the one who invented this Fork to be
+10:14 honest I I revealed it I don't know some
+10:18 people say Indie maker some others say
+10:22 bootstrappers so there are different
+10:24 synonyms and uh well I don't know but uh
+10:28 I use it
+10:30 um some time ago I was into games and in
+10:33 games there was also this concept of
+10:35 Hindi
+10:36 developers so usually there is a like
+10:39 when you have a game then you work with
+10:42 some sort of a publisher right so who
+10:44 then promotes the game distributes it
+10:47 right but there are some indie
+10:48 developers who don't rely on these
+10:50 Publishers on this network so they just
+10:52 create a game and then they use their
+10:54 own channels for distribution I guess uh
+10:57 it's kind of a similar idea but here
+10:59 like instead of finding you have
+11:02 independent channels right yes
+11:06 okay and tell us about your projects
+11:09 that you do as a part of your
+11:12 Indie hacking
+11:16 played with um cryptopy that it's my
+11:19 first project actually crypto P was at
+11:23 the very beginning it was uh me I was um
+11:26 I did some trading of crypto and I I
+11:32 noticed some patterns uh in charts and I
+11:36 was like okay uh that could be great to
+11:39 automate some things that could be could
+11:41 tell me whenever a crypto uh reacts in
+11:46 some way I was trading with technical
+11:49 indicators
+11:50 and uh so at this time it was I think
+11:54 five years ago I I had I hadn't very
+11:58 much
+11:59 development skills
+12:01 so it was two years ago I during the
+12:05 covet
+12:06 um
+12:07 we couldn't uh we we were allowed to
+12:10 travel in France but uh we had to be
+12:14 there on night at home it was I think
+12:16 it's called ceasefire in English not
+12:19 sure yeah curfew now yeah I think it's
+12:23 very few so yes and I I visited some
+12:27 friends and one of uh them is developer
+12:30 so I I told her hey do you want to work
+12:34 with me on this project
+12:36 because it it really took a lot of time
+12:39 to trade and uh she said yes so we built
+12:43 our own solution to to be alerted
+12:46 whenever a crypto matches our strategy
+12:50 strategy and um we used it we also
+12:54 automatic automated some parts to trade
+12:57 but we used it for a year and it was
+13:01 very profitable and so I thought okay
+13:04 it's uh great for us so maybe we can
+13:07 also offer it to others
+13:10 so we launched a an offer of alerting
+13:15 uh in crypto yeah it was in September
+13:19 that we launched the offer okay so first
+13:22 you use it for your own
+13:24 um only for yourself right so you use it
+13:26 for training trading crypto and it
+13:29 wasn't public right so just you and your
+13:31 friend uh used it but but then you
+13:35 thought um it could be useful for others
+13:37 too and then you made it public
+13:39 exactly we we used it privately and uh
+13:43 but the company was created in January
+13:47 of last year uh but in September we
+13:50 launched the offer
+13:52 um and uh
+13:54 and it wasn't a success at all
+13:57 no no no no no no no it's uh it's very
+14:01 hard because this is not my audience
+14:04 um
+14:05 I
+14:07 I don't know a lot of Traders so it's
+14:11 hard to be known in this uh domain and
+14:14 it's okay I mean we build it for us so
+14:17 we learn from it but uh that was the
+14:20 beginning and then we say okay but we
+14:22 launched one of our why not launch
+14:24 something else
+14:26 but at least you made money with this
+14:28 too anyways for for your own Trading
+14:31 uh yes okay so that was useful anyways
+14:34 yes
+14:36 and yeah you said it wasn't successful
+14:39 at the end but I'm still curious like
+14:41 between the time you realized that uh
+14:44 it's useful for others and the time when
+14:46 you actually launched it what happened
+14:49 so
+14:50 um what happened
+14:52 like how did it go from like what did
+14:54 you do exactly
+14:56 um from that moment too you said in
+14:58 January you opened the company you
+15:00 started the company right but then you
+15:02 were doing something in uh other months
+15:05 right between January and September so
+15:07 what is
+15:08 uh oh between January uh in January we
+15:12 we created the company because it was
+15:15 better for us to have money in common we
+15:18 used both our system on our sides so we
+15:22 had to maintain two systems which was a
+15:25 bit uh time consuming and uh so we
+15:28 decided to create one company in order
+15:30 to join our investing money and maintain
+15:34 only one solution so that's why and then
+15:38 I think it was in August that we say
+15:40 okay we can launch an offer and it was
+15:43 very quick to transform it to
+15:46 um
+15:47 to a an offer because everything was
+15:51 coded so we just had to do a landing
+15:55 page
+15:56 um and uh yeah a bit of LEGO's thing
+16:00 like things like that but it wasn't it
+16:03 didn't take much time
+16:07 what did you use for the landing page
+16:10 what did I use
+16:12 maybe can you tell us what it is why do
+16:15 we need a landing page like isn't just
+16:17 it's enough to just create the like the
+16:19 app and expect people to join
+16:22 uh but but you need uh well by landing
+16:26 pages of our website I mean if the app
+16:29 it's not uh an app on on the mobile or
+16:32 something like that so you have two
+16:35 like people have to know about it so we
+16:38 yes we created a landing page and I
+16:40 created from scratch
+16:43 I think I had on on my side because I
+16:47 already built some websites so I reused
+16:50 a lot and change
+16:52 of course the content images
+16:55 Etc but
+16:56 yeah just use something like bootstrap I
+16:59 guess and then put some text there and
+17:01 uh like a button sign up here right
+17:03 that's what the landing page is exactly
+17:06 yes
+17:07 okay so you did this and then you said
+17:09 you also said that you needed to take
+17:11 care of some legal part
+17:14 so what was there what did you need to
+17:16 take care of
+17:18 uh yes because when you we didn't you it
+17:22 was a product to monetize so you have to
+17:25 take care of doing I don't know the
+17:28 privacies or terms of use things like
+17:32 that and uh
+17:34 uh also you have to think about okay
+17:38 um if I want to monetize I also need a
+17:41 payment system so find it and um and uh
+17:46 integrate it to our app uh yes that kind
+17:49 of things
+17:50 but you don't have to to think about if
+17:53 you build it for only yourself
+17:57 okay so this privacy policy and all
+18:00 these things I guess so you you don't
+18:01 want to get sued right if somebody loses
+18:04 money
+18:05 yes no I don't so I'm saying we are not
+18:09 advice or at the first at first we
+18:13 wanted to let people uh automate their
+18:15 trade but uh it's legally very
+18:18 complicated so we don't we just let
+18:22 people uh say their strategy and they
+18:25 are alerted when the crypto match their
+18:29 strategy and what does your friend do
+18:33 the issue also in data science or she's
+18:36 a developer no she's a Java developer
+18:39 Java developer okay is this what he used
+18:42 for
+18:43 cryptopy Java no we use the uh well we
+18:49 use the python because I wanted to be
+18:52 able to modify the code
+18:56 and also because uh with python there is
+18:59 a framework that you can use for web
+19:01 development it's called flask so we used
+19:05 it but uh we could also have
+19:08 used Java and uh do some front with this
+19:12 but this is not a technology I I know so
+19:17 yes we use Python and the last there is
+19:21 one feature that she did in Java
+19:24 let's see
+19:26 um so you both work on everything or how
+19:29 do you split responsibilities between
+19:30 the two of you
+19:33 um so for cryptopy I think uh at first
+19:36 it was equally uh for the development uh
+19:40 and then when we say uh we thought about
+19:43 uh doing an offer for people uh so to
+19:47 launch our offer uh we split it and she
+19:50 she does the development development and
+19:53 I'm more in the marketing part
+19:56 um and trying to find relationship
+19:58 relationships Etc
+20:01 mm-hmm so what what do you do in
+20:03 marketing so it's I guess mainly
+20:05 promoting letting people know that this
+20:08 thing exists right so you said that you
+20:10 had problems with this so how did you
+20:12 try to approach that oh yeah for crypto
+20:15 P it was very difficult I I and it was
+20:18 also my very first experience because uh
+20:20 as you know my real job my day job is uh
+20:26 is in that Essence so it's not related
+20:29 to marketing
+20:31 um it can be by exploring some marketing
+20:34 models but it's not the same as doing a
+20:36 marketing and uh yeah so I try like to
+20:39 join some Facebook groups or read it but
+20:43 I was banned very quickly I said okay
+20:47 this is not a good approach so I I
+20:50 started Twitter also this summer so I I
+20:55 I thought okay I could use Twitter to
+20:58 speak to people and uh yeah so I did
+21:01 this but uh very quickly we noticed that
+21:04 it was very difficult to reach an
+21:08 audience for crypto Traders I also
+21:12 um contacted a lot of people from crypto
+21:15 influencers Etc but well influencers are
+21:19 very difficult to reach it's you have to
+21:23 get money to
+21:25 yeah but uh so we couldn't afford it but
+21:30 um so yes very quickly we said okay it
+21:33 will be very difficult to monetize this
+21:35 offer so we leave it like that and uh
+21:40 and we will start to build other
+21:42 projects and that's also when I started
+21:45 before we go into your second project
+21:48 I'm really curious about that too maybe
+21:50 you can mention how much it costs you to
+21:52 maintain this thing right and so you
+21:54 said you're not actively working on this
+21:55 right now it's just there but I guess
+21:58 it's also you have to pay for hosting
+22:01 and for other things and wondering how
+22:03 expensive it is to just let it run in
+22:05 the background yeah it cost about about
+22:08 10 euros a month
+22:11 oh not that expensive
+22:16 well I guess if more people start using
+22:18 it it will be more expensive right
+22:21 um yeah probably but not that much
+22:24 because uh
+22:26 yeah I'm not sure it will be very much
+22:28 more costly because it doesn't use much
+22:30 of data bases and yeah so I don't know
+22:34 okay and I guess this is uh from what I
+22:37 see uh I saw some other
+22:40 ideas or some other projects in this
+22:43 space of Indie hacking most of these
+22:44 projects are rather small they are quite
+22:47 small they are focused on a specific
+22:48 problem and uh yeah is it the correct
+22:52 observation
+22:54 sorry most of the projects in in the
+22:57 hacking space they are pretty small they
+22:59 focus on a specific problem and they
+23:01 they don't do much except for solving
+23:03 this particular problem yes yes it's
+23:06 called like a niche market and uh yeah
+23:10 it's a way of
+23:13 yeah what is this is the exact and uh so
+23:17 you try to validate an ID so you start
+23:20 with a small project if it works then
+23:23 you invest more time uh to improve it
+23:26 and if it doesn't you have to say okay I
+23:30 exit and you start another one
+23:33 so tell us about the other one you had
+23:36 yeah so
+23:38 I was actually in early days and I saw
+23:43 um I saw dreamboof and uh also uh
+23:48 someone calls levelsio and on Twitter
+23:51 that explained that he built a system to
+23:56 um where you can send picture of
+23:59 yourself and it transform it to new
+24:01 pictures
+24:02 so I was wondering how he did this so I
+24:06 I I made some research
+24:09 and finally I told about it to my my
+24:14 friends to start this and say yes let's
+24:18 do the same so we don't we didn't
+24:21 reinvent the wheel
+24:24 but we wanted to try it and so we
+24:28 launched very quickly because it's um
+24:32 um
+24:33 we had most of the development done so
+24:38 um yeah I think we launched in a few
+24:41 weeks after the ID so it was a kind of a
+24:45 side of side project because
+24:48 um first because we have our work and
+24:52 also because we were actually working on
+24:56 a Twitter tool that we I hope we will
+25:00 launch very soon
+25:03 okay so you said that this uh this
+25:06 project it's called unreal me IO right
+25:10 um so this project you sent a few
+25:12 pictures of yourself and then what it
+25:14 does it uses
+25:16 dream Booth you said like it uses
+25:18 something uh to create new pictures from
+25:21 the pictures you send
+25:23 yes
+25:25 so and you set the first soy tweet and
+25:28 then you thought okay I can do this and
+25:30 then you contacted your friends who like
+25:33 the idea and You released it in a couple
+25:35 of weeks exactly so can I ask can you
+25:38 walk us through like how did it what
+25:40 exactly did you do from seeing this
+25:42 between seeing this tweet and actually
+25:44 releasing what what did you need to do
+25:47 um okay so first we we studied and we
+25:51 were wondering okay uh should we uh
+25:54 start from scratch uh with dream booth
+25:57 dreamboof that it's um
+26:00 a library and uh a model and uh should
+26:06 we use it with our own GPU because uh as
+26:09 it's fine turning images it uses GPU and
+26:14 it's very expensive
+26:17 um so we had this choice or otherwise we
+26:20 could use an app an API to uh do the
+26:24 fine tuning so we choose the solution
+26:27 two because we want it to be fast
+26:30 and uh and uh yeah so what happened it's
+26:35 uh we have this ID so we have to build a
+26:39 system to do the RPA calls and uh also
+26:43 to store images of the people in case
+26:47 um to send it and to get the result
+26:52 when the result is done we have to store
+26:54 it and send the send the picture to the
+26:57 persons
+26:59 um and also we so we have this to do and
+27:02 also to launch like talking about it in
+27:08 the on Twitter mainly but uh what is fun
+27:12 about it it's um
+27:14 office first sales
+27:18 wasn't on Twitter and we didn't launch
+27:21 yet it was because I I um subscribe to a
+27:26 list of Black Friday and someone saw it
+27:29 I don't know how
+27:31 so yeah that's fun
+27:33 okay so what I just want to summarize so
+27:36 first you saw the idea right so you saw
+27:39 the idea that there is this algorithm
+27:40 called dreambooth that takes pictures in
+27:43 and then creates new pictures and then
+27:45 you like the results and you wanted to
+27:47 make a project like a small software as
+27:50 a service project that other people can
+27:52 use right then what you did because
+27:57 correct me if I'm wrong that you found
+28:00 an API that uses this algorithm and then
+28:03 you build like your project around this
+28:06 API right exactly yes
+28:09 okay and then uh so I guess this is
+28:12 another service that you you used right
+28:14 so you you needed to pay them
+28:16 exactly yes
+28:18 and uh so this is something yeah this is
+28:21 an API and it doesn't take care of
+28:24 storing images and all that so what you
+28:27 needed to build was like all these
+28:29 things like getting images
+28:31 um
+28:32 you know from the API saving them
+28:34 somewhere and then sending to the
+28:36 customers right
+28:38 yes exactly
+28:40 okay you said your first sale came from
+28:43 even before you went live so you put the
+28:45 link somewhere
+28:46 yes there was a list of Black Friday
+28:50 Black Friday deals it was this week that
+28:53 we launched so I just subscribed but I
+28:56 didn't imagine someone would see it to
+28:59 be honest and uh wow yeah someone saw it
+29:03 okay how do you do the lounge
+29:07 uh I I talk about it on on Twitter and
+29:11 uh
+29:12 I also use some personal media like in
+29:16 on my personal Instagram or Facebook but
+29:19 I think mainly or all sales came from
+29:23 Twitter and also uh the Black Friday
+29:26 sites because there was other sale from
+29:30 this website
+29:32 okay so what did he do like how did you
+29:34 announce this on Twitter did you just
+29:36 say okay this is uh our new cool project
+29:39 go check it out or
+29:41 yeah something like that and uh
+29:45 so this
+29:47 thing so it was done using the
+29:52 using enroll me and uh
+29:56 and uh yes that's pretty it
+30:00 um maybe there's some better way but I'm
+30:03 still learning this job
+30:06 okay yeah I cannot think of a better way
+30:09 probably that's the dude and you I guess
+30:13 also rely on other people sharing their
+30:15 pictures right
+30:16 sorry you also rely on other people
+30:18 sharing the results yes exactly some
+30:21 people share the results you were one of
+30:25 them thank you
+30:27 and uh and uh yeah also I so it
+30:31 displayed on the website so people other
+30:34 people can have some example uh in order
+30:37 to see the results
+30:40 and also if they want they can ask the
+30:43 user is it really working I don't know
+30:45 but uh
+30:47 yeah your results were pretty impressive
+30:49 uh for my pictures it didn't work well
+30:51 but the reason for that is because I
+30:54 just when I saw that you launched this I
+30:57 just took my phone I took a few selfies
+30:59 from different uh backgrounds from
+31:02 different angles and that was it but I
+31:05 guess you used a lot of different images
+31:07 right so it wasn't from one day yes I
+31:10 remember when you tried your I think you
+31:12 had a green shirt it was on earlier yes
+31:16 you have a green shirt and AI is not
+31:19 magic I mean if you send only picture
+31:21 where you are like that you will be like
+31:24 that from the results that's uh yeah but
+31:29 it's not Magic
+31:31 so what was the main challenge here for
+31:34 this project
+31:35 so in the previous project you said the
+31:37 main challenge was reaching
+31:39 um the target audience the crypto
+31:41 Traders and it's not easy but what was
+31:44 the main challenge here
+31:46 I think the main challenge was also
+31:49 customer acquisition is very hard but at
+31:52 least with this project we we made some
+31:55 sales not enough to be a Ramen
+31:58 profitable which is a target a very
+32:02 famous when you are in India King
+32:07 um but um I think he has a main main
+32:11 issue was to reach people and also to
+32:15 get some uh not too high prices but at
+32:21 the very beginning it was very difficult
+32:23 because it cost I think
+32:26 um it was a 15 euros
+32:29 per
+32:30 um fine tuning
+32:33 so you add also our cost so it was a
+32:37 difficult to to do some low prices and
+32:42 also it's something that is not very
+32:44 useful uh I mean it's fun to have a
+32:47 picture of yourself in a in AI but it
+32:53 can be useful I know yeah you can use it
+32:55 like for professional falling in I know
+32:58 some people use it for Tinder but um but
+33:02 it's a nice use case so somebody
+33:04 actually uses it for Tinder right so
+33:07 that's what he told me yes
+33:10 we have uh his testimonial on the
+33:13 website sorry do you have his
+33:15 testimonial on the website like okay
+33:18 like I used this unreal me Tinder and I
+33:22 found the love of my love exactly the
+33:25 love of my life no
+33:26 that's gonna be a great story I guess
+33:29 yeah exactly
+33:32 okay so I guess in both of these cases
+33:34 reaching the target target audience was
+33:37 the main problem
+33:38 yes is it always the case like you built
+33:41 something and uh you cannot expect that
+33:43 people will just come you need to
+33:46 proactively promote it yeah to
+33:49 proactively yeah and this is something
+33:51 that is uh
+33:53 it's uh you really really see it when I
+33:58 see when I made sales it's uh every time
+34:01 when I
+34:03 um talk about it like it doesn't happen
+34:05 just like that
+34:07 um and um
+34:09 so yeah and also another issue is the
+34:12 time of course uh I was lucky uh for
+34:16 unreal me because my friend was still on
+34:19 a maternity leave so she had time
+34:21 because
+34:23 um she was alone at home and uh
+34:26 sometimes with the baby but uh
+34:29 I know that sometimes she had some times
+34:32 but um sometimes babies sleep right yes
+34:36 exactly and when you are alone I guess
+34:38 you
+34:39 I'm not doing the hacking
+34:41 and
+34:43 um but yeah so having also
+34:46 you think about a lot of features that
+34:49 you can do but uh of course we are
+34:52 limited in time
+34:55 and what motivates you to do this like
+34:58 why did you even start working on Indie
+35:00 hacking because you wanted to learn more
+35:03 outside of your job or what was the main
+35:06 driver for you yeah I think I I enjoy
+35:11 the ideation part like thinking about
+35:15 things that could be done and I also
+35:18 like to create so that's something that
+35:22 motivates me yes and this is very
+35:26 um I think it's in addition to my work
+35:28 because I like my work but uh
+35:32 not that you do every time the same at
+35:34 your work City because it's very not
+35:36 true but uh this is kind of a personal
+35:39 project and I can do I can work on
+35:43 whatever I want so
+35:45 I think it's really interesting
+35:48 does it help at your like the skills
+35:51 that you acquire through these projects
+35:53 through through Indie hacking
+35:55 do they help you with your main job
+35:58 uh actually yes because it's uh gave me
+36:02 a new culture
+36:05 um I
+36:07 before when I was working I used my free
+36:10 time free time before in the hiking I
+36:15 use my free time to do whatever things
+36:17 and now this free time I use it also to
+36:21 know more about AI about data and uh so
+36:25 I guess it's profitable for
+36:28 IBM of course and
+36:31 um
+36:32 uh also I train myself to new skills and
+36:37 I think I understand better data
+36:39 engineering no because even if it's not
+36:42 really the part I'm working on
+36:44 I learned JCP with this
+36:48 um some some part of it yes
+36:52 so you learn gcp you learn data
+36:55 engineering you also learn marketing and
+36:57 social media marketing in particular
+36:59 what else did you learn
+37:02 uh what do I learn I learned that even
+37:06 if you are a very good developer without
+37:08 marketing you are nothing
+37:11 there is also some India here that say
+37:14 Just Launch before building so they do a
+37:18 landing page with a newsletter and they
+37:21 see if people are interested
+37:24 and if they do they build and I actually
+37:27 met someone who did this and uh he
+37:30 evalitate he validated his ID like that
+37:34 so yeah it really depends and uh
+37:38 uh I forgot sorry the question at the
+37:41 beginning yeah so the question was what
+37:43 kind of new skills did you pick up so
+37:45 PCP data engineering social media
+37:47 marketing idea validation what else
+37:51 I think that's also quite a lot that's
+37:54 already a lot but maybe there is more
+37:56 oh
+37:58 probably probably yeah like you said you
+38:02 already knew web development to some
+38:04 extent right so when you're building the
+38:06 landing pages
+38:09 yes
+38:10 um and also
+38:12 um like At first we I built the landing
+38:16 page but that's that was killai already
+38:18 had and uh after when we made a few
+38:22 sales we were able to build some
+38:23 templates
+38:25 so now uh for our next project
+38:28 I can build faster because I have a very
+38:32 nice template already done
+38:36 because the website I did before was
+38:40 kind of quick to do but they are not
+38:42 very awesome at least I don't find them
+38:45 beautiful but uh it's the best I did
+38:49 because uh also something I learned I
+38:52 think I learned about new tools
+38:55 like using more Photoshop
+38:59 um it's a yeah it's a tool I use a lot
+39:02 but uh I'm still at the very beginning
+39:05 of Learning
+39:08 did you ever need to use Photoshop at
+39:10 IBM
+39:12 sometimes I use it for ibms okay okay so
+39:15 I guess this is another useful skill you
+39:17 picked up that you can use at work right
+39:20 yeah but I I use it not so much for a
+39:23 clients but some for internal projects
+39:26 sometimes yes
+39:27 okay and how do you balance your work at
+39:31 IBM within the hacking because it is a
+39:33 difficult
+39:34 because I guess like at work like if you
+39:37 work from nine to five then at the end
+39:39 you might be exhausted and then uh you
+39:43 have other projects to work on so how
+39:45 how do you find energy to do this
+39:48 I think it's like every patient I mean
+39:51 uh you if I told you I love uh horsing
+39:57 horses so they said education I'm not
+40:00 sure about the one is it sorry I guess
+40:02 yeah if I tell you I love to do horses
+40:07 um
+40:09 then you say okay wow that's a patient
+40:11 it's great or I love dancing I do uh two
+40:17 hours every two days Etc it's very
+40:20 common to have hobbies like that mine is
+40:24 a building project so I don't see it as
+40:27 exhausting for me it's like uh
+40:31 I'm I'm motivated to work on it actually
+40:34 so it's not okay my work day is finished
+40:37 oh I have to work again I don't see it
+40:40 as a work and I actually I think it's
+40:43 essential like if you want to do uh
+40:46 India King in addition to your work you
+40:49 have to be
+40:51 passionated about it
+40:53 okay so that's your hobby right that's
+40:55 the it gives you energy so at the end of
+40:59 the war at the end of the working day
+41:01 you might be tired but you start working
+41:03 on your side projects and you get energy
+41:06 from this
+41:07 yes
+41:08 and if I don't I just
+41:11 um because you don't have to write
+41:19 yeah that's where the independent
+41:23 um this Indie part come comes into place
+41:26 right so you don't uh you don't own
+41:28 anything anyone right so you because you
+41:32 don't have funding you don't have
+41:33 investors then nobody is pushing you to
+41:36 actually work except for
+41:38 only you
+41:39 see I think it could be different if uh
+41:42 I had a successful service used by a lot
+41:46 of users probably there is some client
+41:49 support and we had to we could have to
+41:52 manage time but this is not our arcade
+41:55 so
+41:56 we'll see later for that okay and I saw
+42:00 a tweet from you so there's actually it
+42:02 was a reply so the the tweet that you
+42:05 replied to was do you have a list of
+42:07 mikra SAS ideas and you replied that of
+42:10 course there are many on your list
+42:13 um so maybe can you tell us first of all
+42:16 what is a mikra SAS I guess software as
+42:19 a service right what is this is this
+42:21 what we discussed right so all these
+42:23 things that you built are micro software
+42:26 Services projects yeah I don't know if
+42:29 the term micro is uh important or but
+42:33 yeah I have a lot of ideas I have my
+42:36 notion list with a to-do list but of
+42:40 course I won't build them all but um
+42:43 yeah what I have as an idea is to
+42:47 uh
+42:50 I I work on a project if it works well
+42:53 that's cool I can improve it if it
+42:55 doesn't I I start a new one so as I said
+42:59 and now I'm working on the on some
+43:03 Twitter tools to make better analytics
+43:07 of your data
+43:10 um says this is what I will launch uh
+43:14 there will there is other on then there
+43:17 are other on my list I
+43:20 won't tell not because it's confidential
+43:22 but because uh I don't know if I will
+43:25 launch one day and uh but there is one
+43:29 actually I can tell you about is a Blog
+43:33 creation uh it's called about
+43:37 startup.io and this is very new I do the
+43:41 lunch today you will probably see your
+43:43 tweets and the idea of it is um I wanted
+43:47 to
+43:49 interview other people that do Indie
+43:52 hacking or that build some companies uh
+43:57 or even if it's a small one but uh in
+44:01 order to inspire people and also say
+44:04 there is not only successful people it
+44:08 takes time and it's okay when you start
+44:11 doing the hiking you shouldn't sing okay
+44:14 I will be a millionaire at the end of
+44:17 the year or something like that I think
+44:19 this this is not a good
+44:23 a good way to sing because it's very
+44:25 hard and I yes so I want to share some
+44:29 story and this is something I wanted to
+44:31 do for a long time so I just started
+44:35 okay great looking forward to seeing
+44:37 this but this is a blog post right this
+44:40 is a Blog right so yeah it's a website
+44:43 with a bunch of Articles it's not a
+44:46 software as a service thing
+44:48 exactly I'm not uh
+44:51 so how can you earn money with this
+44:54 or it's more like uh just fun projects
+44:57 project I think it's it's fun project
+44:59 but also uh there is some people uh
+45:03 there are some people that uh earn money
+45:05 with blogs
+45:07 um there is several way it's a like
+45:11 imagine you have a blogger you talk
+45:13 about cars a lot so you can find sponsor
+45:18 I would say okay I am a car can you
+45:21 write an article about my car so that's
+45:24 a way of earning money you can also
+45:27 monetize
+45:29 um with ads uh are also
+45:34 um with a affiliation that's several
+45:37 ways
+45:38 I see interesting well you said you
+45:41 don't want to talk about particular
+45:42 ideas that you have on the list and
+45:44 that's understandable but maybe you can
+45:46 tell us how these ideas ended up on you
+45:49 on your list like how where do you get
+45:52 ideas from
+45:53 yeah so sometimes I'm trying to do
+45:55 something and say oh but this doesn't
+45:59 work well how can I do something else
+46:02 exactly like crypto P I was on my
+46:06 computer looking at chart say oh this
+46:08 take me too much time how can I reduce
+46:11 this time so I Google it and I didn't
+46:14 find any solution to fix my problem so I
+46:19 said okay it doesn't exist I will build
+46:23 because I have the skills also because
+46:25 uh I mean if I don't like the the bread
+46:30 in my city I I won't create my friend
+46:36 let's see so it mainly comes from your
+46:40 frustrations or from the uh limits
+46:43 limitations of other tools so there is a
+46:46 tool that solves a problem but it
+46:48 doesn't solve it in a way that you want
+46:50 and you see okay like there's it's
+46:53 possible to make it better and you take
+46:56 this idea down you taken out of this yes
+46:59 exactly that's exactly what we did the
+47:02 exception is for unreal me it was really
+47:05 just because uh
+47:07 we saw other competitors that validated
+47:11 the ID and say okay maybe we can earn a
+47:13 few money with it so that was different
+47:17 okay so what are your plans what do you
+47:19 so you said you are about to launch this
+47:23 about startup.io today right then you
+47:26 have a Twitter Analytics tool yeah what
+47:30 else should we expect from you in the
+47:33 future or you don't know yet
+47:38 it depends it depends you know I also
+47:43 when I because I I like to share my
+47:47 results and not only hey I'm successful
+47:49 but also I said you have to show a
+47:52 failure you are I think I like to be
+47:56 transparent and doing this there is a
+47:59 one person that contacted me and say
+48:02 okay about crypto P I have a crypto
+48:06 audience
+48:08 can you do a telegram for me when every
+48:12 time I trade
+48:14 my audience see what I bought outside
+48:19 and so this is the kind of opportunity
+48:22 that you don't expect at first but this
+48:25 happened
+48:29 so you
+48:30 what you say is you plan to work on your
+48:33 existing projects a little bit and then
+48:36 maybe there are some new ideas that you
+48:39 will have and maybe you will
+48:41 launch them too right yes and it's I
+48:45 think it's very common that you have an
+48:46 ID and then you start to build it and
+48:49 you say okay maybe I can do differently
+48:51 and so you change your mind
+48:54 and the way you do this so let's say you
+48:57 have an idea on this list that you
+48:59 haven't started working on yet so how do
+49:03 you go from this idea on the list to
+49:04 actually launching it what are the steps
+49:08 I think I if I uh first of all so I I
+49:11 talk with my friends and we evaluate if
+49:14 there is uh really a need if there is a
+49:17 lot of competitors for example then we
+49:20 we don't want to build just to build
+49:24 um
+49:25 again except maybe foreign but because
+49:27 we could build it very quickly
+49:30 um so yeah we evaluate and we say okay
+49:32 do I need this yes uh will other people
+49:36 uh will need it probably and uh do we
+49:41 have the skills to do it yes so okay we
+49:44 can build it
+49:48 sorry yeah please please go no that's
+49:51 that's what happened also with the
+49:53 Twitter truth because I so I tweet a lot
+49:57 and I see that
+50:00 um
+50:01 is the Twitter Analytics tool is very
+50:04 bad at least I don't like it it's
+50:09 helpful but there is a lot of
+50:11 information I can get from it so I
+50:14 wanted my own tool I know some other
+50:17 tool exist
+50:20 um but um
+50:21 they all have a different offer and
+50:27 I think I offer something different at
+50:30 least I I build it on my own way
+50:35 see yeah interesting and yeah so since
+50:39 you mentioned Twitter and you also said
+50:41 correct me if I'm wrong that you started
+50:45 your Twitter account in summer last year
+50:48 summer
+50:49 2012 right and now you recently tweeted
+50:54 that you have 10 000 followers so it
+50:56 means like you got 10 000 followers in
+50:58 half a year right
+51:00 yes exactly it's a very impressive
+51:02 result so how did you do this
+51:05 I think I started this in June and I had
+51:08 11 followers because I had the account
+51:13 for a few years but I didn't use
+51:17 um Twitter before I I just I I guess one
+51:20 day I subscribed and never came back and
+51:23 uh yes this summer I had an interesting
+51:26 conversation with someone who said who
+51:29 told me about personal branding and also
+51:34 um because he created some companies too
+51:37 and he told me if you create one project
+51:41 and you create an Instagram for this
+51:43 project then you create another project
+51:45 you can put in trash the audience that
+51:48 you build for the first one
+51:50 and I wanted a continuity the common
+51:54 common things between all your projects
+51:57 is you actually so I say okay
+52:01 um that's true and I want to show to
+52:04 people
+52:05 um I want to share with people what I
+52:08 what I do so I do data I do um in the
+52:12 hacking so I'm talking about both and it
+52:16 seems people like it so
+52:19 you know otherwise they wouldn't follow
+52:20 you right
+52:21 sorry otherwise they will would not yeah
+52:24 if they didn't like it oh or maybe the
+52:27 kicker
+52:29 accidentally but yeah accidentally maybe
+52:33 one or two but not 10 000. I hope so
+52:37 well what do you think
+52:39 um people
+52:40 in your posts like more possible data
+52:43 science or posts about Indie hacking or
+52:45 something else
+52:47 I think it works better with data sense
+52:50 because people can more identify to it
+52:54 when I share like courses or some use
+52:58 cases I know uh I got I think I got more
+53:02 interaction from it
+53:04 um but uh
+53:06 I don't build my Twitter only
+53:09 strategically so India King is an
+53:13 important part of my life and I want to
+53:15 share about it so I choose not to go all
+53:19 in on Data and to talk about the two
+53:22 subjects
+53:24 and I see that there is a question from
+53:25 Kevin
+53:27 um the question asks if there is any way
+53:30 to connect with you
+53:32 so
+53:34 um are your DMs in Twitter open
+53:36 uh yes you can then we will have your
+53:40 Twitter account
+53:41 um we will have the link to your Twitter
+53:43 account in the description and then you
+53:45 can just contact Pauline and also you
+53:49 are in the data docs Club slack right so
+53:51 that's another way to contact you
+53:53 yes I I had some times before uh
+53:58 successfully connect because but it was
+54:01 very personal it was because of my
+54:03 computer better at the end I reached it
+54:06 yeah you don't use slack at IBM do you
+54:09 uh yes we do and that's that was exactly
+54:12 the the point I thought I couldn't I
+54:15 thought it was a conflict if I use slack
+54:17 for other uh not IBM spaces but actually
+54:22 it works so that's great good because
+54:25 you recently posted uh you made a post
+54:28 in general
+54:30 saying Happy New Year right something
+54:32 like that yes I think so yeah so thank
+54:35 you Happy New Year too
+54:39 okay and then um another question from
+54:41 Kevin is if you know Peter levels do you
+54:45 know who Peter levels is uh yeah I know
+54:49 him but not personally I mean I I saw
+54:52 his account here
+54:54 okay what does he know
+54:56 oh he do uh uh he is an aspiration he's
+55:01 an India curse that builds a thing
+55:03 around 70 project and a few of them
+55:07 became successful and I think one of his
+55:11 first uh I'm not sure if it's a first no
+55:15 it's not the first successful I think
+55:18 in he built one project that is called
+55:21 interior AI
+55:23 sorry for the English accent but it's a
+55:28 website where you can generate by a some
+55:31 new interior for you
+55:35 carrier.interior.io set right
+55:37 uh I'm not sure about the link maybe
+55:40 you'll just send us the link later yeah
+55:44 and uh so yeah you send a picture of
+55:47 your apartment and it generates new
+55:51 decorations
+55:52 uh and uh so is the one I was talking uh
+55:56 earlier uh I got the impression far in
+56:00 realme it was the one I saw his project
+56:03 was working and I said okay it works for
+56:05 him why Why Not Me of arm why not me why
+56:10 don't I try it so I tried it
+56:13 okay cool but I wasn't as suspectful of
+56:16 course but uh because yeah a big
+56:19 audience and he was the first and he did
+56:21 it very well so but I guess also for
+56:24 uh for Peter like he maybe wasn't
+56:27 successful from the first attempt
+56:28 probably took a few trials before
+56:30 something took off right
+56:33 yeah yes he shared at least recently I
+56:37 think it was 70 projects that he did and
+56:41 I think he make a living of
+56:44 far of them maybe five I don't know
+56:48 okay so if you shoot many other arrows
+56:50 then a couple of them will hit the
+56:52 target right
+56:53 if sorry if you shoot a lot of Errors to
+56:57 your target then a few of them probably
+56:59 will hit it even if you're a bet Archer
+57:02 I think the more you build the more uh
+57:09 do you have any book or other resource
+57:12 that you can recommend to the listeners
+57:17 um
+57:18 about data there is a two words data
+57:21 sense that I really love
+57:24 um because it's uh it's a Blog where
+57:27 they share a lot of use case of data uh
+57:30 something I read really frequently and
+57:33 but I don't read much so I don't have a
+57:37 lot of books yet to recommend
+57:39 and like if you want inspiration about
+57:43 India king of course about startup.io is
+57:47 very cool okay so that's the resource
+57:51 you recommend to check
+57:54 um because I guess for when we will
+57:56 release this recording as a podcast
+58:00 about startup.io will already be live so
+58:04 we will also include the link in the
+58:05 description so that's the resource you
+58:07 should go to if you want to learn more
+58:10 about Indie hacking
+58:11 cool
+58:13 um
+58:14 anything else you wanted to talk about
+58:15 but we forgot to mention
+58:19 I think we we
+58:24 okay
+58:25 I guess we should be wrapping up so
+58:27 thanks Pauline
+58:29 um it was pleasure having you here
+58:31 um finally like we postponed the stream
+58:35 a couple of times finally we met
+58:38 um again we had some of the technical
+58:40 difficulties so this time we used
+58:42 streamyard but yeah it's the important
+58:45 thing yeah important thing is we
+58:47 actually did this finally so thanks for
+58:49 joining us today thanks for sharing your
+58:51 experience
+58:53 um as you said it's very important to
+58:55 share the experience even though some
+58:56 things didn't work maybe in the way you
+58:58 expected them to work but it's still
+59:00 important to share this so thanks for
+59:02 doing this
+59:04 thank you for inviting me it was very
+59:06 great to be to be here and it was my
+59:09 very first uh podcast to be honest Ah
+59:13 that's cool so you will remember this I
+59:16 did one but without the video okay
+59:19 second well it sounds fine okay then um
+59:23 thanks Pauline thanks everyone and see
+59:26 you soon see you goodbye

@@ -1,0 +1,1492 @@
+0:00 hi everyone Welcome to our event this
+0:01 event is brought to you by datelux club
+0:03 which is a community of people who love
+0:05 data we have weekly events and today is
+0:07 one of such events if you want to find
+0:09 out more about the events we have there
+0:11 is a link in the description go there
+0:13 click on that link and you will see all
+0:15 the events we have in our pipeline do
+0:17 not forget to subscribe to our YouTube
+0:18 channel this way you will
+0:21 get notified you will not miss any of
+0:24 the future events like this one today
+0:25 and last but not least very important we
+0:29 have an amazing slack Community if
+0:31 you're not there you're missing out join
+0:33 us and you'll get to hang out with other
+0:35 dating users
+0:36 during today's interview you can ask any
+0:38 question you want there is a paint Link
+0:41 in the live chat so click on this link
+0:43 ask your question and we will be
+0:46 covering these questions during the
+0:47 interview
+0:48 that is the introduction now I will open
+0:51 the questions we prepared for you
+0:55 no just one second
+1:01 it's okay
+1:03 I think I'm ready do you think he
+1:04 already
+1:07 yeah so
+1:10 well this week we'll talk about
+1:12 improving our world with analytics and
+1:15 we have a special guest today
+1:18 is a CTO at analytics for a better world
+1:22 non-profit organization aiming to use
+1:24 analytic techniques to contribute to
+1:25 sustainable development goals and she
+1:28 holds a professional doctorate degree in
+1:30 data science from Eindhoven University
+1:32 of Technology welcome
+1:35 thank you so much Alexi yeah so the
+1:38 questions for today interview for
+1:39 today's interview were prepared by
+1:41 Johanna Bayer thanks Johanna for your
+1:43 help and also I would like to thank
+1:45 Adonis tell us for introducing us and
+1:48 introducing me to parvathi so thanks a
+1:51 lot for that and let's start before we
+1:54 go into our main topic of improving our
+1:57 world with analytics let's start with
+1:59 your background can you tell us about
+2:01 your career Journey so far yeah so I
+2:04 started in uh 2007 in India I studied my
+2:08 bachelor's in electrical electronics
+2:09 engineering uh and after completing the
+2:13 bachelor program I really wanted to work
+2:16 in renewable energy sector because yeah
+2:18 with my background in electrical
+2:19 electronics it was a obvious choice for
+2:22 me to go into renewable sector because I
+2:24 was also very passionate about
+2:25 sustainable development at that point
+2:27 even though I didn't know the depth and
+2:29 width of this field
+2:31 um being a very young graduate so I did
+2:35 a masters in energy management and
+2:37 climate change technology I realized
+2:39 that collecting and using data is
+2:42 becoming more and more prominent in this
+2:44 field and I started learning a lot of
+2:46 modeling simulation data analysis
+2:48 specifically in the energy management
+2:50 sector
+2:51 um and I started working in India itself
+2:54 so I worked in research and development
+2:56 throughout uh in a few research
+2:58 institutes in India
+3:00 um predominantly working with solar
+3:02 photovoltix uh and in the data side of
+3:05 that I saw a really good job opportunity
+3:08 in Singapore at that point at the
+3:10 National University of Singapore where
+3:12 they were collecting a lot of data from
+3:14 cross-climatic photovoltaic systems and
+3:16 analyzing it so I jumped at that
+3:19 opportunity to learn more about data
+3:20 science and I applied and I got in so I
+3:23 worked there for almost uh more than two
+3:25 years
+3:26 um and then I realized data is not just
+3:29 usable in renewable energy sector it can
+3:32 be used for other fields in
+3:34 sustainability as well
+3:36 um and I realized I do not have a
+3:38 education in data science so I decided
+3:42 to pursue an education there as well so
+3:44 I moved to Netherlands I pursued a
+3:46 professional doctorate program in Tu
+3:48 Eindhoven and I'm based currently 921 in
+3:50 the Netherlands and after graduation I
+3:53 started working in the public sector so
+3:55 I started freelancing for World Bank in
+3:57 United Nations uh specifically undp in
+4:00 India on a series of sustainability
+4:02 projects uh leading the data part of it
+4:05 across Healthcare Transportation
+4:07 infrastructure and others and last year
+4:10 uh the University of Amsterdam together
+4:13 with some private sector players decided
+4:15 to set up this analytics for a better
+4:16 world Institute and they were looking
+4:18 for a CTO and uh thanks to my good luck
+4:23 I got the offer and last year I started
+4:25 working with them so I still continue to
+4:28 consult for both World Bank and un on a
+4:30 series of projects but
+4:32 um yeah majority of my time I work as a
+4:34 CTO there and that's basically my career
+4:37 Journey
+4:38 hmm interesting what do you do there as
+4:40 a city
+4:42 uh so uh basically what analytics score
+4:44 a better world does is we connect
+4:46 non-profits with research and uh private
+4:49 sector expertise so not just
+4:52 organization but with expertise so what
+4:54 we see is that many non-profits have
+4:56 questions that sometimes require deep uh
+4:58 research but in many cases they require
+5:01 uh things to be set up scaled uh
+5:04 developed tools
+5:05 dashboards visualization so for that but
+5:08 they internally may not have the
+5:10 capability so what we do at analytics
+5:12 for better world is try to make this
+5:14 connection and start projects for
+5:16 non-profits either a research projects
+5:18 or implementation and analytic projects
+5:21 um and uh I lead some of them I help in
+5:24 brainstorming idea thing coming up with
+5:27 digital Solutions also we try to
+5:29 understand the maturity of the
+5:30 non-profit and based on that we create a
+5:34 tech and a tool set because with not
+5:37 every non-profit you can directly go to
+5:38 machine learning and deep learning you
+5:40 need to start a smaller I trade fast
+5:43 because that's the only way we can drive
+5:45 digital transformation so we start from
+5:48 the beginning we ideate we brainstorm we
+5:50 understand the maturity we have a
+5:52 long-term partnership kind of a model of
+5:54 working with non-profits
+5:56 um and I deal with most of the technical
+5:58 stuff uh data part uh we have a managing
+6:01 director who looks at more the business
+6:03 development uh making Partnerships work
+6:06 uh way of working Etc
+6:08 um so I sometimes lead data projects
+6:10 sometimes lead brainstorming workshops I
+6:12 even create a curriculum for training
+6:15 and upskilling non-profits and others
+6:20 that's a lot of collaboration I'm trying
+6:22 to now uh
+6:24 so what you do is you connect
+6:29 non-profit organizations so you helped
+6:31 on profit organizations with analytics
+6:33 right and that means you set up all this
+6:37 technical infrastructure
+6:39 and even before that you do some
+6:42 brainstorming sessions with them right
+6:43 to understand what they actually need
+6:45 what kind of tools they need so maybe we
+6:47 can start with this brainstorming
+6:49 sessions like let's say a non-profit
+6:52 organization comes to you and says help
+6:54 us with digital transformation
+6:56 right so how do you start that how do
+6:59 you work with them what things you talk
+7:01 about in these brainstorming sessions
+7:04 um
+7:05 really we try to understand the
+7:07 different
+7:08 different levels of the organization so
+7:10 uh let's say we can summarize into three
+7:13 categories so we have uh Executives who
+7:16 made like uh long-term strategy plans
+7:19 for the organization then there are like
+7:21 managers or project leads or program
+7:23 leads or organization Department leads
+7:26 who uh put together teams who Define and
+7:29 deliver and Implement projects then
+7:31 there is Hands-On practitioners
+7:33 um who are actually implementing uh
+7:35 projects and not all non-profit project
+7:37 is a data project their goal is let's
+7:40 say to deliver humanitarian Assistance
+7:42 or to make sure that schools in the
+7:46 neighborhood have access to food
+7:48 electricity so their goal is totally
+7:50 different but they might have a data
+7:52 component in their project so during the
+7:54 brainstorm what we try to understand is
+7:56 these at these different levels in the
+7:58 organization what level of data maturity
+8:01 is already existing then we try to
+8:03 understand
+8:04 what are the things that is required in
+8:07 their strategy for them to grow in data
+8:10 science do they
+8:12 um really need to invest in resources do
+8:14 they need to invest in infrastructure
+8:16 like you said or do they need to invest
+8:18 in a long-term strategy and plan so we
+8:21 try to understand this through a series
+8:22 of interviews
+8:24 um with different uh groups within the
+8:27 team
+8:28 um or organization and then we try to
+8:31 come up with a roadmap but also not
+8:34 every non-profit is the same some
+8:36 non-profits come to us with a really
+8:38 good already defined problem statement
+8:41 then we help them implement the solution
+8:43 for it so
+8:44 um it totally depends on at what level
+8:47 of maturity the non-profit is and do
+8:49 they already have a problem statement
+8:50 yes or no so uh yeah I would say it
+8:53 depends on the nonprofit but this is
+8:55 this gives you a flavor of how those
+8:57 brainstormings work
+8:59 just curious if you I don't know if you
+9:02 can tell us or not maybe you can just
+9:04 pick an example without naming maybe
+9:07 organizations or if you can name that
+9:09 would be interesting and then a project
+9:11 that you did for them recently and would
+9:14 be interesting to see like how you took
+9:16 it like from uh you know from the start
+9:19 and then worked on that like Define this
+9:21 roadmap did this I did this
+9:24 brainstorming defined roadmap and then
+9:26 on the solution
+9:28 uh yes definitely I can give you one
+9:31 example so uh this is not a direct
+9:34 example of a project because yeah we
+9:36 cannot devil all the information due to
+9:39 privacy and others but uh we recently or
+9:42 last year uh later uh part of October we
+9:46 started an academy where we uh trained
+9:48 non-profits and it was a open free
+9:50 program where we invited non-profits
+9:53 from around the globe to apply uh for
+9:55 practitioners so we received more than
+9:57 340 applications from around the globe
+10:01 um and we from that we selected 43
+10:03 fellows or non-profit uh data
+10:06 practitioners to work with us uh and go
+10:09 through a eight-week program and in the
+10:11 first few weeks they did some data
+10:12 science courses then in the second half
+10:15 we did brainstorming with them in your
+10:18 non-profit let's try to identify a
+10:19 problem that you would like to solve uh
+10:22 and I will give one example uh from the
+10:24 United Nations environment program in
+10:26 Nairobi Kenya so we worked with the
+10:29 fellow from there uh who had a problem
+10:31 that in Kenya based management is a huge
+10:34 issue and what they were seeing on the
+10:37 ground was that there were not enough
+10:39 um waste collection points throughout
+10:41 the city uh they wanted to use analytics
+10:44 and optimization models to understand
+10:45 how can we improve this situation uh so
+10:48 what we did is we paired them up with
+10:51 mentors and who are already experienced
+10:53 data scientists and we paired them up
+10:55 with some of our trainers from
+10:57 University doing some optimization
+10:59 research because it requires
+11:01 mathematical modeling as well and they
+11:04 jointly did a very simple proof of
+11:06 concept pilot where they used data what
+11:09 is openly available to say population
+11:11 densities they overlaid the road network
+11:14 data and others to say this is where you
+11:17 need to establish more more race
+11:19 collection points but then it was an
+11:22 eight feet program of course and the
+11:24 brainstorming came up with a really
+11:25 solid idea to take forward and
+11:28 um now what we are doing is we are
+11:30 having a student plus a small team
+11:32 supporting them to scale this up because
+11:35 that was a proof of concept it worked
+11:37 fine as a test case but now we are
+11:39 working with them to implement it as a
+11:41 proper solution even using for example
+11:43 satellite imagery to identify a
+11:45 large-scale dumping grounds on ways to
+11:47 see maybe in those areas you need not
+11:50 just data solution but you might need
+11:51 more advocacy for Waste segregation and
+11:54 plastic waste collection so this is one
+11:57 example where we started with just a
+11:59 brainstorming and an idea we went all
+12:01 the way to actually now developing a
+12:03 solution and I just want to make this
+12:05 very clear the data part is just one
+12:08 part of the solution you have
+12:10 um the other parts like you need to have
+12:13 some officials you need to have advocacy
+12:15 for better data collection you need to
+12:18 have advocacy for on-the-ground training
+12:21 for people to actually do these
+12:23 segregation so the data part is helping
+12:25 the official preach there but there is
+12:28 much more beyond that to get the
+12:30 solution to work and scale
+12:32 um yeah that's uh and uh probably I
+12:36 don't know if I'm right maybe I'm wrong
+12:39 um but I expected the level of maturity
+12:42 when it comes to data in these
+12:44 organizations in the public sector is
+12:47 probably lower compared to I don't know
+12:49 a typical startup internet startup right
+12:52 a typical uh internet company is it the
+12:56 right observation what what kind of
+12:57 level of maturities maturity data
+13:00 maturity do you usually see in these
+13:02 organizations
+13:04 uh so
+13:12 so in terms of digital they have like a
+13:14 data science team uh they might already
+13:17 have data scientists working with them
+13:19 from other organizations they might have
+13:21 research teams but if you look at the
+13:24 overall landscape yes there is a
+13:26 resource Gap there is a lot of Need for
+13:30 data scientists in this sector and the
+13:33 sector also have huge competition with
+13:35 the private sector right because private
+13:36 sector have uh a lot of Need for data
+13:39 scientists as well and then the data
+13:41 scientists have an option to choose
+13:42 either to work in a public or a private
+13:44 sector company and um in many cases
+13:48 what I see is in a non-profit data is
+13:51 not their first order of business like I
+13:53 said before their main goal is not to
+13:57 collect and analyze data but their goal
+13:59 is something else and data is one part
+14:00 of it so um you need also data
+14:03 scientists who have that kind of
+14:04 affinity to work with them who
+14:06 understands the big picture and not just
+14:09 start developing machine learning every
+14:11 time they see some data set but to
+14:12 understand where to contextualize it so
+14:15 there is definitely a resource Gap and
+14:17 there is a huge demand so this is where
+14:20 I uh think I mentioned before from our
+14:22 analytics the academy that we set up
+14:25 um it was our first time setting up an
+14:27 academy and we are a new organization we
+14:29 do not have that much visibility yet we
+14:32 do have a lot of Partners and
+14:33 non-profits working with us but if you
+14:35 look at it we are relatively new so uh
+14:38 even then we received so many
+14:40 applications from Top organizations
+14:42 around the world so it really shows that
+14:45 there is a need and one more thing is um
+14:47 it is it was a free program and usually
+14:50 free educational programs the dropout
+14:52 rate is high and the retention because
+14:54 it's a eight week program there can be
+14:56 very less number of people who actually
+14:59 graduate but that Pro level we did not
+15:02 have at all because we really looked at
+15:03 the motivation and the fellows were
+15:06 motivated throughout the program and
+15:07 yeah we had really high uh retention
+15:10 rate and attendance plus the program
+15:13 completion rate so yeah I have to say
+15:16 extremely motivated uh resources who are
+15:18 existing but there is a huge uh skill
+15:21 Gap yes how do you solve this skill Gap
+15:24 because I imagine that like if you
+15:27 compare the public sector with a private
+15:29 sector
+15:30 that I suspect that the usual internet
+15:34 companies who are in the private sector
+15:36 they probably can pay more right and
+15:39 then it's kind of hard to compete
+15:40 because like people who I don't know
+15:42 graduate from University or people who
+15:45 are already experienced they might want
+15:47 to go there because already data
+15:49 maturity is maybe better there like
+15:51 there's better compensation
+15:53 and other things right so how do you
+15:56 actually
+15:58 I know manage to close this Gap manage
+16:00 to find people who want to work in the
+16:04 public sector who want to contribute
+16:07 um yeah so how do you do this
+16:10 uh what we see at least is that uh
+16:12 nowadays young people are extremely
+16:14 driven by uh purpose not always
+16:17 Financial benefits alone uh and uh I do
+16:21 not um I have worked both in private and
+16:24 public sector and I wouldn't speak for
+16:25 the rest of the world but uh sometimes
+16:28 you uh when you are working especially
+16:30 in public sector you get that sense of
+16:31 purpose much more than when you are
+16:33 working in a private sector company uh
+16:35 it's not always the same for all
+16:37 companies uh disclaimer here but um what
+16:41 we try to help uh and I think one
+16:45 organization alone cannot solve this
+16:47 problem it is a huge problem and we need
+16:50 Partnerships and we need like uh
+16:52 um like a combined effort from different
+16:55 organizations to actually achieve this
+16:57 but I can talk about what we try to do
+17:00 to help so we have
+17:02 um analytics for a better world courses
+17:04 uh both here at University of Amsterdam
+17:06 and MIT actually are assigns to impact
+17:10 co-director is currently in Boston
+17:11 giving that course so we do this course
+17:13 both at Bachelor level and Masters level
+17:17 and this is for let's say training new
+17:19 young people to know that there is this
+17:22 field so everybody is not aware that
+17:24 there is the stream that they can go uh
+17:26 after they do a programming data science
+17:29 and also to get them excited that the
+17:32 problems are actually quite
+17:34 mathematically challenging as well it's
+17:35 not straightforward problems that we
+17:37 have to solve it's quite
+17:39 um mentally and this one the one you
+17:42 mentioned about Waste Management right
+17:44 so it's like it's a very difficult
+17:46 problem like where do you exactly put
+17:48 this waste collectors right it's it's a
+17:51 difficult modeling problem
+18:02 I get really excited so uh I we as an
+18:05 organization want to inspire young
+18:07 people to realize that this is
+18:08 definitely possible and there are these
+18:10 interesting problems to solve out there
+18:12 secondly we also see that a lot of
+18:15 non-profits already have people working
+18:16 with data we want to upskill them and uh
+18:20 plus we want to get organizations also
+18:23 to invest in improving their data
+18:25 maturity because like you said before a
+18:27 lot of data scientists need to feel that
+18:29 they are working in a more mature
+18:32 organization to understand uh that how
+18:34 they can com like contribute and they
+18:36 need to have all the tools and
+18:38 techniques and support to develop these
+18:40 Solutions right so that's exactly why I
+18:43 mentioned these three levels so we have
+18:45 Executives we have managers or analytics
+18:47 translators uh very commonly used for
+18:50 then we have data science practitioners
+18:52 so at analytics for a better world we
+18:54 have have an academy and through Academy
+18:56 we last year hosted a program for uh
+18:59 practitioners which is Hands-On data
+19:02 science skills this year we will repeat
+19:04 that cohort plus we are adding a new
+19:06 course for analytics translators and in
+19:09 the pipeline for next year we have plans
+19:11 to or uh like host a program for
+19:14 executives as well but we need some more
+19:17 preparation time for it because for
+19:19 practitioners we have 8 clicks for
+19:22 analytics translators it's going to be a
+19:24 shorter program and for executives it
+19:25 have to be two days or so because they
+19:27 are getting them engaged for more so the
+19:30 curriculum requires more research and
+19:32 that's exactly what we are doing now we
+19:34 are planning to interview a lot of
+19:36 Executives who are working in the
+19:37 non-profits uh to develop their
+19:39 curriculum uh it is also difficult to
+19:43 set up a curriculum for them because if
+19:45 you look at I mean you know you probably
+19:46 know uh there is course that are udemy
+19:49 there is so much data science content
+19:50 out there but how do we tailor it for
+19:52 non-profits and how do we tailor a
+19:55 curriculum which speaks to them and
+19:57 their language it's also not very easy
+19:59 so we are also learning in the process
+20:01 last year was a success and we are very
+20:03 happy for that but we can still improve
+20:06 when we are working on doing much
+20:08 research into developing such a
+20:10 curriculum for these three levels within
+20:12 organizations so as I understood like
+20:15 maybe in summary you solve this skill
+20:17 Gap by education and you educate people
+20:20 at different levels you start with the
+20:23 students from universities like MIT and
+20:26 University of Amsterdam but then you
+20:28 also work with the companies up Skilling
+20:31 people there on all the three levels
+20:33 that you mentioned
+20:34 and I'm wondering
+20:36 so you create a lot of educational
+20:39 content is any of this content publicly
+20:42 available do you have like maybe courses
+20:44 from mat or university of Amsterdam
+20:47 somewhere in public
+20:50 so we are a huge proponents of Open
+20:52 Source uh as you can probably uh imagine
+20:55 that's the whole purpose of this uh so
+20:58 whatever we develop for example for the
+21:00 fellowship most of the lectures you can
+21:02 find in YouTube uh channel of ours uh
+21:05 where uh of course the interactive
+21:07 sessions and the mentoring cannot be
+21:09 captured completely but the courses are
+21:11 there many of the lectures from our uh
+21:15 from The Bachelors and Masters program
+21:17 they give workshops on also specifically
+21:21 about these for students uh we also like
+21:23 do a lot of Showcase of our projects uh
+21:26 for people to see and it is all
+21:28 available in open domain and if I can
+21:30 add one more thing not just about the
+21:32 academy but we also have a GitHub
+21:34 repository where whatever we are
+21:35 developing uh for
+21:38 um non-profits not the data of course
+21:40 the data is proprietary and it stays
+21:42 with the non-profit but the algorithms
+21:44 and models if we see it is applicable
+21:46 for other use cases we make them also
+21:49 openly available and and we try not to
+21:51 use proprietary Tools in general but in
+21:54 some cases we cannot Escape but in most
+21:58 of the cases we try to use open source
+22:00 and both knowledge and any deliverables
+22:04 or results we openly make up available
+22:06 that's really cool so please send us the
+22:09 links to these resources so we will
+22:11 include them in the show notes but I'm
+22:14 wondering maybe you can tell us more
+22:15 about these courses that you have with
+22:17 universities so like what kind of
+22:20 modules do you have there what what is
+22:22 the focus uh what do you teach there
+22:25 uh so I not teach myself we have a
+22:28 science to impact co-directors to
+22:31 professors so one is Professor Dimitris
+22:33 bertimus he's from MIT Sloan School of
+22:36 Management and then of course in
+22:37 Amsterdam we have Professor dick tell
+22:39 her talk so they are the ones who are
+22:41 leading let's say most of the
+22:43 educational programs in universities and
+22:45 we have other professors like Joachim
+22:47 romicho who also uh take sessions uh so
+22:51 it's not just us we have a big extended
+22:54 team behind us who does these courses uh
+22:56 just to give you in a nutshell what the
+22:58 courses
+22:59 um talk about if you look at the data
+23:03 analytics ascendancy metrics as we call
+23:06 it you usually start with descriptive
+23:08 analytics which is just knowing what is
+23:10 happening and you visualize you
+23:13 um gets a data clean all those things
+23:16 then you do diagnostic analysis where
+23:18 you see why things happen and what are
+23:20 the root causes then you can do
+23:22 prediction so you can forecast you can
+23:25 create early warning systems you can
+23:27 make machine learning models you can do
+23:30 some uh image detection geospatial
+23:33 analysis but the last step which is
+23:35 quite difficult and it is more impactful
+23:38 is optimization which is talking about
+23:41 how can we make things better so I will
+23:44 give you a very uh quick example of what
+23:46 we did with the World Bank um or what we
+23:49 are actually doing now also continuing
+23:51 to do with World Bank
+23:52 um
+23:53 we went to Timberland State together
+23:55 with World Bank to study how the current
+23:58 uh Hospital network intimoleste is and
+24:01 do people actually have access to
+24:03 Primary Health Care Centers so we make a
+24:06 map of all the population points we map
+24:08 the existing hospitals remap roads then
+24:11 we calculate the travel distances and we
+24:14 see at five kilometers 10 kilometers 15
+24:16 kilometers how many people are what
+24:18 percentage of people have access now
+24:21 this is uh descriptive basically you
+24:24 have just know the asset scenario but
+24:27 then we try to do some more analysis to
+24:30 see why it is so is it just the road
+24:32 network is it new hospitals are required
+24:35 but then the last step is the
+24:38 prescriptive part where we are actually
+24:40 using a mathematical model to say where
+24:42 do you place new Hospitals now that is
+24:45 the decision making point
+24:47 because uh knowing all the previous
+24:49 steps is necessary to make that decision
+24:51 but that model the optimization model is
+24:54 what will give you the decision making
+24:56 capability saying that put a hospital in
+24:59 this County or a sub-county to give
+25:01 access to X person more population and
+25:05 this is going to cost you so much if you
+25:07 had five more you go from 50 to 100 just
+25:10 example of course but giving that power
+25:13 is what we try to incorporate into all
+25:16 our training programs so how you can
+25:19 actually go from descriptive and
+25:22 diagnostic to this optimization model
+25:24 and how you can use mathematics or
+25:27 others to actually come up with that
+25:29 decision making capability uh I think
+25:32 that summarizes the core of all our
+25:34 training programs
+25:35 so from what I understood
+25:38 um like
+25:39 of course like you have multiple you
+25:41 have multiple training programs uh and
+25:44 they each of them have a different
+25:47 target audience
+25:49 right but the ones
+25:52 um in these universities MIT and
+25:54 University of Amsterdam who is the main
+25:57 target audience is it people who I don't
+26:01 know who study management or is it
+26:03 people who study data science and
+26:05 analytics Academy more technical other
+26:07 less technical
+26:10 um that's a good question they are
+26:12 technical uh so we have for example uh
+26:15 MBA in Big Data uh program that's an MBA
+26:18 program but they have a big data uh
+26:20 component so they do learn uh some of
+26:22 this we also have a business analytics
+26:25 course uh both here and uh at MIT the
+26:28 Sloan School of Management so uh these
+26:30 are the kind of students who take up
+26:32 these courses but we are also uh have
+26:35 been brainstorming it's not done yet
+26:37 it's on seeing if um Healthcare or
+26:40 education or these kind of programs can
+26:43 also have such components but uh yeah
+26:46 that's uh just an idea at this point uh
+26:49 but uh like you asked in universities
+26:51 most of our courses are targeting
+26:53 students who are learning business
+26:55 analytics or
+26:57 um me in Big Data so all links are both
+26:59 management as well as technical yeah so
+27:02 they already know analytics and you just
+27:04 show them the application of analytics
+27:07 from
+27:08 well for non-profits right foreign
+27:19 [Music]
+27:20 is that already no analytics you just
+27:23 throw them uh how they can apply this to
+27:26 solve real world problems
+27:28 okay that must be quite inspiring I
+27:31 imagine
+27:33 yeah yeah that's
+27:36 that's they are all very excited and we
+27:38 have a lot of
+27:40 their thesis as well so that shows that
+27:42 yeah they get do get inspired and they
+27:44 want to work with non-profits for their
+27:46 thesis
+27:47 and interestingly we also get uh
+27:50 requests from other students who are not
+27:52 really from these programs uh writing to
+27:55 us asking if they can do thesis with us
+27:57 and yeah we do encourage that as well so
+28:01 these are not just open to University of
+28:03 Amsterdam or MIT or any of your
+28:06 Affiliates let's say universities we do
+28:09 encourage other students also to come
+28:11 and work with us do their thesis
+28:14 um yeah to see how this actually uh
+28:19 I see this question coming up in the
+28:22 community in slack quite often people
+28:25 come and ask hey I need to write a
+28:28 thesis but I have no idea what to write
+28:29 about can you suggest good topics
+28:32 and yeah so maybe for these people for
+28:35 these students who come and ask these
+28:37 questions
+28:38 how can they contact you inside and find
+28:41 out how they can help with their skills
+28:44 how can they take part in this what's
+28:46 the best way of doing this maybe you
+28:48 have like a a publicly somewhere with
+28:51 possible topics
+28:52 or like how do they go about this
+28:56 yeah actually this is not that uh let's
+28:58 say
+28:59 straight forward because we usually
+29:02 Define it together with non-profits and
+29:04 the problem can evolve over time so it's
+29:06 not like there is a list somewhere and
+29:08 people just choose it have to be it is a
+29:12 bit more personal uh let's say
+29:14 um just to give one example so we have a
+29:17 student who says we want to do thesis
+29:18 with that with us then we know that are
+29:21 some of our non-profits have some
+29:22 pressing issues we send the student and
+29:25 the non-profit in a brainstorming
+29:27 together with us to define a problem
+29:29 statement which works for both of them
+29:31 because it's not just that it should
+29:34 match what the non-profit want it should
+29:35 also appeal to the students
+29:37 because they are investing a lot of time
+29:39 we wanted them to get excited about it
+29:42 as well and passionate so I couldn't say
+29:44 this that uh industrialized yet where
+29:47 they can choose plea but they can always
+29:49 reach out to us uh in our website we
+29:52 have a page specifically for researchers
+29:55 and students where they can just write a
+29:57 message we always get back to them or I
+30:00 think you have our LinkedIn
+30:02 um page you have my LinkedIn Roberts
+30:05 LinkedIn you can just reach out to us we
+30:07 are always
+30:08 um yeah open to all these uh we are not
+30:11 that busy that we don't have time to
+30:13 answer these so just reach out to us
+30:15 personally yeah so we'll make sure to
+30:17 include all the links you send us so
+30:19 what I understood if I don't know there
+30:21 is somebody a student in India or in
+30:24 Germany or any other country which is
+30:27 I don't know not from any University
+30:30 which is not MIT or university of
+30:32 Amsterdam if there is a student and if
+30:34 they want to write it this is with you
+30:36 what they do is they go to your website
+30:38 there is a section
+30:39 for students and researchers and they
+30:42 simply contact you right and then you
+30:43 take it from there
+30:45 sounds good yeah okay and I want to go
+30:49 uh back a bit so when we discussed your
+30:53 different uh educational initiatives and
+30:55 one things you one of the things you
+30:58 mentioned was that you want to improve
+31:01 data maturity of existing organizations
+31:03 and you do this by upskilling people and
+31:06 perhaps something more so I'm really
+31:08 curious how exactly you go about this so
+31:10 you come you join or you work with an
+31:12 organization and you see that the data
+31:14 maturity could be improved so what are
+31:17 your next steps what do you do for that
+31:20 uh so first we need to measure to
+31:22 actually improve right so we do some CD
+31:24 of interviews like I said we also have
+31:27 standard questionnaires standard formats
+31:30 of these uh measuring the maturity let's
+31:33 say and then using the template we say
+31:36 okay currently you are here in terms of
+31:38 people or you process in technology so
+31:40 it is not just about technology it's
+31:43 about the process and people as well
+31:45 um together with the management they we
+31:47 look at their strategy for uh next uh
+31:50 one year three year five year then we
+31:53 say that based on this strategy this is
+31:55 the road map so we help them create a
+31:57 roadmap for data and digital
+31:58 transformation so you need to upskill
+32:01 um people around these sectors these are
+32:03 the options for fundraising these are
+32:06 the training programs
+32:08 um also these are the tools that you can
+32:11 internally use to
+32:14 maximize operational efficiency because
+32:16 sometimes um we see that a process is
+32:20 not correct they have set up something
+32:22 but it needs some optimization there
+32:25 then we help them set it up so it's not
+32:28 just about training but it goes much
+32:30 beyond that
+32:32 um I can give one example without naming
+32:34 the non-profit is that we saw in a
+32:36 nonprofit that there is already a
+32:39 cloud environment setup but there were
+32:41 configurations which are which were
+32:43 actually
+32:45 um
+32:45 like not optimize that they are spending
+32:48 more money than what is necessary a lot
+32:51 of the unused uh resources or clusters
+32:54 were not turned off or uh they are still
+32:56 running which is running up costs so uh
+32:59 there also we have to first of all shut
+33:01 them down reduce cost but also come up
+33:04 with a standard operating procedure so
+33:07 that next time any team in the
+33:09 organization set it up they follow a set
+33:11 of criteria you know if you are no
+33:14 longer using it uh you this is what you
+33:16 have to do so it's not just about
+33:18 shutting it down optimizing you have to
+33:20 document it and make them aware that
+33:22 yeah these are these are the standard
+33:24 operating procedures so
+33:26 um and it is again I have to go back to
+33:29 what I was saying it's totally dependent
+33:32 on the non-profit sub nonprofits require
+33:35 more investments in people some more in
+33:37 technology
+33:39 um but yeah we kind of try to tailor it
+33:42 to the non-profit uh the whole process
+33:45 but usually maturity scan discussions
+33:48 and then we create a roadmap we help
+33:51 them implement the roadmap in stages so
+33:53 it's not like at once you come and
+33:55 change the whole organization it's a
+33:57 long process uh usually we have like
+34:00 short-term goals and long-term goals in
+34:02 the roadmap and we implement it in
+34:04 pieces so yeah you mentioned three
+34:07 aspects or three dimensions uh that you
+34:10 measured during the interview so people
+34:12 processes and Technology maybe can you
+34:16 give us a little bit more insight into
+34:19 what exactly you measure there like in
+34:21 terms of you know people processing Tech
+34:23 what exactly you look at
+34:27 like you said if the strategy of an
+34:29 organization let's say is to collect and
+34:32 analyze more health related indicators
+34:34 just one example they are working in the
+34:37 ground with Healthcare professionals and
+34:41 hospitals we look at are they collecting
+34:45 the right amount of data are they having
+34:48 the capacity to analyze this data so
+34:50 that is where resources that's the tech
+34:52 part or people part or process part it's
+34:54 actually uh let's start with the people
+34:57 part
+34:57 so if you look at people so they need
+35:00 people who know how to collect the right
+35:03 amount of data people who know how to uh
+35:06 structure the questions let's say or
+35:08 even set up that uh collection system or
+35:12 a mobile app to collect this data that's
+35:15 like researchers right like social
+35:17 scientists or uh people who have this
+35:20 background of doing uh
+35:23 you know asking questions and making
+35:25 sure they are not biased and all that
+35:26 stuff right yeah plus you need uh some
+35:30 technical experts or data science people
+35:33 who can help them create or a web app
+35:37 and connect it via an API to an
+35:39 analytics part so it have to be a team
+35:41 so including let's say people who can
+35:45 set up the questionnaire but also
+35:47 digitally collect the information put it
+35:49 into a
+35:51 server somewhere hosted so you need a
+35:53 team who can do all this right so that
+35:55 is people but
+35:57 um so if they have a team then they are
+36:00 already more or less mature if there is
+36:02 no team then you understand okay there
+36:03 is a gap because if you want to collect
+36:05 data how are you going to do this if
+36:07 there are no people who know how to do
+36:09 this right
+36:10 yeah uh and let's say there there are
+36:13 people who can collect data but there is
+36:16 no analytics capability who can analyze
+36:18 this data to make decisions then they
+36:20 are at a different stage in the maturity
+36:23 um but if they don't have any data
+36:25 collection at all then they are at a
+36:27 different stage if they do everything
+36:29 then they are totally at a different
+36:31 stage so there is a group groups of
+36:34 categories yeah I understand okay and
+36:36 then the process part what is there
+36:39 so in the process
+36:46 part so organizationally do they have
+36:49 all the support required
+36:51 um and are they actually looking at the
+36:53 Privacy security are they following all
+36:56 the best practices out there so you can
+36:59 create a form uh anybody can create a
+37:02 form but are they actually following the
+37:03 best practices
+37:05 um are they following the right order of
+37:09 things for example before collecting a
+37:11 form is there a clear guidance from the
+37:13 management or from the team who needs
+37:17 this data uh on why they want to use
+37:20 this data so you need to have that
+37:22 process clearly defined and in stages so
+37:25 uh yeah they know uh that they are doing
+37:28 the right thing at the right order so
+37:30 that would be the process
+37:33 so zero processes means low maturity
+37:37 right I've done if there are some
+37:38 processes then it's I don't know
+37:40 mid-level and if there is a process that
+37:42 explains everything like uh I think you
+37:45 mentioned the standard operating
+37:46 procedures right if they have these
+37:47 things in place if everyone knows how
+37:49 exactly to I don't know uh collect data
+37:53 or process data or I don't know delete
+37:56 things that are not used like what uh
+37:59 what are the sequences what is the
+38:01 sequence of steps you need to do then
+38:03 it's a good thread
+38:05 yeah it's you you are saying three three
+38:08 categories but there is much more it's
+38:10 not that crisp right it's fussy uh so uh
+38:13 yeah it is not just three levels there
+38:15 is like a whole level of maturity scam
+38:17 but you are right in the overall picture
+38:20 yes and then the tech part I guess also
+38:24 quite interesting uh you mentioned Cloud
+38:26 at some point right so what are the
+38:29 stages there in the tech dimension
+38:32 also in the text uh Ben I would say uh
+38:35 do they have let's say a collaborative
+38:37 kind of working uh style because
+38:41 um
+38:41 you will be working yeah like git of
+38:44 course but are they all working in their
+38:46 local machines having local copies of
+38:48 the data or do they have a centralized
+38:51 one source of Truth is uh everything
+38:53 accessible it's the tech configured
+38:56 properly uh today and also from the
+38:59 organizational side are they aware of
+39:01 the technologies that they require
+39:04 um from the management and we look at
+39:07 that as well like in terms of Technology
+39:10 uh not just whether they are using it
+39:12 but are they aware of what are the
+39:14 Alternatives and they have chosen
+39:16 something that is best and we look at
+39:18 their Tech stack we look at their
+39:20 analytics stack and see uh if something
+39:23 needs to be optimized so that will be
+39:24 technology
+39:26 and uh yeah I kind of wanted to use this
+39:30 as a segue to talk about different
+39:32 Technologies and analytical tools uh so
+39:36 what are the tools that you typically
+39:37 see or typically recommend your clients
+39:40 to use how do you go about
+39:44 you know suggesting these tools to the
+39:46 customers
+39:47 yeah
+39:49 that also depends on the maturity of the
+39:52 organization but
+39:53 but we have a few
+39:55 views let's say so if we are looking at
+39:58 data visualization we do not usually
+40:01 make decisions uh for the nonprofits but
+40:03 we give them the options and the pros
+40:05 and cons of each if they don't have
+40:07 anything let's say uh just let's take
+40:10 the example of data visualization So
+40:12 within the organization if they want to
+40:14 make dashboards many organizations
+40:17 prefer one platform which they already
+40:19 are using and they are aware of like
+40:21 power bi or Tableau so they already have
+40:24 capabilities to use it then we try to
+40:26 upskilling them in that itself because
+40:29 usually they have a shared platform and
+40:32 the organization have invested in it so
+40:34 we try to upskill them in it as an
+40:36 organization we do not have priorities
+40:38 for any technology to be very fair we
+40:42 look at the non-profit and see if they
+40:45 already have capabilities in something
+40:46 then we try to identify from our side
+40:50 people who can help the non-profit in
+40:52 those Technologies and when you say
+40:55 Technologies um we also try to tell them
+40:58 if there are open source Alternatives or
+41:01 um
+41:02 tools like for example python or others
+41:06 that are very easy to configure for a
+41:08 data scientist but then connect them to
+41:11 good visualization and dashboarding so
+41:13 that the managers and Executives don't
+41:15 get too overwhelmed with the results
+41:18 that they don't they are afraid to take
+41:20 decisions so
+41:21 um from the technology point of view we
+41:23 see a lot of dashboarding because many
+41:26 organizations are at the mature let's
+41:28 say uh beginning their transformation
+41:30 Journey so they are still exploring and
+41:33 visualizing data and when we need to do
+41:36 machine learning or predictions we
+41:37 prefer python or R depending on the
+41:41 organization and then when we have to
+41:43 develop a product and deploy it we
+41:46 suggest them different Cloud options
+41:48 like Azure AWS gcp and then we see which
+41:52 fits the organization best and many
+41:54 non-profits already have such
+41:57 environment set up then we try to stick
+41:59 with that and go with that instead of
+42:01 changing the entire thing because like I
+42:03 said we do not really have any
+42:04 priorities and
+42:07 um
+42:07 just to add from the technology point of
+42:10 view we see a lot of non-profits have
+42:12 different types of data so it's not
+42:14 always like just
+42:16 um Excel file with so many rows or data
+42:19 frames they have a lot of geospatial
+42:21 data they have a lot of Text data so uh
+42:24 to handle these you might they might
+42:26 need different Technologies for example
+42:28 uh for geospatial data they might need
+42:31 more knowledge in platforms like qgis
+42:33 and for text mining in Python itself
+42:36 they need to know more about packages
+42:38 which are especially dealing with text
+42:41 so um yeah we try to identify that as
+42:45 well and then suggest them a tech stack
+42:48 which will fit their requirements
+42:52 yeah so just to maybe summarize uh you
+42:55 mentioned multiple categories you
+42:56 mentioned databilization it could be
+42:58 tools like power bi Tableau some open
+43:01 source Alternatives then he also
+43:03 mentioned machine learning and then you
+43:05 suggest to go with things like python or
+43:08 python packages and R then you also
+43:11 mentioned Cloud this is as a way to
+43:14 deploy this machine learning Solutions
+43:16 and then they mentioned like Azure and
+43:18 others
+43:19 what are the other categories uh I think
+43:22 you mentioned like the this is a few
+43:23 specific examples like geospatial data
+43:25 Text data and then for them you have
+43:27 like specific tools do you have any
+43:29 other categories like I don't know when
+43:32 it comes to maybe collecting data or
+43:34 storing data uh
+43:36 or something like that
+43:41 so we usually see these categories
+43:44 currently in the non-profits like uh
+43:46 dashboarding visualization we have uh
+43:49 python R uh and of course for deployment
+43:53 but uh by other Technologies do you mean
+43:56 like uh like defining Technologies or
+43:59 defining categories what exactly what
+44:01 categories what kind of categories are
+44:03 there categories are there because I
+44:04 imagine that you need to keep the data
+44:06 somewhere maybe you have like some data
+44:08 warehousing Solutions or maybe you need
+44:10 to collect data you need some Data
+44:12 Tracking Solutions or I don't know like
+44:15 what are the categories you look at
+44:17 uh so data warehousing and let's say
+44:20 storing data there also we uh a lot of
+44:24 non-profits use like open uh prefer
+44:27 let's say open platforms and there are
+44:30 solutions specifically made for
+44:32 non-profits so they tend to use that
+44:35 um and we see a lot of like postgresql
+44:38 databases because yeah it's uh open uh
+44:42 we also see like copper toolbox being
+44:44 used actually it is a digital public
+44:45 good it is meant for non-profits to
+44:48 collect data in structured formats even
+44:51 including images and store it securely
+44:54 and they a Kobo toolbox have a
+44:56 humanitarian section which deals
+44:59 specifically for non-profits and it is
+45:01 registered in the digital public good
+45:03 registry
+45:05 um so there are specific tools that
+45:08 non-profits do use and prefer and they
+45:10 are specifically targeted and made for
+45:12 them which is amazing and they all
+45:15 follow like uh what we call the nine
+45:17 principle of digital development uh yeah
+45:20 that's one of the resources that maybe
+45:22 the viewers are also interested to see
+45:24 it's about
+45:26 um developing solutions that can scale
+45:28 for specifically in the public and
+45:30 non-profit sector so uh yeah there are
+45:33 there are tools like a cover toolbox uh
+45:36 that are uh very frequently used and uh
+45:40 also uh tools like like I said for a
+45:43 data collection and databases they use
+45:46 like postgresql quite frequently as well
+45:50 then wondering what kind of profiles
+45:53 for these tools I imagine that you need
+45:55 different profiles I don't know data
+45:57 analysts would be usually more involved
+46:00 in data utilization visualization and
+46:03 doing and like using these data storages
+46:06 databases like postgres to analyze the
+46:08 data Maybe also collect data then
+46:11 perhaps the data scientist profile uh
+46:14 the data scientists are more involved in
+46:17 I don't know machine learning training
+46:19 models also getting data deploying them
+46:21 to the cloud
+46:23 um right do you have other profiles like
+46:25 I know data Engineers or deployment
+46:28 Engineers or some other other people who
+46:32 are also in the data world
+46:36 um so it just also totally dependent on
+46:39 the non-profits but many of them that we
+46:41 see if they are at the lower levels of
+46:44 maturity you see a lot of unicorns let's
+46:46 say they try to do everything because
+46:49 like there is a resource Gap right so
+46:52 there is and a lot these these words
+46:55 right data scientists data analysts data
+46:57 Engineers Architects Cloud Engineers ml
+47:00 Ops these are all like
+47:02 somehow merged together that is not a
+47:05 clear definition I think even in private
+47:07 sector companies not always so
+47:10 um yeah it is not always very clear what
+47:13 roles are there but if you look at a
+47:16 particular project I can tell you there
+47:19 will always be
+47:21 um in a team
+47:23 there is always people who are let's say
+47:25 collecting analyzing data
+47:29 um there is always like uh people who
+47:31 try to make business decisions out of
+47:33 data right
+47:35 um who are trying to uh understand what
+47:38 these models are saying in the and
+47:40 putting it into the context of
+47:41 operations and usually uh in non-profits
+47:45 we see a lot of research teams who are
+47:48 looking at it from a totally different
+47:51 like research perspective because they
+47:54 need to know what more data have to be
+47:56 collected and what more use cases can be
+47:59 developed so
+48:01 um we see a lot of data science profiles
+48:04 but to be very fair most of the
+48:08 non-profits are not at the stage where
+48:10 they are deploying like large scale
+48:12 machine learning models on cloud it it's
+48:14 just not there yet at least with the
+48:16 non-profits we work with or the
+48:18 development sector organizations we work
+48:20 with this is not what we see most of
+48:22 them are still trying to figure out
+48:25 um or defining key performance in Gators
+48:28 so it's still descriptive some cases
+48:32 predictive just one example is uh early
+48:35 warning system so you might have heard
+48:38 the Great Horn of Africa have had the
+48:40 biggest drought in many many years and
+48:43 how can you predict or give early
+48:46 warning for these kind of situations or
+48:48 governments can act way well in advance
+48:50 so early Warning Systems a lot of um
+48:53 prediction on whether climate using
+48:56 satellite based observations and
+48:58 historic data so a lot of these things
+49:00 are done
+49:02 um but when it comes to deploying to
+49:04 scale like Large Scale Models I do not
+49:07 see a lot of such applications so I
+49:09 don't see right now like a lot of mlops
+49:12 cloud architects in this sector yet I
+49:15 understand well the reason I'm asking
+49:18 about this is right now we have a course
+49:21 it's happening right now we are on week
+49:23 four the course is about data
+49:25 engineering so in this course we show
+49:28 how to use
+49:30 different tools for collecting storing
+49:33 and processing data so the focus is more
+49:37 like how do you move data from one place
+49:38 to another place in a reliable and
+49:41 repeatable way reproducible and then
+49:44 like as a part of the project they will
+49:46 need to do a dashboard
+49:48 and yeah so what I want to ask is
+49:53 like people with this kind of profile if
+49:55 they want to take part in some of your
+49:57 initiatives
+49:59 um how can they do this or do you even
+50:01 meet people with these kind of skills
+50:05 uh we do need them definitely but it is
+50:09 not like uh nonprofits are going to
+50:11 directly hire them because it's not like
+50:13 there is a constant source of not all
+50:16 nonprofits let's say there are some who
+50:18 require this but because there is no
+50:20 constant source of these kind of
+50:22 projects right but we do see uh some of
+50:26 these applications and uh I can give you
+50:28 one very simple example so we worked
+50:30 with a researcher who have developed a
+50:32 very amazing solution for smallholder
+50:35 farmers in Brazil
+50:37 um and what we want to do is take and
+50:39 it's a very impactful model they have
+50:42 demonstrated on the ground but how do
+50:44 you build that gap between research and
+50:46 then scaling it and deploying it is we
+50:49 want to create like a
+50:50 um like a mobile application that will
+50:53 fetch all the required data and process
+50:55 it immediately give results so that they
+50:58 can immediately act on it and this have
+50:59 to happen in uh
+51:01 um because it's not just a visualization
+51:04 we are running machine learning models
+51:06 at the back to give those results right
+51:08 so we are we were looking for the right
+51:11 set of people to support such a project
+51:14 another example uh I told you in uh
+51:17 tumor estate uh we went and we were
+51:19 optimizing for the location of
+51:21 healthcare facilities right and we see
+51:23 that a lot of these use cases
+51:25 recurrently appear for example
+51:27 um we work together with the World
+51:29 Health Organization during the covet
+51:31 pandemic in Nepal and they wanted to
+51:34 know where should we place
+51:36 um uh covet test labs
+51:38 so it's a similar problem to what himala
+51:41 state did but the data stack is
+51:43 different so we are actually building a
+51:45 web application where in the back end
+51:47 these optimization models will run and
+51:49 give you results depending on the data
+51:51 and the country that you feed and for
+51:53 bigger countries it is actually a very
+51:55 resource intensive problem because if
+51:57 you look at Vietnam we try to do this in
+51:59 Vietnam for uh Hospital Healthcare
+52:01 facility access the population is fueled
+52:04 it's a large area to run this
+52:05 optimization model it requires a lot of
+52:07 resources right so um yeah we do need
+52:10 machine learning Engineers for specific
+52:13 projects and we need these deployment
+52:15 capabilities and we always are looking
+52:18 for uh yeah such people who want to join
+52:21 this Mission but also be aware that this
+52:24 is not like constantly we are looking
+52:26 for these resources it comes when such
+52:28 interesting projects come come to us do
+52:32 you have any open positions right now
+52:35 um
+52:36 not necessarily data engineering but
+52:38 data analytics too because there is a
+52:40 question uh if you have any if there
+52:44 will be in the future any open positions
+52:45 but I guess you can also talk about if
+52:48 you have them now
+52:49 right now no not as far as uh not until
+52:54 today morning say things change very
+52:56 fast but um what we also try to do is we
+53:00 have a list of people and resources who
+53:03 we can tap into so when a project comes
+53:05 we can reach out to them but also like I
+53:08 said we have a lot of private sector
+53:09 organizations who are our partners so
+53:12 one of the examples is our Tech and otic
+53:15 is one of the founding partners of
+53:17 analytics for better world together with
+53:19 University of Amsterdam they are
+53:21 mathematical they are a mathematical
+53:23 optimization company we also have are
+53:26 currently working with a lot of other
+53:27 organizations who support us and when
+53:29 such requirements come we first reach
+53:32 out to them and see do you have
+53:34 resources who can work on this project
+53:35 for four months or five months or
+53:38 sometimes one week or two week depending
+53:40 on the project of course
+53:42 um but we would really love to welcome
+53:44 others who would like to contribute as
+53:47 well and see uh if we can work together
+53:49 and and yeah I'm always looking for
+53:52 opportunities to connect with people who
+53:55 are inspired to join us
+53:58 and this is the same question the first
+54:00 part of this how many data and this
+54:02 current currently work at analytics for
+54:05 a better world
+54:06 uh like I said we are very new last year
+54:09 we
+54:13 saw let's say four people core team so
+54:18 we have managing director Robert I am
+54:20 the CTO we have Professor dick then her
+54:22 talk and Professor Dimitris from uh they
+54:25 are co-chairing or they are called signs
+54:28 to impact co-directors and they lead
+54:30 research Academy and others
+54:33 um we also have other data scientists
+54:35 who are working like kind of full time
+54:37 with us one is Claudia she's based in
+54:40 University of Amsterdam uh we have Brit
+54:42 who's a PhD student we also have other
+54:45 researchers supporting us but we are a
+54:47 very small core team but we have a huge
+54:49 extended team of researchers from
+54:52 universities uh we have supporters from
+54:55 our
+54:56 organizations that are supporting us so
+54:59 just to give an example during the
+55:01 academy we had more than 20 uh
+55:05 professionals from private sector giving
+55:07 courses so all of them came from our
+55:10 network from the people who are in
+55:13 organizations and if I can look at the
+55:15 number of projects we currently have
+55:17 around
+55:18 um running parallely like four or five
+55:21 and all of them are um staffed with like
+55:24 three or four but it's not always data
+55:27 scientists we have sometimes data
+55:28 scientists data engineers and others so
+55:30 we do have an extended Network and a big
+55:33 team but our core team is very small
+55:37 yeah yeah thanks and then we have a
+55:39 question from Adonis but I should have
+55:42 asked this question earlier so I don't
+55:44 know if you'll be able to answer it in
+55:46 two minutes but we can try so the
+55:48 question is which are the most important
+55:51 factors that help organizations become
+55:54 more data driven organizations that you
+55:56 worked with and the organizations that
+55:58 uh perhaps start from zero from zero
+56:02 data maturity and then eventually become
+56:04 data driven so what are the most
+56:06 important factors that help them
+56:09 um I think long-term strategy to include
+56:12 data in there uh portfolio because
+56:16 um
+56:17 the U.S what are the factors if I have
+56:20 to explain that two minutes is not
+56:22 enough so I'll tell you what is the main
+56:24 factor that we see is that uh
+56:26 organizations which have a strategy of
+56:29 um and and understanding that data is
+56:32 required are motivated to come up with
+56:34 projects and come want to upskill their
+56:36 uh people to become more uh data
+56:39 intensive in their work and they need to
+56:42 make the right Investments and for
+56:44 Investments you need drive also from the
+56:47 organization perspective and like I said
+56:50 before the Investments have to be in
+56:52 three steps like people process and it's
+56:54 not steps but in three sectors people
+56:57 process and technology and understanding
+57:00 this as an organization
+57:02 um is the most important thing because
+57:04 we see a lot of value in data and
+57:06 analytics being added from into the
+57:08 public sector organization and we
+57:10 believe
+57:11 truly uh from what we have seen in the
+57:13 last year and uh non-profits can benefit
+57:16 equally from data but uh as an
+57:18 organization they know most of them know
+57:21 that data is important but do not have
+57:24 made it a strategic part of their goal
+57:27 yet uh in many cases so I think that
+57:30 that Clear Vision and strategy to
+57:32 include data is the first step after
+57:35 that comes all the Investments on people
+57:36 process technology and
+57:39 um clear understanding of uh why and how
+57:43 data can be used and that's what we try
+57:45 to do with our academy uh yeah making
+57:48 them realize how can data help that's
+57:50 not always very obvious I think and you
+57:53 don't immediately see results right
+57:55 especially in non-profits you cannot see
+57:57 the Health Care system in a country
+57:59 improving in one day it takes years to
+58:02 show real impact of course there are
+58:04 output and outcomes from programs and
+58:07 upskilling initiatives but to see the
+58:09 change it takes time so to have that
+58:11 patience and long-term vision is equally
+58:14 important and thanks for the question
+58:16 it's a really good good one but I wish I
+58:19 had more time to yeah
+58:21 asked that a bit earlier uh maybe it's
+58:25 the last one so this is usually the
+58:27 question I ask everyone is if you have
+58:29 any good book or resource that you can
+58:33 recommend to the listeners I think one
+58:35 thing is you mentioned all this
+58:37 educational initiatives that you have
+58:39 that would be a great resource that you
+58:41 probably can recommend that you will
+58:44 recommend to the listeners is there
+58:46 anything else that you would add to that
+58:49 um resources
+58:51 for me I always read a lot of technical
+58:54 stuff so I follow like for example I
+58:56 spend every day every day at least 30
+58:59 minutes and towards data science it's
+59:01 very uh Tech but I really love it and on
+59:05 books uh I can recommend a book that I
+59:08 just finished reading it's called the
+59:09 culture map
+59:10 um it's about how uh different people
+59:13 from across the world because we usually
+59:16 live in our bubble we know what is
+59:18 happening in in our neighborhood we know
+59:19 what is happening in TV in media but a
+59:22 world is so much bigger and different
+59:24 cultures uh you have to understand the
+59:26 context how people think uh lead and get
+59:29 things done it's actually a really good
+59:31 book called the culture map
+59:33 um and I am also currently in one of the
+59:37 books that I'm reading is called The
+59:40 Seven Habits of Highly Effective People
+59:42 I find it also very interesting I do
+59:45 have a lot of Technical Resources uh not
+59:47 just the our resources let's say from
+59:50 analytics for a better world but others
+59:52 as well that could be interesting I will
+59:54 share this across with you and maybe you
+59:56 can send it to your subscribers I think
+59:58 it will be useful we will definitely
+1:00:00 include all the links that all the
+1:00:03 resources that we talked about in this
+1:00:05 uh interview and I think there are quite
+1:00:08 a few of them in the show notes in the
+1:00:10 description and yeah with that I guess
+1:00:13 uh we don't we are a bit over time so
+1:00:16 thanks a lot for joining us today for
+1:00:19 sharing your experience expertise with
+1:00:21 us thanks everyone for joining us today
+1:00:23 for asking questions and yeah it was fun
+1:00:26 thanks
+1:00:27 thank you so much for the opportunity it
+1:00:29 was really good chatting with you as
+1:00:30 well yeah
+1:00:32 yeah have a great weekend everyone

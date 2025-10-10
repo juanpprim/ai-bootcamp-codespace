@@ -1,0 +1,1975 @@
+0:00 it's actually i have a slightly updated
+0:03 uh slide deck so this is uh exclusive
+0:06 material now
+0:07 so in these pictures by the way my wife
+0:09 uh drew them
+0:11 like these pictures that uh now their
+0:14 website so
+0:18 okay yeah let's start so thanks everyone
+0:21 for joining us today so this event is
+0:23 brought to you by data talks club which
+0:25 is a community of people who love data
+0:27 we have weekly events and today is one
+0:30 of such events so we have
+0:31 interviews on friday and we have
+0:33 webinars on tuesday
+0:35 if you want to find out more about
+0:36 airlines you can go to our website
+0:39 which you can also find in the
+0:41 description section which is data talks
+0:43 club slash events
+0:44 and you can find all the events that we
+0:46 uh
+0:47 plan um for the next weeks and also on
+0:51 the page you'll find a link to our
+0:52 google calendar
+0:53 if you don't want to miss any events you
+0:56 can just
+0:56 subscribe to our calendar and you will
+0:58 get notified about
+1:00 all the events or if you don't like and
+1:02 you just want to subscribe to individual
+1:04 events you will find all the events
+1:06 in the events page
+1:09 also to stay up to date with everything
+1:11 in our channel
+1:13 you should subscribe it so just click on
+1:15 the subscribe button
+1:17 and last but not least if you haven't
+1:20 joined our slack
+1:21 please do it's uh awesome there we talk
+1:24 about
+1:24 a different data related topics if you
+1:27 have any questions during today's
+1:30 conversation you can ask any question
+1:33 in slido so there is a pinned link in
+1:35 live chat
+1:36 so you just go there you click on this
+1:38 link and you ask any question you want
+1:40 and we will cover these questions as we
+1:43 um as we go and last thing
+1:46 i asked rp to t to keep an eye on our uh
+1:51 events q a channel so i know that many
+1:53 of you are watching this
+1:56 the events in recording and you
+1:59 do not get a chance to ask questions so
+2:02 if you
+2:03 watch this event in recording and you
+2:05 want to ask something you can go to our
+2:06 slack
+2:07 events q a channel and ask your question
+2:09 there
+2:10 and that's all for the introduction um
+2:14 well we can start are you ready
+2:17 yeah absolutely
+2:21 so i have my notes
+2:25 so this week we'll talk about becoming a
+2:28 data led professional
+2:30 and we have a special guest today arbit
+2:33 and for those who don't know arbit
+2:35 actually is one of the first people who
+2:37 joined data talks club i think uh maybe
+2:40 you were one of the first 10 or
+2:41 20 something like this and i remember
+2:43 asking you some tips
+2:46 because your title is uh
+2:49 checked your linkedin and it was uh
+2:52 something about
+2:53 growth and uh community community and of
+2:56 course
+2:56 i immediately became interested and
+2:58 started to ask you
+2:59 different questions about hey how do i
+3:01 grow the community
+3:03 and arpet is also a founder the founder
+3:06 of data led academy which is at the go
+3:08 place for any
+3:09 everybody who is interested in data who
+3:11 wants to learn how to work with data how
+3:13 to
+3:16 to to learn everything about data and
+3:19 you
+3:20 want to ask any data related question uh
+3:23 and uh this is the place to look for
+3:26 answers so welcome arbit
+3:28 yeah thank you uh thanks alexey for the
+3:30 for the intro excited to be here
+3:32 uh thanks for having me i think uh data
+3:34 talks is a really great community
+3:36 um excited to be part of it and just to
+3:39 let people know that data academy is not
+3:41 exactly a
+3:42 community it's not a slack community but
+3:44 essentially it's a place to uh
+3:46 learn how to work with data so we have
+3:47 like a lot of free learning content
+3:50 um and then we're also creating a
+3:52 repository of you know common questions
+3:53 that people have about
+3:55 tools technologies people and processes
+3:57 related to data so you can like
+3:58 go and find uh these these uh you know
+4:01 answers to those questions there
+4:03 um so excited to be here thanks again
+4:06 and
+4:06 you also have a podcast which you yeah
+4:09 yeah
+4:09 so we have a podcast called yeah it's
+4:12 actually called the datalit professional
+4:13 uh so you can check out the podcast on
+4:16 our website data.academy
+4:18 podcast um and we basically talk about
+4:20 different data related topics
+4:22 uh primarily focused on topics that are
+4:25 relevant for
+4:27 uh i like to use term less technical
+4:29 people people who are not exactly
+4:31 uh data engineer the data analysts of
+4:33 course they can also benefit from the
+4:35 content but our core audience is
+4:36 basically
+4:37 uh people working in product growth and
+4:39 operations roles or marketing
+4:40 uh who want to basically learn about
+4:42 data and like you know different data
+4:43 related topics
+4:44 um and typically you know our goal is to
+4:47 answer
+4:48 again common questions that people have
+4:50 um about
+4:51 about data yes
+4:55 so before we go into our main topic of
+4:57 uh datalet of becoming datalit
+5:00 uh maybe we can start with your
+5:01 background um can you tell us
+5:03 about your career journey so far yeah
+5:06 absolutely yeah so so basically
+5:08 i've been working in the technology
+5:10 industry for for pretty much the whole
+5:12 my whole career but i've sort of you
+5:14 know worked
+5:15 in in different types of companies uh i
+5:18 really got into the data space uh
+5:20 when i when i i was basically working as
+5:22 a consultant and you know i was building
+5:25 a lot of integrations for smbs um and
+5:28 that led me to to integra maths i was
+5:30 a user of integramer integramer is a is
+5:32 an ipod solution like
+5:34 like work auto tray zapier etc
+5:37 and i was like one of the earliest
+5:39 people who joined the integromat team
+5:41 i actually built the integrometric
+5:42 community and then eventually i led
+5:44 growth at integromet um i moved on from
+5:48 integromet
+5:48 uh soon after i got acquired late last
+5:51 year
+5:52 uh since then i worked with a few other
+5:54 companies
+5:55 um basically again companies in the data
+5:58 space solving different
+5:59 problems in the you know customer data
+6:02 infrastructure
+6:03 sort of space um and and um and now
+6:06 i'm building data led academy well but
+6:08 also you know working with
+6:10 a few data companies helping them with
+6:12 their content and community strategy for
+6:14 me
+6:14 content communities is really uh is all
+6:17 i've been doing
+6:17 you know like integra so uh content
+6:20 community
+6:21 is what helped us grow um really really
+6:23 fast
+6:24 and um and and it's really important for
+6:27 for
+6:27 uh you know especially data companies to
+6:30 build
+6:30 their presence across different
+6:32 communities where
+6:34 where their prospects customers partners
+6:36 hang out communities like datatalks.club
+6:39 um you know instead of building a new
+6:41 community a lot of people are building
+6:42 new communities but
+6:43 i believe that there are already a lot
+6:45 of great communities
+6:46 and um and that's why i i like to you
+6:49 know be active
+6:50 in existing communities um and and
+6:53 that's
+6:53 that's the idea behind netanyahu academy
+6:56 to not
+6:57 build another community but but
+6:58 basically sort of
+7:00 create a place where people can um get
+7:03 get concrete it's expert actionable on
+7:05 uh actionable answers expert unbiased
+7:08 actual
+7:08 answers to their questions uh a lot of
+7:10 these answers are basically answered by
+7:12 experts
+7:13 uh who are from these communities so
+7:16 yeah that's that's a bit about
+7:18 my background
+7:21 yeah thanks uh so as uh
+7:24 so this term growth and this is
+7:26 something you did
+7:29 within the grammar so i was curious what
+7:32 actually growth managers do
+7:33 and when i checked it's very uh
+7:37 it's uh very dated even i don't know how
+7:39 to describe but they use a lot of data
+7:41 so
+7:41 um judging like when i look at the title
+7:44 growth manager
+7:45 or growth market marketing it doesn't
+7:48 sound
+7:49 too data related to me but when i
+7:51 actually read and they
+7:52 they run a lot of baby tests they need
+7:54 to make a lot of decisions all these
+7:55 decisions are based on data uh
+7:58 yeah so i guess this is how you um
+8:01 you ended up creating this uh datalit
+8:04 academy right so because you saw how it
+8:06 is useful
+8:07 uh okay yeah yeah without data you can't
+8:10 really
+8:11 i mean there's only so much you can do i
+8:13 shouldn't say you can't do anything but
+8:14 there's only so much you can do
+8:16 uh like uh in simple terms like if you
+8:18 don't have data
+8:19 uh when you're building growth
+8:21 experiences whether it's for
+8:23 you know acquisition activation uh or
+8:25 retention or whatever
+8:26 you're without data you'd be forced to
+8:28 build linear experiences you know like
+8:31 every customer irrespective of their
+8:33 behavior
+8:33 uh they will go through the same path
+8:35 right but when you have data you can
+8:37 actually create
+8:38 personalized experiences where customers
+8:40 are prospects will
+8:42 see content or interact with your
+8:44 product
+8:45 based on you know where they come from
+8:47 what their industry is and
+8:49 and how they basically interact with
+8:50 your product uh so that is the main
+8:52 difference
+8:53 and and it's very hard for for growth
+8:55 professionals or even product managers
+8:58 to to really you know uh build
+9:01 personalized customer experiences across
+9:04 different custom you know across
+9:06 different
+9:07 touch points and channels without having
+9:10 access to data
+9:11 and having access to data in the tools
+9:13 that they use
+9:14 it's not just enough to have access to
+9:16 data in a data warehouse or a bi tool
+9:19 it's more important than ever to have
+9:20 access data in the tools that they use
+9:22 to build and craft these uh customer
+9:25 experiences
+9:27 so tools that marketers use to make
+9:30 different decisions right
+9:32 because they cannot just go and uh or
+9:34 most of
+9:35 them probably i don't know um but most
+9:37 of the marketers i worked with they
+9:39 cannot just go and
+9:41 run a sql query in uh yeah in a database
+9:44 right saying they need help for that
+9:47 yeah marketers growth professionals
+9:48 product people operations people
+9:51 they they need not really know how to
+9:53 write sql of course if they know it's an
+9:55 advantage but uh um there are a lot of
+9:58 great tools out there that allow you to
+9:59 you know
+9:59 visually query the data and so if the
+10:02 data is made available then
+10:04 then they can easily sort of use the
+10:06 data uh for
+10:07 for their their uh for for whatever
+10:10 they're doing so whether it's
+10:11 uh uh creating in-app experiences or
+10:15 or creating lifecycle email campaigns or
+10:18 um you know doing ap tests like you
+10:20 mentioned um
+10:22 or doing like an sms campaign for
+10:24 example
+10:25 um irrespective of the channel that
+10:27 they're using to
+10:28 engage with customers they can sort of
+10:30 use
+10:31 this data if the data is available in
+10:33 the tools that they use
+10:34 um yeah
+10:38 so what is datalet so uh
+10:41 i think you have a definition right so
+10:43 what is that
+10:44 yeah yeah so my definition of data layer
+10:47 is basically
+10:48 a data like professional data led person
+10:50 is someone who
+10:51 who understands where where data comes
+10:53 from what it looks like
+10:55 um they're able to question its accuracy
+10:57 you know not just blindly believe
+10:59 the data that they see so if they
+11:00 understand where data comes from and
+11:02 where it looks like
+11:03 uh they'll be able to question is
+11:04 accuracy and then of course they are
+11:06 comfortable working with data
+11:09 and you know they have the skills to
+11:11 build their experiences powered by data
+11:14 so so it sounds like you know a lot but
+11:17 essentially it's
+11:18 you don't really need a technical
+11:20 background i would say to
+11:21 to know any of this stuff to understand
+11:23 where data comes from what it looks like
+11:25 the question is accuracy and to
+11:28 basically work with data to build
+11:29 data experiences
+11:33 is there any difference between being
+11:35 data driven and dataled
+11:38 data driven is something i hear quite
+11:40 often
+11:41 and to be honest i still have no idea
+11:43 what it actually means
+11:44 i think sometimes it's used like a
+11:46 buzzword
+11:49 data driven and what does it mean and
+11:52 yeah maybe you can just explain a bit
+11:54 what it means and what are the
+11:56 differences between data driven
+11:57 and data light if there are any
+11:59 differences yeah yeah
+12:01 uh like you said it is sort of a
+12:03 buzzword
+12:04 but like how i like to think of data
+12:06 driven is basically
+12:07 uh to base decisions exclusively on
+12:10 available data
+12:11 you know every company wants to be data
+12:13 driven so they they're investing heavily
+12:15 in their infrastructure
+12:16 uh once data is available they they want
+12:18 to like
+12:20 like to be data driven would be to do
+12:22 not again question
+12:23 the accuracy of the data and uh not use
+12:26 your intuition and experience
+12:27 before making decisions you know like uh
+12:30 data is all about making decisions it
+12:32 helps you
+12:32 good data helps you make good decisions
+12:34 but
+12:35 you cannot always blindly follow what
+12:38 data tells you because
+12:39 you know like there are there's so many
+12:41 ways um
+12:42 you know the data that you see can be
+12:45 inaccurate um there are so many data
+12:46 quality issues that can be there
+12:48 um so it's important to to basically
+12:51 combine
+12:52 your intuition your experience along
+12:54 with the data that you see so that i
+12:56 would say the difference between
+12:58 being your driven versus being data led
+13:00 where your
+13:01 data is leading you or guiding you
+13:03 rather rather than
+13:04 just you know telling you just you know
+13:06 blindly phoning what data tells you
+13:09 so it's uh that part uh when you said
+13:12 like data that professionally somebody
+13:14 who knows understands where the data
+13:16 comes from
+13:17 can question uh its accuracy and
+13:20 comfortable working with data so i guess
+13:22 the
+13:23 the second point about questioning is
+13:25 the main uh
+13:26 the main factor that say that uh
+13:29 differentiating factor right between
+13:31 these two
+13:33 yeah yeah and you can only question this
+13:35 accuracy if you if you understand
+13:37 you know where data has been collected
+13:38 or how it is being collected
+13:40 uh if nothing is documented you can't
+13:43 really understand anything so you can't
+13:44 really
+13:45 question it so it's very important to
+13:47 have um you know
+13:48 proper documentation on on your on your
+13:51 data sources
+13:52 uh one of the things that we talk a lot
+13:54 about especially in the context of
+13:55 product and growth
+13:56 is having a data tracking plan uh which
+13:58 essentially is a it could be a simple
+14:00 google doc
+14:01 a google sheet or you know there are
+14:03 purpose built tools now to create your
+14:05 tracking plans
+14:06 where you uh define every event that has
+14:09 been captured
+14:10 um and and you know related properties
+14:13 that are being captured and
+14:14 even the data types of each property so
+14:16 when these things are
+14:17 are well defined um any product or
+14:20 growth professional can can look at that
+14:22 that information and understand that
+14:24 okay this event
+14:26 is captured when someone performed this
+14:28 particular action
+14:29 you know the sign up event is is
+14:31 captured when someone
+14:32 uh not just submits the sign up form but
+14:34 when when when
+14:36 when the sign up is completed rather
+14:38 than just
+14:39 you know being a client-side event
+14:41 versus being a service server-side event
+14:43 so uh when you specify these things
+14:45 you've enabled people to
+14:46 to understand where data comes from you
+14:48 know um
+14:50 so that's really important like uh
+14:51 documenting everything
+14:53 uh to be able to like you know pass on
+14:55 that knowledge to others because
+14:57 you know the person who would implement
+14:58 it they they cannot be around forever to
+15:01 to explain to people you know where the
+15:03 data is coming from
+15:04 but once you have that understanding
+15:06 then then you are able to
+15:07 question the accuracy when you see uh an
+15:10 anomaly when you see that the data
+15:12 doesn't look right
+15:13 you can actually you know go and like
+15:15 drill down and figure out what the issue
+15:17 is
+15:17 um instead of just flying blind or just
+15:20 you know blindly trusting what you see
+15:24 so for this um so i mentioned this data
+15:27 tracking plan and the document
+15:29 which describes all these events so how
+15:32 do you
+15:33 uh like when do you actually need to do
+15:35 this so let's say you're
+15:37 uh is it for startups or is it from
+15:39 mature organizations like uh
+15:41 i guess uh for any type of company they
+15:44 already have some data sources so
+15:46 something is already going on on the
+15:48 platform and then
+15:50 they hire i don't know a growth marketer
+15:52 right somebody who comes in and
+15:54 now needs to uh make decisions based on
+15:57 data
+15:57 right and uh and
+16:01 yes so i would say it depends i mean
+16:04 depends on the stage of the company like
+16:06 i've seen some big companies not having
+16:09 a tracking plan at all
+16:10 which is a problem so essentially every
+16:12 company that has has a tech product or a
+16:15 tech enabled product or even an
+16:16 e-commerce business
+16:18 needs to have this documented uh whether
+16:20 it's a tracking plan or
+16:22 uh some companies use users like other
+16:24 different like different tools to
+16:25 sort of document this it used to use the
+16:27 visual tools like miro and stuff
+16:29 um so it's usually done even before you
+16:33 instrument
+16:34 uh you know like data before you set up
+16:37 instrumentation before you
+16:38 uh set up the products so
+16:41 instrumentation in the sense like
+16:42 uh before you set up let's say a product
+16:44 analytics tool or any
+16:46 any tool that that that depends on event
+16:49 data
+16:50 um you instrument uh your product events
+16:53 you know like
+16:54 the the the process of tracking uh
+16:57 product data
+16:58 is often referred to as instrumentation
+17:00 um so this is
+17:02 usually done again there's no rule when
+17:05 it's done but
+17:06 it's typically done when companies are
+17:07 ready to sort of invest in
+17:09 uh product analytics tools or or like uh
+17:12 other other event based engagement tools
+17:14 like customer io brace
+17:16 etc sector there are so many tools where
+17:18 you can like you know use events to
+17:20 personalize customer experiences
+17:22 so um and this is something that
+17:25 obviously is relevant to startups as
+17:26 well as big companies
+17:27 um also with with big companies because
+17:30 at a big company if you don't have
+17:32 have this stuff documented like like
+17:35 people will new people will come in and
+17:37 they'll have no idea uh what to do with
+17:39 with your with the tools
+17:41 they see a bunch of like events let's
+17:43 say in intercom
+17:44 uh and they're supposed to create some
+17:47 uh you know in-app experiences or some
+17:49 email campaigns
+17:50 but they won't know what an event means
+17:52 right uh
+17:53 or they might see conflicting events
+17:55 they might see an event called signed up
+17:57 another event called
+17:58 um you know signed up with a different
+18:00 casing um
+18:02 so so all of those issues sort of come
+18:04 up if you don't have things
+18:05 documented and well instrumented so um
+18:09 like i would recommend every company to
+18:12 do this sooner rather than later
+18:14 because um of course you need to sort of
+18:16 have customers and you need to have
+18:18 users to be able to
+18:20 uh you know make sense of this data you
+18:22 set it up but there won't be any data to
+18:24 analyze or act upon so
+18:28 i i think i mentioned to this growth
+18:30 marketer but there are any
+18:32 there are a lot of different users of
+18:33 data so we have the data analysts we
+18:35 have
+18:36 product managers uh basically everyone
+18:38 who needs to make a decision
+18:39 certain decision on data they would need
+18:41 to to analyze the data and they
+18:44 need to understand the
+18:47 each event right so what is the origin
+18:49 of this event
+18:50 and i think you mentioned if they see
+18:53 something strange
+18:54 in the data they need to be able to
+18:56 question this okay
+18:57 like uh there is a spike in i don't know
+18:59 registrations or something like this or
+19:01 in certain type of event
+19:03 okay what does it mean right and then
+19:05 they would be able to go and
+19:08 drill in and understand what what's
+19:10 happening right
+19:12 yeah absolutely an example would be
+19:14 unless you see a spike a ridiculous
+19:16 spike in your signups
+19:18 uh and you know that it doesn't look
+19:20 right if you have
+19:21 the event instrumented properly and
+19:23 you're also capturing
+19:25 relevant properties with that event you
+19:27 can actually figure out where the
+19:28 signups are coming from
+19:30 um and oftentimes you might realize that
+19:32 you know these are like fake signups so
+19:34 like what's
+19:34 uh something a lot of companies that we
+19:36 have been experiencing so you'd be able
+19:38 to do that
+19:38 um another thing that i would like to
+19:41 mention is that you mentioned product
+19:42 growth and we've been talking about
+19:43 product marketing growth people but uh
+19:46 product data are evented are extremely
+19:47 useful
+19:48 for even for sales people today uh so
+19:50 sales people look at a crm
+19:52 uh they look at you know data about a
+19:55 company or about
+19:56 a prospect um but when they have access
+19:58 to product data where they can see what
+20:00 a prospect
+20:01 uh in the trial period is doing inside
+20:03 the product it gives them more
+20:05 more context and then they can like go
+20:07 after the right accounts rather than
+20:09 you know again just going after
+20:10 everybody with the prospect in their crm
+20:13 when they see that you know this
+20:14 particular account has you know uh they
+20:16 already have five users in their account
+20:18 and they've already gone ahead and like
+20:20 you know performed a bunch of actions
+20:22 if it's a project management tool
+20:23 they've already gone ahead and created a
+20:24 project
+20:25 and created a bunch of tasks um so now
+20:27 would be a good time to sort of
+20:29 reach out to them versus just again
+20:32 reaching out to everybody
+20:34 who just shows up in your crm and you
+20:36 know maybe based on
+20:37 the company side or whatever so it's
+20:40 extremely useful for
+20:42 for for even for sales or um yeah sales
+20:45 and beauty people so
+20:49 um this is very important to document
+20:52 your data
+20:53 right and we discussed i think you
+20:54 mentioned that you can do this with miro
+20:57 uh i think i saw some things like that
+21:01 in uh like just an exposed excel
+21:04 spreadsheet
+21:04 or yeah excel but maybe google
+21:06 spreadsheet like some online
+21:08 spreadsheets
+21:09 are there any special tools for that or
+21:12 people use whatever they are comfortable
+21:14 with now
+21:16 so now there are like purpose built
+21:17 tools for that so uh there's one called
+21:20 uh avo so avo there's another one called
+21:22 iteratively
+21:23 uh there's the new one called trackplane
+21:25 i can send share these names on slack
+21:28 so you know people can explore these
+21:29 tools but these are actually tools that
+21:31 are
+21:33 especially built for companies to create
+21:35 their tracking plan in a collaborative
+21:36 manner
+21:37 rather than relying on a spreadsheet so
+21:39 they obviously have a lot of you know
+21:41 features that are really useful that
+21:43 enable you to maintain data quality
+21:44 maintain a taxonomy
+21:46 um you know like collaborate on each
+21:49 event a lot of times
+21:50 you you might describe an event and and
+21:52 the developer who's supposed to
+21:54 instrument it
+21:55 uh they might have questions about that
+21:56 event so you can like discuss stuff
+21:58 uh so these tools are really really
+22:00 useful i would say otherwise exploring
+22:04 so i'm i'm so you said a developer who
+22:07 is supposed to instrument this event so
+22:09 the way i
+22:10 interpret i interpret it the way i
+22:12 understand it is uh
+22:13 so first you create this tracking plan
+22:15 right so you
+22:16 um you take you write down
+22:20 all the events all the type of ones you
+22:22 want to capture it doesn't mean you
+22:24 capture them yet yeah but you want to
+22:26 start tracking them right
+22:27 and then there is a developer or maybe a
+22:30 mobile developer yes some engineer
+22:34 who now needs to go and implement this
+22:36 to start tracking this data right yes
+22:39 so because the data doesn't just appear
+22:41 magically on your dashboard
+22:43 right and then you make a decision you
+22:45 actually need to capture this data
+22:47 and to do many many other things right
+22:49 so maybe we can
+22:50 talk a bit uh about this like okay now
+22:54 we have a tracking plan
+22:55 and now a developer uh
+22:58 we tell the developer hey can you please
+23:00 instrument this event can we start
+23:02 collecting them
+23:03 and then we have the other end of uh
+23:05 this is like
+23:07 an analyst or somebody is looking on the
+23:09 dashboard
+23:10 and now can make a decision like this
+23:12 campaign
+23:13 uh this type of campaign this variant of
+23:15 the campaign is better than this variant
+23:17 of campaign right
+23:18 so then we can make a decision and there
+23:20 is a a
+23:22 big like a lot of things happen between
+23:24 these two have
+23:25 these two right so yeah absolutely so
+23:29 i would say like data collection is the
+23:31 first step and and even before
+23:33 you know like let's talk about a startup
+23:35 um that doesn't have any any data
+23:37 infrastructure in place uh
+23:39 let's think of a sas product could be a
+23:41 project management tool or
+23:42 an invoicing tool um before you
+23:45 implement
+23:46 uh any any any tools any like product
+23:48 analytics tools or
+23:50 any tools that rely on data you need to
+23:52 first create a tracking plan and
+23:53 describe you know all the events that
+23:55 you want to capture and then
+23:56 uh describe all uh the properties you
+23:58 want to capture with every event
+23:59 you also want to describe your your user
+24:01 properties and you also want to describe
+24:03 uh organization or account properties so
+24:05 all the different
+24:06 pieces of data that you ideally want to
+24:08 collect and
+24:09 uh this is really important because when
+24:11 you start doing this you you feel like
+24:13 you want to collect this also and that
+24:15 also you might end up with like
+24:16 50 events um and which is great but the
+24:19 next step is to
+24:20 basically remove all the events that you
+24:22 don't need in the
+24:24 near future because you know having too
+24:26 much data at the beginning is
+24:27 like one of the biggest uh issues it
+24:30 also obviously takes more time to
+24:32 implement it takes more time to test so
+24:34 like
+24:35 bring it down to like seven or ten
+24:37 events that you really really need to
+24:38 understand
+24:39 the customer journey from acquisition to
+24:41 activation
+24:43 maybe you can think of some examples so
+24:45 you said like a sas product
+24:46 which could be a product a project
+24:49 management tool or
+24:50 account like accounting tool or
+24:52 something like this yeah so
+24:53 it's a yes yeah so
+24:57 yeah i was going to suggest maybe we can
+24:59 take one of the tools i think it you set
+25:01 invoicing to
+25:02 that probably makes let's take let's
+25:04 take project management okay
+25:08 so you start by you start by obviously
+25:10 tracking your
+25:11 sign up event you know um sometimes i i
+25:14 recommend people to even track
+25:15 uh the event which is email verified
+25:18 because you know uh
+25:19 depending on how you sign up flow is you
+25:20 might not always you might have people
+25:23 who
+25:23 will sign up but they don't end up
+25:24 verifying your email so it's useful to
+25:26 have that because you might want to like
+25:28 create some emails based on that event
+25:31 so like sign up email verified
+25:33 um if it's a project management tool
+25:35 obviously the one of the first thing is
+25:36 to create a project
+25:38 and then add uh invite to user because
+25:40 you know
+25:41 a project management tool is no good if
+25:42 you don't if someone doesn't invite
+25:44 another user to work with
+25:46 so like you know project created user
+25:48 invited uh those would be like
+25:50 the core events that you track and then
+25:51 of course you also want to see
+25:53 uh whether they create a task so you
+25:54 know task created
+25:56 if it's an invoicing tool again it could
+25:58 be uh an invoice created
+26:00 or or like uh with an invoicing tool you
+26:02 probably add a client
+26:03 so it could be client added or client
+26:06 created and then
+26:07 invoice created and then you to maybe
+26:09 again invite
+26:10 your colleagues so user invited so these
+26:12 are the most common events
+26:14 um um so yeah like you you definitely
+26:17 start with these for each event you'd
+26:19 describe relevant properties uh so for
+26:22 the sign up event you you obviously want
+26:23 to describe
+26:24 um the user's name and email but also uh
+26:28 if you're if you're asking the user so
+26:29 let's say there's a signups form where
+26:31 you're asking the user
+26:32 which industry they belong to um and
+26:34 what is their roles you definitely want
+26:35 to capture that
+26:37 information uh alongside that event so
+26:39 stuff like that
+26:40 um so yeah once you have that once
+26:43 you're happy with your
+26:44 but once you're happy with your events
+26:46 that's that's when you you basically
+26:48 bring in
+26:48 an engineer and then you basically
+26:50 discuss it with them uh get their
+26:52 feedback of course engineers have a lot
+26:54 of good feedback
+26:55 um you get their feedback polish your
+26:57 tracking plan
+26:58 once you agree upon it you you basically
+27:00 even like i
+27:01 highly recommend you to even describe
+27:03 for every event described
+27:05 as a client segment or a server-side
+27:06 event that's really really important
+27:08 it's obviously
+27:09 now better to track more immense server
+27:12 side
+27:12 but uh you might want to track some
+27:14 client-side events so it's important to
+27:16 describe that so that
+27:17 you know what's the difference like sign
+27:20 up with
+27:20 a client side or server side so it
+27:23 depends how
+27:24 how how you end up implementing it right
+27:26 like if you're tracking a client side
+27:28 the event will be fired as soon as
+27:29 someone clicks the sign up button you
+27:31 know submits the form
+27:32 uh but if you're tracking the server
+27:34 side and only be fired once
+27:36 the signup process is actually completed
+27:37 one once that user is actually added in
+27:39 your database you know like
+27:41 a lot of times a lot you know user will
+27:42 click that sign up button and there'll
+27:44 be an error
+27:45 that you need to then there might be a
+27:46 validation error that you know your
+27:47 password is not right or email is not
+27:49 right
+27:50 but the event will be fired so you might
+27:52 see a sign up whereas
+27:53 an actual signup hasn't even taken place
+27:55 right so
+27:56 uh so you'd ideally track their server
+27:58 side but there might be
+28:00 uh for some use cases for for tracking
+28:03 client-side events
+28:04 um where you actually want to track if
+28:06 someone clicked a button
+28:07 uh this is usually useful inside your
+28:10 app if you want to see if someone
+28:11 uh tried clicking on a button uh to use
+28:13 the feature uh even if they don't don't
+28:15 use the feature you want to know that
+28:16 someone
+28:17 actually tried using it so that's like
+28:19 useful information for you
+28:20 so that could be a a client-side event
+28:24 yeah
+28:26 um so yeah once you have that i would
+28:28 recommend that you know
+28:29 once you start working with with your
+28:30 engineers um often there might be
+28:33 multiple engineers involved so you
+28:34 should even specify
+28:35 you know which engineer which engineer
+28:37 is going to
+28:38 implement which events you can have a
+28:40 column or you can specify
+28:42 who owns which event um once you have
+28:45 everything done and once you
+28:46 actually have data flowing in um you're
+28:49 actually sort of
+28:50 done with the with the collection stage
+28:52 uh the next step is to obviously make
+28:54 sure that
+28:55 this data that has been collected has
+28:56 been stored in a warehouse
+28:58 um of course for for all these early
+29:00 stage startups it
+29:01 might not be possible to to set up a
+29:04 warehouse always
+29:05 you know it's not hard at all to set up
+29:06 awareness today it's also very
+29:07 affordable
+29:08 uh so it's very it's highly recommended
+29:10 to to store
+29:12 this event data or product data anywhere
+29:14 else because
+29:15 if you don't you you'd obviously be
+29:17 sending it to let's say a product
+29:18 analytics tool like click mix panel
+29:20 or amplitude or whatever and a few other
+29:24 tools but you won't really have access
+29:26 to this raw event data to be used in the
+29:28 future
+29:29 so uh highly recommended that you store
+29:31 it
+29:32 and then of course you want to analyze
+29:34 this data typically
+29:36 event data is analyzed in a product
+29:37 analytics tool some people
+29:39 also end up doing this in a bi tool but
+29:42 uh bi tools are not
+29:44 you know purpose built to analyze event
+29:46 data so
+29:47 uh you'd obviously sort of need need an
+29:50 analyst who would have to write a
+29:52 whole bunch of uh sql queries to
+29:55 to actually create let's say a simple
+29:57 funnel uh report in a bi tool
+29:59 that you could do in a product analytics
+30:01 tool with a few clicks
+30:02 so um irrespective of the tools you're
+30:05 using to analyze the data
+30:06 you you basically analyze it and you
+30:08 derive insights uh
+30:10 from from the data and then of course
+30:12 you want to activate that data or act
+30:14 upon that data
+30:15 and that's obviously the most important
+30:16 thing like you can't just look at data
+30:18 and be happy with it you need to do
+30:20 something about it
+30:22 and that's when um data activation sort
+30:24 of comes into place
+30:26 uh and once this data is available in
+30:28 your activation tools
+30:29 uh your email tools your your support
+30:32 tools uh support is a really good use
+30:34 case
+30:35 like something that a lot of people
+30:36 don't think about but if you make
+30:38 this event data available in your
+30:40 support tools you actually enable
+30:42 your support teams to actually see what
+30:44 users have done in the product
+30:46 so they don't have to like you know ask
+30:48 people uh whether someone opens the
+30:50 ticket they don't have to reply saying
+30:51 hey did you try doing this or did you
+30:53 try doing that or can you try doing this
+30:54 because
+30:55 they can actually see uh the different
+30:57 events that users have performed
+30:58 so they don't have to you know you can
+31:00 provide better support there are
+31:02 companies who actually
+31:03 have this because all my experience with
+31:07 customer support
+31:08 uh
+31:11 more and more companies realize the
+31:13 importance of this is just
+31:14 obviously you know it's not a priority
+31:17 for most companies but uh of course
+31:18 there are many companies
+31:20 uh that provide great support they have
+31:22 this and it's really not hard once you
+31:24 have
+31:24 the data you just have to sort of send
+31:26 this data to zendesk or whatever
+31:28 uh support tool you're using um so
+31:31 that's the thing with data right like
+31:33 every company or let's say 100 different
+31:36 companies
+31:36 will have access to this data but maybe
+31:38 only five of them
+31:39 are actually using this data across
+31:41 different sort of channels and
+31:43 and making this data available to
+31:45 different teams right
+31:47 uh even the sales example is really
+31:49 important uh useful
+31:50 um since people don't generally have
+31:53 access to product data
+31:55 in the tools that they use right but now
+31:57 more and more companies realize that
+31:59 the importance of this and now there are
+32:01 like a new breed of companies that have
+32:03 that have come
+32:03 up they're building sort of uh
+32:06 these these new tools which are now sort
+32:09 of dubbed as
+32:10 crm 2.0 tools where uh sales people can
+32:14 can uh actually access product data and
+32:17 and
+32:17 um you know be more sort of responsive
+32:21 uh and like they don't have to just
+32:23 create sort of these linear experiences
+32:25 so
+32:25 um so yeah uh once you once your once
+32:29 you have the data and the right tools
+32:30 you can activate the data
+32:31 and you can you know build these a
+32:33 really good personalized customer
+32:34 experiences
+32:35 and then of course you can send this
+32:36 data back to your product and and
+32:38 personalize
+32:39 uh the product experience also you know
+32:42 based on
+32:42 uh like i think hubspot is a really good
+32:45 example
+32:46 are there a bunch of other companies
+32:47 that do this really well where
+32:49 uh the way people experience the product
+32:51 is also depend
+32:52 it is also sort of personalized based on
+32:56 what they've done earlier in the product
+32:58 you know so
+32:59 that is that is the the ultimate sort of
+33:02 uh destination
+33:04 where where you're not just like
+33:05 analyzing data and using it
+33:07 to create experience outside your
+33:09 product but also
+33:11 inside your product um it's worth
+33:13 mentioning that
+33:14 uh tools like amplitude which is
+33:16 obviously one of the
+33:17 most popular product analytics tool uh
+33:20 has
+33:21 launched a new sort of a product or a
+33:23 feature called
+33:24 amplitude recommend where you can
+33:26 actually do this um
+33:28 using amplitude where you can send the
+33:30 data from amplitude
+33:32 into your back to your product and of
+33:34 course to other tools
+33:36 to create like a unified uh customer
+33:39 experience
+33:40 yeah so uh maybe we can take a step back
+33:43 you
+33:44 like there was a lot of information and
+33:45 they have so many questions
+33:47 um but starting even from the the
+33:49 beginning so
+33:50 you said for tracking plan uh for
+33:53 creating this tracking plan we can use
+33:54 uh
+33:55 dimensional tool i think called uh track
+33:57 plan right
+33:58 and there are some other things then um
+34:01 then okay we have this tracking plan
+34:03 then a developer an engineer would go
+34:05 and implement this uh
+34:07 do data collection um i know other
+34:09 specific tools
+34:11 for that uh for collecting data
+34:14 uh so typically like of course there are
+34:17 there are sort of cdi tools uh
+34:19 you know customer infrastructure tools
+34:20 customer infrastructure tools that
+34:22 uh so the ones i mentioned uh track plan
+34:25 is one but uh
+34:26 rvo and iteratively sort of they these
+34:28 are tools that
+34:29 that allow you to also collect your data
+34:31 and not just create the track to plan
+34:33 but other popular tools will be segment
+34:35 connections so
+34:36 segment connection is one of the most
+34:38 popular tools people use
+34:39 to track product data um there's also
+34:42 rudder stack uh there's another one
+34:44 called
+34:44 meta router which is a relatively new um
+34:48 there whole bunch of tools there's one
+34:49 called fresh paint which
+34:51 which uh which enables implicit tracking
+34:54 so you don't even have to define
+34:55 tracking
+34:56 that's just like auto track once you
+34:58 install it starts tracking all the
+34:59 events automatically
+35:01 like heap does and then of course
+35:03 companies
+35:04 companies do this using code and you
+35:06 know some companies build a microservice
+35:08 just for the tracking purposes um but
+35:10 then of course there are all these great
+35:12 tools that i mentioned
+35:13 um in fact i have i have i have uh i
+35:16 have written about this that
+35:17 happy dish i have to share uh content
+35:20 please send the link and i'll include it
+35:23 in the description
+35:24 uh yeah okay sure so and then we
+35:27 mentioned that we
+35:28 the data should be that the data we
+35:31 collect we can send
+35:32 immediately to uh product analytics tool
+35:35 but it's better to store it in every
+35:37 house so what is a very house
+35:39 i think it's uh essentially like a
+35:41 database that you
+35:42 own right so it's not like a third party
+35:44 too
+35:45 but yeah maybe you can tell in uh
+35:48 you know tell us what is it's it is is
+35:52 it
+35:52 any database or it's some sort of
+35:54 special database
+35:56 yeah so a warehouse is generally a
+35:58 database that is
+35:59 purpose built for analytics right so
+36:01 it's not like a
+36:02 like a typical database um and companies
+36:06 use it to store
+36:07 uh large amounts of structured data um
+36:10 and then
+36:10 they obviously uh create data models in
+36:13 the data warehouse so
+36:14 they transform the data they clean the
+36:16 data there of course other tools
+36:18 just for transformation purposes tools
+36:20 like dbt trifecta etc which you know
+36:22 you're well aware of
+36:24 um and once you have this clean
+36:26 structured data
+36:27 in the warehouse you can basically
+36:29 analyze this data in a bi tool
+36:31 it's also worth mentioning that uh there
+36:33 are
+36:34 product analytics companies that are now
+36:36 sort of warehouse-centric
+36:38 uh so if you if you have a warehouse and
+36:40 you if you already if you're already
+36:41 sending data to your warehouse and you
+36:43 want to
+36:43 implement a product analytics tool you
+36:45 don't have to use their sdks to to sort
+36:47 of
+36:48 send data to them directly you can send
+36:50 data from your warehouse
+36:51 uh to these products there's also a tool
+36:54 called rockcom which
+36:56 doesn't even you don't even need to send
+36:58 data to it it just sits on top of your
+37:00 warehouse like a bi tool
+37:01 and offers data analytics features so um
+37:05 it's really important to set up a
+37:06 warehouse and uh popular warehouses
+37:08 worth mentioning are obviously snowflake
+37:10 uh will big query aws redshift there's
+37:12 some new ones called uh
+37:14 firebolt is a newer data warehouse in
+37:16 fact we have someone from firewall in
+37:18 our community
+37:19 um and then i think i saw recently
+37:23 also in data talks club right yeah
+37:26 exactly that's what i mean yeah that's
+37:28 what i meant and then
+37:29 a bunch of other of course uh warehouse
+37:31 uh vendors there's one called
+37:33 span apply uh so once you have the data
+37:36 in the warehouse you can actually
+37:37 do a lot of things with it um and you
+37:39 can actually send it back
+37:41 to your uh not just bi tool but also
+37:43 part and
+37:44 analytics tools and then um you can even
+37:47 send it to your engagement tools
+37:49 uh and they're again a new bunch of uh
+37:51 companies that have come up
+37:53 that are just solving this problem uh
+37:54 they're sort of referred to as
+37:57 a reverse etl tools or or operational
+37:59 analytics tools companies like
+38:01 census high touch group they are they're
+38:04 basically solving this exact problem
+38:06 that
+38:06 you have the data in the warehouse and
+38:08 you want to basically send data
+38:10 to a lot of different tools your sales
+38:12 marketing
+38:13 advertising support tools or whatever
+38:15 product analytics tools you can do that
+38:17 um
+38:18 using this this third party too so yeah
+38:21 a lot of different tools solving
+38:23 different
+38:24 pieces of the puzzle uh of course like
+38:26 to implement all of these different
+38:27 tools you'd
+38:28 uh need like a lot of resources you'd
+38:30 need a data team
+38:32 um at least a couple of or maybe at
+38:34 least one dedicated data engineer
+38:36 so it's not possible for early stage
+38:38 startups to do everything
+38:40 um and that's where it's also worth
+38:43 mentioning
+38:44 cdp's customer data platforms which are
+38:47 sort of they're like an all-in-one
+38:49 bundled solution
+38:50 where you can track data and then you
+38:52 can send data to different tools
+38:54 um so you can like you can create
+38:56 audiences and create your
+38:57 models and segments inside a cdp of
+39:00 course
+39:01 it has limited capabilities you can't
+39:03 exactly do everything you can do in a
+39:04 warehouse
+39:05 but it still gives a lot of flexibility
+39:07 to marketers and growth
+39:09 professionals to to you know work with
+39:11 data without relying on
+39:13 on data teams so yeah
+39:16 i was trying to take a note of all the
+39:20 tools you mentioned but there are simply
+39:21 so many
+39:23 and i'm wondering so let's say i just
+39:25 started the startup
+39:27 i and my co-founder so i haven't started
+39:30 the startup i'm just like a hypothetical
+39:31 hypothetical yeah
+39:32 yes so i have a co-founder so there are
+39:35 two of us we just started the startup
+39:37 and to understand that data is important
+39:40 we want to collect and we look at all
+39:42 these tools and
+39:43 there are just too many like how do we
+39:45 make a decision which tool to choose
+39:47 like
+39:48 uh i think it's not about are they
+39:51 different
+39:51 similar yeah how to choose yeah i think
+39:54 i think it's first important to define
+39:56 what your
+39:56 goals are uh and a good way to think
+39:59 about this is to like just
+40:00 list down uh you know 10 questions that
+40:02 you want to answer with data
+40:04 and then work backwards and and figure
+40:06 out the tools uh
+40:08 of course there are ready-made tools but
+40:09 a lot of companies end up
+40:11 uh you know fixing these problems or
+40:14 implementing these solutions without uh
+40:16 buying ready-made tools by building in
+40:18 our schools so
+40:19 it depends uh you know what your
+40:20 resources are because
+40:22 these tools can also get expensive but
+40:24 uh at the very least you need
+40:26 you need to start collecting data so you
+40:29 need uh tool
+40:30 like a cdi to like segment connections
+40:32 broader stack
+40:33 uh meta router uh i'll share this whole
+40:36 list
+40:37 which actually written a lot about this
+40:38 stuff so shares list
+40:40 um and once you have the data you
+40:42 obviously want to analyze it so
+40:44 and of course it's worth mentioning that
+40:46 a lot of these tools do have
+40:48 free tiers free plans so you know you
+40:50 can explore different tools and see what
+40:52 works for you
+40:53 um but at the very least you want to
+40:55 analyze this data
+40:57 in a product analytics tool um or even
+41:00 like a single bi tool
+41:01 um or both actually makes sense to you
+41:04 know have both depending on um
+41:06 because they both sort of serve
+41:08 different purposes and you know give it
+41:09 to different teams
+41:10 um and then of course you you want to
+41:14 uh have like an email tool where you
+41:16 send this data to
+41:17 create personalized emails do on great
+41:20 onboarding experiences
+41:21 um if you have a sas product you want to
+41:23 do some in-app onboarding
+41:25 so you know there are tools for that and
+41:27 you can send this data to those tools
+41:28 so there are these four or five
+41:30 different tools so
+41:32 i like to mention this so i like to
+41:33 think of this data stack
+41:36 as the modern data stack for growth so
+41:38 uh typically
+41:40 if you hear the term modern data stack
+41:41 uh you generally
+41:43 hear it in the context of uh analytics
+41:45 um
+41:46 modern data stack for analytics is like
+41:49 how i would
+41:50 describe it where you have uh you have
+41:52 an elt tool like five friends stage etc
+41:55 where ingesting data from all third
+41:57 party tools into a warehouse
+41:59 uh and then you have a bi tool and you
+42:00 have a transformation tool
+42:02 um so that's typically a modern data
+42:04 step for analytics
+42:05 um and dbt is worth mentioning here um
+42:09 you know it's
+42:10 growing so fast and you know so many
+42:11 companies are adopting liberty
+42:13 for their transformation needs and
+42:15 modeling needs and then bi tools like
+42:17 liquid looker mode
+42:19 etc so so that's like the modern data
+42:21 stack for analytics
+42:23 um in terms of modern data stack for
+42:25 growth i would say
+42:26 you need a data collection tool a
+42:28 product analytics tool
+42:30 um and then a warehouse is is one more
+42:33 stable states like every company should
+42:35 have it
+42:35 um and then of course uh tools that are
+42:38 that makes
+42:39 make data available in your downstream
+42:42 sas tools you know sales marketing
+42:44 support tools um and that could be a
+42:46 custom data platform
+42:48 it could be uh if you're using tools
+42:50 like segment connections and or radar
+42:52 stack
+42:53 they can do that they have that
+42:54 capability or
+42:56 if you have if you're storing the data
+42:58 in the warehouse then you can use a
+42:59 reverse etl tool
+43:01 um and each of these categories has
+43:03 obviously multiple tools so
+43:05 you know like a lot of them are very
+43:07 similar
+43:08 you know some have different
+43:09 capabilities so it is sort of time
+43:11 consuming to
+43:12 evaluate all of these different tools
+43:14 and um you know understand
+43:16 the differences and that's actually one
+43:18 of the things i'm trying to solve uh
+43:20 with data led academy i'm still
+43:22 launching this thing called company
+43:23 profiles where
+43:24 you know you can go and learn about a
+43:27 product
+43:28 um in a very simple manner understand uh
+43:31 what the product does what the core
+43:33 benefits are and
+43:34 uh who the product caters to and then
+43:36 get you know answers
+43:37 to questions about the product so um
+43:40 yeah i agree like companies spend a lot
+43:42 of time uh figuring
+43:44 out the right tools and that is a
+43:46 problem that that needs to be solved
+43:49 and uh myself i'm i have this
+43:52 engineering background
+43:54 often i look at these tools and think
+43:56 okay why they are so expensive i could
+43:58 implement something like this
+43:59 uh and then of course like i know that
+44:02 once implement there will be bugs and
+44:04 then it's difficult to maintain later
+44:07 uh yeah it's probably i don't know if
+44:11 you
+44:12 if you had this in your experience you
+44:14 go to a company
+44:16 you say okay this is a great tool and an
+44:18 engineer say no no
+44:19 like it's i'm going to implement it
+44:21 myself
+44:22 so do you i've experienced that a lot
+44:25 yeah so
+44:27 yeah i would like to say that like like
+44:29 one of the things that
+44:30 that's really important to sort of think
+44:32 about is that very few people actually
+44:34 like using these tools you know
+44:36 for most people it's a headache it's an
+44:38 additional sort of task
+44:39 whether for engineers to implement the
+44:41 tool or for other business teams to go
+44:43 and use these tools
+44:45 uh at the end of the day everyone just
+44:47 wants answers to questions
+44:49 uh especially when it comes to data uh
+44:51 or they just want data to be available
+44:53 in the right format so that they can use
+44:55 it um and derive insights from it or act
+44:57 upon it so
+44:58 um yeah like
+45:01 implementing new tools is not easy at
+45:03 all especially when it comes to data
+45:05 tools uh
+45:06 there's a lot of like security uh
+45:08 challenges
+45:09 uh a lot of compliances issues
+45:11 compliance issues so
+45:12 um it is difficult so it's like and
+45:15 that's why it's really
+45:16 important to understand the problem that
+45:18 the tool solves
+45:19 um and then you know if you have the
+45:21 resources then you can do
+45:23 like a buyers build analysis you know if
+45:25 you build this
+45:26 sort of in-house then uh how much
+45:29 you know it will cost us and whatever
+45:31 resources we need to maintain that
+45:33 versus
+45:33 uh buying a ready-made solution or of
+45:35 course open source
+45:37 like it's worth mentioning again that a
+45:39 lot of these tools uh
+45:40 are open source uh so radish tag is open
+45:44 source uh grouper with a reverse utl
+45:46 tool is open source
+45:48 a bunch of open source bi tools um
+45:51 there's a with an open source uh product
+45:53 analytics tool
+45:54 now called post hog so in every category
+45:57 you'll find open source tools
+45:58 um if you have again the resources of
+46:01 course uh
+46:02 it takes a lot of effort to implement an
+46:04 open source tool just because open
+46:05 source doesn't mean
+46:06 it's like easy to implement but uh if
+46:09 you have the resources you can obviously
+46:10 you know go that route
+46:13 okay and um what
+46:16 kind of roles we need to um so we
+46:19 discussed about tools we discussed uh
+46:21 about the flow
+46:22 so the flow from the moment we start
+46:24 capturing later to the moment
+46:26 uh i think you'll call it data
+46:28 activation so to the moment when data is
+46:30 activated
+46:32 yeah um and i heard that
+46:35 we need at least to have a data like an
+46:38 engineer somebody who implements this
+46:40 so who else do we need to have in a team
+46:43 to
+46:44 implement the whole flow from the
+46:45 beginning to the end
+46:47 yeah i would say like um typically you
+46:50 know for early
+46:51 startups you may not have a dedicated
+46:52 data engineer so
+46:54 uh you know different like any engineer
+46:56 a backend engineer could could help you
+46:58 with that stuff
+46:59 uh or even a front-end engineer could
+47:01 help you with a bunch of that stuff
+47:02 uh but eventually you'd need a data
+47:05 engineer to manage all of these
+47:06 different
+47:07 data pipelines and you know it's not
+47:08 just about implementing the tool once
+47:10 right you
+47:11 you have to um maintain it you have to
+47:13 make sure that you know
+47:14 everything is working properly and then
+47:16 of course teams have have continuous
+47:18 requests for new
+47:19 new new events to track you know you
+47:21 want to add more data you want to
+47:22 collect more data so
+47:24 um yeah at the very least you need uh a
+47:27 data engineer
+47:28 and then um if you if you have uh
+47:31 if you're using a bi tool and you're if
+47:33 you're implementing a warehouse
+47:34 then it makes sense to have a data
+47:36 analyst who will be
+47:38 you know analyzing the data and like you
+47:39 know making the data uh
+47:41 available in the bi tools so uh at the
+47:44 very least you need those two i've seen
+47:46 companies hire
+47:47 uh you know one data person who does
+47:49 pretty much
+47:50 all of this stuff and now now like
+47:53 there's obviously analytics engineering
+47:55 which is a more specialized role
+47:58 uh which sort of fits in between data
+48:01 engineering and data
+48:03 data analysis and they they specifically
+48:06 work on
+48:07 on tools like dbt and they you know
+48:09 build data models
+48:10 um so again depending on the resources
+48:13 you eventually need
+48:14 you know all of these people um there
+48:17 are companies that are hiring data ops
+48:19 people who
+48:20 who basically just you know make sure uh
+48:22 that all of these different tools are
+48:24 working
+48:25 um you know all of these different teams
+48:27 have access to
+48:28 to the tools that they need and uh to
+48:30 the resources that they need
+48:31 um there are companies that are creating
+48:34 product ops teams
+48:35 so companies that don't have sort of
+48:37 dedicated data teams they're calling
+48:39 uh the stream called product ops and
+48:42 prototypes
+48:43 often does a lot of the work that data
+48:46 teams do
+48:46 so you know they take care of all the
+48:49 tools they take care of your
+48:50 etl pipelines they take care of your
+48:52 warehouse
+48:53 again you have an analyst an engineer um
+48:56 and
+48:56 and someone who understands the product
+48:58 really well um
+49:00 so yeah it depends on like it doesn't
+49:02 matter what you call it but
+49:04 uh depending on your resources you sort
+49:06 of decide how many people you'd want
+49:08 um in a team like that um it definitely
+49:12 makes sense to
+49:13 you know empower product teams and
+49:15 growth teams to to understand all of the
+49:17 stuff so then
+49:18 they can sort of support these teams uh
+49:20 or like
+49:21 you know they can support these teams by
+49:23 by uh
+49:24 taking up a lot of their work and and
+49:26 not like adding
+49:27 more work for these for data people so
+49:30 one of the
+49:30 typical challenges is that data people
+49:33 are overwhelmed with requests
+49:34 you know from different teams where
+49:36 different teams have requests to
+49:38 track new data or you know like commit
+49:40 data available different tools
+49:42 or create dashboards uh if you enable
+49:45 um different teams to do a lot of that
+49:47 work themselves
+49:49 um then then obviously you can make your
+49:51 data people
+49:52 more efficient and that's what there's a
+49:54 whole sort of
+49:55 conversation around data democratization
+49:58 where you're you're not just making data
+50:01 accessible
+50:02 for people but you're enabling them to
+50:04 to sort of
+50:05 uh work with data and like um
+50:08 you're implementing self-serve analytics
+50:11 tools that you know people can go in
+50:13 and like uh derive in science from data
+50:15 themselves
+50:16 um you're investing in in upskilling
+50:18 people
+50:19 uh maybe um having people learn some
+50:22 basic sql
+50:23 so that they can run very simple queries
+50:26 um
+50:27 you know so that they don't have to rely
+50:29 on on their on on
+50:31 data people to create like for every
+50:33 query that they
+50:34 that they want to run or at least yeah
+50:36 they can like take a sequel query and
+50:38 put it in the right place and run it and
+50:40 then
+50:40 understand it so um again like these
+50:44 things are
+50:44 becoming more and more common and it
+50:46 just makes sense for
+50:48 like pretty much every sort of team to
+50:51 to learn these skills and become data
+50:53 literate
+50:54 and i strongly believe that one doesn't
+50:57 need to have
+50:58 like an engineering background or even a
+51:00 technical
+51:01 any sort of technical background to work
+51:04 with data
+51:06 so yeah quite a few uh quite a few roles
+51:09 we need to have uh but
+51:10 i i also like uh because not every
+51:14 company needs all
+51:15 uh these people so for a smaller uh for
+51:19 just earlier stage startup uh maybe they
+51:21 just need somebody like
+51:23 an analytics engineer maybe who can do
+51:25 both analytics and
+51:26 uh some data engineering right and then
+51:29 as a team grow
+51:30 like maybe you can have uh they can have
+51:33 a data engineer then maybe a data ops
+51:35 team who can support
+51:37 all these tools and then he also talked
+51:40 about data democratization
+51:42 and as i understood you so this is
+51:46 uh this is about enabling
+51:50 people in the company like analysts and
+51:53 others
+51:54 uh who need access to the data to
+51:56 actually go and access the data
+51:58 themselves go and
+51:59 analyze data themselves go and implement
+52:01 some things on top of data
+52:03 themselves right is there any more to
+52:05 that like what is it
+52:07 yeah i think uh data literacy is a big
+52:09 part of it uh you cannot
+52:11 just democratize data just by making
+52:13 data available
+52:14 or just by giving people access to two
+52:16 different tools
+52:17 um so you know investing in indiana
+52:20 literacy
+52:21 uh having people understand uh from from
+52:24 like less technical teams or business
+52:25 teams
+52:26 you know uh how data works making
+52:28 investing in documentation maybe
+52:30 investing in
+52:31 in a data cataloging uh tools or data
+52:33 documentation tools whatever you want to
+52:35 call it the tools like
+52:36 atlan cicoda a bunch of others that are
+52:39 working on this
+52:40 sort of solving this problem um so
+52:43 making data available
+52:44 investing on on on data literacy within
+52:47 an organization
+52:48 and then making data available in the
+52:50 right tools um
+52:52 where people can actually use their data
+52:55 and not just look at dashboards um and
+52:57 then of course like upskilling them
+53:00 so that they can like uh efficiently use
+53:03 product analytics tools to
+53:04 to you know self-serve their their
+53:07 analytics needs
+53:08 or even uh like i said learn some sql to
+53:11 go and you know use a bi tool
+53:13 um so yeah i think i think it's it's
+53:15 about
+53:16 uh to sum it up i would say is investing
+53:18 in data literacy
+53:19 and making data available making clean
+53:22 accurate data available
+53:25 in the different tools across an
+53:27 organization um
+53:28 yeah and uh also documented right
+53:32 available and
+53:33 yeah yeah i mean if you don't document
+53:35 it especially in a remote world like uh
+53:38 it's crazy it's one of the most
+53:40 important things people need to
+53:42 companies need to think about and it's
+53:45 one thing that
+53:45 very few people like to do yeah about
+53:48 that
+53:49 uh how to actually motivate people to
+53:52 write data documentation because i i
+53:54 know it's difficult
+53:56 like as a data scientist i am uh
+54:00 the one who constantly produced new data
+54:02 for others to consume
+54:04 but this step of documenting this data
+54:07 is somewhat annoying
+54:08 so how do you convince people like me
+54:10 and others
+54:11 to actually go and recommend this data
+54:14 yeah i think
+54:15 it it works when you start small uh and
+54:18 you
+54:18 start early like the the earlier that
+54:21 you start the easier it is
+54:22 going to be if you if you keep sort of
+54:24 delaying it it becomes difficult
+54:26 uh and then again like i strongly
+54:28 believe that if there's a tool that can
+54:30 solve your problem you should
+54:32 uh explore that tool and adopt that too
+54:34 so uh
+54:35 tools like atlan which are sort of these
+54:37 new new age data
+54:39 documentation data discovery tools they
+54:41 are they're they basically integrate
+54:43 with all your different data sources
+54:44 with your verizon
+54:45 bi tools with different tools and they
+54:48 they actually automate a lot of the
+54:49 documentation process
+54:51 and indian exploration so uh if you have
+54:54 a lot of different data sources and you
+54:56 you have a lot of you know
+54:58 you have a lot of data in different
+54:59 places and you don't have a
+55:02 like a way to efficiently document it
+55:04 then that's worth exploring
+55:06 these tools but obviously like before
+55:08 you invest in a
+55:09 in a data documentation cataloguing tool
+55:12 you need to have
+55:13 the right data infrastructure in place
+55:15 it obviously comes
+55:16 after you know once you have data
+55:18 collection warehousing um
+55:20 analysis activation all of that you know
+55:22 in place that's when
+55:23 you invest in these tools so i think if
+55:26 you're starting today then
+55:28 it should be like table stakes that
+55:30 everything that is being tracked should
+55:31 be documented
+55:32 um and you know everywhere that has been
+55:35 used should be documented
+55:37 and uh you know like that that's that's
+55:39 how you'd go
+55:40 about it if you don't start early then
+55:42 and it's just gonna be a mess later on
+55:45 okay so it's more about the culture and
+55:47 mindset right so you just
+55:49 you just say okay we need it uh we start
+55:52 early and for all the data we produce
+55:54 we must have documentation because if we
+55:56 don't then it becomes
+55:57 nice right yeah yeah it's really
+56:00 important to start early i think and
+56:02 like you mentioned it's definitely a
+56:03 culture thing
+56:04 you know um so yeah thanks for
+56:06 mentioning that
+56:08 one thing i actually wanted to ask you
+56:10 at the very beginning but uh
+56:12 we didn't uh cover this so there is a
+56:15 thing also called
+56:16 product led right and yeah i wanted to
+56:19 ask you
+56:19 what is product that and what is the
+56:22 difference between
+56:23 uh being a product that being a data lab
+56:27 yeah yeah great question i think uh
+56:30 being
+56:30 being product led requires you to be
+56:32 derailed
+56:33 uh because the whole idea of being
+56:35 product is
+56:36 is enabling your product to drive growth
+56:39 or using your product to drive growth
+56:41 rather than
+56:42 investing in sales although you know of
+56:45 course the
+56:46 product led and sales can definitely
+56:48 coexist
+56:49 but um one of the principles of product
+56:52 led is
+56:52 that you know users or prospects or
+56:55 customers can should be able to try your
+56:57 product before they
+56:59 buy the product right so um you want to
+57:02 have have like a free trial or a free
+57:05 plan um
+57:06 and then people should be able to use
+57:07 the product and derive
+57:09 value from it before they they're asked
+57:12 to buy it before a sales person
+57:13 and this takes us back to the earlier
+57:16 conversation where i mentioned that
+57:17 you know once the salesperson sees that
+57:20 uh prospect
+57:21 uh has actually you know used the
+57:22 product and derived some value
+57:24 or reached aha moment of the product i
+57:26 often be referred to as do it as
+57:28 uh the activation event where again in a
+57:31 project management tool it could be
+57:33 creating a project and adding uh one
+57:35 user and creating three tasks you know
+57:37 and
+57:37 that's when you feel like you know the
+57:39 user has derived some value from the
+57:40 product
+57:41 um so that is being product led like
+57:44 uh and typically product that applies to
+57:46 organizations not not individuals so
+57:49 typically your product like company
+57:50 where you invest in these uh sort of
+57:52 product
+57:53 uh efforts in a product like motion uh
+57:56 and a self-serve on boarding experience
+57:58 and
+57:59 to create the cells of one body
+58:01 experience you need data if you don't
+58:02 have data then you're not able to
+58:04 sort of enable prospects to have that
+58:07 personalized experience when they're
+58:09 starting
+58:09 to use your product a common example is
+58:12 uh you know
+58:13 uh in in-app walk-throughs or onboarding
+58:16 walk-throughs
+58:16 that you typically see when you start
+58:18 using a new product
+58:20 you can actually personalize it
+58:22 personalize it a lot uh based on
+58:24 you know the the role of the user or the
+58:26 industry of the user
+58:28 and then keep personalizing it based on
+58:30 the features they're using the product
+58:32 um but only if you are data led if you
+58:34 have the data and you're
+58:36 using data to build those onboarding
+58:39 experiences or triggering emails emails
+58:41 is a great example
+58:42 um a lot of companies you might have
+58:44 received an email from a company saying
+58:46 that hey
+58:47 uh you should try using this feature uh
+58:50 after you've already used that feature
+58:52 that's very common right uh and and
+58:54 that's that's like you know
+58:56 it's it's very it's a very bad
+58:57 experience because you
+58:59 you've actually opened that email um and
+59:01 someone who's created that campaign
+59:04 they'll be very happy because you know
+59:05 they see a good open rate
+59:07 but actually it's it's annoyed you
+59:09 because you're like this their emails
+59:10 are useless
+59:11 next day i'm not going to open their
+59:12 emails because they're telling me to do
+59:14 things i've already done
+59:15 right but if you had data if you need a
+59:17 lead you
+59:18 not do that you make sure that if
+59:20 someone has used a feature
+59:21 they will not be asked to use that
+59:23 feature again
+59:26 so if i can try if i can attempt to
+59:28 summarize what you said
+59:30 so being a product let it first of all
+59:32 applies to the company not
+59:33 to an individual it's about
+59:37 taking feedback from users and
+59:40 then being led by this feedback being
+59:43 led by what users want
+59:45 and to be able to do this you cannot
+59:47 call every user and ask hey
+59:49 like what should we do right so you need
+59:51 to actually track the data you need to
+59:52 have this data to make a
+59:55 uh yeah if i may say data driven
+59:59 decision right
+1:00:00 uh yeah like it just didn't like baked
+1:00:03 by data like
+1:00:04 data informed yes yes decisions
+1:00:08 and feedback is definitely an important
+1:00:10 part of it like you know gathering
+1:00:11 feedback
+1:00:12 while people are using the product uh
+1:00:14 you know running micro surveys in the
+1:00:16 product
+1:00:16 or even uh gathering like uh quality of
+1:00:20 data by looking at
+1:00:21 heat maps and session recordings like
+1:00:23 all of that stuff sort of
+1:00:24 drives towards a product led approach
+1:00:28 okay thank you so we should be wrapping
+1:00:30 up and they wanted to ask you if you
+1:00:33 want to say any like any last comments
+1:00:37 like
+1:00:38 anything you want to mention well i
+1:00:40 would say just just reach out to me
+1:00:42 uh in the data talks slack community if
+1:00:44 you have any questions i'd love to
+1:00:46 answer your questions
+1:00:47 and uh you can check out uh
+1:00:48 datalink.academy and uh you can sign up
+1:00:51 to
+1:00:51 uh my newsletter uh it's not a weekly
+1:00:54 newsletter i sent out
+1:00:56 almost every two weeks where i share all
+1:00:58 of these different lessons
+1:00:59 um and you can actually check out the
+1:01:01 past issues on the website where a lot
+1:01:03 of the stuff that i talked about is
+1:01:04 already
+1:01:04 sort of uh written so that'll be helpful
+1:01:07 for you
+1:01:07 so yeah and thanks again for for joining
+1:01:10 and and listening
+1:01:11 to us yes thank you uh i will add to
+1:01:15 what you just said
+1:01:16 that uh you should also go and check
+1:01:18 what what podcast
+1:01:20 it's how many episodes how many episodes
+1:01:22 do you have already
+1:01:24 we we have uh seven uh episodes
+1:01:26 published
+1:01:27 already uh published
+1:01:30 and yeah if someone is interested in
+1:01:32 like uh talking to
+1:01:34 me about especially if you're from a
+1:01:36 data company um
+1:01:37 i'd love to you know chat with you and
+1:01:39 if you want to be on the podcast feel
+1:01:41 free to reach out to me
+1:01:43 seven episodes are live here so live it
+1:01:45 means that you recorded some which are
+1:01:47 not published yet right
+1:01:48 yes can you tell how many there are
+1:01:51 there already
+1:01:53 well we have three three more uh already
+1:01:55 in the tube which are ready to go
+1:01:57 yeah okay stay tuned right yeah
+1:01:59 absolutely
+1:02:00 thank you thanks again for having me it
+1:02:02 was a great channel yeah it was it was
+1:02:04 great
+1:02:04 indeed a lot of information i took so
+1:02:06 many notes and uh like with these tools
+1:02:08 uh
+1:02:09 yeah i'll reach out to you later after
+1:02:12 after today
+1:02:13 to to get the links from you and then
+1:02:15 i'll put them in the in the description
+1:02:17 and yeah thanks everyone for joining us
+1:02:20 today for
+1:02:20 listening uh i hope you enjoyed it we
+1:02:23 didn't
+1:02:24 get any questions but uh yeah there was
+1:02:27 a lot of questions from me
+1:02:28 uh so uh i kept you entertained
+1:02:32 yeah so great i always like chatting
+1:02:34 about the stuff so uh thanks again and
+1:02:36 uh
+1:02:37 yeah hopefully we'll keep the
+1:02:38 conversation going on
+1:02:41 definitely okay thanks again and

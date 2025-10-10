@@ -1,0 +1,1563 @@
+0:00 hi everyone Welcome to our event this
+0:02 event is brought to you by datadox club
+0:04 which is a community of people who have
+0:05 data we have weekly events and this is
+0:08 one of such events if you want to find
+0:10 out more about the events we have please
+0:12 go to the description there is a link to
+0:14 our events page and you will see all the
+0:16 events we have in our pipeline
+0:18 very important not to miss out subscribe
+0:21 to our YouTube channel so you will get
+0:24 to see events like this one today
+0:26 conversations like this one today and
+0:29 other fun ones so yeah don't don't
+0:32 forget to subscribe and we have an
+0:34 amazing slack Community where you can
+0:36 hang out with other data enthusiasts so
+0:39 the link for registration is also in the
+0:41 description
+0:42 during today's interview you can ask any
+0:44 question you want there is a pinned Link
+0:46 in the live chat so click on this link
+0:48 ask your question and I will be covering
+0:50 these questions during the interview
+0:53 and this is the usual introduction I
+0:55 have now it's over and I will
+0:58 open the questions we prepared for you
+1:03 did you like the questions
+1:05 yes yes I actually didn't see there were
+1:07 questions until this morning but it's a
+1:10 topic that I really like to talk about
+1:12 so yeah I was enthusiastic about them
+1:15 okay so hopefully it's not too
+1:18 surprising for you what you saw there
+1:21 okay are you ready to start
+1:24 yes of course
+1:26 so this week we'll talk about data
+1:28 Centric Ai and we have a special guest
+1:30 today Marisha Marisha works as a lead
+1:32 data scientist at go data driven she has
+1:35 a strong interest in education and
+1:37 teaching both as a part of your current
+1:39 role at code data driven and also as a
+1:42 co-organizer of Pi date Amsterdam and Pi
+1:44 data Global welcome
+1:46 yeah nice thank you for having me
+1:49 the questions for today's interview were
+1:51 prepared by Johanna buyer thanks Johanna
+1:53 for your help so before we go into our
+1:56 main topic of data Centric a let's start
+1:59 with your background
+2:00 can you tell us about your career
+2:01 Journey so far
+2:03 yeah sure
+2:04 um so I started by studying artificial
+2:07 intelligence at the University of
+2:09 Amsterdam I did both a bachelor and a
+2:11 master in artificial intelligence and my
+2:13 early career was focused on specifically
+2:15 applying deep learning on medical
+2:17 imaging particularly early stage lung
+2:20 cancer detection in 3D CT scans
+2:23 and within that domain my focus was on
+2:25 geometric deep learning on the medical
+2:27 domain which was also the topic of my
+2:29 master thesis supervised by maxwelling
+2:31 but after that I transitioned into the
+2:34 role of data science educator I go data
+2:36 driven which meant that I taught and
+2:39 created courses on basically all things
+2:41 data science and now I work as a lead
+2:44 data scientist at code 80 driven and in
+2:47 addition to that I organized meetups and
+2:49 conferences mostly in and around
+2:51 Amsterdam with by data
+2:54 so what did you do as a data science
+2:56 indicator you said you your
+2:59 responsibilities included creating
+3:01 courses yes that's good yeah yeah so at
+3:05 the code 80 Driven Academy we teach a
+3:07 lot of courses on every thing data
+3:09 science so some are very generic like an
+3:11 introduction to python for data analysts
+3:14 or an introduction to data science for
+3:17 instance but we also create a lot of
+3:20 courses very specifically targeted
+3:21 towards a specific audience so for
+3:23 instance I created a deep learning with
+3:25 NLP course or a an unsupervised learning
+3:28 course and those are more detailed or
+3:30 more specific topics and then gave me an
+3:32 opportunity to really dive into that
+3:34 topic and create good exercises and
+3:36 assignments and material on that that
+3:38 was really fun yeah I think I spoke with
+3:41 folks from your company from go data
+3:43 driven at the restaurant by data by Con
+3:46 in Berlin and as far as I remember
+3:49 you're doing education and consultancy
+3:52 right that's yeah
+3:54 so I was mostly a data science educator
+3:57 for about two years but I strongly
+4:00 believe that you can't be a good teacher
+4:02 if you don't also have hands-on
+4:03 experience so I I like to really when I
+4:06 do courses or when I teach courses
+4:08 really tell a lot of anecdotes about my
+4:11 experiences and in my work because it
+4:14 speaks more to the imagination of why
+4:15 we're doing this than just talking about
+4:17 the concepts so while I really enjoyed
+4:20 it I do feel like after two years mostly
+4:22 focusing on the educational side I I
+4:25 need some hands-on experience and also I
+4:27 was really missing this decoding bit so
+4:29 that's uh so so the ideal situation for
+4:32 me is to do both trainings and education
+4:34 and also work as a data scientist and
+4:37 combine that in some way do you still
+4:40 teach
+4:42 uh occasionally some courses but I'm
+4:44 more focused on my lead data science
+4:46 role at the moment
+4:47 what do you do as a lead data scientist
+4:51 um I'm with a company where
+4:53 um I'm mostly focused on building a
+4:55 community of practice there they just
+4:57 went through a transition in their the
+4:59 way that they organize their teams and I
+5:01 want to make sure that all the data
+5:03 scientists still communicate clearly
+5:05 with each other get to exchange
+5:06 knowledge but also increase the maturity
+5:09 level of the data science products that
+5:10 we produce so make sure that we are not
+5:13 just everyone doing something on their
+5:15 own time behind their own laptop but
+5:17 bringing them together make sure that we
+5:18 actually get to mature well-functioning
+5:21 monitored data science products
+5:24 yeah this is such an interesting topic
+5:25 but I'm afraid or I want to ask more
+5:29 about that intent if we run out of
+5:31 questions uh yeah because the the main
+5:33 topic for today is actually data center
+5:35 guy and maybe it's related to what you
+5:39 do right now building how you say
+5:42 building a community of practice and
+5:45 improving maturity
+5:47 so let's go back to Data Center guy so
+5:50 what is what is data center guy why do
+5:52 we care about this
+5:54 yeah that's a that's a good question I
+5:57 did a whole talk with paid London about
+5:58 this whole the answering this question
+6:00 but basically in short the central idea
+6:03 behind it Centric AI is that the focus
+6:06 has to shift from Big Data to good data
+6:09 so Andrew said uh that having 50
+6:13 thoughtfully engineered examples can be
+6:15 sufficient to explain to the neural
+6:17 network what you wanted to learn and the
+6:20 reason why we call it data Centric AI is
+6:22 because it's in contrast to the
+6:23 model-centric approach that a lot of us
+6:26 are used to because in a model-centric
+6:29 AI the focus is really on iterating on
+6:32 the model which means that you create a
+6:34 baseline model given the data that you
+6:36 have you evaluate the Baseline and then
+6:39 you go back to the model you revisit the
+6:41 modeling pipeline
+6:42 and you make adjustments there you
+6:44 change the algorithm you adjust the
+6:46 architecture in your neural network you
+6:48 tune hyper parameters maybe even adjust
+6:50 some of the data Transformations such as
+6:53 how you compute the same values or
+6:55 augment your images
+6:58 but the data is generally considered as
+7:00 or the data set is generally considered
+7:02 as static and the idea behind data are
+7:05 Centric AI is that we shouldn't just
+7:07 iterate on the model but we should
+7:09 iterate on the data as well and that
+7:12 means improving the quality of our data
+7:14 by relabeling mislabeled or ambiguous
+7:17 data points but can also mean Gathering
+7:19 more data or more examples of specific
+7:22 classes or readjusting the train and
+7:24 validation splits
+7:26 uh so data Centric AI is essentially
+7:28 about focusing on your data rather than
+7:30 just focusing on your model and the idea
+7:34 of that is of course isn't new I mean I
+7:36 know that one of the first things that I
+7:38 was taught was garbage in garbage out so
+7:40 that's always been the idea
+7:42 but the thing is that I think or I
+7:44 strongly believe that data Centric AI is
+7:46 particularly relevant now than compared
+7:50 to let's say for example 10 years ago
+7:53 and it's like the hype around deep
+7:55 learning
+7:56 um deep learning wasn't new in 2010 for
+8:00 instance the ideas were new a perceptron
+8:03 we know about perceptrons since the 50s
+8:04 the back propagation has been around
+8:06 since the 80s even the first
+8:08 convolutional networks were already
+8:09 around in the 90s but somehow deep
+8:13 learning really came to prominence since
+8:15 let's say about 2010 onwards and that's
+8:18 not because the ideas themselves were
+8:20 new but because the ground had changed
+8:23 so we had large annotated data sets
+8:25 available gpus that became available
+8:27 which meant that deep learning gained
+8:29 more traction
+8:30 and I believe that something similar is
+8:33 happening for data Centric AI we've
+8:36 always known that data is important but
+8:39 it's more important now for I believe
+8:42 two main reasons uh first of all because
+8:45 more and more problems are now being
+8:47 solved with deep learning we are more
+8:50 often dealing with unstructured data
+8:52 rather than structured tabular data so
+8:55 unstructured data like images or audio
+8:58 or text
+9:00 and whereas for tabular data it's easier
+9:03 to focus on the quality because you have
+9:05 descriptive statistics and you can
+9:07 easily create visualizations to
+9:09 investigate correlations between
+9:11 features you it's it's easier to explore
+9:14 your data and it's also easier to get an
+9:16 idea of the day that comes before you
+9:18 start any modeling so after some proper
+9:21 exploratory data analysis focusing on
+9:23 good data quality is kind of a natural
+9:25 result of that
+9:28 but this is remarkably more complicated
+9:30 when you get to unstructured data
+9:32 because it's more difficult to get a
+9:35 good Insight of the database you have at
+9:37 hand with unstructured data you can
+9:39 sample a few images
+9:41 but do you know for sure that your data
+9:43 is good and representative
+9:46 so because we're dealing with
+9:48 unstructured data now more than ever it
+9:50 we are more in need of tooling and
+9:53 techniques to help us out with that
+9:55 it's a bit counter-intuitive to me
+9:57 because now we have
+9:59 I mean that we need this data Centric AI
+10:02 now more than 10 years ago because it
+10:04 seems like 10 years ago when we didn't
+10:06 have all these gpus we needed to be
+10:08 smart about how we approach things right
+10:10 and then it mattered like what kind of
+10:13 data we have but now you just take a I
+10:16 don't know a cluster of gpus throw in
+10:18 more data and like you sit back and wait
+10:23 till it magically becomes better
+10:25 it doesn't work like that does it
+10:28 no unfortunately not there's this
+10:30 persistent idea that you know the
+10:32 quantity of the data will compensate for
+10:34 the quality so if your data quality is
+10:37 not good just gather a thousand more
+10:39 examples and that's fine but I think
+10:41 something really changed because we're
+10:43 more than ever making use of transfer
+10:45 line so if you have to train a neural
+10:47 network all the way from scratch then
+10:49 yes more data is probably a good way to
+10:52 go
+10:53 um but nowadays we have large Foundation
+10:56 models
+10:57 um and we are mostly focused on
+10:59 fine-tuning those because I is like an
+11:01 individual data science I don't have the
+11:03 resources to to compete with something
+11:05 like gpt3 so I fine-tune it to my own
+11:08 problems and when you're fine-tuning
+11:10 that's the situation where the model has
+11:13 already learned a lot about the
+11:16 structural images the structure of text
+11:18 that you want to fine-tune it to your
+11:20 specific problem so if in that situation
+11:23 you are giving it examples that aren't
+11:25 right
+11:26 then it's basically fine-tuning on the
+11:28 wrong thing and I think that's one of
+11:30 those cases where the data matters more
+11:33 the quality of the data managed one and
+11:36 it's also one of the cases where we as
+11:38 data scientists can have a bigger impact
+11:40 because I'm not going to adjust the
+11:42 architecture or the parameters or the
+11:44 the of a large model that is provided to
+11:48 me a foundation model but I can I know
+11:50 about my data I know about my use case
+11:52 and I can focus on the data more than I
+11:55 can focus on the model itself foreign
+11:57 I'll try to recap everything you said
+12:00 maybe not everything but the main idea
+12:02 so we have two approaches data Centric
+12:04 approach and model Centric approach so
+12:07 in the model Centric approach the data
+12:09 set is static and you iterate on the
+12:11 model maybe tune the model change
+12:13 parameters try different architectures
+12:15 you make some adjustments you might also
+12:18 do some feature engineering right but
+12:20 the data set the images or the rows of
+12:23 your data set they determine the same
+12:27 a in contrast to that in data Centric
+12:29 approach
+12:30 uh you change the data instead of
+12:34 changing the model or in addition to
+12:35 changing the model so you also uh look
+12:38 at the data you see the bad examples you
+12:40 see like the good examples issue where
+12:42 you can improve the data instead of
+12:44 focusing on the model you put more
+12:46 effort more emphasis on the second part
+12:48 on the data part right
+12:51 yep I think this model Centric approach
+12:53 is very typical for a cargo competition
+12:55 so in a cargo competition you have a
+12:58 trained dot CSV file right and then you
+13:02 have test.csv file and then that's all
+13:04 you got right and then you of course
+13:06 have some room for experiments like you
+13:09 can
+13:11 now tune your XG boost model you can
+13:14 train as many models as possible you can
+13:17 put all of them together in an assemble
+13:19 but then it's model sending approach
+13:21 right because your
+13:23 tuning these knobs of the model
+13:25 while in data Centric approach it's
+13:27 different and the reason I spoke about
+13:30 cargo because I also heard the tra
+13:33 competitions about data Centric AI
+13:36 and to my knowledge he even took part in
+13:38 one of or maybe multiple one to one of
+13:42 them
+13:42 so maybe can you tell us about these
+13:44 competitions
+13:45 yeah sure
+13:47 um yeah
+13:48 yeah foreign
+13:54 you have your data and you don't go
+13:56 about Gathering more data or it's more
+13:59 about the model itself
+14:01 um but as a contrast to that we have the
+14:04 data center AI competition that I
+14:05 participated in with two of my
+14:07 colleagues it runs Dimondale and
+14:08 Robertsons and the data Centric AI
+14:11 competition was a competition hosted by
+14:13 the learning.ai that ran for six weeks
+14:16 in September 2021 and the central idea
+14:19 behind this competition was the model
+14:22 was fixed and the data could be changed
+14:25 so the task was about classifying images
+14:28 of Roman numerals hundreds and Roman
+14:30 numerals
+14:31 and we were initially provided with a
+14:34 data set of 3000 images divided into a
+14:37 certain train and validation split
+14:39 and it was up to us to submit the data
+14:42 and all the compute was handled on the
+14:45 Channel Side so the model was a fixed
+14:47 stress net 50 and we could submit up to
+14:50 10 000 images so there was a cap there
+14:52 and we couldn't just say Let's uh
+14:54 let's just get a huge quantity of data
+14:56 and that's what I had to do at this
+14:58 limit right because you can just
+15:00 generate so much so many images and just
+15:03 overload the system with this exactly so
+15:07 there was a cap on that and one of the
+15:09 things that I really liked about that
+15:10 besides you know introducing me to this
+15:12 idea of data Centric AI was that
+15:16 um it made participating very accessible
+15:18 it was a deep learning challenge because
+15:19 it was an image challenge but you didn't
+15:21 need any beefy gpus because all the
+15:25 compute was handled for you so that
+15:26 means that anyone with about 10 MB of
+15:29 storage space and an internet connection
+15:31 could participate and like I said I
+15:34 participated with my colleague student
+15:36 at albertans and we ended up winning in
+15:38 the most innovative
+15:40 category and presenting our solution
+15:43 at the data Centric AI workshop at
+15:45 nerves alongside the other ones that's
+15:47 really great was it your first exposure
+15:50 to this to this idea of data center Kai
+15:53 yeah that's an interesting question so
+15:55 it was my first exposure to the concept
+15:58 so I'd not heard of data Centric AI
+16:00 before but my one major competition that
+16:03 I participated in before was also a
+16:05 cargo competition and that was the data
+16:08 science Bowl
+16:09 um where we participated in detecting
+16:11 whether someone had lung cancer or not
+16:14 based on CP images and that wasn't a
+16:18 data Centric AIA competition but it
+16:20 turned out we ended up in third place me
+16:22 with the company that I was with at the
+16:24 time
+16:25 um but it turned out that all the top
+16:26 three solutions they really didn't use
+16:30 the data that was provided by kygo
+16:31 whatsoever
+16:33 the second Solution by Julian DeWitt was
+16:36 all focused on creating a system so he
+16:39 could easily evaluate whether the scans
+16:42 or the data that he had was any good and
+16:45 making selections based on that and
+16:47 creating a tool that allowed them to
+16:49 easily annotate additional information
+16:52 which made it easier friend to to get to
+16:54 that second place solution so while that
+16:57 wasn't named as a data Centric AI
+17:00 competition it was very interesting to
+17:02 me that we all all the top Solutions
+17:04 ignore the data that we were provided
+17:06 with and decided to focus on
+17:08 Gathering additional data creating a
+17:11 model in a completely different way
+17:12 based on the data that we did think was
+17:15 more useful so it was kind of data
+17:17 Centric in that sense as well
+17:19 I just didn't know it was called Data
+17:21 Centric yeah exactly
+17:23 it's pretty typical for kaggle
+17:26 competitions I think to use external
+17:28 data you you'll have to just disclose
+17:30 that you use this particular data set
+17:32 but uh I guess it's
+17:36 it gives you an edge in uh image
+17:38 competitions when there is an external
+17:41 data set that you can use to make your
+17:43 model better yeah I agree with that but
+17:45 I also think that there's a difference
+17:47 between simply Gathering more data and
+17:49 for instance with some of the winning
+17:51 approaches were based on focusing on
+17:54 finding out what the most useful data to
+17:57 add was like what what things were me
+18:00 missing in our data what things weren't
+18:01 we missing which examples had to have a
+18:04 higher weight because they were more
+18:06 important than other data samples those
+18:08 kinds of decisions about your data which
+18:10 I think goes a bit further than just
+18:13 get getting some extra images
+18:17 that's this is a nice answer to a
+18:19 question why should I take part in data
+18:22 science competitions right then you
+18:23 might stumble into an idea and then uh
+18:26 for you you said it was September 2021
+18:29 not so long ago but now you are giving
+18:32 talks about data Centric I you're
+18:34 talking on podcasts about that so you
+18:36 just see your life and then you also
+18:38 want in this most Innovative uh approach
+18:41 Awards right so I guess your life
+18:43 changed a little bit after taking part
+18:45 in that competition
+18:46 I think data Centric AI for me is I mean
+18:50 when we talk about something like this
+18:51 it's very often focused on the tools and
+18:54 the methods like how do we do something
+18:56 like this what like what kind of
+18:57 packages do you use what kind of tools
+18:59 but for me the most important thing was
+19:01 a mindset shift
+19:03 focusing on the data and not seeing the
+19:06 data sets as static has really helped me
+19:09 throughout my my career since that
+19:12 moment because I think that's a very
+19:13 important Insight that yes I may this
+19:17 may be the data that I have but I can
+19:19 also make decisions about that and
+19:20 change it throughout my modeling process
+19:24 yeah that's interesting the point about
+19:26 changing so um earlier today you
+19:29 mentioned that your train validation
+19:31 split is also it doesn't have to be
+19:33 static right and then uh immediately to
+19:37 me uh like I thought but wait if our
+19:39 validation set is not static how do we
+19:42 compare two approaches and say that this
+19:44 approach is better than this one if our
+19:46 validation set is inconsistent if we
+19:49 change it between two runs you see what
+19:51 I mean right so like you have let's say
+19:53 two models right and then usually the
+19:56 the easiest way to compare these two
+19:57 models is to evaluate these models on
+19:59 the same validation data set and
+20:01 whatever model gets higher score is
+20:04 better right but the moment we change
+20:07 validation data set we cannot compare
+20:10 these models because they are evaluated
+20:12 on different data sets right and for me
+20:16 it got me thinking like okay like now if
+20:18 we start changing the validation data
+20:20 set how can we be sure
+20:22 that it's actually an improvement
+20:25 I think that's a very valid question uh
+20:27 first of all when we were participating
+20:31 in the data Centric AI competition I
+20:33 think that our Insight that the train
+20:34 and validation split that we were
+20:36 provided with wasn't
+20:38 um for us a good split our validation
+20:40 set turned out to be not very
+20:41 representative of all of the data there
+20:44 was a huge
+20:45 part of the data that was not
+20:47 represented in the validation set that
+20:49 was represented in the train set so we
+20:50 decided to rebalance that
+20:52 in our case in the data Centric AI
+20:54 competition we did not have access to an
+20:56 actual test set because that was handled
+20:58 on the competition side so there was
+21:00 another holdout said that we were
+21:02 eventually evaluated on and the
+21:05 validation set in this case was used in
+21:08 order to determine when we were done
+21:10 training so the for early stopping was
+21:13 when it was used
+21:15 um so in that sense it still matters I
+21:18 do believe that
+21:21 I have a I have a very technical
+21:23 artificial intelligence I like to focus
+21:25 on the numbers type of backgrounds but I
+21:27 do also believe that we shouldn't only
+21:29 focus on the number of the metric
+21:31 sometimes you can make a change to your
+21:34 test set to your validation set which
+21:36 makes the numbers go down but gives you
+21:39 more confidence that that number is
+21:41 correct if you notice that for instance
+21:43 your test center your validation set the
+21:45 thing that you eventually validate on
+21:48 um is missing a part of the data that
+21:51 you do expect to encounter in practice
+21:52 do you not add that data to your test
+21:55 set because it's no longer you're not no
+21:57 longer able to compare the bundles do
+21:59 you not add it because your metric will
+22:02 go down I think it's better to change it
+22:05 but be confident about the change that
+22:07 you have made that makes it more
+22:09 trustworthy what your eventual results
+22:11 will be
+22:13 and then at the end you can just
+22:14 revelate all this I know we're talking
+22:17 about data Centric approach not model
+22:19 authentic but then at the end if you
+22:20 change your validation data set you can
+22:21 just re-eviate your approaches on the
+22:24 new split yeah exactly yeah I I think I
+22:27 also want to emphasize of course that
+22:29 data Centric AI doesn't mean that we
+22:31 shouldn't change the model I think it's
+22:33 it's often named in contrast to model
+22:36 Centric AI but for me data Centric AI
+22:38 means that we iterate on both the model
+22:41 and the data so yes does it mean that I
+22:44 just take a Baseline and never change my
+22:45 model anymore
+22:47 um because in practice that won't get me
+22:48 the best results but I do think that
+22:50 it's in very very often there's more to
+22:53 get from improvements on the data then
+22:55 for instance change the entropy in your
+22:58 decision tree to a tuning for instance
+23:01 yeah right
+23:03 um well you said for you the most
+23:05 important realization was to the mindset
+23:08 shift from not just how we do this but
+23:11 also that you know data set is not a
+23:14 static thing you can change it but I'm
+23:16 still wondering how do we actually do
+23:18 this like for what are the tools what
+23:21 are the approaches uh for that how do we
+23:23 implement this yeah that's a very good
+23:26 question
+23:27 um so there's not one toolbox that I can
+23:30 recommend that has everything I think
+23:31 it's a very broad subject it's it's also
+23:33 what you like to focus on there's a lot
+23:35 of tools out there that can help you
+23:37 with labeling
+23:39 um or finding the delay the the data
+23:42 points in your data that need to be
+23:43 labeled but of course there's different
+23:45 tools for text based or image based or
+23:47 audio based but there's way more to data
+23:50 Centric AI than just relabeling there
+23:52 are also tools for
+23:54 um for instance generating synthetic
+23:56 data time how do you create good
+23:58 synthetic data to augment your your
+24:00 current data set so there's a very broad
+24:03 spectrum of things that are all data
+24:05 related and there's also a lot of
+24:08 development at the moment being done on
+24:10 these tools because I think that at the
+24:12 moment we all experience especially
+24:14 working with Foundation models working
+24:17 with unstructured data we experience a
+24:19 need for tools that help us out with
+24:21 these kinds of things so a lot is
+24:23 currently being developed
+24:25 um a lot of high-tech tools a lot of
+24:28 low-tech tools as well I'm a personally
+24:30 a big fan of not using one thing and
+24:34 having everything work out of the box I
+24:36 wouldn't like the magic fix all your bad
+24:39 labels tool that there would if there
+24:42 would be one because I think that I have
+24:45 my value as a data scientist is in
+24:47 understanding the data and talking with
+24:49 subject matter experts so I I'd like to
+24:51 have a lot of control over that process
+24:55 um and I think the most important lesson
+24:57 that we learned is that it at the end
+24:59 it's not about what tools you use it's
+25:02 about how easy you make it for yourself
+25:03 to
+25:05 um to iterate on the data and how you
+25:08 keep track of that so that could mean
+25:09 that you use DVC to version your data
+25:12 and you have a good overview of all the
+25:13 data sets that you've used but in our
+25:16 case for the data center AI competition
+25:17 we were still naming things with
+25:19 underscore version 3 which maybe wasn't
+25:22 the nicest versioning approach but it
+25:24 was a easy for us to re-label our data
+25:27 and that was a very important thing that
+25:29 was in the bottleneck
+25:31 and finally in the dimension the
+25:33 approach for data versioning that you
+25:35 had a data docsclub we recently launched
+25:37 a competition and this competition is um
+25:41 about predicting not detecting
+25:44 determining classifying images of
+25:45 different kind of kitchen stuff like
+25:48 it's a plate cap glass Fork I think I
+25:52 saw that yes yeah yeah
+25:54 and for me like I Was preparing the data
+25:58 for this conversion and the folder that
+26:00 I ended up with the name was like new to
+26:04 Cargo final something
+26:10 uh I wish like maybe for the next one
+26:13 I'll use something like oh one of these
+26:15 tools that he mentioned like DVC or
+26:17 something else because it was like
+26:19 really hard to keep track at the end
+26:20 like what was changed between like this
+26:23 thousands of folders yeah
+26:25 yeah it's the same thing when I started
+26:27 out as a data scientist when I was was
+26:29 uh trying out different hyper parameters
+26:32 I would be writing things on a Post-It
+26:33 note next to my laptop you know and
+26:35 there's a better better way to track
+26:37 your experiments than just writing
+26:39 everything on a Post-It note I think the
+26:41 same goes for your data probably
+26:43 um so yeah that's first thing but also
+26:45 just changing your data I think that's
+26:47 an important thing for a lot of people
+26:48 it's it's difficult to do because
+26:51 there's a whole it's it's considered
+26:53 static so one of the things that made it
+26:56 really easy for us during the data
+26:57 Centric AI competition is that we
+27:00 basically started labeling in Google
+27:01 Docs we found out that when you have the
+27:03 URL of an image you see the image itself
+27:05 so we could very easily change it change
+27:08 the label that was associated with it
+27:10 and then turn it back into a pandas data
+27:12 frame and then do some magic scripts so
+27:15 that every file will be in the right
+27:16 folder and it took a bit of time to
+27:18 create those scripts but it made all of
+27:20 the other work a lot easier for us in
+27:22 the long run to adjust things and I
+27:24 think that's an important one make it
+27:25 easy to make adjustments so the process
+27:29 you had you had a Google spreadsheet
+27:31 with one column I guess URL another
+27:35 column class right and then you could
+27:38 just go there and change a label there
+27:41 or multiple labels and then you had a
+27:43 script that would pull data from this
+27:45 Google spreadsheet and train a model and
+27:47 then it would say okay
+27:49 for this for this version of this
+27:51 spreadsheet this is the score you have
+27:55 exactly
+27:56 I also had some little tricks to make it
+27:58 easier for us to work with the
+27:59 spreadsheet because again there were
+28:01 3000 images so that means that you have
+28:03 3 000 rows so we did things like
+28:06 um which was relatively easy to do put
+28:09 the data through a model already get
+28:11 some predictions and then
+28:13 um order the data points on confidence
+28:16 of the model for instance or we made
+28:18 extensive views of the embeddings
+28:20 visualizing the embeddings and seeing
+28:22 that some uh that some data points were
+28:25 very far away from the distribution of
+28:27 that class and then that's one of those
+28:29 data points that you pay attention to so
+28:32 we made use of little tricks like that
+28:33 to to filter on what to focus our
+28:35 attention on
+28:37 and I recently had a chat with one of
+28:40 your friends by data colleagues Vincent
+28:42 Vincent parmadam and I think he's into
+28:45 really into these tools that help you
+28:47 with uh
+28:49 finding bad data right yes that's true
+28:53 so yeah he actually did a talk in uh
+28:55 data anchor for last week on both
+28:57 labeling with a lot of tricks which was
+28:59 a really good talk that I recommend
+29:01 no so maybe you said like the most
+29:04 important thing is focusing on the
+29:07 approach how iterates how you iterate
+29:10 over this and how you make it easier for
+29:12 for you to iterate
+29:14 rather not
+29:16 instead of focusing on high-tech and low
+29:19 Tech tools so I guess the the low Tech
+29:22 Tool that he used in your competition
+29:24 was this Google spreadsheets yes right
+29:26 but I'm really curious about the
+29:28 approach that you
+29:31 took like how would you actually
+29:33 implement this in practice how would you
+29:35 let's say you join an organization as a
+29:39 consultant or maybe as a data scientist
+29:41 in-house data scientist and you want to
+29:43 follow this data center Ki approach how
+29:46 would you structure your project what
+29:48 kind of tools would you use to make it
+29:50 easy to implement all of the things we
+29:53 discussed
+29:55 that's a good question I don't
+29:57 I don't specific answer on what tools I
+30:00 would use but that's I think mostly
+30:01 because I'm not I don't feel strongly
+30:04 about certain tools over others I'm more
+30:06 interested in the process I think one of
+30:08 the most important changes that I would
+30:09 make I have made in the organization
+30:11 that I'm with is that
+30:13 one of the most important lessons that I
+30:15 learned from the data Centric AI
+30:17 competition is that data is more easy to
+30:19 talk about than the model is it's very
+30:22 hard to go to subject matter experts and
+30:24 talk about your results and say well I
+30:26 used weight normalization instead of
+30:27 batch normalization that doesn't that's
+30:30 not a very viable conversation but you
+30:33 can show examples of the data you can
+30:36 talk about the data you can talk about
+30:38 the all examples that you find and go to
+30:41 someone who knows more about the source
+30:43 of the data that can explain things to
+30:45 you and I think this was particularly
+30:47 relevant when I worked in the in a
+30:49 medical imaging company where we
+30:50 actually had a doctor employed who
+30:53 whenever I found all things in the data
+30:55 I could go and talk to him and show him
+30:57 and he would explain things to me and
+30:59 that would really adjust the way that I
+31:01 approach the modeling as well so I
+31:04 wouldn't have any specific tools to
+31:06 recommend but I would recommend having a
+31:08 very close connection to the person who
+31:10 knows more about the data and realize
+31:12 that when you focus focus on change if
+31:14 you get the same performance but
+31:16 changing the data or by changing the
+31:18 model by changing the data it's much
+31:20 easier to collaborate and it's also much
+31:22 easier for the person who you're
+31:24 presenting the model or the end result
+31:25 to to have a bit of faith that it's it's
+31:28 working correctly rather than just an
+31:30 abstract metric
+31:34 I guess what I wanted to hear from you
+31:36 was more
+31:39 how to say tactical like for me what you
+31:42 say sounds like strategy okay you need
+31:44 to be close with subject matter experts
+31:46 which is super valid but I'm still
+31:49 wondering like how do I actually make it
+31:51 happen so I have a project I have a
+31:53 bunch of subject matter experts and then
+31:56 I have a data set and I want to make
+31:59 sure that I don't go crazy I don't have
+32:01 like a thousand uh folders with names
+32:04 like new version 2 cargo final new and
+32:07 so on
+32:08 like how do I make it happen like how do
+32:11 I organize this
+32:12 um do you have like any tips and tricks
+32:15 or best practices or I know talks that I
+32:17 should
+32:18 check or anything like that
+32:22 um yeah there's a there's actually a
+32:24 Okay the reason why I find it very
+32:25 difficult to give an answer to this is
+32:27 because I think there's a lot of great
+32:28 tools out there but there's two
+32:29 resources there's two resources that I
+32:32 find very useful one is by hazy research
+32:34 and one is by why data and they have a
+32:36 really good overview of awesome AI data
+32:38 centered AI tools that are
+32:41 um structured in a way is it about
+32:43 profiling is about synthetic data is it
+32:46 about the the are you working with
+32:47 images are you working with text because
+32:49 the tools are very specific to that so
+32:51 those are two resources that I would
+32:52 recommend to look for the right tools
+32:54 for the use case that you're working
+32:55 with and I would as a data scientist
+32:58 still start with the model-centric
+32:59 approach I would still create a baseline
+33:01 as a model but then use those Model
+33:03 results to not only go back to the uh to
+33:06 the model and how to adjust those hyper
+33:08 parameters but also use the results of
+33:11 that to see if there's any gaps in my
+33:13 data that I'm that I'm seeing
+33:16 so it's basically doing error analysis
+33:18 and understanding where the model was
+33:19 wrong and then trying to understand why
+33:21 the model was wrong
+33:23 and Maybe not maybe but talk to people
+33:27 who know data well
+33:28 exactly figure this out because maybe
+33:31 for you alone it
+33:33 could be difficult to understand why
+33:36 for this particular data set this was
+33:38 the final label or this is this was the
+33:40 predictions right so maybe it helps to
+33:42 talk to subject a subject matter expert
+33:45 to figure this out and maybe conclude
+33:47 that maybe the label on this example is
+33:50 actually not right and it should be a
+33:52 different one
+33:53 Okay so
+33:56 um so this is how the process looks like
+33:57 right so you train a model you analyze
+33:59 the
+34:01 um you analyze the errors you analyze
+34:03 the mistakes of the model you talk to
+34:04 subject matter experts and you iterate
+34:07 iterated rate until the model is good
+34:10 enough
+34:11 yeah basically
+34:13 sounds simpler than I thought
+34:15 I think it's I think it's always
+34:18 important in these kinds of things to
+34:19 keep humans in the loop and that could
+34:21 be subject matter experts but that could
+34:22 also be just the data scientists who
+34:24 who's learned obviously a lot about the
+34:26 data as well and knows what they're
+34:28 doing I'm not a big fan of the type of
+34:30 tools that automate everything away I
+34:32 know there's a lot of information going
+34:33 on that can really help us but always
+34:35 keep a human in the loop to be sure be
+34:38 sure that you can truly trust your
+34:40 results
+34:41 but I must admit it sounds terribly
+34:44 similar to
+34:47 standard data cleaning like you have you
+34:51 have errors then you go to the data set
+34:53 and you see okay this row doesn't make
+34:55 sense this download fire I just throw it
+34:57 away and then maybe you even have a rule
+35:00 that okay if like this value in this
+35:03 feature in this column is like two
+35:06 sigmas away from the mean then you just
+35:08 throw it away or you cut it or whatever
+35:11 which is a pretty standard data cleaning
+35:14 step probably
+35:18 like what's the difference between these
+35:20 two approaches or the data cleaning is
+35:22 data center guy
+35:24 data cleaning is a part of data Centric
+35:26 AI the data Centric AI itself is more
+35:28 broad it's easiest I guess to talk about
+35:31 data Centric AI in terms of what is a
+35:33 good labeling what is a bad label or how
+35:35 do you choose to deal with your missing
+35:37 values but it's a lot broader than that
+35:39 it's also for instance about is my what
+35:42 I think is a very important thing is my
+35:43 data set representative and is there any
+35:46 bias in that it's by data set complete
+35:48 and those are not things that are
+35:50 typically part of data cleaning and
+35:52 there are tools being developed for
+35:54 instance
+35:55 for images to see if you have a
+35:58 representative data set if you have a
+36:00 complete data set and those tools can
+36:01 really help there as well
+36:03 how do we actually check that I'm really
+36:06 curious like I have a data set Now with
+36:08 uh you know spoons forks cups glasses
+36:11 like how do I know if it's complete
+36:14 yes that's a a good question I think
+36:18 it's very hard to know if you just
+36:21 without any domain knowledge
+36:23 um
+36:25 so for example one of the one of the
+36:27 approaches that one of a toy project
+36:30 that I did once was classifying Penguins
+36:32 classifying penguin species based on
+36:33 images and I sourced the data set
+36:35 basically just through uh downloading
+36:38 all the Google image results and of
+36:39 course lots of the data is right there's
+36:41 a few mistakes in there and it was easy
+36:43 to focus on getting those bad labels out
+36:46 of there and relabeling those but I
+36:49 think that's one of those cases where
+36:50 it's very easy to
+36:53 um I mean if if there's one penguin
+36:55 classified wrong maybe we can gather a
+36:57 bit more data and that kind of overcome
+36:59 the compensates for that right but
+37:02 to do the to make sure that it was
+37:04 representative I um and that particular
+37:07 in this particular case I thought about
+37:10 what situations are there where I can
+37:13 encounter penguins like they can be on
+37:15 land they can be in the snow they can
+37:16 but it can also be on water for instance
+37:19 and I need to have groups of penguins
+37:21 and I need to have uh individual
+37:24 penguins and I need to have penguins
+37:25 from the side and maybe not necessarily
+37:28 from the top but you know all the things
+37:30 that I can encounter and I noticed just
+37:32 by going through my data that I was
+37:35 missing a lot I didn't have a lot of
+37:36 example of baby penguins for the for the
+37:38 different species for instance so that
+37:40 was one of those examples where my data
+37:41 set was not complete
+37:43 and of course this is something that I
+37:45 could have figured out by just scrolling
+37:48 through all the images and noticing this
+37:49 but in this particular case I came up
+37:52 with the different things I thought I
+37:54 should have in my images and I decided
+37:57 to visualize the embeddings of my images
+38:00 so I um basically put my data through a
+38:03 neural network that was already trained
+38:05 and didn't take the the head of it but I
+38:07 took the embeddings and I reduced the
+38:09 dimensionality to umap
+38:11 with umap so I could visualize it and I
+38:14 use an interactive tool
+38:17 um to be able to view my images and I
+38:19 saw different clusters of types of
+38:21 images because of course all the
+38:23 Penguins in the water were kind of
+38:25 together in terms of embeddings and all
+38:27 the Penguins on land were kind of
+38:28 together and I use that interactive tool
+38:31 to get a bigger Insight in my data and
+38:35 then I noticed yes I did see a few baby
+38:37 penguins but I didn't see a lot of data
+38:39 points around those there were only
+38:41 three in my data sets
+38:43 um and I think that's one of those cases
+38:45 where it's it's yeah it's part of my
+38:48 data Gathering process but I did think
+38:50 about this up front I didn't think about
+38:52 how what kind of penguins can I
+38:54 encounter and do I see these in my data
+38:57 sets and I didn't want to manually go
+38:59 through the images because that would
+39:01 take a lot of time so I used like kind
+39:03 of a neat little trick of visualizing
+39:05 the embeddings to make that process
+39:07 easier for myself
+39:08 and then I gathered more data by
+39:10 Googling the type of penguin and then
+39:12 the word baby after it and that's how I
+39:14 gathered more data in the right category
+39:17 I think one of the tools that we can
+39:20 potentially use is a tool from Vincent
+39:22 which is called them better
+39:24 right
+39:25 one second
+39:28 my kid needs to check that there is a
+39:30 package like a postman came and he needs
+39:33 to see
+39:34 okay
+39:35 yeah that's uh that's really cool I
+39:38 actually did this project uh before I
+39:40 knew about ambetter so I I would really
+39:43 like to try it out again whether that
+39:44 makes my life a bit easier yeah for
+39:46 anyone who is watching this right now or
+39:48 listening to this there is a video from
+39:50 Vincent in our Channel it was published
+39:53 I think this week
+39:55 um it's called open source Spotlight and
+39:58 better and bulk so Vincent road to tools
+40:00 yeah let's uh okay I'm really Amazed by
+40:04 how he like turning his ideas into these
+40:07 small little projects and then just
+40:09 publishes them in open source so yeah so
+40:12 their approach for you is you need to
+40:15 think about all the situations
+40:17 where it's possible to encounter a
+40:19 penguin or like if we generalize uh all
+40:23 the contexts all the situations where we
+40:25 can see like the objects we're detecting
+40:28 we're understanding and then see if we
+40:31 miss anything like for example if I go
+40:34 back to this data set with cups and
+40:37 glasses perhaps I need to think about
+40:40 the conditions like the light conditions
+40:42 for example because I need to have
+40:45 images that are well lit when it's dark
+40:48 when it's bright right and then
+40:50 different angles like sometimes maybe in
+40:53 some situations I see the handle of a
+40:55 cup in some situations they don't right
+40:57 and then I need to like from different
+40:59 caps caps from different angles and so
+41:02 on then
+41:04 okay so it's just uh
+41:07 sitting and thinking maybe taking notes
+41:10 right yeah and I think it's important
+41:12 that you do this at the start of your
+41:13 process when you first gather the data
+41:15 but this can also be part of your error
+41:17 analysis when you see that your model is
+41:19 specifically making mistakes on cups
+41:21 where you can't see the handle that
+41:22 might be a reason for you to think okay
+41:23 maybe I need to gather a bit more of
+41:25 that data
+41:26 and verify that hypothesis so that's a
+41:28 hypothesis that you can make why is my
+41:30 model having trouble with this
+41:32 particular image verify that with your
+41:34 address you know the initial data source
+41:36 see if you can gather more data and then
+41:39 have a new version of your data set and
+41:41 try let's say exactly the same model
+41:43 again and see if it works better now
+41:46 and when do we stop like how do we know
+41:48 if it's good enough
+41:50 I think that's always a very difficult
+41:51 question in data science it depends
+41:53 right it depends when your results are
+41:56 good enough for your usage while you're
+41:59 doing this okay and how much time you
+42:01 have it also matters for instance it was
+42:03 for me when I was there in the penguin
+42:05 project because I was just sourcing
+42:06 images through Google it was very easy
+42:08 to just Google
+42:11 um baby penguins Adderley penguins that
+42:13 was very easy to gather more data but if
+42:15 you have to actually go go out back to
+42:17 your kitchen and photograph a bunch of
+42:19 additional pictures of all your cups
+42:20 that does make it a little bit more
+42:22 complicated so it's also
+42:24 um when is it good enough if given the
+42:28 time that you have and given the project
+42:29 that you have your results are
+42:30 satisfactory and that can be because of
+42:32 model tuning but that can also be
+42:33 because of data tune and then I guess
+42:36 talk to subject matter experts
+42:37 stakeholders and ask them what they
+42:40 think like is this I don't know 80
+42:42 accuracy is satisfiable or they need
+42:45 more
+42:46 yeah though I in my experience that's
+42:49 also very always a very difficult uh
+42:51 conversation to have because when you
+42:52 just talk about metrics lots of people
+42:54 just it's just a random number 80 sounds
+42:57 nice highest number is best I think it's
+43:00 always so that's always a very difficult
+43:01 conversation in my experience or my
+43:04 experience to have uh but you can give
+43:06 examples of your data as well like these
+43:08 are the these are the data points that
+43:09 it classifies correctly and these are
+43:11 the ones that it still have some
+43:12 troubles with is that okay for you if
+43:14 it's so I think you've been advocating
+43:17 for this this entire interview don't
+43:19 focus on metrics right focus on data
+43:22 yeah I guess so yes
+43:24 so it means like okay like if I know
+43:27 that my model is making mistakes when
+43:29 it's dark like there is no not enough
+43:32 light I can just talk to my stakeholders
+43:35 and show okay there's a picture of a
+43:37 fork but the lights are turned off
+43:39 that's why the model thinks it's a I
+43:42 don't know a glass right are you okay
+43:44 with this or we need to collect enough
+43:47 pictures of forks in complete darkness
+43:49 then the model will be better
+43:53 okay this is the approach you would take
+43:55 okay cool interesting I think that's
+43:57 that's also because of my background in
+43:59 the in the medical field where we were
+44:02 doing deep learning but explainability
+44:03 was very important because trust in the
+44:06 system was a very important thing and
+44:08 you don't get trust by just showing a
+44:10 graph or showing the metric
+44:13 and then another thing could occurred to
+44:14 me while we were talking is that we can
+44:17 take this a simple model
+44:19 and if our conditions are low maybe for
+44:22 medical field it's not good but if it's
+44:24 a simple I don't know think
+44:25 classification we can just deploy our
+44:28 model and see how users play with this
+44:31 and collect feedback from the users
+44:33 right so let's say if we want to deploy
+44:35 yeah there was a project I uh I did a
+44:39 couple of years ago it was about
+44:41 classifying garbage types
+44:44 in Europe in many countries like garbage
+44:47 of certain type needs to go to maybe in
+44:50 a certain type right
+44:51 like you put plastic in the in Germany
+44:54 you put plastic in a yellow bin and you
+44:57 put paper in a blue bin I don't know how
+44:59 it is in the Netherlands probably
+45:01 something similar yeah I I heard the
+45:02 municipality if Amsterdam is doing a
+45:04 very similar project where they uh they
+45:06 send around cars to to notice the
+45:08 garbage on the street and notify the
+45:10 right people to pick the pick that up
+45:12 yeah so and then you have this model and
+45:16 then you can I don't know just deploy
+45:18 create an app and then see what kind of
+45:19 things users send and see if there are
+45:23 any mistakes there like for example if
+45:25 the model says that paper should go to
+45:28 [Applause]
+45:28 um
+45:29 like the black bean which is for
+45:31 everything else that doesn't fit the
+45:32 other bins like maybe you can understand
+45:34 okay you can try to understand why the
+45:36 model is making these mistakes what kind
+45:38 of things
+45:39 are we missing
+45:41 and this is because like our data set is
+45:43 wrong or because our model is not so
+45:45 good how can we fix this problem and
+45:47 then probably the reason for that is uh
+45:50 data right and then very often it is
+45:52 yeah
+45:56 sorry
+45:57 yeah I think it's important I think an
+45:59 important part of data Centric AI is
+46:01 focusing on the data it's also about how
+46:03 do you how do you actually label your
+46:04 data how do you know that it's that it's
+46:06 good exactly what you just said
+46:07 collecting user feedback can be a very
+46:09 very good way to get more knowledge
+46:11 about the data that you have
+46:14 is it a typical
+46:17 approach how we put this in production
+46:19 or
+46:21 like maybe there are other approaches
+46:23 we just roll it out and see how users
+46:25 react because I guess if we talk about
+46:27 medical field we can just we cannot just
+46:30 deploy this model to
+46:32 um I don't know lung cancer things right
+46:36 and then let's
+46:37 let people just use it and uh you know
+46:40 correct data later
+46:41 that's simply not applicable there we
+46:44 need to use a different approach while
+46:45 in case of garbage classification it's
+46:47 okay if one piece of paper will end up
+46:49 in the wrong bin
+46:51 yeah so that's actually interesting
+46:53 because
+46:54 um we did do this with the medical
+46:56 imaging software we actually did deploy
+46:58 it in hospitals and but in a of course
+47:01 not very broadly if at first with a few
+47:03 people who were interested and they
+47:05 volunteered these Radiologists
+47:07 volunteered to have our software Run
+47:09 next to their day-to-day job so they
+47:12 were still unresponsible for their for
+47:14 judging scams the software was not
+47:17 making any decisions I think that's a
+47:18 very important thing when you're still
+47:19 developing but they did see the model
+47:23 results of the software and we talked to
+47:26 them extensively about the feedback so
+47:27 we got a lot of feedback for instance
+47:29 that certain mistakes were being made or
+47:32 certain types of mistakes were being
+47:34 made and that at that point already led
+47:36 us to gather more data of those kinds of
+47:40 those kinds of examples
+47:42 I think it's called Shadow mode
+47:45 deployment or something like that so you
+47:47 deploy this thing in addition to
+47:49 whatever process is there and then you
+47:52 just use this to collect data and then
+47:54 you compare whatever decision the model
+47:55 is making with the decision of the
+47:58 subject matter expert in this case a
+48:00 doctor right and then you see the the
+48:02 where the model is wrong and where it's
+48:05 right yeah exactly I think we used
+48:07 something like that for moderation so
+48:09 where I work it will elixit's online
+48:11 classifieds it's like a place for
+48:14 selling second and stuff
+48:17 um I think in the method once you have
+48:19 Mark plots yes yeah so similar to that
+48:23 um and then in one of the projects we
+48:26 just let it run
+48:28 e in parallel to moderators and then we
+48:30 compared the output of moderators with
+48:32 the output of the model and we concluded
+48:34 that the model is good enough
+48:36 or like there are of course some issues
+48:38 but then after one or two iterations we
+48:41 concluded it's good enough yeah
+48:42 interesting I was asking you about that
+48:44 like how do you know if it's good enough
+48:46 but for us it was talking to these
+48:48 moderators and thinking okay like do you
+48:50 think it will help you or not yeah I
+48:52 think that's the question that you need
+48:53 to answer eventually
+48:55 do you think this is a help
+48:57 and after that we just rolled it out
+49:01 I guess it summarizes pretty well what
+49:04 we've been discussing so far right yeah
+49:06 I think I do
+49:09 what if we have a lot of weight data
+49:10 like what do we do and
+49:13 um it's maybe not so easy to collect new
+49:15 data
+49:19 that's just a very difficult situation
+49:21 if you have a lot of bad data and you
+49:23 can't collect new good data and you
+49:25 can't relabel the data I guess there you
+49:27 could do a lot of manual work to make
+49:29 your bad data a little bit less bad but
+49:33 it's the same if you don't have enough
+49:35 data then some some problems just aren't
+49:37 solvable I was talking at some point to
+49:39 someone who offered me a project who
+49:41 said uh yeah also I I want you to
+49:44 classify 13 different classes but I have
+49:46 54 examples
+49:48 and also it's in 3D it's 3D images
+49:51 that's not that's just not gonna work
+49:54 um so unfortunately there's not a
+49:55 clear-cut answer there um if you have a
+49:57 lot of bad data it might require a lot
+49:59 of manual work to make a good data but
+50:01 maybe if you don't have enough still
+50:03 it's unfortunately not a feasible
+50:05 project
+50:06 okay so you might even need to open your
+50:11 favorite image editor and edit some of
+50:13 the data right
+50:15 um maybe but I wouldn't be very
+50:17 enthusiastic about the project if that's
+50:19 what I understood okay I I started I
+50:23 studied artificial intelligence because
+50:24 I find this hill this whole topic this
+50:26 whole field very interesting and I do
+50:28 try to automate those things away
+50:30 because if I end up just doing data
+50:31 cleaning by opening image editors and
+50:34 removing stuff there I don't think
+50:36 that's the that's the reason I got into
+50:38 this job in the first place so maybe
+50:41 it's better to have a model that is
+50:42 doing the editing right
+50:44 that would be really nice yes or tools
+50:46 that can help you out to automate a lot
+50:48 of this stuff away but then if it's just
+50:50 50 images then maybe you cannot really
+50:52 do this
+50:54 maybe not
+50:55 okay another topic I wanted to talk to
+50:58 you about was your role with pi data so
+51:01 I know that outside of your work you're
+51:03 quite involved in the biodata community
+51:06 so you are a co-chair the co-chair of Pi
+51:09 data Amsterdam
+51:11 and yeah in general you're quite active
+51:14 as I said at the beginning
+51:16 I think I've came across here talking by
+51:20 data Berlin this year and this is how we
+51:23 decided to reach out to you
+51:24 was it this year I think I think I found
+51:27 you there I I spoke about it at Berlin
+51:29 twice twice yeah I think I did a
+51:32 tutorial this year yeah
+51:34 what's uh what was the tutorial about
+51:37 it was about it was called serious time
+51:39 for time series it's time to take time
+51:41 history seriously
+51:43 okay
+51:45 I do remember seeing quite a mouthful
+51:47 yeah so what what's your role there what
+51:50 do you do in the pay data Community
+51:51 apart from giving tutorials and talks
+51:53 yes
+51:55 um so I joined uh Patel Amsterdam in
+51:58 2019 I believe
+52:01 um and my role here is I I basically
+52:03 joined it because I enjoyed going to
+52:04 meet up so I studied artificial
+52:06 intelligence I was focused on this very
+52:08 specific topic deep learning from
+52:09 Medical Imaging and just interested in
+52:11 everything about the field so I really
+52:13 enjoyed going to meetups and learning
+52:14 more about experiences of others in the
+52:16 field as well and by joining the
+52:18 committee I was able to organize this as
+52:20 well be organizing monthly Meetup and we
+52:22 organized a yearly conference
+52:25 um so I've organized the conference for
+52:27 pi data Amsterdam I've organized an
+52:29 online Pi data festival for PA data
+52:31 Amsterdam and I've organized by data
+52:33 Global last year and this year we'll
+52:36 fool on back on organizing what did
+52:38 Amsterdam and making sure that we can
+52:40 create a really cool conference that
+52:42 brings together users and developers of
+52:45 basically open source packages in the
+52:47 data science ecosystem
+52:49 uh confusion that a lot of people have
+52:51 about Pi data I know that the name is
+52:53 maybe a bit confusing it's it's not just
+52:55 about Pi python it's also for Julia and
+52:58 our users
+53:00 yeah it is confusing I must admit maybe
+53:03 it started as a python conference right
+53:05 yeah I think so too
+53:08 you said that in 2019 you joined the
+53:11 committee but
+53:13 I don't think it happened like you one
+53:15 day you woke up and you then walked in
+53:18 the comedian said okay do you mind if I
+53:20 join you it was something else right
+53:22 like how did the how did it look like
+53:24 how did it happen that you joined them
+53:27 um I think it was actually 2018 comes to
+53:29 think of it but uh basically I was
+53:31 attending a couple of meetups and at
+53:33 some point uh the committee is on stage
+53:35 and they said it was actually Vincent
+53:37 who said on stage hey is there anyone
+53:39 who would like to join the committee in
+53:41 the break and talk to me and that's uh I
+53:43 like organizing these kinds of things uh
+53:45 because I like to when you organize it
+53:47 you have the luxury of also determining
+53:49 what you organize so I get to organize
+53:51 the meetups that I like to attend and
+53:53 the conference that I'd like to attend
+53:55 so I I decided to volunteer
+53:58 and that's also how we got our entire
+54:00 new committee we have about 16 people in
+54:03 our committee at the moment to organize
+54:04 the conference and all of them joined
+54:06 basically because we uh we just did a
+54:07 shout out at a Meetup like do you enjoy
+54:09 this kind of thing do you want to make
+54:10 do you want to help shape this come and
+54:12 join us
+54:13 yeah I guess it's pretty useful to have
+54:16 a community and then you just say okay
+54:17 like does anyone want to help us and
+54:19 yeah people who want and then so this
+54:23 whole process didn't take it didn't
+54:25 sound like it took a lot of time for you
+54:27 to actually from the moment you started
+54:29 attending meetups to the moment you
+54:31 joined the committee
+54:33 no no that wasn't a long time I think I
+54:37 don't remember when I first started
+54:38 Journey meetups but uh
+54:41 well I guess when you leave in Amsterdam
+54:42 that there are so many meetups and
+54:45 communities and just easy to be a part
+54:48 of one I think that's one of the reasons
+54:50 why I really enjoyed helping out with bi
+54:52 data Global as well because I realized
+54:54 I'm very privileged I live in Amsterdam
+54:55 and one of the reasons why I attended a
+54:57 lot of meetups was because they were
+54:58 simply very close to my house so if I
+55:00 didn't enjoy it I could just go home
+55:02 um and that's really nice about the city
+55:05 that I'm in but of course a lot of
+55:06 people live in places where it's not as
+55:08 easy to attend meetups and therefore
+55:10 share that knowledge and gather that
+55:12 knowledge so that's what I really like
+55:13 about padetta global I personally do
+55:16 enjoy in-person meetups and conferences
+55:18 more but I do think it's very important
+55:19 to make all of this information as
+55:21 accessible as possible and that's the
+55:23 idea behind Global that it's it's for
+55:25 everyone all over the world anyone can
+55:27 join and that's why I like helping out
+55:30 there I guess it started as a in the in
+55:34 response to the pandemic right so people
+55:36 couldn't just go to in-person meetups
+55:40 but then in addition to being able to
+55:43 connect during pandemic it also a lot of
+55:45 people from any part of the world to
+55:47 join and also take like if somebody does
+55:49 not live in Berlin or Amsterdam or New
+55:51 York or any other big Tech Hub then they
+55:54 can just connect
+55:56 to Pi data Global from the village and
+55:58 take part on this side exactly cool and
+56:02 what's the difference between pi data
+56:03 and pycon
+56:05 yeah
+56:06 um so I think the major difference is
+56:08 that python is for everything Python and
+56:10 in pi data besides also Julian R I'm not
+56:13 sure how python feels about that but we
+56:16 our focus is more on the data side of it
+56:20 so
+56:22 um but it is actually the educational
+56:23 flag of non-focus and all the proceeds
+56:26 of the conference that we organize go to
+56:28 support the open source ecosystem but
+56:30 specifically the packages that I as a
+56:32 data scientists use a lot like numpy and
+56:35 multiple lip Panda scikit-learn those
+56:37 kinds of packages and that's also what
+56:39 you'll see that most of the talks are
+56:41 about whereas by con I would say is
+56:43 generally a little bit broader than just
+56:45 data science and data analytics I assume
+56:50 there is I still think there is some
+56:53 bias towards python tools and biodata
+56:55 yes
+56:58 um
+57:00 yeah we have to make a conscious effort
+57:03 to make sure that the r and Julia folks
+57:04 are feeling included as well I am mostly
+57:07 a python user I I started with the Java
+57:11 multiple or Java and Matlab and then
+57:13 switched to pipe and I've never only
+57:15 played around with Julian or but I think
+57:17 it's it most of these things most of
+57:19 these talks aren't really about the
+57:21 tools or about the language or about the
+57:23 code it's more about the concept so I
+57:25 think that translates well into other
+57:26 languages as well yeah I remember one of
+57:29 the talks in pi data Berlin this year
+57:33 um was like it was a general approach
+57:36 from a company who is selling cars
+57:39 similar to what we had to Elixir that's
+57:40 why it was very interesting for me to
+57:42 check what competitors competitors are
+57:45 doing and they use Java for example
+57:48 which is not any of these three
+57:50 languages but yet the talk was quite
+57:53 nice
+57:54 maybe you should you should rename it to
+57:56 something like you know like how IPython
+57:58 notebooks got renamed to Jupiter
+58:01 Julia R and python yeah yeah so maybe it
+58:06 should be Jupiter data instead of piling
+58:08 yeah maybe but I don't I I'm very
+58:10 involved with the Amsterdam chapter but
+58:11 I think there's like what then 100
+58:14 chapters I don't think I have the uh the
+58:16 authority to change all of their those
+58:18 names yeah probably not going to happen
+58:19 right maybe not now okay well
+58:24 um I think one thing the one last thing
+58:27 I wanted to ask you is how can people
+58:29 find you if they have any questions
+58:33 oh yeah that's a good I I that's a good
+58:35 question I always really like it when
+58:36 people reach out so I'm reachable
+58:38 through uh LinkedIn I have my website
+58:40 which is marisha.nl so just my first
+58:43 name dot NL for the Netherlands and my
+58:46 email address is on there as well so I
+58:48 feel absolutely free to reach out also
+58:49 if you want to get involved with my data
+58:51 Maybe speak or maybe get some tips there
+58:53 but or talk about data Centric AI be
+58:56 really happy to talk about those topics
+58:59 okay thanks a lot for joining us today
+59:01 thanks everyone for attending too and uh
+59:03 yeah it's Friday today so have a great
+59:06 rest of the week and have a nice weekend
