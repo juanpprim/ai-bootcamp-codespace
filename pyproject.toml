@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "elasticsearch>=8.15.0",
+    "elasticsearch==8.15.0",
     "jupyter>=1.1.1",
     "minsearch>=0.0.7",
     "openai-agents==0.3.3",
