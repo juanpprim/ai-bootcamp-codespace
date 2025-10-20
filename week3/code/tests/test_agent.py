@@ -64,3 +64,17 @@ def test_agent_no_legal_domain():
         query = call.args.get("query", "").lower()
         for term in legal_terms:
             assert term not in query, "Did not expect legal domain in tool calls"
+
+
+def test_agent_no_evidently_in_search_queries():
+    user_prompt = "what is llm as a judge evaluation"
+    result = main.run_agent_sync(user_prompt)
+
+    print(result.output.format_article())
+
+    tool_calls = get_tool_calls(result)
+    assert len(tool_calls) >= 3, f"Expected at least 3 tool calls, got {len(tool_calls)}"
+
+    for call in tool_calls:
+        query = call.args.get("query", "").lower()
+        assert "evidently" not in query, "Did not expect 'evidently' in search queries"

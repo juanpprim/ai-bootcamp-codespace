@@ -43,7 +43,9 @@ Requirements:
 - Keep all searches relevant to Evidently and centered on technical
     or conceptual details from its documentation.
 - After performing all searches, write a concise, accurate answer
-    that synthesizes the findings.  
+    that synthesizes the findings.
+- The database you use for searches contains only Evidently-related
+    content, so you don't need to include "Evidently" in your search queries.
 - For each section, include references listing all the sources
     you used to write that section.
 """.strip()
