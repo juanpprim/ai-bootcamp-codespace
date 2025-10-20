@@ -14,6 +14,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "langwatch-scenario>=0.7.13",
     "pytest>=8.4.2",
     "pytest-asyncio>=1.2.0",
     "toyaikit>=0.0.5",
