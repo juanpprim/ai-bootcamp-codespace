@@ -15,6 +15,5 @@ async def run_agent(user_prompt: str):
     return results
 
 
-
 def run_agent_sync(user_prompt: str):
     return asyncio.run(run_agent(user_prompt))

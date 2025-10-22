@@ -78,3 +78,15 @@ def test_agent_no_evidently_in_search_queries():
     for call in tool_calls:
         query = call.args.get("query", "").lower()
         assert "evidently" not in query, "Did not expect 'evidently' in search queries"
+
+
+def test_agent_not_more_than_10_searches():
+    user_prompt = "examples of incorrect LLM responses"
+    result = main.run_agent_sync(user_prompt)
+
+    print(result.output.found_answer)
+    print(result.output.format_article())
+
+    tool_calls = get_tool_calls(result)
+    assert len(tool_calls) >= 3, f"Expected at least 3 tool calls, got {len(tool_calls)}"
+    assert len(tool_calls) <= 10, f"Expected at most 10 tool calls, got {len(tool_calls)}"
