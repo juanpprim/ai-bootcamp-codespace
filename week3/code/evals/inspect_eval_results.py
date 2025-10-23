@@ -41,11 +41,15 @@ def load_judge_results(bin_path: str) -> Optional[pd.DataFrame]:
                     checks = result.output.checklist
                     checks_formatted = {'question': original_row['question']}
                     for check in checks:
-                        checks_formatted[check.check_name] = check.check_pass
+                        # Convert enum to string value
+                        check_name = check.check_name.value if hasattr(check.check_name, 'value') else str(check.check_name)
+                        checks_formatted[check_name] = check.check_pass
                     all_checks.append(checks_formatted)
                 return pd.DataFrame(all_checks)
         except Exception as e:
             st.warning(f"Could not load judge results: {e}")
+            import traceback
+            st.error(f"Error details: {traceback.format_exc()}")
             return None
     return None
 
@@ -144,13 +148,18 @@ def main():
     
     # Show eval check scores if available
     if judge_df is not None:
-        check_columns = [col for col in df.columns if col not in ['question', 'answer', 'messages', 'tool_call_count', 'answer_length', 'requests', 'original_question']]
+        # Get check columns from judge_df (exclude 'question')
+        check_columns = [col for col in judge_df.columns if col != 'question']
         if check_columns:
             st.sidebar.markdown("**Eval Check Pass Rates:**")
             for check_col in check_columns:
-                if df[check_col].notna().any():
-                    pass_rate = df[check_col].mean()
-                    st.sidebar.metric(check_col, f"{pass_rate:.1%}")
+                if check_col in df.columns and df[check_col].notna().any():
+                    # Ensure we're working with boolean values
+                    try:
+                        pass_rate = df[check_col].astype(bool).mean()
+                        st.sidebar.metric(check_col, f"{pass_rate:.1%}")
+                    except Exception as e:
+                        st.sidebar.warning(f"{check_col}: Error - {e}")
     
     # Filters
     st.sidebar.header("🔍 Filters")
@@ -175,12 +184,13 @@ def main():
     search_query = st.sidebar.text_input("🔎 Search in questions/answers", "")
     
     # Evaluation check filters
+    selected_checks = {}
     if judge_df is not None:
         st.sidebar.markdown("**Filter by Eval Checks:**")
-        check_columns = [col for col in df.columns if col not in ['question', 'answer', 'messages', 'tool_call_count', 'answer_length', 'requests', 'original_question']]
-        selected_checks = {}
+        # Get check columns from judge_df (exclude 'question')
+        check_columns = [col for col in judge_df.columns if col != 'question']
         for check_col in check_columns:
-            if df[check_col].notna().any():
+            if check_col in df.columns and df[check_col].notna().any():
                 filter_option = st.sidebar.radio(
                     check_col,
                     options=["All", "Passed", "Failed"],
@@ -232,9 +242,11 @@ def main():
     with tab_list:
         # Quick overview table with evaluation checks
         display_columns = ['question', 'tool_call_count', 'answer_length']
+        list_check_columns = []
         if judge_df is not None:
-            check_columns = [col for col in filtered_df.columns if col not in ['question', 'answer', 'messages', 'requests', 'original_question', 'tool_call_count', 'answer_length']]
-            display_columns.extend(check_columns)
+            # Get check columns from judge_df
+            list_check_columns = [col for col in judge_df.columns if col != 'question' and col in filtered_df.columns]
+            display_columns.extend(list_check_columns)
         
         display_df = filtered_df[display_columns].copy()
         display_df['question_preview'] = display_df['question'].str[:80] + '...'
@@ -245,7 +257,7 @@ def main():
         # Reorder columns to put idx first
         cols = ['idx', 'question_preview', 'tool_call_count', 'answer_length']
         if judge_df is not None:
-            cols.extend(check_columns)
+            cols.extend(list_check_columns)
         
         st.markdown("💡 **Tip:** Note the `idx` number, then switch to Detailed View and enter it in the navigation box")
         
@@ -337,11 +349,12 @@ def main():
                 
                 # Evaluation Checks
                 if judge_df is not None:
-                    check_columns = [col for col in row.index if col not in ['question', 'answer', 'messages', 'requests', 'original_question', 'tool_call_count', 'answer_length']]
-                    if check_columns:
+                    # Get check columns from judge_df
+                    detail_check_columns = [col for col in judge_df.columns if col != 'question' and col in row.index]
+                    if detail_check_columns:
                         with st.expander("✅ Evaluation Checks", expanded=True):
-                            check_cols = st.columns(len(check_columns))
-                            for i, check_col in enumerate(check_columns):
+                            check_cols = st.columns(len(detail_check_columns))
+                            for i, check_col in enumerate(detail_check_columns):
                                 with check_cols[i]:
                                     if pd.notna(row[check_col]):
                                         if row[check_col]:

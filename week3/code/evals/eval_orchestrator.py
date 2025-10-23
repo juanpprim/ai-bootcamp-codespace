@@ -95,10 +95,14 @@ async def run_full_evaluation(
     # Step 2: Run judge evaluation
     print_separator("STEP 2: JUDGE EVALUATION")
     
+    # Generate judge output path with same timestamp as run results
+    judge_output_path = saved_path.replace('eval-run-', 'eval-judge-')
+    
     judge_cost, df_eval, metrics, judge_path = await run_complete_judge_evaluation(
         input_path=saved_path,
         model=judge_model,
-        max_concurrency=max_concurrency
+        max_concurrency=max_concurrency,
+        output_path=judge_output_path
     )
     
     print("\n✓ Judge evaluation completed")
