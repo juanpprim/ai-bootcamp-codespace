@@ -4,6 +4,8 @@ This directory contains a modular evaluation system for the search agent.
 
 **Important**: All commands should be run from the project root directory (`/workspaces/ai-bootcamp-codespace/week3/code`), not from within the `evals/` directory.
 
+**Quick Start**: See [INSPECTOR_GUIDE.md](INSPECTOR_GUIDE.md) for detailed instructions on using the interactive inspection tools.
+
 ## Structure
 
 ### Core Modules
@@ -32,6 +34,17 @@ This directory contains a modular evaluation system for the search agent.
    - Orchestrates run + judge evaluation
    - Displays comprehensive reports
    - Tracks total costs
+
+6. **`inspect_ground_truth.py`** - Ground truth inspector (Streamlit)
+   - View and edit ground truth questions
+   - Select good questions for curation
+   - Export curated datasets
+
+7. **`inspect_eval_results.py`** - Evaluation results inspector (Streamlit)
+   - Deep dive into evaluation results
+   - Filter by criteria (tool calls, answer length, etc.)
+   - View detailed tool calls and message logs
+   - Identify potential issues
 
 ### Directory Structure
 
@@ -249,6 +262,27 @@ Costs are tracked separately for:
 
 ## Examples
 
+### Complete Workflow with Inspection
+
+```bash
+# 1. Inspect and curate ground truth
+uv run streamlit run evals/inspect_ground_truth.py -- --input evals/ground_truth_evidently.csv
+# Select good questions and export to evals/gt-curated.csv
+
+# 2. Create evaluation sample
+uv run python -m evals.sample_ground_truth \
+    --sample-size 25 \
+    --input evals/gt-curated.csv \
+    --output evals/gt-sample.csv
+
+# 3. Run evaluation
+uv run python -m evals.eval_orchestrator --csv evals/gt-sample.csv
+
+# 4. Inspect results
+uv run streamlit run evals/inspect_eval_results.py
+# Review results, identify issues, filter by criteria
+```
+
 ### Quick Test (5 samples)
 
 ```bash
@@ -260,6 +294,9 @@ uv run python -m evals.sample_ground_truth \
 
 # Step 2: Run evaluation
 uv run python -m evals.eval_orchestrator --csv evals/gt-test.csv
+
+# Step 3: Inspect results
+uv run streamlit run evals/inspect_eval_results.py
 ```
 
 ### Full Evaluation
@@ -292,6 +329,60 @@ uv run python -m evals.eval_orchestrator \
     --judge-model gpt-4o-mini
 ```
 
+## Interactive Inspector Tools
+
+### Ground Truth Inspector
+
+Interactive Streamlit app to view, edit, and curate ground truth questions.
+
+```bash
+# Launch the inspector
+uv run streamlit run evals/inspect_ground_truth.py -- --input evals/ground_truth_evidently.csv
+```
+
+**Features:**
+- 📋 View all ground truth questions
+- ✏️ Edit questions inline
+- ✓ Select "good" questions for curation
+- 🔍 Search and filter questions
+- 💾 Export curated dataset to new CSV
+- ⚡ Bulk select/deselect operations
+
+**Workflow:**
+1. Load your ground truth CSV
+2. Browse and review questions
+3. Edit any questions that need improvement
+4. Check the boxes next to good questions
+5. Export selected questions to a new file
+
+### Evaluation Results Inspector
+
+Interactive Streamlit app to deep dive into evaluation results.
+
+```bash
+# Launch the inspector (auto-detects latest results)
+uv run streamlit run evals/inspect_eval_results.py
+
+# Or specify a results file
+uv run streamlit run evals/inspect_eval_results.py -- --input reports/eval-run-2025-10-23-12-00.bin
+```
+
+**Features:**
+- 📊 Summary metrics (avg tool calls, answer length, etc.)
+- 🔍 Filter by tool call count, answer length, search terms
+- 🛠️ View detailed tool calls and arguments
+- 📜 Inspect full message logs
+- ⚠️ Identify potential issues (too many/few tool calls, short/long answers)
+- 📃 List and detailed views
+- 💾 Export filtered results to CSV
+
+**Use Cases:**
+- Find results with excessive tool calls
+- Identify answers that are too short or too long
+- Debug specific questions
+- Review tool usage patterns
+- Export problematic cases for further analysis
+
 ## Dependencies
 
 - pandas
@@ -299,4 +390,5 @@ uv run python -m evals.eval_orchestrator \
 - pydantic_ai
 - toyaikit
 - tqdm
+- streamlit
 - asyncio (stdlib)
