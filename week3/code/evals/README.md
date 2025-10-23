@@ -37,6 +37,7 @@ This directory contains a modular evaluation system for the search agent.
 
 6. **`inspect_ground_truth.py`** - Ground truth inspector (Streamlit)
    - View and edit ground truth questions
+   - View source lines that generated each question
    - Select good questions for curation
    - Export curated datasets
 
@@ -70,7 +71,49 @@ week3/code/
 
 **Note**: Run all commands from the project root (`/workspaces/ai-bootcamp-codespace/week3/code`)
 
-#### Step 0: Sample Ground Truth (for reproducibility)
+#### Step 0a: Generate Ground Truth Data (optional)
+
+If you need to create a new ground truth dataset from documentation:
+
+```bash
+# Generate with default settings (gpt-4o-mini, 6 workers)
+uv run python -m evals.generate_data
+
+# Use a different model
+uv run python -m evals.generate_data --model gpt-4o
+
+# Customize output file
+uv run python -m evals.generate_data --output evals/ground_truth_custom.csv
+
+# Adjust content filtering and generation parameters
+uv run python -m evals.generate_data \
+    --min-content-length 500 \
+    --chars-per-question 800 \
+    --max-workers 10
+
+# Exclude specific keywords from document titles
+uv run python -m evals.generate_data \
+    --exclude unpublished legacy test draft
+```
+
+This will:
+- Load documentation from the `docs` module
+- Filter documents by length and keywords
+- Generate questions using LLM with line number tracking
+- Save to `evals/ground_truth_evidently.csv` (or custom output)
+- Track total API costs
+
+**Generated CSV includes:**
+- `question` - Natural search-style query
+- `summary_answer` - 1-2 sentence answer summary
+- `difficulty` - Question complexity level
+- `intent` - User's intent (informational/navigational/transactional)
+- `filename` - Documentation file path
+- `relevant_lines` - Line numbers used (e.g., "lines 45-67")
+
+**Note:** Source content is not stored in the CSV. The inspector loads it dynamically from the docs module when viewing source lines.
+
+#### Step 0b: Sample Ground Truth (for reproducibility)
 
 ```bash
 # Sample 25 questions with random_state=1 for reproducibility
@@ -156,6 +199,29 @@ This will:
 
 ### Use as Library
 
+#### Generate Ground Truth Programmatically
+
+```python
+from evals.generate_data import Config, main
+
+# Use default configuration
+config = Config()
+main(config)
+
+# Custom configuration
+config = Config(
+    model="gpt-4o",
+    max_workers=10,
+    min_content_length=500,
+    chars_per_question=800,
+    output_file="evals/ground_truth_custom.csv",
+    exclude_keywords=["test", "draft", "unpublished"]
+)
+main(config)
+```
+
+#### Complete Evaluation Pipeline
+
 ```python
 import asyncio
 from evals.sample_ground_truth import sample_ground_truth
@@ -183,7 +249,9 @@ print(f"Total cost: ${results['total_cost'].total_cost:.4f}")
 print(f"Overall score: {results['metrics'].mean():.1%}")
 ```
 
-Or use individual components:
+#### Use Individual Components
+
+```python
 
 ```python
 from evals.eval_agent_run import run_agent_evaluation
@@ -196,7 +264,7 @@ saved_path, run_cost, df_run = await run_agent_evaluation(
 )
 
 # Run judge evaluation
-judge_cost, df_eval, metrics = await run_complete_judge_evaluation(
+judge_cost, df_eval, metrics, judge_path = await run_complete_judge_evaluation(
     input_path=saved_path,
     model='gpt-5-nano'
 )
@@ -211,13 +279,17 @@ The orchestrator provides:
 - Cost breakdowns per step
 - Evaluation metrics with visual indicators
 - Total costs and duration
+- File paths for both run and judge results
 
 ### Files Generated
 
 1. **`reports/eval-run-<timestamp>.bin`** - Agent run results (pickle format)
-2. **`reports/eval-report-<timestamp>.txt`** - Detailed text report
+2. **`reports/eval-judge-<timestamp>.bin`** - Judge evaluation results (pickle format)
+3. **`reports/eval-report-<timestamp>.txt`** - Detailed text report (if generated)
 
 All reports are automatically saved to the `reports/` directory in the project root.
+
+**Note**: The eval results inspector automatically looks for matching judge results by replacing `eval-run-` with `eval-judge-` in the filename.
 
 ### Evaluation Metrics
 
@@ -262,14 +334,18 @@ Costs are tracked separately for:
 
 ## Examples
 
-### Complete Workflow with Inspection
+### Complete Workflow from Scratch (Generate → Curate → Evaluate)
 
 ```bash
-# 1. Inspect and curate ground truth
-uv run streamlit run evals/inspect_ground_truth.py -- --input evals/ground_truth_evidently.csv
-# Select good questions and export to evals/gt-curated.csv
+# 1. Generate ground truth from documentation
+uv run python -m evals.generate_data --output evals/ground_truth_evidently.csv
 
-# 2. Create evaluation sample
+# 2. Inspect and curate ground truth
+uv run streamlit run evals/inspect_ground_truth.py -- --input evals/ground_truth_evidently.csv
+# - View source lines for each question
+# - Select good questions and export to evals/gt-curated.csv
+
+# 3. Create evaluation sample
 uv run python -m evals.sample_ground_truth \
     --sample-size 25 \
     --input evals/gt-curated.csv \
@@ -329,6 +405,26 @@ uv run python -m evals.eval_orchestrator \
     --judge-model gpt-4o-mini
 ```
 
+### Regenerate Ground Truth with Custom Settings
+
+```bash
+# Generate more questions per document (shorter content chunks)
+uv run python -m evals.generate_data \
+    --chars-per-question 500 \
+    --output evals/ground_truth_detailed.csv
+
+# Use a more powerful model for generation
+uv run python -m evals.generate_data \
+    --model gpt-4o \
+    --output evals/ground_truth_gpt4.csv
+
+# Generate from shorter documents with custom filtering
+uv run python -m evals.generate_data \
+    --min-content-length 500 \
+    --exclude draft test wip unpublished \
+    --output evals/ground_truth_filtered.csv
+```
+
 ## Interactive Inspector Tools
 
 ### Ground Truth Inspector
@@ -345,15 +441,19 @@ uv run streamlit run evals/inspect_ground_truth.py -- --input evals/ground_truth
 - ✏️ Edit questions inline
 - ✓ Select "good" questions for curation
 - 🔍 Search and filter questions
-- 💾 Export curated dataset to new CSV
+- 📄 View source document lines (loaded dynamically from docs module)
+- 🎯 See metadata (difficulty, intent, summary)
+- � Export curated dataset to new CSV
 - ⚡ Bulk select/deselect operations
 
 **Workflow:**
 1. Load your ground truth CSV
-2. Browse and review questions
-3. Edit any questions that need improvement
-4. Check the boxes next to good questions
-5. Export selected questions to a new file
+2. Inspector fetches source documents from GitHub (cached)
+3. Browse and review questions
+4. Click to view source lines that generated each question
+5. Edit any questions that need improvement
+6. Check the boxes next to good questions
+6. Export selected questions to a new file
 
 ### Evaluation Results Inspector
 
@@ -368,17 +468,22 @@ uv run streamlit run evals/inspect_eval_results.py -- --input reports/eval-run-2
 ```
 
 **Features:**
-- 📊 Summary metrics (avg tool calls, answer length, etc.)
-- 🔍 Filter by tool call count, answer length, search terms
+- 📊 Summary metrics (avg tool calls, answer length, eval check pass rates)
+- ✅ View evaluation checks (if judge results available)
+- 🔍 Filter by tool call count, answer length, search terms, eval checks
+- 🎯 Quick jump from List View to Detailed View by index
 - 🛠️ View detailed tool calls and arguments
 - 📜 Inspect full message logs
 - ⚠️ Identify potential issues (too many/few tool calls, short/long answers)
-- 📃 List and detailed views
+- 📃 List and detailed views with clickable navigation
 - 💾 Export filtered results to CSV
 
 **Use Cases:**
+- Review evaluation check results (which checks passed/failed)
+- Filter by specific check failures (e.g., show only missing citations)
 - Find results with excessive tool calls
 - Identify answers that are too short or too long
+- Quick navigation: note index in List View, jump directly in Detailed View
 - Debug specific questions
 - Review tool usage patterns
 - Export problematic cases for further analysis

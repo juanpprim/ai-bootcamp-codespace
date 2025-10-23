@@ -13,10 +13,100 @@ import pandas as pd
 import sys
 from pathlib import Path
 
+# Add parent directory to path to import docs module
+sys.path.insert(0, str(Path(__file__).parent.parent))
+import docs
+
+
+@st.cache_data
+def load_documents():
+    """Load and cache documents from GitHub."""
+    raw_documents = docs.read_github_data()
+    documents = docs.parse_data(raw_documents)
+    # Create a lookup dict by filename
+    return {doc['filename']: doc for doc in documents}
+
 
 def load_data(csv_path: str) -> pd.DataFrame:
     """Load ground truth CSV file."""
-    return pd.read_csv(csv_path)
+    df = pd.read_csv(csv_path)
+    return df
+
+
+def extract_line_range(relevant_lines: str) -> tuple[int, int]:
+    """
+    Extract line range from relevant_lines string.
+    
+    Examples:
+        "lines 45-67" -> (45, 67)
+        "line 23" -> (23, 23)
+        "45-67" -> (45, 67)
+        "23" -> (23, 23)
+    
+    Returns:
+        Tuple of (start_line, end_line) or None if parsing fails
+    """
+    if pd.isna(relevant_lines):
+        return None
+    
+    import re
+    
+    # Try to find numbers in the string
+    numbers = re.findall(r'\d+', str(relevant_lines))
+    
+    if not numbers:
+        return None
+    
+    if len(numbers) == 1:
+        line_num = int(numbers[0])
+        return (line_num, line_num)
+    else:
+        return (int(numbers[0]), int(numbers[1]))
+
+
+def get_source_lines(filename: str, relevant_lines: str, documents_dict: dict, context: int = 5) -> str:
+    """
+    Extract the relevant lines from source document.
+    
+    Args:
+        filename: The source file name
+        relevant_lines: Line range specification (e.g., "lines 45-67")
+        documents_dict: Dictionary mapping filename to document data
+        context: Number of context lines to include before/after
+        
+    Returns:
+        Formatted string with line numbers
+    """
+    if pd.isna(filename) or pd.isna(relevant_lines):
+        return "Source file or line range not available"
+    
+    # Get document content from docs module
+    if filename not in documents_dict:
+        return f"Document not found: {filename}"
+    
+    source_content = documents_dict[filename].get('content', '')
+    if not source_content:
+        return "Source content not available"
+    
+    line_range = extract_line_range(relevant_lines)
+    if not line_range:
+        return "Could not parse line range"
+    
+    start_line, end_line = line_range
+    lines = source_content.split('\n')
+    
+    # Add context
+    start_idx = max(0, start_line - 1 - context)
+    end_idx = min(len(lines), end_line + context)
+    
+    # Format with line numbers
+    result_lines = []
+    for i in range(start_idx, end_idx):
+        line_num = i + 1
+        prefix = ">>>" if start_line <= line_num <= end_line else "   "
+        result_lines.append(f"{prefix} {line_num:4d} | {lines[i]}")
+    
+    return '\n'.join(result_lines)
 
 
 def save_data(df: pd.DataFrame, output_path: str):
@@ -58,6 +148,10 @@ def main():
     
     # Load data
     df = load_data(input_file)
+    
+    # Load documents from GitHub (cached)
+    with st.spinner("Loading source documents from GitHub..."):
+        documents_dict = load_documents()
     
     st.sidebar.success(f"✅ Loaded {len(df)} questions")
     
@@ -145,10 +239,24 @@ def main():
                     metadata_parts = [f"**ID: {idx}**"]
                     if 'filename' in row:
                         metadata_parts.append(f"📄 {row['filename']}")
+                    if 'relevant_lines' in row and pd.notna(row['relevant_lines']):
+                        metadata_parts.append(f"📍 {row['relevant_lines']}")
                     if 'section' in row:
                         metadata_parts.append(f"§ {row['section']}")
                     
                     st.markdown(" | ".join(metadata_parts))
+                    
+                    # Show additional metadata if available
+                    meta_cols = st.columns([1, 1, 1])
+                    with meta_cols[0]:
+                        if 'difficulty' in row and pd.notna(row['difficulty']):
+                            st.caption(f"🎯 {row['difficulty']}")
+                    with meta_cols[1]:
+                        if 'intent' in row and pd.notna(row['intent']):
+                            st.caption(f"💡 {row['intent']}")
+                    with meta_cols[2]:
+                        if 'summary_answer' in row and pd.notna(row['summary_answer']):
+                            st.caption("✓ Has summary")
                     
                     # Question text (editable)
                     current_question = st.session_state.edited_questions.get(idx, row['question'])
@@ -170,6 +278,23 @@ def main():
                     if idx in st.session_state.edited_questions:
                         with st.expander("Show original"):
                             st.text(row['question'])
+                    
+                    # Show source lines if available
+                    if 'filename' in row and 'relevant_lines' in row:
+                        if pd.notna(row['filename']) and pd.notna(row['relevant_lines']):
+                            with st.expander(f"📄 View source: {row['filename']} ({row['relevant_lines']})"):
+                                source_lines = get_source_lines(
+                                    row['filename'],
+                                    row['relevant_lines'],
+                                    documents_dict,
+                                    context=5
+                                )
+                                st.code(source_lines, language=None)
+                                
+                                # Show summary answer if available
+                                if 'summary_answer' in row and pd.notna(row['summary_answer']):
+                                    st.markdown("**Summary Answer:**")
+                                    st.info(row['summary_answer'])
                 
                 st.divider()
     

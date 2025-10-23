@@ -95,7 +95,7 @@ async def run_full_evaluation(
     # Step 2: Run judge evaluation
     print_separator("STEP 2: JUDGE EVALUATION")
     
-    judge_cost, df_eval, metrics = await run_complete_judge_evaluation(
+    judge_cost, df_eval, metrics, judge_path = await run_complete_judge_evaluation(
         input_path=saved_path,
         model=judge_model,
         max_concurrency=max_concurrency
@@ -103,6 +103,7 @@ async def run_full_evaluation(
     
     print("\n✓ Judge evaluation completed")
     print(f"  Evaluated: {len(df_eval)} results")
+    print(f"  Judge results saved: {judge_path}")
     print(format_cost_report("Judge Evaluation", judge_cost, "  "))
     
     # Calculate total cost
@@ -141,6 +142,7 @@ async def run_full_evaluation(
     
     return {
         'run_results_path': saved_path,
+        'judge_results_path': judge_path,
         'run_cost': run_cost,
         'judge_cost': judge_cost,
         'total_cost': total_cost,

@@ -18,3 +18,4 @@ dependencies = [
     "tqdm>=4.67.1",
     "youtube-transcript-api>=1.2.2",
 ]
+

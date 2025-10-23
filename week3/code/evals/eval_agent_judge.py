@@ -245,9 +245,30 @@ def calculate_metrics(df_eval: pd.DataFrame) -> pd.Series:
     return df_eval[check_columns].mean()
 
 
+def save_judge_results(results: list[tuple], output_path: str):
+    """
+    Save judge results to pickle file.
+    
+    Args:
+        results: List of (original_row, judge_result) tuples
+        output_path: Path to save results
+    """
+    import pickle
+    from pathlib import Path
+    
+    # Ensure reports directory exists
+    Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+    
+    with open(output_path, 'wb') as f_out:
+        pickle.dump(results, f_out)
+    
+    print(f"Judge results saved to: {output_path}")
+
+
 async def run_complete_judge_evaluation(input_path: str,
                                        model: str = "gpt-5-nano",
-                                       max_concurrency: int = 10) -> tuple[CostInfo, pd.DataFrame, pd.Series]:
+                                       max_concurrency: int = 10,
+                                       output_path: str = None) -> tuple[CostInfo, pd.DataFrame, pd.Series, str]:
     """
     Run complete judge evaluation pipeline.
     
@@ -255,9 +276,10 @@ async def run_complete_judge_evaluation(input_path: str,
         input_path: Path to evaluation results file
         model: Judge model name
         max_concurrency: Maximum concurrent evaluations
+        output_path: Path to save judge results (auto-generated if not specified)
         
     Returns:
-        Tuple of (cost_info, results_df, metrics)
+        Tuple of (cost_info, results_df, metrics, saved_path)
     """
     # Load evaluation results
     print(f"Loading evaluation results from {input_path}...")
@@ -290,7 +312,17 @@ async def run_complete_judge_evaluation(input_path: str,
     df_eval = format_judge_results(results)
     metrics = calculate_metrics(df_eval)
     
-    return cost_info, df_eval, metrics
+    # Save results
+    if output_path is None:
+        # Generate output path from input path
+        from datetime import datetime
+        
+        timestamp = datetime.now().strftime("%Y-%m-%d-%H-%M")
+        output_path = f"reports/eval-judge-{timestamp}.bin"
+    
+    save_judge_results(results, output_path)
+    
+    return cost_info, df_eval, metrics, output_path
 
 
 def main_cli():
@@ -303,12 +335,13 @@ def main_cli():
     
     input_path = sys.argv[1]
     
-    cost_info, df_eval, metrics = asyncio.run(
+    cost_info, df_eval, metrics, saved_path = asyncio.run(
         run_complete_judge_evaluation(input_path)
     )
     
     print("\n=== Judge Evaluation Summary ===")
     print(f"Evaluated {len(df_eval)} results")
+    print(f"Results saved: {saved_path}")
     print(f"\nInput cost: ${cost_info.input_cost:.4f}")
     print(f"Output cost: ${cost_info.output_cost:.4f}")
     print(f"Total cost: ${cost_info.total_cost:.4f}")

@@ -16,6 +16,9 @@ import sys
 from pathlib import Path
 from typing import Optional
 
+# Add parent directory to path to import docs module
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 
 def load_eval_results(bin_path: str) -> list[dict]:
     """Load evaluation results from pickle file."""
@@ -23,13 +26,27 @@ def load_eval_results(bin_path: str) -> list[dict]:
         return pickle.load(f_in)
 
 
-def load_judge_results(bin_path: str) -> Optional[list]:
+def load_judge_results(bin_path: str) -> Optional[pd.DataFrame]:
     """Try to load judge results if available."""
     # Try to find matching judge results
     judge_path = bin_path.replace('eval-run-', 'eval-judge-')
     if Path(judge_path).exists():
-        with open(judge_path, 'rb') as f_in:
-            return pickle.load(f_in)
+        try:
+            with open(judge_path, 'rb') as f_in:
+                judge_data = pickle.load(f_in)
+                # Judge results are list of (original_row, result) tuples
+                # Extract evaluation checks
+                all_checks = []
+                for original_row, result in judge_data:
+                    checks = result.output.checklist
+                    checks_formatted = {'question': original_row['question']}
+                    for check in checks:
+                        checks_formatted[check.check_name] = check.check_pass
+                    all_checks.append(checks_formatted)
+                return pd.DataFrame(all_checks)
+        except Exception as e:
+            st.warning(f"Could not load judge results: {e}")
+            return None
     return None
 
 
@@ -54,6 +71,8 @@ def initialize_session_state():
     """Initialize session state variables."""
     if 'expanded_results' not in st.session_state:
         st.session_state.expanded_results = set()
+    if 'selected_index' not in st.session_state:
+        st.session_state.selected_index = None
 
 
 def format_tool_call(tool_call: dict) -> str:
@@ -107,13 +126,31 @@ def main():
     df['tool_call_count'] = df['messages'].apply(count_tool_calls)
     df['answer_length'] = df['answer'].str.len()
     
-    st.sidebar.success(f"✅ Loaded {len(df)} results")
+    # Try to load judge results
+    judge_df = load_judge_results(input_file)
+    if judge_df is not None:
+        # Merge judge results with main df
+        df = df.merge(judge_df, on='question', how='left')
+        st.sidebar.success(f"✅ Loaded {len(df)} results (with eval checks)")
+    else:
+        st.sidebar.success(f"✅ Loaded {len(df)} results")
+        st.sidebar.info("💡 No judge results found. Run judge evaluation to see checks.")
     
     # Summary metrics
     st.sidebar.header("📊 Summary Metrics")
     st.sidebar.metric("Total Questions", len(df))
     st.sidebar.metric("Avg Tool Calls", f"{df['tool_call_count'].mean():.1f}")
     st.sidebar.metric("Avg Answer Length", f"{df['answer_length'].mean():.0f} chars")
+    
+    # Show eval check scores if available
+    if judge_df is not None:
+        check_columns = [col for col in df.columns if col not in ['question', 'answer', 'messages', 'tool_call_count', 'answer_length', 'requests', 'original_question']]
+        if check_columns:
+            st.sidebar.markdown("**Eval Check Pass Rates:**")
+            for check_col in check_columns:
+                if df[check_col].notna().any():
+                    pass_rate = df[check_col].mean()
+                    st.sidebar.metric(check_col, f"{pass_rate:.1%}")
     
     # Filters
     st.sidebar.header("🔍 Filters")
@@ -137,6 +174,22 @@ def main():
     # Search filter
     search_query = st.sidebar.text_input("🔎 Search in questions/answers", "")
     
+    # Evaluation check filters
+    if judge_df is not None:
+        st.sidebar.markdown("**Filter by Eval Checks:**")
+        check_columns = [col for col in df.columns if col not in ['question', 'answer', 'messages', 'tool_call_count', 'answer_length', 'requests', 'original_question']]
+        selected_checks = {}
+        for check_col in check_columns:
+            if df[check_col].notna().any():
+                filter_option = st.sidebar.radio(
+                    check_col,
+                    options=["All", "Passed", "Failed"],
+                    key=f"filter_{check_col}",
+                    horizontal=True
+                )
+                if filter_option != "All":
+                    selected_checks[check_col] = (filter_option == "Passed")
+    
     # Show only issues
     show_issues_only = st.sidebar.checkbox("Show only potential issues")
     
@@ -156,6 +209,11 @@ def main():
             filtered_df['answer'].str.contains(search_query, case=False, na=False)
         ]
     
+    # Apply evaluation check filters
+    if judge_df is not None and selected_checks:
+        for check_col, should_pass in selected_checks.items():
+            filtered_df = filtered_df[filtered_df[check_col] == should_pass]
+    
     if show_issues_only:
         # Define "issues" as too many or too few tool calls, or very short/long answers
         filtered_df = filtered_df[
@@ -172,23 +230,60 @@ def main():
     tab_list, tab_details = st.tabs(["📃 List View", "🔎 Detailed View"])
     
     with tab_list:
-        # Quick overview table
-        display_df = filtered_df[['question', 'tool_call_count', 'answer_length']].copy()
-        display_df['question_preview'] = display_df['question'].str[:100] + '...'
+        # Quick overview table with evaluation checks
+        display_columns = ['question', 'tool_call_count', 'answer_length']
+        if judge_df is not None:
+            check_columns = [col for col in filtered_df.columns if col not in ['question', 'answer', 'messages', 'requests', 'original_question', 'tool_call_count', 'answer_length']]
+            display_columns.extend(check_columns)
+        
+        display_df = filtered_df[display_columns].copy()
+        display_df['question_preview'] = display_df['question'].str[:80] + '...'
+        
+        # Show index for navigation
+        display_df['idx'] = filtered_df.index
+        
+        # Reorder columns to put idx first
+        cols = ['idx', 'question_preview', 'tool_call_count', 'answer_length']
+        if judge_df is not None:
+            cols.extend(check_columns)
+        
+        st.markdown("💡 **Tip:** Note the `idx` number, then switch to Detailed View and enter it in the navigation box")
         
         st.dataframe(
-            display_df[['question_preview', 'tool_call_count', 'answer_length']],
+            display_df[cols],
             use_container_width=True,
-            height=600
+            height=600,
+            column_config={
+                "idx": st.column_config.NumberColumn("Index", help="Use this to navigate in Detailed View")
+            }
         )
     
     with tab_details:
-        # Sort options
-        sort_by = st.selectbox(
-            "Sort by",
-            ["Index", "Tool Calls (High to Low)", "Tool Calls (Low to High)", 
-             "Answer Length (Long to Short)", "Answer Length (Short to Long)"]
-        )
+        # Navigation controls
+        col1, col2, col3 = st.columns([2, 2, 2])
+        
+        with col1:
+            # Sort options
+            sort_by = st.selectbox(
+                "Sort by",
+                ["Index", "Tool Calls (High to Low)", "Tool Calls (Low to High)", 
+                 "Answer Length (Long to Short)", "Answer Length (Short to Long)"]
+            )
+        
+        with col2:
+            # Jump to specific index
+            jump_to_idx = st.number_input(
+                "Jump to index",
+                min_value=int(filtered_df.index.min()) if len(filtered_df) > 0 else 0,
+                max_value=int(filtered_df.index.max()) if len(filtered_df) > 0 else 0,
+                value=int(filtered_df.index.min()) if len(filtered_df) > 0 else 0,
+                step=1,
+                help="Enter the index from List View to jump directly to that result"
+            )
+        
+        with col3:
+            if st.button("🎯 Jump to Result"):
+                st.session_state.selected_index = jump_to_idx
         
         if sort_by == "Tool Calls (High to Low)":
             filtered_df = filtered_df.sort_values('tool_call_count', ascending=False)
@@ -199,9 +294,20 @@ def main():
         elif sort_by == "Answer Length (Short to Long)":
             filtered_df = filtered_df.sort_values('answer_length', ascending=True)
         
+        # Scroll to selected index if set
+        if st.session_state.selected_index is not None:
+            if st.session_state.selected_index in filtered_df.index:
+                st.success(f"🎯 Jumped to result #{st.session_state.selected_index}")
+            else:
+                st.warning(f"⚠️ Index {st.session_state.selected_index} not found in filtered results")
+            st.session_state.selected_index = None
+        
         # Display detailed results
         for idx, row in filtered_df.iterrows():
-            with st.container():
+            # Create anchor for this result
+            result_container = st.container()
+            
+            with result_container:
                 # Header with metrics
                 col1, col2, col3, col4 = st.columns([3, 1, 1, 1])
                 
@@ -228,6 +334,22 @@ def main():
                             st.caption(f"📄 Source: {orig['filename']}")
                         if 'section' in orig:
                             st.caption(f"§ Section: {orig['section']}")
+                
+                # Evaluation Checks
+                if judge_df is not None:
+                    check_columns = [col for col in row.index if col not in ['question', 'answer', 'messages', 'requests', 'original_question', 'tool_call_count', 'answer_length']]
+                    if check_columns:
+                        with st.expander("✅ Evaluation Checks", expanded=True):
+                            check_cols = st.columns(len(check_columns))
+                            for i, check_col in enumerate(check_columns):
+                                with check_cols[i]:
+                                    if pd.notna(row[check_col]):
+                                        if row[check_col]:
+                                            st.success(f"✓ {check_col}")
+                                        else:
+                                            st.error(f"✗ {check_col}")
+                                    else:
+                                        st.info(f"? {check_col}")
                 
                 # Answer
                 with st.expander("💬 Answer", expanded=False):

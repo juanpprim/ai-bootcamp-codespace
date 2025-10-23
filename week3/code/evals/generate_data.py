@@ -55,6 +55,10 @@ class Question(BaseModel):
         ...,
         description="Specifies if the user's intent is to get a theoretical explanation ('text') or an implementation example ('code').",
     )
+    relevant_lines: str = Field(
+        ...,
+        description="The specific line numbers or range from the source document that are most relevant to answering this question (e.g., 'lines 45-67' or 'line 23').",
+    )
 
 
 class GeneratedQuestions(BaseModel):
@@ -106,8 +110,11 @@ For each generated query, include:
 - summary_answer: a short 1–2 sentence summary of how the article addresses it
 - difficulty: one of ["beginner", "intermediate", "advanced"]
 - intent: one of ["text", "code"]
+- relevant_lines: the specific line numbers or range from the source document that contain the information to answer this query (e.g., "lines 45-67" or "line 23")
 
 Also include a description summarizing what kind of article the questions are about.
+
+Note: The document content will be provided with line numbers at the start of each line to help you identify relevant sections.
 """.strip()
 
 
@@ -163,6 +170,13 @@ def llm_structured(
     return (response.output_parsed, response.usage)
 
 
+def add_line_numbers(content: str) -> str:
+    """Add line numbers to content for LLM reference."""
+    lines = content.split('\n')
+    numbered_lines = [f"{i+1:4d} | {line}" for i, line in enumerate(lines)]
+    return '\n'.join(numbered_lines)
+
+
 def process_document(
     doc: dict, client: OpenAI, instructions: str, config: Config
 ) -> dict:
@@ -170,9 +184,16 @@ def process_document(
     content = doc["content"]
     num_questions = len(content) // config.chars_per_question
 
+    # Add line numbers to content for LLM
+    content_with_lines = add_line_numbers(content)
+    
+    # Create doc copy with numbered content
+    doc_for_llm = doc.copy()
+    doc_for_llm["content"] = content_with_lines
+
     user_prompt = f"""
 generate {num_questions} questions for this document:
-{json.dumps(doc)}
+{json.dumps(doc_for_llm)}
 """.strip()
 
     output, usage = llm_structured(
