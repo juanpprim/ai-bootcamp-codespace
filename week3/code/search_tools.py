@@ -10,8 +10,9 @@ import docs
 
 class SearchTools:
 
-    def __init__(self, index: Index):
+    def __init__(self, index: Index, file_index: dict[str, Any]):
         self.index = index
+        self.file_index = file_index
 
     def search(self, query: str) -> List[Dict[str, Any]]:
         """
@@ -28,10 +29,29 @@ class SearchTools:
             num_results=5,
         )
 
+    def read_file(self, filename: str) -> str:
+        """
+        Retrieve the contents of a file from the file index if it exists.
 
-def prepare_index():
+        Args:
+            filename (str): The name of the file to read.
+
+        Returns:
+            str: The file's contents if found, otherwise an error message
+            indicating that the file does not exist.
+        """
+        if filename in self.file_index:
+            return self.file_index[filename]
+        return "File doesn't exist"
+
+
+def load_data():
     github_data = docs.read_github_data()
     parsed_data = docs.parse_data(github_data)
+    return parsed_data
+
+
+def prepare_search_index(parsed_data):
     chunks = docs.chunk_documents(parsed_data)
 
     index = Index(
@@ -42,28 +62,47 @@ def prepare_index():
     return index
 
 
-def prepare_index_cached():
-    cache_dir = Path(".cache")
-    cache_dir.mkdir(exist_ok=True)
+def prepare_file_index(parsed_data):
+    file_index = {}
 
-    index_path = cache_dir / "search_index.bin"
+    for item in parsed_data:
+        filename = item['filename']
+        content = item['content']
+        file_index[filename] = content
 
-    if index_path.exists():
-        with open(index_path, "rb") as f:
-            index = pickle.load(f)
-            return index
+    return file_index
 
-    index = prepare_index()
 
-    with open(index_path, "wb") as f:
-        pickle.dump(index, f)
+def _prepare_search_tools():
+    parsed_data = load_data()
 
-    return index
+    search_index = prepare_search_index(parsed_data=parsed_data)
+    file_index = prepare_file_index(parsed_data=parsed_data)
+
+    return SearchTools(
+        index=search_index,
+        file_index=file_index
+    )
 
 
 def prepare_search_tools():
-    index = prepare_index_cached()
-    return SearchTools(index=index)
+    cache_dir = Path(".cache")
+    cache_dir.mkdir(exist_ok=True)
+
+    cache_file = cache_dir / "search_tools.bin"
+
+    if cache_file.exists():
+        with open(cache_file, "rb") as f:
+            search_tools = pickle.load(f)
+            return search_tools
+
+    search_tools = _prepare_search_tools()
+
+    with open(cache_file, "wb") as f:
+        pickle.dump(search_tools, f)
+
+    return search_tools
+
 
 
 if __name__ == "__main__":

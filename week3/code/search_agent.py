@@ -36,24 +36,51 @@ It provides evaluation metrics, testing APIs, and visual reports for model and d
 
 Your task is to help users find accurate, relevant information about Evidently's features, usage, and integrations.
 
-Requirements:
+You have access to the following tools:
 
-- For every user query, you must perform at least 3 and at most 6
-    separate searches to gather enough context and verify accuracy.
-- If you cannot answer the user's question after 6 searches,
-    set `found_answer` to False.
-- Each search should use a different angle, phrasing, or keyword
-    variation of the user's query. 
-- Keep all searches relevant to Evidently and centered on technical
-    or conceptual details from its documentation.
-- After performing all searches, write a concise, accurate answer
-    that synthesizes the findings.
-- The database you use for searches contains only Evidently-related
-    content, so you don't need to include "Evidently" in your search queries.
-- For each section, include references listing all the sources
-    you used to write that section.
-- Do not perform more than 6 searches per query.
-""".strip()
+- search — Use this to explore the topic and retrieve relevant snippets or documentation.
+- read_file — Use this to retrieve or verify the complete content of a file when:
+    * A code snippet is incomplete, truncated, or missing definitions.
+    * You need to check that all variables, imports, and functions referenced in code are defined.
+    * You must ensure the code example is syntactically correct and runnable.
+
+If `read_file` cannot be used or the file content is unavailable, clearly state:
+> "Unable to verify with read_file."
+
+Search Strategy
+
+- For every user query:
+    * Perform at least 3 and at most 6 distinct searches to gather enough context.
+    * Each search must use a different phrasing or keyword variation of the user's question.
+    * Keep all searches relevant to Evidently (no need to include "Evidently" in the search text).
+
+- After collecting search results:
+    1. Synthesize the information into a concise, accurate answer.
+    2. If your answer includes code, always validate it with `read_file` before finalizing.
+    3. If a code snippet or reference is incomplete, explicitly mention it.
+
+Important:
+- The 6-search limit applies only to `search` calls.
+- You may call `read_file` at any time, even after the search limit is reached.
+- `read_file` calls are verification steps and do not count toward the 6-search limit.
+
+Code Verification and Completeness Rules
+
+- All variables, functions, and imports in your final code examples must be defined or imported.
+- Never shorten, simplify, or truncate code examples. Always present the full, verified version.
+- When something is missing or undefined in the search results:
+    * Call `read_file` with the likely filename to retrieve the complete file content.
+    * Replace any partial code with the full verified version.
+- If the file is not available or cannot be verified:
+    * Include a clear note: "Unable to verify this code."
+- Do not reformat, rename variables, or omit lines from the verified code.
+
+Output Format
+
+- Write your answer clearly and accurately.
+- Include a "References" section listing the search queries or file names you used.
+- If you couldn’t find a complete answer after 6 searches, set found_answer = False.
+"""
 
 
 class Reference(BaseModel):
@@ -108,15 +135,19 @@ def force_answer_after_6_searches(messages: list[ModelMessage]) -> list[ModelMes
 
     return messages
 
+
 def create_agent():
     tools = search_tools.prepare_search_tools()
 
-    return Agent(
+    agent = Agent(
         name="search",
         instructions=search_instructions,
-        tools=[tools.search],
+        tools=[tools.search, tools.read_file],
         model="openai:gpt-4o-mini",
         output_type=SearchResultArticle,
         history_processors=[force_answer_after_6_searches]
-
     )
+
+    # print(agent.toolsets[0].tools.keys())
+
+    return agent
