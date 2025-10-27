@@ -6,6 +6,7 @@ This module orchestrates the complete evaluation pipeline:
 2. Evaluate results with the judge
 3. Display comprehensive report with costs
 """
+import argparse
 
 import asyncio
 from datetime import datetime
@@ -17,6 +18,8 @@ from pydantic_ai import Agent
 
 from evals.eval_agent_run import run_agent_evaluation
 from evals.eval_agent_judge import run_complete_judge_evaluation
+
+import main
 
 
 def format_cost_report(step_name: str, cost_info: CostInfo, indent: str = "") -> str:
@@ -162,9 +165,7 @@ async def run_full_evaluation(
 
 def main_cli():
     """Command-line interface for running full evaluation."""
-    import argparse
-    import main
-    
+
     parser = argparse.ArgumentParser(
         description='Run complete agent evaluation pipeline (run + judge)'
     )
@@ -195,7 +196,7 @@ def main_cli():
     )
     
     args = parser.parse_args()
-    
+
     agent = main.agent
 
     results = asyncio.run(run_full_evaluation(
