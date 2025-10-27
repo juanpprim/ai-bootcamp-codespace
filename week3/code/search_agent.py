@@ -1,3 +1,5 @@
+from dataclasses import dataclass
+
 from pydantic import BaseModel
 
 from pydantic_ai import Agent
@@ -5,6 +7,15 @@ from pydantic_ai.messages import FunctionToolCallEvent
 from pydantic_ai.messages import ModelMessage, UserPromptPart
 
 import search_tools
+
+
+@dataclass
+class AgentConfig:
+    chunk_size: int = 2000
+    chunk_step: int = 1000
+    top_k: int = 5
+
+    model: str = "openai:gpt-4o-mini"
 
 
 class NamedCallback:
@@ -136,14 +147,21 @@ def force_answer_after_6_searches(messages: list[ModelMessage]) -> list[ModelMes
     return messages
 
 
-def create_agent():
-    tools = search_tools.prepare_search_tools()
+def create_agent(config: AgentConfig = None) -> Agent:
+    if config is None:
+        config = AgentConfig()
+
+    tools = search_tools.prepare_search_tools(
+        config.chunk_size,
+        config.chunk_step,
+        config.top_k
+    )
 
     agent = Agent(
         name="search",
         instructions=search_instructions,
         tools=[tools.search, tools.read_file],
-        model="openai:gpt-4o-mini",
+        model=config.model,
         output_type=SearchResultArticle,
         history_processors=[force_answer_after_6_searches]
     )

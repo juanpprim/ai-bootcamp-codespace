@@ -13,6 +13,7 @@ from typing import Optional
 from pathlib import Path
 
 from toyaikit.pricing import CostInfo
+from pydantic_ai import Agent
 
 from evals.eval_agent_run import run_agent_evaluation
 from evals.eval_agent_judge import run_complete_judge_evaluation
@@ -48,6 +49,7 @@ def print_separator(title: str = "", width: int = 70, char: str = "="):
 
 
 async def run_full_evaluation(
+    agent: Agent,
     csv_path: str = './ground_truth_evidently.csv',
     agent_model: str = 'gpt-4o-mini',
     judge_model: str = 'gpt-5-nano',
@@ -161,6 +163,7 @@ async def run_full_evaluation(
 def main_cli():
     """Command-line interface for running full evaluation."""
     import argparse
+    import main
     
     parser = argparse.ArgumentParser(
         description='Run complete agent evaluation pipeline (run + judge)'
@@ -193,7 +196,10 @@ def main_cli():
     
     args = parser.parse_args()
     
+    agent = main.agent
+
     results = asyncio.run(run_full_evaluation(
+        agent=agent,
         csv_path=args.csv,
         agent_model=args.agent_model,
         judge_model=args.judge_model,

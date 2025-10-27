@@ -524,6 +524,7 @@ dependencies = [
     { name = "pydantic-ai" },
     { name = "python-frontmatter" },
     { name = "requests" },
+    { name = "tiktoken" },
 ]
 
 [package.dev-dependencies]
@@ -544,6 +545,7 @@ requires-dist = [
     { name = "pydantic-ai", specifier = ">=1.0.17" },
     { name = "python-frontmatter", specifier = ">=1.1.0" },
     { name = "requests", specifier = ">=2.32.5" },
+    { name = "tiktoken", specifier = ">=0.12.0" },
 ]
 
 [package.metadata.requires-dev]
