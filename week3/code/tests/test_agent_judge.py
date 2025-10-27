@@ -117,7 +117,7 @@ async def test_agent_python_code():
         "it describes how to configure the prompt template for the judge",
         "it describes how to run LLMEval",
         "it shows how to display the report",
-        "LLMEval is correctly imported",
+        "LLMEval, Report and TextEvals are correctly imported",
     ]
 
     judge_feedback = await evaluate_agent_performance(
