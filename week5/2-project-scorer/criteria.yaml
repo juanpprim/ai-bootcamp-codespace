@@ -7,6 +7,10 @@ criteria:
         description: "The project uses the FAQ dataset from https://github.com/DataTalksClub/faq"
       - points: 2
         description: "The project uses an original dataset"
+    comment: >
+        A dataset is original if it's not the FAQ dataset from DataTalks.Club. Any other dataset is considered original,
+        also including the course repositories from DataTalks.Club like machine learning zoomcamp or MLOps zoomcamp.
+        
 
   # Scored criteria for different aspects
   - name: "Data pipeline"
