@@ -5,3 +5,4 @@ __pycache__/
 homework/data/books_text/
 homework/data/*.pdf
 homework/data/*.md
+.cache/
