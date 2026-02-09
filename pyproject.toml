@@ -6,7 +6,9 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "elasticsearch==8.15.0",
+    "gitsource>=0.0.4",
     "jupyter>=1.1.1",
+    "markitdown[pdf]>=0.1.4",
     "minsearch>=0.0.7",
     "openai-agents==0.3.3",
     "pydantic-ai>=1.0.17",
