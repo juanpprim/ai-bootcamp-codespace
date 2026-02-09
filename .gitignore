@@ -2,3 +2,6 @@
 .envrc
 __pycache__/
 .venv
+homework/data/books_text/
+homework/data/*.pdf
+homework/data/*.md
