@@ -1,2 +1,2 @@
-# ai-bootcamp-codespace
-Code for AI Bootcamp from RAG to Agents
+# ai-engineering-buildcamp-code
+Code for AI Engineering Buildcamp

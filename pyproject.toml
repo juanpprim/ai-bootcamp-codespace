@@ -5,23 +5,32 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "anthropic>=0.76.0",
+    "awscli>=1.44.28",
+    "boto3>=1.42.37",
     "elasticsearch==8.15.0",
     "gitsource>=0.0.4",
+    "google-genai>=1.61.0",
+    "jaxn==0.0.4",
     "jupyter>=1.1.1",
     "markitdown[pdf]>=0.1.4",
-    "minsearch>=0.0.7",
+    "minsearch>=0.0.9",
+    "openai>=2.15.0",
     "openai-agents==0.5.0",
+    "pillow>=12.1.0",
+    "pymupdf>=1.26.7",
     "pydantic-ai>=1.0.17",
+    "python-dotenv>=1.2.1",
     "python-frontmatter>=1.1.0",
     "requests>=2.32.5",
-    "sentence-transformers>=5.1.1",
-    "toyaikit==0.0.8",
+    "sentence-transformers>=5.2.2",
+    "sqlitesearch>=0.0.2",
+    "toyaikit>=0.0.9",
     "tqdm>=4.67.1",
-    "youtube-transcript-api>=1.2.2",
+    "youtube-transcript-api>=1.2.4",
 ]
 
 [tool.uv.workspace]
 members = [
     "week5/django_template",
 ]
-
