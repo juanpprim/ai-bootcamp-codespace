@@ -6,18 +6,16 @@ from jaxn import JSONParserHandler, StreamingJSONParser
 from pydantic_ai import Agent
 from pydantic_ai.messages import FunctionToolCallEvent
 
-from doc_agent import DocumentationAgentConfig, create_agent
+from doc_agent import DocumentationAgentConfig, create_agent, SIMPLE_INSTRUCTIONS
 from models import RAGResponse
-from evals.utils import GITHUB_BASE
+from tools import create_documentation_tools_cached
+
 import dotenv
-import logfire
 
 dotenv.load_dotenv()
-logfire.configure()
-logfire.instrument_pydantic_ai()
 
 
-
+GITHUB_BASE = "https://github.com/evidentlyai/docs/blob/main/"
 
 # ── Page config ─────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -87,54 +85,11 @@ st.markdown(
 .badge-found  { border-color: #f78166; color: #ffa198; }
 .badge-found-yes { border-color: #3fb950; color: #56d364; }
 
-/* References section */
-.references-label {
-    font-size: 0.82rem;
-    font-weight: 600;
-    color: #c9d1d9;
-    margin: 1rem 0 0.5rem 0;
-}
-.reference-item {
-    font-size: 0.85rem;
-    color: #8b949e;
-    margin-bottom: 0.4rem;
-    line-height: 1.4;
-}
-.reference-item a {
-    color: #58a6ff;
-    text-decoration: none;
-    font-weight: 500;
-}
-.reference-item a:hover {
-    text-decoration: underline;
-}
-
 /* Follow-up section */
 .followup-label {
     font-size: 0.78rem;
     color: #8b949e;
     margin-bottom: 0.3rem;
-}
-
-/* Feedback buttons styling - more specific selector to avoid collisions */
-div[data-testid="column"] .stButton button:has(div:contains("👍")),
-div[data-testid="column"] .stButton button:has(div:contains("👎")) {
-    border-radius: 20px !important;
-    padding: 0px 8px !important;
-    min-height: 24px !important;
-    height: 24px !important;
-    line-height: 24px !important;
-    background: #21262d !important;
-    border: 1px solid #30363d !important;
-    color: #c9d1d9 !important;
-    font-size: 0.8rem !important;
-    margin-top: 5px !important;
-}
-div[data-testid="column"] .stButton button:has(div:contains("👍")):hover,
-div[data-testid="column"] .stButton button:has(div:contains("👎")):hover {
-    border-color: #58a6ff !important;
-    color: #58a6ff !important;
-    background: #30363d !important;
 }
 </style>
 """,
@@ -149,20 +104,13 @@ if "agent_messages" not in st.session_state:
     st.session_state.agent_messages = []  # pydantic-ai message history
 if "pending_followup" not in st.session_state:
     st.session_state.pending_followup = None
-if "logfire_context" not in st.session_state:
-    with logfire.span('streamlit_session'):
-        st.session_state.logfire_context = logfire.get_context()
 
 
 # ── Load agent (cached per session) ─────────────────────────────────────────
 @st.cache_resource(show_spinner=False)
 def load_agent():
     tools = create_documentation_tools_cached()
-    config = DocumentationAgentConfig(
-        # model="openai:gpt-5.2"
-        # model="anthropic:claude-sonnet-4-6"
-        model="openai:gpt-4o-mini"
-    )
+    config = DocumentationAgentConfig(instructions=SIMPLE_INSTRUCTIONS)
     agent = create_agent(config, tools)
     return agent
 
@@ -180,8 +128,6 @@ with st.sidebar:
         st.session_state.messages = []
         st.session_state.agent_messages = []
         st.session_state.pending_followup = None
-        with logfire.span('streamlit_session'):
-            st.session_state.logfire_context = logfire.get_context()
         st.rerun()
 
 
@@ -204,24 +150,12 @@ def render_metadata(meta: dict) -> str:
     found_str = "Found: Yes" if found else "Found: No"
 
     return (
-        f'<div class="meta-row" style="display: flex; align-items: center; gap: 0.5rem;">'
+        f'<div class="meta-row">'
         f'<span class="badge badge-type">🏷 {answer_type}</span>'
         f'<span class="badge badge-conf">🎯 {conf_str}</span>'
         f'<span class="badge {found_cls}">{found_str}</span>'
         f"</div>"
     )
-
-
-def render_references(references: list[dict]) -> str:
-    if not references:
-        return ""
-    html = '<div class="references-label">📚 References</div>'
-    for ref in references:
-        file_name = ref.get("file_name", ref.get("file_path", "unknown"))
-        explanation = ref.get("explanation", "")
-        url = GITHUB_BASE + file_name
-        html += f'<div class="reference-item">📄 <a href="{url}" target="_blank">{file_name}</a> — {explanation}</div>'
-    return html
 
 
 def activity_html_for_tool(tool_name: str, args_str: str) -> str:
@@ -248,13 +182,11 @@ def activity_html_for_tool(tool_name: str, args_str: str) -> str:
 class UIStreamHandler(JSONParserHandler):
     """Captures streaming JSON chunks for the answer field."""
 
-    def __init__(self, text_placeholder, ref_placeholder=None):
+    def __init__(self, text_placeholder):
         self._placeholder = text_placeholder
-        self._ref_placeholder = ref_placeholder
         self._answer_so_far = ""
         self.metadata = {}
         self.followup_questions = []
-        self.references = []
 
     def on_value_chunk(self, path: str, field_name: str, chunk: str) -> None:
         if path == "" and field_name == "answer":
@@ -281,10 +213,6 @@ class UIStreamHandler(JSONParserHandler):
     def on_array_item_end(self, path: str, field_name: str, item=None) -> None:
         if field_name == "followup_questions" and item is not None:
             self.followup_questions.append(item)
-        elif field_name == "references" and item is not None:
-            self.references.append(item)
-            if self._ref_placeholder:
-                self._ref_placeholder.markdown(render_references(self.references), unsafe_allow_html=True)
 
     @property
     def answer(self) -> str:
@@ -294,12 +222,11 @@ class UIStreamHandler(JSONParserHandler):
 async def run_streaming(user_prompt: str, message_history: list, activities_ref: list):
     """
     Run the agent with streaming.
-    Returns (answer, metadata_dict, followup_questions, references, new_messages, act_list).
+    Returns (answer, metadata_dict, followup_questions, new_messages).
     """
     answer = ""
     metadata = {}
     followup_questions = []
-    references = []
     new_messages = []
 
     # We need a placeholder for streaming text — we create it in the caller
@@ -310,7 +237,6 @@ async def run_streaming(user_prompt: str, message_history: list, activities_ref:
     # Placeholders injected from outside via closure
     text_ph = activities_ref[0]  # text placeholder for the answer
     act_ph = activities_ref[1]  # placeholder for activity panel
-    ref_ph = activities_ref[2] if len(activities_ref) > 2 else None
     act_list = []  # accumulates activity items
 
     def _update_activities(status: str):
@@ -318,7 +244,7 @@ async def run_streaming(user_prompt: str, message_history: list, activities_ref:
 
     _update_activities("Thinking…")
 
-    parser = StreamingJSONParser(UIStreamHandler(text_ph, ref_ph))
+    parser = StreamingJSONParser(UIStreamHandler(text_ph))
     handler = parser.handler  # type: UIStreamHandler
 
     args_so_far = ""
@@ -366,9 +292,8 @@ async def run_streaming(user_prompt: str, message_history: list, activities_ref:
     answer = handler.answer
     metadata = handler.metadata
     followup_questions = handler.followup_questions
-    references = handler.references
 
-    return answer, metadata, followup_questions, references, new_messages, act_list
+    return answer, metadata, followup_questions, new_messages, act_list
 
 
 # ── Render existing chat history ─────────────────────────────────────────────
@@ -383,25 +308,9 @@ for idx, msg in enumerate(st.session_state.messages):
                 )
         st.markdown(msg["content"])
         if msg["role"] == "assistant":
-            # References below the answer
-            if msg.get("references"):
-                st.markdown(render_references(msg["references"]), unsafe_allow_html=True)
-            # Metadata and Feedback below the answer
-            meta_col, feedback_col = st.columns([0.8, 0.2])
-            with meta_col:
-                if msg.get("meta"):
-                    st.markdown(render_metadata(msg["meta"]), unsafe_allow_html=True)
-
-            with feedback_col:
-                f1, f2 = st.columns(2)
-                if f1.button("👍", key=f"upvote_{idx}"):
-                    with logfire.attach_context(st.session_state.logfire_context):
-                        logfire.info("user_feedback", feedback=1)
-                    st.toast("Thanks for the feedback!", icon="👍")
-                if f2.button("👎", key=f"downvote_{idx}"):
-                    with logfire.attach_context(st.session_state.logfire_context):
-                        logfire.info("user_feedback", feedback=-1)
-                    st.toast("Thanks for the feedback!", icon="👎")
+            # Metadata below the answer
+            if msg.get("meta"):
+                st.markdown(render_metadata(msg["meta"]), unsafe_allow_html=True)
 
 
 # ── Follow-up buttons (only for last assistant message) ─────────────────────
@@ -419,8 +328,6 @@ if last_followups and st.session_state.pending_followup is None:
     cols = st.columns(len(last_followups))
     for col, q in zip(cols, last_followups):
         if col.button(q, key=f"followup_{q[:40]}"):
-            with logfire.attach_context(st.session_state.logfire_context):
-                logfire.info("followup_question_clicked", question=q)
             st.session_state.pending_followup = q
             st.rerun()
 
@@ -449,34 +356,19 @@ if prompt:
     with st.chat_message("assistant"):
         act_placeholder = st.empty()  # activity panel
         answer_placeholder = st.empty()  # streaming answer
-        ref_placeholder = st.empty()  # references panel
 
-        with logfire.attach_context(st.session_state.logfire_context):
-            # Run the agent        
-            answer, metadata, followup_questions, references, new_messages, act_list = asyncio.run(
-                run_streaming(
-                    prompt,
-                    st.session_state.agent_messages,
-                    [answer_placeholder, act_placeholder, ref_placeholder],
-                )
+        # Run the agent
+        answer, metadata, followup_questions, new_messages, act_list = asyncio.run(
+            run_streaming(
+                prompt,
+                st.session_state.agent_messages,
+                [answer_placeholder, act_placeholder],
             )
+        )
 
-        # Render final metadata and feedback
+        # Render final metadata
         if metadata:
-            meta_col, feedback_col = st.columns([0.8, 0.2])
-            with meta_col:
-                st.markdown(render_metadata(metadata), unsafe_allow_html=True)
-            with feedback_col:
-                f1, f2 = st.columns(2)
-                cur_idx = len(st.session_state.messages)
-                if f1.button("👍", key="upvote_live"):
-                    with logfire.attach_context(st.session_state.logfire_context):
-                        logfire.info("user_feedback", feedback=1)
-                    st.toast("Thanks for the feedback!", icon="👍")
-                if f2.button("👎", key="downvote_live"):
-                    with logfire.attach_context(st.session_state.logfire_context):
-                        logfire.info("user_feedback", feedback=-1)
-                    st.toast("Thanks for the feedback!", icon="👎")
+            st.markdown(render_metadata(metadata), unsafe_allow_html=True)
 
     # Persist to session
     st.session_state.agent_messages.extend(new_messages)
@@ -485,7 +377,6 @@ if prompt:
             "role": "assistant",
             "content": answer,
             "activities": act_list,
-            "references": references,
             "meta": metadata,
             "followup_questions": followup_questions,
         }
