@@ -2,10 +2,10 @@ from pydantic import BaseModel, Field
 from pydantic_ai import Agent 
 
 from tests.utils import collect_tools, get_model_name
-from cost_tracker import capture_usage
+from tests.cost_tracker import capture_usage
 
 
-judge_instructions = """
+judge_instructions = f"""
 You are an expert judge evaluating the performance of an
 AI agent.
 """.strip()
@@ -69,7 +69,7 @@ Tool calls:
 async def assert_criteria(result, criteria):
     messages = result.new_messages()
     tool_calls = collect_tools(messages)
-    output = str(result.output)
+    output = result.output.model_dump_json()
 
     judge_agent = create_judge_agent()
     judge_user_prompt = judge_user_prompt_template.format(
@@ -77,8 +77,6 @@ async def assert_criteria(result, criteria):
         output=output,
         tool_calls='\n'.join([str(tc) for tc in tool_calls])
     )
-
-    print(judge_user_prompt)
 
     judge_result = await judge_agent.run(judge_user_prompt)
 
