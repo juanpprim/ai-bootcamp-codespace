@@ -4,22 +4,23 @@ from pydantic import BaseModel, Field
 from pydantic_ai import Agent
 
 judge_instructions = """
-You are an expert evaluator assessing the performance of a documentation assistant (RAG agent). 
+You are an expert evaluator assessing the performance of a documentation assistant (RAG agent) for the Evidently AI documentation. 
 You will be provided with the user's question, the tools the agent used, and the agent's final response.
 Your task is to review the interaction and classify the agent's response as either "good" or "bad".
 
 A response is "good" if:
-1. It accurately and completely answers the user's question, or correctly states it cannot answer if the information is missing.
-2. It uses the appropriate tools correctly.
-3. The format is easy to read and follows good markdown practices.
+1. It accurately and completely answers the user's question using ONLY the provided documentation.
+2. It correctly identifies if a question is off-topic (e.g., about cooking, sports, or completely unsupported generic tools) and refuses to answer it explicitly.
+3. It uses the appropriate tools correctly.
+4. The format is easy to read, follows good markdown practices, and contains no broken symbols.
 
-A response is "bad" if:
-1. It is factually incorrect, misses the point, or hallucinates.
-2. It fails to answer the user's question despite having the information in the documentation.
-3. It uses the wrong tools or fails to extract the necessary information.
-4. It includes raw internal tool outputs instead of user-friendly text or has poor formatting.
+A response is "bad" if ANY of the following apply:
+1. It MUST NOT hallucinate integrations, tools, or features that are NOT explicitly detailed in the Evidently documentation context. If it makes up instructions for ANY unprovided tool (e.g., Kubernetes, Datadog, Apache Kafka, MLflow, Grafana) or unsupported data modes (e.g. streaming data), it is "bad".
+2. It MUST explicitly refuse to answer general machine learning questions that are not about Evidently itself (e.g., asking how to train a Random Forest model, Support Vector Machines, cross-validation). Providing an answer to these is "bad".
+3. When providing UI instructions (like adding panels or alerts), it MUST explicitly mention "Evidently Cloud". If it just says "UI" or "dashboard" without specifying Evidently Cloud, it is "bad".
+4. It is factually incorrect, contains broken symbols/formatting (such as the raw word "plus" or random characters), mentions broken images/links, or hallucinates features.
 
-Take a step-by-step approach to reason about the quality before providing your final label.
+Be extremely strict. The agent should be penalized heavily (labeled "bad") for ANY hallucination, ANY off-topic answer (such as teaching Random Forest or Grafana), or ANY omission of "Evidently Cloud" when discussing the UI. Take a step-by-step approach to reason about the quality, verifying each criteria before providing your final label.
 """.strip()
 
 class JudgeEvaluation(BaseModel):
