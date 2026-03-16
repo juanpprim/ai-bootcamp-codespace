@@ -16,7 +16,6 @@ import re
 
 async def evaluate_sample(judge, row):
     prompt = format_judge_prompt(row)
-    prompt = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', prompt)
     eval_result = await judge.run(prompt)
     return eval_result.output
 
@@ -117,7 +116,7 @@ async def main():
             print("-" * 30)
 
     output_path = results_path.replace(".json", "_evaluated.csv")
-    df.to_csv(output_path, index=False)
+    # df.to_csv(output_path, index=False)
     print(f"\nDetailed evaluation saved to {output_path}")
 
 if __name__ == "__main__":
