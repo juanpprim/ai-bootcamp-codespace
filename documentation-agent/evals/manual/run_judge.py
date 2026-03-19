@@ -1,18 +1,14 @@
-import os
-import sys
-import json
+import argparse
 import asyncio
+import json
+import os
+
 import pandas as pd
 from dotenv import load_dotenv
 
-# Ensure we can import from the evals module
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from evals.llm_judge import create_log_judge_agent, format_judge_prompt
-
-# Load environment variables (e.g., OPENAI_API_KEY)
 load_dotenv()
 
-import re
+from evals.manual.judge import create_log_judge_agent, format_judge_prompt
 
 async def evaluate_sample(judge, row):
     prompt = format_judge_prompt(row)
@@ -20,15 +16,25 @@ async def evaluate_sample(judge, row):
     return eval_result.output
 
 async def main():
-    import argparse
+    """
+    Run LLM Judge Evaluation.
+
+    Usage:
+        uv run python -m evals.manual.run_judge [options]
+
+    Examples:
+        uv run python -m evals.manual.run_judge
+        uv run python -m evals.manual.run_judge --data evals/manual/data/my_results.json
+    """
     parser = argparse.ArgumentParser(description="Run LLM Judge Evaluation")
-    parser.add_argument("--data", default="evals_run_2026_03_06_results.json", help="Path to results file")
+    parser.add_argument("--data", default="evals/manual/data/evals_run_2026_03_06_results.json", help="Path to results file")
     args = parser.parse_args()
 
     results_path = args.data
-    # Use absolute path if relative is provided
+    # Resolve paths relative to project root
     if not os.path.isabs(results_path):
-        results_path = os.path.join(os.path.dirname(__file__), results_path)
+        project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+        results_path = os.path.join(project_root, results_path)
 
     print(f"Loading data from {results_path}...")
     with open(results_path, "r") as f:
@@ -38,16 +44,16 @@ async def main():
     judge = create_log_judge_agent()
 
     eval_results = []
-    
-    # Try importing tqdm for a progress bar, fallback to simple prints if unavailable
+    use_tqdm = False
     try:
         from tqdm.asyncio import tqdm
         iterable = tqdm(results, desc="Evaluating")
+        use_tqdm = True
     except ImportError:
         iterable = results
 
     for i, row in enumerate(iterable):
-        if type(iterable) is list:
+        if not use_tqdm:
             print(f"Evaluating {i+1}/{len(results)}...")
         try:
             eval_output = await evaluate_sample(judge, row)
@@ -101,7 +107,7 @@ async def main():
     print(f"Recall    (class='bad'): {recall:.3f} ({recall * 100:.1f}%)")
 
     print("\nConfusion Matrix:")
-    print(f"                 Predicted 'good'   Predicted 'bad'")
+    print("                 Predicted 'good'   Predicted 'bad'")
     print(f"Actual 'good'    {tn:<19} {fp}")
     print(f"Actual 'bad'     {fn:<19} {tp}")
 
@@ -116,7 +122,6 @@ async def main():
             print("-" * 30)
 
     output_path = results_path.replace(".json", "_evaluated.csv")
-    # df.to_csv(output_path, index=False)
     print(f"\nDetailed evaluation saved to {output_path}")
 
 if __name__ == "__main__":

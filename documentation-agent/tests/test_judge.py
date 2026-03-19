@@ -1,17 +1,6 @@
-import pytest 
-
-from tools import create_documentation_tools_cached
-from doc_agent import create_agent, DocumentationAgentConfig
-
+import pytest
 from tests.utils import run_agent_test
 from tests.judge import assert_criteria
-
-
-@pytest.fixture(scope="module")
-def agent():
-    tools = create_documentation_tools_cached()
-    agent_config = DocumentationAgentConfig()
-    return create_agent(agent_config, tools)
 
 
 @pytest.mark.asyncio

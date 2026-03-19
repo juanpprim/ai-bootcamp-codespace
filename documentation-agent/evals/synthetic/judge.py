@@ -6,16 +6,10 @@ Three LLM judge checks for evaluating the documentation agent:
 3. Trajectory Optimality – was the tool-call sequence efficient?
 """
 
-import os
-import sys
-import json
 from typing import Literal, Any, Dict
 
 from pydantic import BaseModel, Field
 from pydantic_ai import Agent
-
-# Allow imports from project root
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from doc_agent import DEFAULT_INSTRUCTIONS
 

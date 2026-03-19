@@ -2,21 +2,10 @@ import streamlit as st
 import streamlit.components.v1
 import json
 import os
-import sys
 import glob
 
-# Add parent directory to path to import doc_agent
-current_dir = os.path.dirname(os.path.abspath(__file__))
-parent_dir = os.path.abspath(os.path.join(current_dir, ".."))
-if parent_dir not in sys.path:
-    sys.path.append(parent_dir)
-
-try:
-    from doc_agent import DEFAULT_INSTRUCTIONS
-except ImportError:
-    DEFAULT_INSTRUCTIONS = "Instructions not found."
-
-GITHUB_BASE = "https://github.com/evidentlyai/docs/blob/main/"
+from evals.manual.judge import DEFAULT_INSTRUCTIONS
+from evals.utils import GITHUB_BASE
 
 
 def load_data(file_path):
@@ -67,7 +56,7 @@ if st.session_state.get('_scroll_top', False):
                 setTimeout(function() { scrollToTop(attempts - 1); }, 50);
             }
         }
-        // Try multiple times as Streamlit may still be rendering
+        // Try multiple times    uv run streamlit run evals/manual/app.py be rendering
         setTimeout(function() { scrollToTop(10); }, 100);
         </script>
     """
@@ -75,7 +64,8 @@ if st.session_state.get('_scroll_top', False):
 
 # ── File Selection ──────────────────────────────────────────────────────────
 st.sidebar.header("📂 File Selection")
-json_files = sorted(glob.glob(os.path.join(current_dir, "*.json")))
+data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+json_files = sorted(glob.glob(os.path.join(data_dir, "*.json")))
 input_files = [f for f in json_files if not f.endswith("_results.json")]
 
 if not input_files:

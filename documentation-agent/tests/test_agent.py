@@ -1,26 +1,5 @@
-import pytest 
-
-from time import time 
-
-from tools import create_documentation_tools_cached
-from doc_agent import create_agent, DocumentationAgentConfig
-
+import pytest
 from tests.utils import collect_tools, run_agent_test
-
-
-@pytest.fixture(scope="module")
-def agent():
-    t0 = time()
-
-    tools = create_documentation_tools_cached()
-    agent_config = DocumentationAgentConfig()
-
-    agent = create_agent(agent_config, tools)
-
-    t1 = time()
-    print(f'loading agent took {t1 - t0}')
-
-    return agent
 
 
 @pytest.mark.asyncio

@@ -9,26 +9,23 @@ For each entry in the eval JSON, runs:
 Saves enriched results and prints a summary.
 
 Usage:
-    python evals/run_judge_checks.py --data evals/evals_run_2026_03_16_synthetic.json
-    python evals/run_judge_checks.py --data evals/evals_run_2026_03_16_synthetic.json --limit 5
-    python evals/run_judge_checks.py --data evals/evals_run_2026_03_16_synthetic.json --concurrency 10
+    uv run python -m evals.synthetic.run_judge [options]
+
+Examples:
+    uv run python -m evals.synthetic.run_judge --limit 5
+    uv run python -m evals.synthetic.run_judge --data evals/synthetic/data/eval_results_20250315_120000.json --limit 10
 """
 
 import os
-import sys
 import json
 import time
 import asyncio
 import argparse
-from dataclasses import dataclass
-from datetime import date
 
-from tqdm.auto import tqdm
 from dotenv import load_dotenv
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
-from evals.llm_judge_checks import (
+from cost_tracker import CostAccumulator
+from evals.synthetic.judge import (
     create_correctness_judge,
     format_correctness_prompt,
     create_instruction_judge,
@@ -36,67 +33,9 @@ from evals.llm_judge_checks import (
     create_trajectory_judge,
     format_trajectory_prompt,
 )
+from evals.utils import map_progress, fmt_time
 
 load_dotenv()
-
-
-# ---------------------------------------------------------------------------
-# Cost tracking  (same as run_evals.py)
-# ---------------------------------------------------------------------------
-
-MODEL_PRICES = {
-    "openai:gpt-4o-mini": {"input": 0.15, "output": 0.60},
-    "openai:gpt-4o":      {"input": 2.50, "output": 10.00},
-}
-
-
-def cost_usd(model: str, input_tokens: int, output_tokens: int) -> float:
-    prices = MODEL_PRICES.get(model.lower(), {"input": 0.0, "output": 0.0})
-    return (
-        (input_tokens  / 1_000_000) * prices["input"]
-        + (output_tokens / 1_000_000) * prices["output"]
-    )
-
-
-@dataclass
-class CostAccumulator:
-    model: str
-    input_tokens: int = 0
-    output_tokens: int = 0
-
-    def add(self, usage) -> None:
-        self.input_tokens  += usage.input_tokens  or 0
-        self.output_tokens += usage.output_tokens or 0
-
-    @property
-    def total_cost(self) -> float:
-        return cost_usd(self.model, self.input_tokens, self.output_tokens)
-
-
-# ---------------------------------------------------------------------------
-# async map with tqdm progress bar
-# (from https://alexeygrigorev.com/snippets/snippets/python/async_map_tqdm.html)
-# ---------------------------------------------------------------------------
-
-async def map_progress(seq, func, max_concurrency=5):
-    """Asynchronously map an async function over a sequence with progress bar.
-
-    Limits concurrency to `max_concurrency` using asyncio.Semaphore.
-    Note: results may not be in the same order as the input because
-    asyncio.as_completed yields in completion order.
-    """
-    semaphore = asyncio.Semaphore(max_concurrency)
-
-    async def run_with_semaphore(item):
-        async with semaphore:
-            return await func(item)
-
-    coros = [run_with_semaphore(el) for el in seq]
-    results = []
-    for coro in tqdm(asyncio.as_completed(coros), total=len(coros), desc="Judging"):
-        result = await coro
-        results.append(result)
-    return results
 
 
 # ---------------------------------------------------------------------------
@@ -162,10 +101,6 @@ def report(results: list[dict], cost: CostAccumulator, elapsed: float) -> None:
         ("Trajectory Optimality", "judge_trajectory"),
     ]
 
-    def fmt_time(seconds: float) -> str:
-        m, s = divmod(int(seconds), 60)
-        return f"{m}m {s:02d}s" if m else f"{s}s"
-
     print("\n" + "=" * 55)
     print("  JUDGE CHECK RESULTS")
     print("=" * 55)
@@ -221,7 +156,7 @@ async def main() -> None:
     args = parser.parse_args()
 
     # Resolve paths
-    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 
     data_path = args.data
     if not os.path.isabs(data_path):

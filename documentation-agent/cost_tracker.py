@@ -1,8 +1,7 @@
 import json
 import tempfile
-import os
-
 from pathlib import Path
+from dataclasses import dataclass
 
 
 MODEL_PRICES = {
@@ -13,15 +12,32 @@ MODEL_PRICES = {
     "anthropic:claude-sonnet-4-6": {"input": 3.00, "output": 15.00},
 }
 
-
 COST_FILE = Path(tempfile.gettempdir()) / "pytest_cost_tracker.jsonl"
 
 
+def cost_usd(model: str, input_tokens: int, output_tokens: int) -> float:
+    prices = MODEL_PRICES.get(model.lower(), {"input": 0.0, "output": 0.0})
+    return (input_tokens / 1_000_000) * prices["input"] + \
+           (output_tokens / 1_000_000) * prices["output"]
+
+
+@dataclass
+class CostAccumulator:
+    model: str
+    input_tokens: int = 0
+    output_tokens: int = 0
+
+    def add(self, usage) -> None:
+        self.input_tokens  += usage.input_tokens  or 0
+        self.output_tokens += usage.output_tokens or 0
+
+    @property
+    def total_cost(self) -> float:
+        return cost_usd(self.model, self.input_tokens, self.output_tokens)
+
+
 def calculate_cost(model_name, input_tokens, output_tokens):
-    prices = MODEL_PRICES[model_name.lower()]
-    input_cost = (input_tokens / 1_000_000) * prices["input"]
-    output_cost = (output_tokens / 1_000_000) * prices["output"]
-    return input_cost + output_cost
+    return cost_usd(model_name, input_tokens, output_tokens)
 
 
 def reset_cost_file():
@@ -57,7 +73,7 @@ def display_total_usage():
 
     total_cost = 0
     for model, tokens in totals.items():
-        cost = calculate_cost(model, tokens["input_tokens"], tokens["output_tokens"])
+        cost = cost_usd(model, tokens["input_tokens"], tokens["output_tokens"])
         print(f"{model}: ${cost:.6f}")
         total_cost += cost
 

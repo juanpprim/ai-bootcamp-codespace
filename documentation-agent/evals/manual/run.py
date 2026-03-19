@@ -6,62 +6,30 @@ each response, and reports how many answers are good/bad in absolute numbers
 and as a percentage.
 
 Usage:
-    python evals/run_evals.py                          # default questions.csv
-    python evals/run_evals.py --questions my.csv       # custom questions file
-    python evals/run_evals.py --output results.json    # custom output file
+    uv run python -m evals.manual.run [options]
+
+Examples:
+    uv run python -m evals.manual.run --limit 5
+    uv run python -m evals.manual.run --questions evals/manual/data/questions.csv --limit 10
 """
 
 import os
-import sys
 import json
 import time
 import random
 import asyncio
 import argparse
-from dataclasses import dataclass, field
 
 import pandas as pd
 from dotenv import load_dotenv
 
-# Allow imports from the project root
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
+from cost_tracker import cost_usd, CostAccumulator
 from doc_agent import DocumentationAgentConfig, create_agent, run_agent
+from evals.manual.judge import create_log_judge_agent, format_judge_prompt
+from evals.utils import collect_tools, fmt_time
 from tools import create_documentation_tools_cached
-from evals.llm_judge import create_log_judge_agent, format_judge_prompt
 
 load_dotenv()
-
-
-# ---------------------------------------------------------------------------
-# Cost tracking
-# ---------------------------------------------------------------------------
-
-MODEL_PRICES = {
-    "openai:gpt-4o-mini": {"input": 0.15, "output": 0.60},
-    "openai:gpt-4o":      {"input": 2.50, "output": 10.00},
-}
-
-
-def cost_usd(model: str, input_tokens: int, output_tokens: int) -> float:
-    prices = MODEL_PRICES.get(model.lower(), {"input": 0.0, "output": 0.0})
-    return (input_tokens / 1_000_000) * prices["input"] + \
-           (output_tokens / 1_000_000) * prices["output"]
-
-
-@dataclass
-class CostAccumulator:
-    model: str
-    input_tokens: int = 0
-    output_tokens: int = 0
-
-    def add(self, usage) -> None:
-        self.input_tokens  += usage.input_tokens  or 0
-        self.output_tokens += usage.output_tokens or 0
-
-    @property
-    def total_cost(self) -> float:
-        return cost_usd(self.model, self.input_tokens, self.output_tokens)
 
 
 # ---------------------------------------------------------------------------
@@ -75,11 +43,7 @@ async def run_agent_on_question(agent, question: str) -> tuple[dict, object]:
 
     # Collect tool calls from the message history (skip pydantic-ai's internal
     # 'final_result' call — only keep real search/get_file tool calls)
-    tools = []
-    for message in result.new_messages():
-        for part in message.parts:
-            if part.part_kind == "tool-call" and part.tool_name != "final_result":
-                tools.append({"name": part.tool_name, "args": part.args})
+    tools = collect_tools(result.new_messages())
 
     entry = {
         "input": {"question": question},
@@ -191,10 +155,6 @@ def report(
     total_cost    = agent_cost.total_cost + judge_cost.total_cost
     total_elapsed = agent_elapsed + judge_elapsed
 
-    def fmt_time(seconds: float) -> str:
-        m, s = divmod(int(seconds), 60)
-        return f"{m}m {s:02d}s" if m else f"{s}s"
-
     print("\n" + "=" * 55)
     print("  EVALUATION RESULTS")
     print("=" * 55)
@@ -239,8 +199,8 @@ async def main() -> None:
     )
     parser.add_argument(
         "--questions",
-        default="evals/questions.csv",
-        help="Path to a CSV file with a 'question' column (default: evals/questions.csv)",
+        default="evals/manual/data/questions.csv",
+        help="Path to a CSV file with a 'question' column (default: evals/manual/data/questions.csv)",
     )
     parser.add_argument(
         "--output",
@@ -258,7 +218,7 @@ async def main() -> None:
     # Resolve path relative to project root when running from anywhere
     questions_path = args.questions
     if not os.path.isabs(questions_path):
-        project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+        project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
         questions_path = os.path.join(project_root, questions_path)
 
     print(f"Loading questions from {questions_path}...")

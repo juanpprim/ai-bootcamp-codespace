@@ -6,27 +6,16 @@ Browse judged eval entries, filter by score across all three checks
 and inspect detailed reasoning for each entry.
 
 Usage:
-    streamlit run evals/explore_judge_results.py
+    uv run streamlit run evals/synthetic/app.py
 """
 
 import streamlit as st
 import json
 import os
-import sys
 import glob
 
-# Add parent directory to path to import doc_agent
-current_dir = os.path.dirname(os.path.abspath(__file__))
-parent_dir = os.path.abspath(os.path.join(current_dir, ".."))
-if parent_dir not in sys.path:
-    sys.path.append(parent_dir)
-
-try:
-    from doc_agent import DEFAULT_INSTRUCTIONS
-except ImportError:
-    DEFAULT_INSTRUCTIONS = "Instructions not found."
-
-GITHUB_BASE = "https://github.com/evidentlyai/docs/blob/main/"
+from doc_agent import DEFAULT_INSTRUCTIONS
+from evals.utils import GITHUB_BASE
 
 CHECK_KEYS = [
     ("Answer Correctness", "judge_answer_correctness"),
@@ -60,7 +49,8 @@ st.set_page_config(layout="wide", page_title="Judge Results Explorer")
 
 # ── File selection ──────────────────────────────────────────────────────────
 st.sidebar.header("📂 Data File")
-json_files = sorted(glob.glob(os.path.join(current_dir, "*_judged.json")))
+data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+json_files = sorted(glob.glob(os.path.join(data_dir, "*_judged.json")))
 
 if not json_files:
     st.error("No *_judged.json files found in the evals directory. Run `run_judge_checks.py` first.")
