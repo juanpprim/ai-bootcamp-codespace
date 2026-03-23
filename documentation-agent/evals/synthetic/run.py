@@ -21,7 +21,7 @@ import time
 import random
 import asyncio
 import argparse
-from datetime import date
+from datetime import datetime
 
 import pandas as pd
 from dotenv import load_dotenv
@@ -35,6 +35,7 @@ from evals.synthetic.judge import (
     format_instruction_prompt,
     create_trajectory_judge,
     format_trajectory_prompt,
+    fix_instruction_user_context,
 )
 from evals.utils import map_progress, fmt_time, collect_tools
 from tools import create_documentation_tools_cached
@@ -118,6 +119,7 @@ async def judge_entry(entry: dict, judges: dict, cost: CostAccumulator) -> dict:
             "reasoning": f"Error: {e}",
             "score": "bad",
         }
+    fix_instruction_user_context(entry)
 
     # Check 3: Trajectory optimality
     try:
@@ -217,7 +219,7 @@ async def main() -> None:
         if not os.path.isabs(output_path):
             output_path = os.path.join(project_root, output_path)
     else:
-        today = date.today().strftime("%Y_%m_%d")
+        today = datetime.now().strftime("%Y_%m_%d_%H%M%S")
         output_path = os.path.join(
             project_root, "evals", "synthetic", "data", f"evals_run_{today}_synthetic.json"
         )

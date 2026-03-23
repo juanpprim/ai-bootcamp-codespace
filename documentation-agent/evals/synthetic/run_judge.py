@@ -32,6 +32,7 @@ from evals.synthetic.judge import (
     format_instruction_prompt,
     create_trajectory_judge,
     format_trajectory_prompt,
+    fix_instruction_user_context,
 )
 from evals.utils import map_progress, fmt_time
 
@@ -70,6 +71,7 @@ async def judge_entry(entry: dict, judges: dict, cost: CostAccumulator) -> dict:
             "reasoning": f"Error: {e}",
             "score": "bad",
         }
+    fix_instruction_user_context(entry)
 
     # Check 3: Trajectory optimality
     try:
