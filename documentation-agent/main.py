@@ -4,8 +4,7 @@ from doc_agent import (
     DocumentationAgentConfig,
     create_agent,
     run_agent,
-    run_agent_stream,
-    DEFAULT_INSTRUCTIONS
+    run_agent_stream
 )
 
 from tools import create_documentation_tools_cached

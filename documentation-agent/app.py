@@ -8,8 +8,7 @@ from pydantic_ai.messages import FunctionToolCallEvent
 
 from doc_agent import DocumentationAgentConfig, create_agent
 from models import RAGResponse
-from tools import create_documentation_tools_cached
-
+from evals.utils import GITHUB_BASE
 import dotenv
 import logfire
 
@@ -18,7 +17,7 @@ logfire.configure()
 logfire.instrument_pydantic_ai()
 
 
-GITHUB_BASE = "https://github.com/evidentlyai/docs/blob/main/"
+
 
 # ── Page config ─────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -470,11 +469,11 @@ if prompt:
             with feedback_col:
                 f1, f2 = st.columns(2)
                 cur_idx = len(st.session_state.messages)
-                if f1.button("👍", key=f"upvote_live"):
+                if f1.button("👍", key="upvote_live"):
                     with logfire.attach_context(st.session_state.logfire_context):
                         logfire.info("user_feedback", feedback=1)
                     st.toast("Thanks for the feedback!", icon="👍")
-                if f2.button("👎", key=f"downvote_live"):
+                if f2.button("👎", key="downvote_live"):
                     with logfire.attach_context(st.session_state.logfire_context):
                         logfire.info("user_feedback", feedback=-1)
                     st.toast("Thanks for the feedback!", icon="👎")

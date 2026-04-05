@@ -2,10 +2,10 @@ from pydantic import BaseModel, Field
 from pydantic_ai import Agent 
 
 from tests.utils import collect_tools, get_model_name
-from tests.cost_tracker import capture_usage
+from cost_tracker import capture_usage
 
 
-judge_instructions = f"""
+judge_instructions = """
 You are an expert judge evaluating the performance of an
 AI agent.
 """.strip()
